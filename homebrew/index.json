@@ -6,6 +6,7 @@
 		"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory."
 	],
 	"toImport": [
+    "Clan_Crafter_Hralding_Codex_of_Allies.json",
     "Haven_All_the_Lights_in_the_Sky_are_Stars.json",
     "Keith_Baker_Exploring_Eberron.json",
     "Kobold_Press_Creature_Codex.json",
