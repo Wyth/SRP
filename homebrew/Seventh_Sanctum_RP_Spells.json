@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "SeventhSanctumRP",
+				"json": "SeventhSanctumRPSpells",
 				"abbreviation": "SRP",
-				"full": "Seventh Sanctum RP",
+				"full": "Seventh Sanctum RP Spells",
 				"url": "https://wyth.github.io/SRP",
 				"authors": [
 					"Wyth"
@@ -20,7 +20,7 @@
 	"spell": [
 		{
 			"name": "Amanuensis",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -157,7 +157,7 @@
 		},
 		{
 			"name": "Amaterasu",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 8,
 			"school": "N",
 			"time": [
@@ -245,7 +245,7 @@
 		},
 		{
 			"name": "Aura Sight",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -334,7 +334,7 @@
 		},
 		{
 			"name": "Breath of Shadow",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 4,
 			"school": "N",
 			"time": [
@@ -457,7 +457,7 @@
 		},
 		{
 			"name": "Crown of Crystal",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -584,7 +584,7 @@
 		},
 		{
 			"name": "Dark Star",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 8,
 			"school": "V",
 			"time": [
@@ -653,7 +653,7 @@
 		},
 		{
 			"name": "Desecrate Earth",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -772,7 +772,7 @@
 		},
 		{
 			"name": "Dimension Slice",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "V",
 			"time": [
@@ -864,7 +864,7 @@
 		},
 		{
 			"name": "Ego Whip",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 5,
 			"school": "E",
 			"time": [
@@ -951,7 +951,7 @@
 		},
 		{
 			"name": "Fortune's Favor",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "D",
 			"time": [
@@ -1031,7 +1031,7 @@
 		},
 		{
 			"name": "Gift of Alacrity",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 1,
 			"school": "D",
 			"time": [
@@ -1083,7 +1083,7 @@
 		},
 		{
 			"name": "Gravity Fissure",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 6,
 			"school": "V",
 			"time": [
@@ -1150,7 +1150,7 @@
 		},
 		{
 			"name": "Gravity Sinkhole",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 4,
 			"school": "V",
 			"time": [
@@ -1218,7 +1218,7 @@
 		},
 		{
 			"name": "Id Insinuation",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 1,
 			"school": "E",
 			"time": [
@@ -1312,7 +1312,7 @@
 		},
 		{
 			"name": "Immovable Object",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -1382,7 +1382,7 @@
 		},
 		{
 			"name": "Intellect Fortress",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -1464,7 +1464,7 @@
 		},
 		{
 			"name": "Magnify Gravity",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -1536,7 +1536,7 @@
 		},
 		{
 			"name": "Manifest Air",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "T",
 			"time": [
@@ -1619,7 +1619,7 @@
 		},
 		{
 			"name": "Mass Repair Damage",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -1713,7 +1713,7 @@
 		},
 		{
 			"name": "Memory of Ash",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -1832,7 +1832,7 @@
 		},
 		{
 			"name": "Mental Barrier",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -1909,7 +1909,7 @@
 		},
 		{
 			"name": "Miasma of Death",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -2028,7 +2028,7 @@
 		},
 		{
 			"name": "Mind Sliver",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -2142,7 +2142,7 @@
 		},
 		{
 			"name": "Mind Thrust",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -2232,7 +2232,7 @@
 		},
 		{
 			"name": "Nightmare Sphere",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "N",
 			"time": [
@@ -2356,7 +2356,7 @@
 		},
 		{
 			"name": "On/Off",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 0,
 			"school": "T",
 			"time": [
@@ -2443,7 +2443,7 @@
 		},
 		{
 			"name": "Psionic Blast",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -2537,7 +2537,7 @@
 		},
 		{
 			"name": "Psionic Negation Field",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 1,
 			"school": "A",
 			"time": [
@@ -2618,7 +2618,7 @@
 		},
 		{
 			"name": "Psionic Pulse",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "E",
 			"time": [
@@ -2702,7 +2702,7 @@
 		},
 		{
 			"name": "Psychic Barrier",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -2800,7 +2800,7 @@
 		},
 		{
 			"name": "Psychic Crush",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 6,
 			"school": "E",
 			"time": [
@@ -2904,7 +2904,7 @@
 		},
 		{
 			"name": "Pulse Wave",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -2969,7 +2969,7 @@
 		},
 		{
 			"name": "Putrid Plague",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -3090,7 +3090,7 @@
 		},
 		{
 			"name": "Ravenous Void",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 9,
 			"school": "V",
 			"time": [
@@ -3162,7 +3162,7 @@
 		},
 		{
 			"name": "Reality Break",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 8,
 			"school": "C",
 			"time": [
@@ -3265,7 +3265,7 @@
 		},
 		{
 			"name": "Reconstruct",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 6,
 			"school": "T",
 			"time": [
@@ -3374,7 +3374,7 @@
 		},
 		{
 			"name": "Repair Damage",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 1,
 			"school": "T",
 			"time": [
@@ -3467,7 +3467,7 @@
 		},
 		{
 			"name": "Sapping Sting",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -3549,7 +3549,7 @@
 		},
 		{
 			"name": "Scythe of the Reaper",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 3,
 			"school": "N",
 			"time": [
@@ -3668,7 +3668,7 @@
 		},
 		{
 			"name": "Siphon Vitality",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 0,
 			"school": "N",
 			"time": [
@@ -3796,7 +3796,7 @@
 		},
 		{
 			"name": "Swarm of Decay",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 1,
 			"school": "N",
 			"time": [
@@ -3918,7 +3918,7 @@
 		},
 		{
 			"name": "Temporal Shunt",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 5,
 			"school": "T",
 			"time": [
@@ -3984,7 +3984,7 @@
 		},
 		{
 			"name": "Tether Essence",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 7,
 			"school": "N",
 			"time": [
@@ -4060,7 +4060,7 @@
 		},
 		{
 			"name": "Thought Shield",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "A",
 			"time": [
@@ -4140,7 +4140,7 @@
 		},
 		{
 			"name": "Time Ravage",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 9,
 			"school": "N",
 			"time": [
@@ -4203,7 +4203,7 @@
 		},
 		{
 			"name": "Wristpocket",
-			"source": "SeventhSanctumRP",
+			"source": "SeventhSanctumRPSpells",
 			"level": 2,
 			"school": "C",
 			"time": [
