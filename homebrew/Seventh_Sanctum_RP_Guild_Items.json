@@ -21,7 +21,7 @@
 	"item": [
 		{
 			"name": "Katana",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 3,
@@ -49,7 +49,7 @@
 		},
 		{
 			"name": "Odachi",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 10,
@@ -76,7 +76,7 @@
 		},
 		{
 			"name": "Bladed Fan",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 0.5,
@@ -96,7 +96,7 @@
 		},
 		{
 			"name": "Chain, spiked",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 10,
@@ -126,7 +126,7 @@
 		},
 		{
 			"name": "Three-Section Staff",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 5,
@@ -148,7 +148,7 @@
 		},
 		{
 			"name": "Chakram",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -169,7 +169,7 @@
 		},
 		{
 			"name": "Claw",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -189,7 +189,7 @@
 		},
 		{
 			"name": "Dagger, boot-toe",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 1,
@@ -216,7 +216,7 @@
 		},
 		{
 			"name": "Dagger, wrist",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 1,
@@ -244,7 +244,7 @@
 		},
 		{
 			"name": "Gauntlet",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -271,7 +271,7 @@
 		},
 		{
 			"name": "Brass Knuckles",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 1,
@@ -291,7 +291,7 @@
 		},
 		{
 			"name": "Jian",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 3,
@@ -312,7 +312,7 @@
 		},
 		{
 			"name": "Khopesh",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -330,7 +330,7 @@
 		},
 		{
 			"name": "Two-Handed Khopesh",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 7,
@@ -357,7 +357,7 @@
 		},
 		{
 			"name": "Kukri",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 1,
@@ -384,7 +384,7 @@
 		},
 		{
 			"name": "Sickle & Chain",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 3,
@@ -421,7 +421,7 @@
 		},
 		{
 			"name": "Nunchaku",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 3,
@@ -439,7 +439,7 @@
 		},
 		{
 			"name": "Push Dagger",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -467,7 +467,7 @@
 		},
 		{
 			"name": "Tonfa",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 1,
@@ -486,7 +486,7 @@
 		},
 		{
 			"name": "Two-Handed Scythe",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 9,
@@ -514,7 +514,7 @@
 		},
 		{
 			"name": "Headphones",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 0.1,
 			"type": "Technological Item",
@@ -528,7 +528,7 @@
 		},
 		{
 			"name": "Smartphone",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 0.2,
 			"type": "Technological Item",
@@ -546,7 +546,7 @@
 		},
 		{
 			"name": "Flashlight",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 2,
 			"type": "Technological Item",
@@ -563,7 +563,7 @@
 		},
 		{
 			"name": "Standard Batteries",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 0.01,
 			"type": "Technological Item",
@@ -578,7 +578,7 @@
 		},
 		{
 			"name": "Advanced Batteries",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 0.01,
 			"type": "Technological Item",
@@ -593,7 +593,7 @@
 		},
 		{
 			"name": "Chemical Light Stick",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 1,
 			"type": "Technological Item",
@@ -605,7 +605,7 @@
 		},
 		{
 			"name": "Gas Mask",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 5,
 			"type": "Technological Item",
@@ -617,7 +617,7 @@
 		},
 		{
 			"name": "Spike Strip",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 22,
 			"type": "Technological Item",
@@ -631,7 +631,7 @@
 		},
 		{
 			"name": "Steel Handcuffs",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 1,
 			"type": "Technological Item",
@@ -645,7 +645,7 @@
 		},
 		{
 			"name": "Zip-Tie",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 0.05,
 			"type": "Technological Item",
@@ -658,7 +658,7 @@
 		},
 		{
 			"name": "Recorder",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"rarity": "none",
 			"weight": 0.5,
 			"type": "Technological Item",
@@ -671,7 +671,7 @@
 		},
 		{
 			"name": "Sword, cane",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 3,
@@ -690,7 +690,7 @@
 		},
 		{
 			"name": "Tomahawk",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 1,
@@ -711,7 +711,7 @@
 		},
 		{
 			"name": "Bola",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "R",
 			"rarity": "none",
 			"weight": 2,
@@ -740,7 +740,7 @@
 		},
 		{
 			"name": "Boomerang",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 2,
@@ -769,7 +769,7 @@
 		},
 		{
 			"name": "Shuriken",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "M",
 			"rarity": "none",
 			"weight": 0.25,
@@ -798,7 +798,7 @@
 		},
 		{
 			"name": "Palm Pistol",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "R",
 			"rarity": "none",
 			"weight": 1,
@@ -825,7 +825,7 @@
 		},
 		{
 			"name": "Pistol",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "R",
 			"rarity": "none",
 			"weight": 3,
@@ -850,7 +850,7 @@
 		},
 		{
 			"name": "Submachine Pistol",
-			"source": "SRP",	
+			"source": "SSRPGS",	
 			"type": "R",
 			"rarity": "none",
 			"weight": 4,
@@ -875,7 +875,7 @@
 		},
 		{
 			"name": "Assault Rifle",
-			"source": "SRP",	
+			"source": "SSRPGS",	
 			"type": "R",
 			"rarity": "none",
 			"weight": 9,
@@ -901,7 +901,7 @@
 		},
 		{
 			"name": "Musket",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "R",
 			"rarity": "none",
 			"weight": 10,
@@ -927,7 +927,7 @@
 		},
 		{
 			"name": "Revolver",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "R",
 			"rarity": "none",
 			"weight": 5,
@@ -952,7 +952,7 @@
 		},
 		{
 			"name": "Shotgun",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "R",
 			"rarity": "none",
 			"weight": 8,
@@ -986,7 +986,7 @@
 		},
 		{
 			"name": "Blunderbuss",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "R",
 			"rarity": "none",
 			"weight": 10,
@@ -1021,7 +1021,7 @@
 		},
 		{
 			"name": "Hand Mortar",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "R",
 			"rarity": "none",
 			"weight": 10,
@@ -1049,7 +1049,7 @@
 		},
 				{
 			"name": "Rifle",
-			"source": "SRP",
+			"source": "SSRPGS",
 			"type": "R",
 			"rarity": "none",
 			"weight": 25,
@@ -1075,7 +1075,7 @@
 		},
 		{
 			"name": "The Beginner's Blade",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": true,
@@ -1097,7 +1097,7 @@
 		},
 		{
 			"name": "Aci Feather",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1111,7 +1111,7 @@
 		},
 		{
 			"name": "Doom Box",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1125,7 +1125,7 @@
 		},
 		{
 			"name": "Zingaro, the 10-Copper Mug",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1141,7 +1141,7 @@
 		},
 		{
 			"name": "Quantum Ring",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1155,7 +1155,7 @@
 		},
 		{
 			"name": "Quantum Eyeglass",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1169,7 +1169,7 @@
 		},
 		{
 			"name": "Quantum Belt",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1185,7 +1185,7 @@
 		},
 		{
 			"name": "Doom & Gloom",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": true,
@@ -1293,7 +1293,7 @@
 		},
 		{
 			"name": "Obsidian Weapon",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -1319,7 +1319,7 @@
 		},
 		{
 			"name": "Returning Weapon",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -1349,7 +1349,7 @@
 		},
 		{
 			"name": "Cap of the Cartographer",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1363,7 +1363,7 @@
 		},
 		{
 			"name": "Returning Weapon +1",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -1394,7 +1394,7 @@
 		},
 		{
 			"name": "Returning Weapon +2",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -1426,7 +1426,7 @@
 		{
 			"name": "Koi's Retreat",
 			"baseItem": "shield|phb",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -1443,7 +1443,7 @@
 		{
 			"name": "Arvhim Pear Phone",
 			"baseItem": "smartphone|srp",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1457,7 +1457,7 @@
 		},
 		{
 			"name": "Solar Surfer",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
@@ -1474,7 +1474,7 @@
 		},
 		{
 			"name": "Pen-Accelerator Mk. V",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
@@ -1539,7 +1539,7 @@
 		},
 		{
 			"name": "Tri-Accelerator Mk. III",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": true,
@@ -1596,7 +1596,7 @@
 		},
 		{
 			"name": "Lightning Lashed",
-			"source": "GS",
+			"source": "SSRPGS",
 			"type": "Guild Shop Weapon",
 			"tier": "major",
 			"rarity": "rare",
@@ -1623,7 +1623,7 @@
 		{
 			"name": "Black Inches",
 			"baseItem": "whip|phb",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -1643,7 +1643,7 @@
 		{
 			"name": "Armor of the Beheaded",
 			"baseItem": "plate armor|phb",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": true,
@@ -1673,7 +1673,7 @@
 		},
 		{
 			"name": "Basic Casting Assistant Device (CAD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": "by a psionic spellcaster",
@@ -1692,7 +1692,7 @@
 		{
 			"name": "Bo Prime",
 			"baseItem": "quarterstaff|phb",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": "by a spellcaster",
@@ -1709,7 +1709,7 @@
 		},
 		{
 			"name": "Quick Picks",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": "by a bard",
@@ -1730,7 +1730,7 @@
 		},
 		{
 			"name": "Cold Spaulder",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1743,7 +1743,7 @@
 		},
 		{
 			"name": "Cartridge: Centaur Series (CAD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1763,7 +1763,7 @@
 		},
 		{
 			"name": "Cartridge: Sorcery Booster (CAD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1783,7 +1783,7 @@
 		},
 		{
 			"name": "Cartridge: Taurus Silver (CAD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1803,7 +1803,7 @@
 		},
 		{
 			"name": "Hadar's Abominable Elixir",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -1819,7 +1819,7 @@
 		},
 		{
 			"name": "Cartridge: Experiment Realizer (CAD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1839,7 +1839,7 @@
 		},
 		{
 			"name": "Basic Universal Tuning Device (UTD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": "by a spellcaster",
@@ -1857,7 +1857,7 @@
 		},
 		{
 			"name": "Cartridge: Quick Tuning (UTD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1877,7 +1877,7 @@
 		},
 		{
 			"name": "Cartridge: Evolution Tuning (UTD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1897,7 +1897,7 @@
 		},
 		{
 			"name": "Cartridge: Rewrite (UTD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1917,7 +1917,7 @@
 		},
 		{
 			"name": "Cartridge: Medica Silver (UTD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1937,7 +1937,7 @@
 		},
 		{
 			"name": "Cartridge: Grand Accel (UTD)",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
@@ -1957,7 +1957,7 @@
 		{
 			"name": "Wanderering Blade",
 			"baseItem": "greatsword|phb",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -1972,7 +1972,7 @@
 		},
 		{
 			"name": "Plastic Explosive",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -1989,7 +1989,7 @@
 		},
 		{
 			"name": "Tear Gas",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -2004,7 +2004,7 @@
 		},
 		{
 			"name": "Fire Extinguisher",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "major",
 			"reqAttune": false,
@@ -2018,7 +2018,7 @@
 		},
 		{
 			"name": "Infrared Goggles",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -2033,7 +2033,7 @@
 		},
 		{
 			"name": "Metal Detector",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "major",
 			"reqAttune": false,
@@ -2047,7 +2047,7 @@
 		},
 		{
 			"name": "Two-Way Radio",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -2061,7 +2061,7 @@
 		},
 		{
 			"name": "Blinkback Belt",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
@@ -2076,7 +2076,7 @@
 		},
 		{
 			"name": "Conversing Mirrors",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -2092,7 +2092,7 @@
 		},
 		{
 			"name": "Manastone Bracelets",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -2111,7 +2111,7 @@
 		},
 		{
 			"name": "Cloak of Recognition Obstruction",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -2125,7 +2125,7 @@
 		},
 		{
 			"name": "Frefil's Jolly Oozebean Sugarbombs",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -2200,7 +2200,7 @@
 		},
 		{
 			"name": "Infernal Puzzle Box",
-			"source": "GS",
+			"source": "SSRPGS",
 			"value": 60000,
 			"rarity": "uncommon",
 			"tier": "minor",
@@ -2213,7 +2213,7 @@
 		},
 		{
 			"name": "Storm Boomerang",
-			"source": "GS",
+			"source": "SSRPGS",
 			"value": 60000,
 			"rarity": "uncommon",
 			"tier": "major",
@@ -2226,7 +2226,7 @@
 		},
 		{
 			"name": "Dagger of Blindsight",
-			"source": "GS",
+			"source": "SSRPGS",
 			"value": 600000,
 			"rarity": "rare",
 			"tier": "major",
@@ -2240,7 +2240,7 @@
 		},
 		{
 			"name": "Seawater Cutlass",
-			"source": "GS",
+			"source": "SSRPGS",
 			"value": 60000,
 			"rarity": "uncommon",
 			"tier": "major",
@@ -2253,7 +2253,7 @@
 		},
 		{
 			"name": "Spies' Murmur",
-			"source": "GS",
+			"source": "SSRPGS",
 			"value": 60000,
 			"rarity": "uncommon",
 			"type": "Guild Shop Item",
@@ -2266,7 +2266,7 @@
 		},
 		{
 			"name": "Gloves of Flaming Fury",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"value": 600000,
 			"reqAttune": true,
@@ -2279,7 +2279,7 @@
 		},
 		{
 			"name": "Adaptive Helm",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
@@ -2292,7 +2292,7 @@
 		},
 		{
 			"name": "Lifewell Tattoo",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"value": 600000,
 			"reqAttune": true,
@@ -2320,7 +2320,7 @@
 		},
 		{
 			"name": "Coiling Grasp Tattoo",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
@@ -2348,7 +2348,7 @@
 		},
 		{
 			"name": "Masquerade's Tattoo",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"value": 1500,
 			"reqAttune": true,
@@ -2385,7 +2385,7 @@
 		{
 			"name": "Lightbringer",
 			"baseItem": "mace|phb",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -2398,7 +2398,7 @@
 		},
 		{
 			"name": "Bonecounter",
-			"source": "GS",
+			"source": "SSRPGS",
 			"baseItem": "mace|phb",
 			"type": "Guild Shop Weapon",
 			"tier": "major",
@@ -2415,7 +2415,7 @@
 		},
 		{
 			"name": "Flying Chariot",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"value": 600000,
 			"type": "Guild Shop Item",
@@ -2444,7 +2444,7 @@
 		},
 		{
 			"name": "Weapon of Resurgence",
-			"source": "GS",
+			"source": "SSRPGS",
 			"type": "Guild Shop Weapon",
 			"tier": "major",
 			"rarity": "rare",
@@ -2470,7 +2470,7 @@
 		},
 		{
 			"name": "Dress of Many Pockets",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2486,7 +2486,7 @@
 		},
 		{
 			"name": "Circlet of Mispronounciation",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2500,7 +2500,7 @@
 		},
 		{
 			"name": "Whistle of Duck Calling",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2514,7 +2514,7 @@
 		},
 		{
 			"name": "Stone of Healing",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2528,7 +2528,7 @@
 		},
 		{
 			"name": "Wand of Magic Chickens",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -2544,7 +2544,7 @@
 		},
 		{
 			"name": "Rocket-Propelled Broom",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": true,
@@ -2563,7 +2563,7 @@
 		},
 		{
 			"name": "Strom Headphones",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -2579,7 +2579,7 @@
 		},
 		{
 			"name": "Nairek Boombox Mk. II",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2598,7 +2598,7 @@
 		},
 		{
 			"name": "Nairek Remixer",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2616,7 +2616,7 @@
 		},
 		{
 			"name": "Akalizer Baton",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -2640,7 +2640,7 @@
 		},
 		{
 			"name": "Flame-Enchanted Rifle",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "rifle|srp",
@@ -2655,7 +2655,7 @@
 		},
 		{
 			"name": "Cloak of Cherry Blossoms",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2669,7 +2669,7 @@
 		},
 		{
 			"name": "Cosmic Car Keys",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2684,7 +2684,7 @@
 		},
 		{
 			"name": "Ghost Captain's Coat",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
@@ -2701,7 +2701,7 @@
 		},
 		{
 			"name": "Rod of Big Spheres",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -2716,7 +2716,7 @@
 		},
 		{
 			"name": "Seeds of Wealth",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -2780,7 +2780,7 @@
 		},
 		{
 			"name": "Balance of Power",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
@@ -2796,7 +2796,7 @@
 		},
 		{
 			"name": "Golden Tongue",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": true,
@@ -2811,7 +2811,7 @@
 		},
 		{
 			"name": "Staff of the Geomancer",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": "by a bard, cleric, druid, sorcerer, or wizard",
@@ -2825,7 +2825,7 @@
 		},
 		{
 			"name": "Chimes of the Will-o'-Wisp",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2841,7 +2841,7 @@
 		},
 		{
 			"name": "Emblem of 1,000 Arms",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": "by a monk",
@@ -2855,7 +2855,7 @@
 		},
 		{
 			"name": "Brute's Tattoo",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": "by a rogue",
@@ -2883,7 +2883,7 @@
 		},
 		{
 			"name": "Gloves of the Viper",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": "by a fighter",
@@ -2898,7 +2898,7 @@
 		},
 		{
 			"name": "Wand of Sudden Transposition",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": "by a spellcaster",
@@ -2914,7 +2914,7 @@
 		},
 		{
 			"name": "Makeshift Figurine",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -2931,7 +2931,7 @@
 		},
 		{
 			"name": "Magnetic Weapon Holder Strips",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2946,7 +2946,7 @@
 		},
 		{
 			"name": "Medi-Gel",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2961,7 +2961,7 @@
 		},
 		{
 			"name": "Bio-Foam",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2976,7 +2976,7 @@
 		},
 		{
 			"name": "Handkerchief of Length",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
@@ -2990,7 +2990,7 @@
 		},
 		{
 			"name": "Through the Fire and the Flames",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": true,
@@ -3005,7 +3005,7 @@
 		},
 		{
 			"name": "Kindermore's Tincture of Disfigurement",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
@@ -3021,7 +3021,7 @@
 		},
 		{
 			"name": "Elemental Fang, Fire",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "lance|phb",
@@ -3037,7 +3037,7 @@
 		},
 		{
 			"name": "Elemental Fang, Cold",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "lance|phb",
@@ -3053,7 +3053,7 @@
 		},
 		{
 			"name": "Elemental Fang, Acid",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "lance|phb",
@@ -3069,7 +3069,7 @@
 		},
 		{
 			"name": "Elemental Fang, Lightning",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "lance|phb",
@@ -3085,7 +3085,7 @@
 		},
 		{
 			"name": "Stormcaller",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"baseItem": "longbow|phb",
@@ -3103,7 +3103,7 @@
 		},
 		{
 			"name": "Sigil of the Claw",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
@@ -3115,7 +3115,7 @@
 		},
 		{
 			"name": "Knave's Eye Patch",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"value": 600000,
 			"tier": "major",
@@ -3135,7 +3135,7 @@
 		},
 		{
 			"name": "Bracer of Flying Daggers",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "very rare",
 			"tier": "major",
 			"value": 2500000,
@@ -3151,7 +3151,7 @@
 		},
 		{
 			"name": "Night Caller",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"value": 60000,
 			"type": "Guild Shop Item",
@@ -3167,7 +3167,7 @@
 		},
 		{
 			"name": "Amulet of the Drunkard",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"type": "Guild Shop Item",
 			"value": 60000,
@@ -3178,7 +3178,7 @@
 		},
 		{
 			"name": "Blood Spear",
-			"source": "GS",
+			"source": "SSRPGS",
 			"baseItem": "spear|phb",
 			"rarity": "uncommon",
 			"value": 60000,
@@ -3200,7 +3200,7 @@
 		},
 		{
 			"name": "Balloon Pack",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"type": "Guild Shop Item",
 			"value": 60000,
@@ -3216,7 +3216,7 @@
 		},
 		{
 			"name": "Bottled Breath",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"value": 30000,
 			"weight": 0.5,
@@ -3231,7 +3231,7 @@
 		},
 		{
 			"name": "Paper Bird",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"value": 30000,
 			"type": "Guild Shop Item, consumable",
@@ -3244,7 +3244,7 @@
 		},
 		{
 			"name": "Needle of Mending",
-			"source": "GS",
+			"source": "SSRPGS",
 			"baseItem": "dagger|PHB",
 			"rarity": "rare",
 			"value": 600000,
@@ -3270,7 +3270,7 @@
 		},
 		{
 			"name": "Robe of Serpents",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
@@ -3282,7 +3282,7 @@
 		},
 		{
 			"name": "Robe of Summer",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "rare",
 			"value": 600000,
 			"type": "Guild Shop Item",
@@ -3294,7 +3294,7 @@
 		},
 		{
 			"name": "Seeker Dart",
-			"source": "GS",
+			"source": "SSRPGS",
 			"baseItem": "dart|phb",
 			"type": "Guild Shop Weapon",
 			"rarity": "uncommon",
@@ -3315,7 +3315,7 @@
 		},
 		{
 			"name": "Two-Birds Sling",
-			"source": "GS",
+			"source": "SSRPGS",
 			"baseItem": "sling|phb",
 			"type": "Guild Shop Weapon",
 			"rarity": "uncommon",
@@ -3332,7 +3332,7 @@
 		},
 		{
 			"name": "Spell Rifle",
-			"source": "GS",
+			"source": "SSRPGS",
 			"type": "Guild Shop Item",
 			"rarity": "uncommon",
 			"reqAttune": false,
@@ -3348,7 +3348,7 @@
 		},
 		{
 			"name": "Dodecahedron of Doom",
-			"source": "GS",
+			"source": "SSRPGS",
 			"value": 600000,
 			"rarity": "rare",
 			"type": "Guild Shop Item",
@@ -3403,7 +3403,7 @@
 		},
 		{
 			"name": "Staff of the Ivory Claw",
-			"source": "GS",
+			"source": "SSRPGS",
 			"baseItem": "staff|phb",
 			"type": "Guild Shop Weapon",
 			"rarity": "rare",
@@ -3419,7 +3419,7 @@
 		},
 		{
 			"name": "Staff of Defense",
-			"source": "GS",
+			"source": "SSRPGS",
 			"baseItem": "staff|phb",
 			"type": "Guild Shop Weapon",
 			"rarity": "rare",
@@ -3437,7 +3437,7 @@
 		},
 		{
 			"name": "Ring of Temporal Salvation",
-			"source": "GS",
+			"source": "SSRPGS",
 			"value": 600000,
 			"type": "Guild Shop Item",
 			"rarity": "rare",
@@ -3449,7 +3449,7 @@
 		},
 		{
 			"name": "Ventilating Lungs",
-			"source": "GS",
+			"source": "SSRPGS",
 			"type": "Guild Shop Item",
 			"value": 600000,
 			"rarity": "rare",
@@ -3469,7 +3469,7 @@
 		},
 		{
 			"name": "Dead Man's Plate",
-			"source": "GS",
+			"source": "SSRPGS",
 			"baseItem": "plate armor|phb",
 			"value": 600000,
 			"type": "Guild Shop Item",
@@ -3483,7 +3483,7 @@
 		},
 		{
 			"name": "Bag of Bounty",
-			"source": "GS",
+			"source": "SSRPGS",
 			"rarity": "uncommon",
 			"value": 60000,
 			"type": "Guild Shop Item",
@@ -3528,7 +3528,7 @@
 		},
 		{
 			"name": "Ring of Truth Telling",
-			"source": "GS",
+			"source": "SSRPGS",
 			"type": "Guild Shop Item",
 			"rarity": "uncommon",
 			"value": 60000,
@@ -3539,7 +3539,7 @@
 		},
 		{
 			"name": "Ring of Obscuring",
-			"source": "GS",
+			"source": "SSRPGS",
 			"type": "Guild Shop Item",
 			"rarity": "uncommon",
 			"value": 60000,
@@ -3555,7 +3555,7 @@
 		},
 		{
 			"name": "Zelo's Morning After Pills",
-			"source": "GS",
+			"source": "SSRPGS",
 			"type": "Guild Shop Item",
 			"rarity": "common",
 			"value": 15000,
@@ -3567,7 +3567,7 @@
 		},
 		{
 			"name": "Aura of the Dragon",
-			"source": "Arisen",
+			"source": "SSRPGS",
 			"tier": "major",
 			"rarity": "legendary",
 			"weaponCategory": "martial",
@@ -3629,7 +3629,7 @@
 		},
 		{
 			"name": "Mystletainn",
-			"source": "Arisen",
+			"source": "SSRPGS",
 			"tier": "major",
 			"rarity": "legendary",
 			"weaponCategory": "martial",
@@ -3698,7 +3698,7 @@
 		},
 		{
 			"name": "Red Magnum",
-			"source": "Arisen",
+			"source": "SSRPGS",
 			"tier": "major",
 			"rarity": "legendary",
 			"weaponCategory": "martial",
