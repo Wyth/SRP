@@ -3162,7 +3162,6 @@
 			"source": "GS",
 			"rarity": "uncommon",
 			"value": 60000,
-			"weight": 0.05,
 			"type": "Guild Shop Item",
 			"weight": 1,
 			"entries": [
@@ -3359,7 +3358,6 @@
 		{
 			"name": "Dodecahedron of Doom",
 			"source": "GS",
-			"rarity": "uncommon",
 			"value": 600000,
 			"rarity": "rare",
 			"type": "Guild Shop Item",
