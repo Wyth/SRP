@@ -1507,7 +1507,7 @@
 					"type": "entries",
 					"name": "Burst Fire",
 					"entries": [
-						"A weapon that has the burst fire property can make a single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This action uses ten pieces of ammunition."
+						"A weapon that has the burst fire property can make a single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This saving throw changes depending on the stat you use to make your ranged firearm attacks. This action uses ten pieces of ammunition."
 					]
 				}
 			]
@@ -1527,6 +1527,211 @@
 			]
 		},
 		{
+			"abbreviation": "CON",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Concealed",
+					"entries": [
+						"This weapon is not immediately obvious, and may be easily hidden or disguised as something else. A person attempting to locate the presence of this weapon must succeed on an {@skill Investigation} check opposed by a {@skill Stealth} check on the part of the character with the weapon equipped. Attacks with this weapon against creatures aware of you yet unaware of the weapon's presence are made with advantage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DW",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double Weapon",
+					"entries": [
+						"A weapon with this property may be wielded as one weapon, or as two separate weapons both considered to be light. When wielded as one weapon, the weapon may still be one or two-handed, depending on its other properties. A weapon with this property lists to sets of damage die with it, the first for the main-hand of this weapon, the second for the off-hand, and damage on both sides of a double weapon are the same as if it were wielded as a single weapon. Held as a double weapon, one hand or the other may have additional properties, listed alongside their respective damage die. Properties on the weapon (aside from two-handed) apply to both halves of the double weapon, as well."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.dmg2}})"
+		},
+		{
+			"abbreviation": "AR",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Arisen Weapon",
+					"entries": [
+						"So long as you remain bound to your Arisen, you are considered proficient in this weapon. If you ever are to become unbound to your Arisen, the weapon vanishes, and so do any benefits it gives.",
+						"No creature other than the bonded target may use or hold this weapon—the action becomes physically impossible whenever attempted. In addition, you gain the ability to summon this weapon as a bonus action on your turn, causing it to instantly appear equipped onto your form and become attuned (if you have a free attunement slot)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "GR",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Grappling",
+					"entries": [
+						"If a weapon has this property, an attack made with this weapon against an enemy in range of the weapon or within the weapon's reach may instead be made as a grapple. If the weapon carries the finesse property as well, the grapple may be made and maintained with a Dexterity check rather than an {@skill Athletics} check. If the weapon is ranged, the target's {@skill Athletics} or {@skill Acrobatics} checks to escape the grapple are made against a DC equal to 10 + your Strength modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RET",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Returning",
+					"entries": [
+						"When a thrown weapon also carrying the returning property is thrown as part of an attack, it returns to its wielder immediately after the attack. When throwing a returning weapon, you can choose to not have it return in order to add 5 feet to its short range and 10 feet to its long range."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DI",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disarm Immune",
+					"entries": [
+						"Any weapon that carries this property may not unwillingly be removed from your grasp while you remain conscious."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AN",
+			"source": "SRP",
+			"name": "Alternate Name"
+		},
+		{
+			"abbreviation": "UN",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Unarmed",
+					"entries": [
+						"When you make an unarmed strike, you can choose to have the attack deal damage equal to the damage of this weapon, rather than your normal unarmed strike damage. In addition, your hands are considered free for the purposes of object interactions and grappling."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RE",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"This weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.reload}})"
+		},
+		{
+			"abbreviation": "MI",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Misfire",
+					"entries": [
+						"Whenever you make an attack roll with a firearm, and the die roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful {@item Tinker's tools|phb} check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at the quarter of a cost of a firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.misfire}})"
+		},
+		{
+			"abbreviation": "AM",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ammo+",
+					"entries": [
+						"This weapon requires advanced ammunition to fire, usually gunpowder, bullets, or magazines."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.ammo}})"
+		},
+		{
+			"abbreviation": "EX",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Explosive",
+					"entries": [
+						"On a hit, every creature within 5 feet of the target much make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer {@dice 1d8} fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so. Explosive weapons will also damage terrain (if applicable)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AUTO",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Automatic Weapon",
+					"entries": [
+						"Automatic weapons have a unique reload system from other firearms, and as such, feats or class features that allow you to ignore the reload property do not work on automatic weapons."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RF",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Rapid Fire",
+					"entries": [
+						"As an attack action, you can make a special attack against one target creature within range. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a ranged weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}. You can only Rapid Fire a weapon once per turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AUTOF",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Automatic Fire",
+					"entries": [
+						"As an attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. This saving throw changes depending on the stat you use to make your ranged firearm attacks. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SC",
+			"source": "SRP",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Scatter",
+					"entries": [
+						"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have. The Scatter property is unaffected by the Sharpshooter feat."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "H",
 			"source": "PHB",
 			"page": 147,
@@ -1535,7 +1740,7 @@
 					"type": "entries",
 					"name": "Heavy",
 					"entries": [
-						"Creatures that are Small or Tiny have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small or Tiny creature to use effectively."
+						"Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively."
 					]
 				}
 			]
@@ -1612,7 +1817,7 @@
 					"type": "entries",
 					"name": "Thrown",
 					"entries": [
-						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property."
+						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. When you make a ranged attack with a thrown weapon, you can choose to immediately draw one weapon as a part of that attack."
 					]
 				}
 			],
