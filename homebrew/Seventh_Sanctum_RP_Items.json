@@ -1,5 +1,23 @@
 {
-	"baseitem": [
+	"_meta": {
+		"sources": [
+			{
+				"json": "SeventhSanctumRP",
+				"abbreviation": "SRP",
+				"full": "Seventh Sanctum RP",
+				"url": "https://wyth.github.io/SRP",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				]
+			}
+		],
+		"dateAdded": 1611276683,
+		"dateLastModified": 1611276683
+	},
+	"item": [
 		{
 			"name": "Katana",
 			"source": "SRP",
