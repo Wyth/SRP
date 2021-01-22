@@ -20,12 +20,1075 @@
 	},
 	"item": [
 		{
+			"name": "Katana",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"V",
+				"S"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed. This weapon can be chosen as a kensei weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Odachi",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 2500,
+			"weaponCategory": "exotic",
+			"property": [
+				"2H",
+				"F",
+				"S"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bladed Fan",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 500,
+			"weaponCategory": "exotic",
+			"property": [
+				"CON",
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Chain, spiked",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 3000,
+			"weaponCategory": "exotic",
+			"property": [
+				"DW",
+				"GR",
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "2d4",
+			"dmg2": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You cannot gain the benefits of the feat Great Weapon Master while Double Weaponing this weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Three-Section Staff",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 5,
+			"value": 200,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"DW",	
+				"R",
+				"2H"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d4",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Chakram",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"RET",
+				"T"
+			],
+			"dmg1": "1d6",
+			"range": "15/30",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Claw",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "exotic",
+			"property": [
+				"DI",
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Dagger, boot-toe",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1500,
+			"weaponCategory": "exotic",
+			"property": [
+				"CON",
+				"F",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You wield this weapon without the use of a hand, instead using the foot the dagger is affixed to. You may only make one attack on your turn when attacking with this weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dagger, wrist",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1500,
+			"weaponCategory": "exotic",
+			"property": [
+				"CON",
+				"F",
+				"L",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"While this weapon is sheathed, your hands are considered free."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gauntlet",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 600,
+			"weaponCategory": "martial",
+			"property": [
+				"DI",
+				"L",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"While wielding two gauntlets and no shield, you increase your Armor Class by 1. You can only benefit from this effect once."
+					]
+				}
+			]
+		},
+		{
+			"name": "Brass Knuckles",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"DI",
+				"UN"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Jian",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Khopesh",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "exotic",
+			"property": [
+				"L"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Two-Handed Khopesh",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 7,
+			"value": 5000,
+			"weaponCategory": "exotic",
+			"property": [
+				"2H",
+				"H",
+				"S"
+			],
+			"dmg1": "1d6+1d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"While you're wielding this weapon, you can still make a Grapple check. On a success, you grapple your opponent with the sickle-edge of your sword, keeping them locked and dealing {@dice 1d4} piercing damage at the start of their turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kukri",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 800,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"This weapon deals {@dice 1d8} damage to environmental objects and creatures with the Plant type."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sickle & Chain",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "exotic",
+			"property": [
+				"DW",
+				"F",
+				"GR",
+				"S",
+				"AN"
+			],
+			"dmg1": "1d8",
+			"dmg2": "1d4",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When used as a Double Weapon, the Kusarigama gains the reach property."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alternate Name",
+					"entries": [
+						"This weapon goes by an alternate name: Kusarigama."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nunchaku",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1000,
+			"weaponCategory": "exotic",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Push Dagger",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 700,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"DI",
+				"AN"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Alternate Name",
+					"entries": [
+						"This weapon goes by an alternate name: Stoßdolch."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tonfa",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Two-Handed Scythe",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 9,
+			"value": 7500,
+			"weaponCategory": "exotic",
+			"property": [
+				"S",
+				"R",
+				"2H",
+				"F"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"When you make an attack against a medium or large creature, you also attack any enemies directly to its left or right. On a hit, those creatures take {@dice 1d4} slashing damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Headphones",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 0.1,
+			"type": "Technological Item",
+			"value": 10000,
+			"entries": [
+				"Headphones are a pair of earphones joined by a band placed over the head, for listening to audio signals such as music or speech. They can be connected using an audio jack attached to a wire (or ocassionally, through a wireless pairing mechanism known as bluetooth) in order to receive audio files from an output device (usually a smartphone, music player, or equivalent).",
+				"The volume of the output device can generally be adjusted in order to change the decibels at which the audio is played. Maximizing or near-maximizing the volume will result in the user being put under the {@condition deafened} condition, as they are unable to hear anything other than the audio pouring out from the internal speakers.",
+				"Headphones can be reskinned as earphones. If done so, their weight reduced by a considerable margin (generally anywhere from 0.01 lbs to 0.05 lbs). In addition, headphones that utilize bluetooth connectively require time to charge, similar to that of smartphones.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Smartphone",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 0.2,
+			"type": "Technological Item",
+			"value": 50000,
+			"entries": [
+				"A mobile phone that performs many of the functions of a computer, typically having a touchscreen interface, Internet access, and an operating system capable of running downloaded applications.",
+				"There are many things a smartphone has access to, which includes but are not limited to:",
+				"{@bold Communication.} Conversations using smartphones can be made across long distances, similar to that of sending stones. However, the difference lies in the ability to have full-length conversations back-and-forth through the digital wire. In addition, two smartphones do not need to be linked, and any smartphone in the world can be called by simply dialing another smartphone's number.",
+				"{@bold Networking.} Various applications can be accessed utilizing a smartphone, such as news apps that grant numerous amounts of up-to-date information about the world. This information, without a smartphone, would normally be gathered via bulletin or through use of a television screen.",
+				"{@bold Gaming.} Games can be played on smartphones, granting the user something to do when passing a large amount of time, such as when the party decides to take a short rest. Boredom on long trips is a real issue, you know.",
+				"{@bold Limited Use.} The main issue with smartphones are their limited uses outside of nations with proper wire networking such as Slecrotor and Zyraitix—without any cellphone communication towers, communication and networking is left as an impossibility (although games can still be played on smartphones without a connection). Smartphones will refuse to dial outside of their designated service range, usually a few miles away from a cellphone tower or equivalent.",
+				"{@bold Charging.} Majority of all smartphones are charged using a wired USB device that plugs into a wall socket or power outlet. In most cases, it is also possible to charge smartphones using a wireless charging device powered via spellstone known as a {@italic mana dynamo}. Many inns which serve out-of-state guests, specifically around populated epicenters for carousing and trade, will have these devices.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Flashlight",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 2,
+			"type": "Technological Item",
+			"value": 30000,
+			"entries": [
+				"Flashlights come in a wide variety of sizes and quality levels. Those covered here are professional, heavy-duty models, rugged enough to withstand the rigors of modern adventuring.",
+				"{@bold Penlight.} This small flashlight can be carried on a key ring. It projects bright light in a 10 foot cone, and dim light for an additional 10 feet.",
+				"{@bold Standard.} This heavy metal flashlight projects bright light in a 30 foot cone, and dim light for an additional 30 feet.",
+				"{@bold Battery Flood.} Practically a handheld spotlight, this item projects bright light in a 100 foot cone, and dim light for an additional 100 feet.",
+				"{@italic In addition, flashlights have multiple properties which make them unique:}",
+				"{@bold Battery Powered.} The majority of flashlights must be powered using batteries. A full set of batteries in a flashlight will allow it to last for ten minutes, after which the batteries must be replaced. You can purchase new batteries in any store that offers them, usually in technologically-adept nations such as Slecrotor and Zyraitix. Notably, battery flood flashlights require advanced batteries.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Standard Batteries",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 0.01,
+			"type": "Technological Item",
+			"value": 2500,
+			"entries": [
+				"These batteries can be used to power most items that state they require them. Any device that uses batteries comes with them. Different items require varying amount of batteries, shown by the following list:",
+				"{@bold Flashlights.} Penlight and Standard flashlights can be powered by inserting three standard batteries into their core, which last for ten minutes.",
+				"",
+				"{@italic In addition, batteries have properties which make them unique:}",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Advanced Batteries",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 0.01,
+			"type": "Technological Item",
+			"value": 7500,
+			"entries": [
+				"These batteries can be used to power most items that state they require them. Any device that uses batteries comes with them. Different items require varying amount of batteries, shown by the following list:",
+				"{@bold Flashlights.} Battery Flood flashlights can be powered by inserting two advanced batteries into their core, which last for ten minutes.",
+				"",
+				"{@italic In addition, batteries have properties which make them unique:}",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Chemical Light Stick",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 1,
+			"type": "Technological Item",
+			"value": 1500,
+			"entries": [
+				"This disposable plastic stick, when activated, uses a chemical reaction to create light for 6 hours. It illuminates an area only 5 feet in radius. Once activated, it can’t be turned off or reused.ss",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Gas Mask",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 5,
+			"type": "Technological Item",
+			"value": 10000,
+			"entries": [
+				"This apparatus covers the face and connects to a chemical air filter canister to protect the lungs and eyes from toxic gases. It provides total protection from eye and lung irritants. The filter canister lasts for 12 hours of use. Changing a filter is an action. The value for one extra filter canister is 6 gold.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Spike Strip",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 22,
+			"type": "Technological Item",
+			"value": 5000,
+			"entries": [
+				"This device is designed to help the police end car chases. The strip comes rolled in a spool about the size of a small suitcase. It can be deployed as an action by rolling it across a roadway, where it lies like a flat, segmented belt (at maximum it extends 15 by 5 feet). Until the strip is activated, the spikes do not protrude, and cars can pass safely over it. You can activate it as a reaction via a control device attached to the end of the strip by a 10-foot-long cord, causing the spikes to extend.",
+				"Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving and take 1 piercing damage. Until the creature regains at least 1 hit point, its walking speed is reduced by 10 feet. A creature moving through the area at half speed doesn’t need to make the saving throw.",
+				"Wheeled vehicles passing over an activated strip are automatically hit regardless at the speed they were travelling at, although vehicles equipped with puncture-resistant tires are not affected. When a vehicle is hit by an activated strip, their movement speed is restricted to phase 1 for 3 rounds, and after those 3 rounds elapse, their movement speed becomes 0 until their tires are repaired.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Steel Handcuffs",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 1,
+			"type": "Technological Item",
+			"value": 1000,
+			"entries": [
+				"Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any Medium-size or Small human or other creature that has an appropriate body structure. You can make an opposed Strength ({@skill Athletics}) check against a grappled creature to attach the handcuffs to the creature, putting them under the {@condition restrained} condition.",
+				"These heavy-duty cuffs require a Strength ({@skill Athletics}) check with a DC of 25 to break, and require a Dexterity ({@skill Sleight of Hand}) check or Dexterity ({@skill Acrobatics}) check (DC 20) to remove without the key.",
+				"Steel Handcuffs, upon purchasing, always come with a key, which can be used to unlock the handcuffs without a check.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Zip-Tie",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 0.05,
+			"type": "Technological Item",
+			"value": 500,
+			"entries": [
+				"Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any Medium-size or Small human or other creature that has an appropriate body structure. You can make an opposed Strength ({@skill Athletics}) check against a grappled creature to attach the handcuffs to the creature, putting them under the {@condition restrained} condition.",
+				"These are single-use disposable handcuffs, much like heavy-duty cable ties. They require a Strength ({@skill Athletics}) check with a DC of 20 to break, and require a Dexterity ({@skill Sleight of Hand}) check or Dexterity ({@skill Acrobatics}) check (DC 15) to remove. They can only be removed by cutting them off.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Recorder",
+			"source": "SRP",
+			"rarity": "none",
+			"weight": 0.5,
+			"type": "Technological Item",
+			"value": 35000,
+			"entries": [
+				"This small metal device fits in your hand like a charm, and is loosely equipped with a few functions, the primary of which allow its user to record the vocal utterances of another creature.",
+				"This device can record up to five minutes of audio without stopping, and while you cannot record more than five minutes, you can delete your previous recordings in order to free-up space. Whenever you finish recording a creature, ask your DM how much time elapsed to determine how much space you have left in your recorder.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Sword, cane",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2000,
+			"weaponCategory": "exotic",
+			"property": [
+				"CON",
+				"F"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Tomahawk",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "exotic",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"dmg1": "1d4",
+			"range": "20/60",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Bola",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "exotic",
+			"property": [
+				"GR",
+				"L",
+				"T",
+				"S"
+			],
+			"dmg1": "1d4",
+			"range": "20/40",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"A creature can remove a bola from an allied creature as an action. In addition, while a creature is grappled by a bola, they can fall prone. While prone, their speed is no longer limited by the {@condition grappled} condition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boomerang",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 300,
+			"weaponCategory": "exotic",
+			"property": [
+				"S",
+				"F",
+				"RET",
+				"T"
+			],
+			"dmg1": "1d6",
+			"range": "30/80",
+			"dmgType": "B",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If this weapon is used to make a melee weapon attack, it instead becomes an Improvised Weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shuriken",
+			"source": "SRP",
+			"type": "M",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 100,
+			"weaponCategory": "exotic",
+			"property": [
+				"S",
+				"F",
+				"L",
+				"T"
+			],
+			"dmg1": "1d4",
+			"range": "40/50",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If this weapon is used to make a melee weapon attack, it instead becomes an Improvised Weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Palm Pistol",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 1,
+			"value": 5000,
+			"weaponCategory": "firearm",
+			"property": [
+				"CON",
+				"L",
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d8",
+			"range": "40/160",
+			"reload": "1",
+			"misfire": "1",
+			"ammo": "2 gp for 20",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Pistol",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 15000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d10",
+			"range": "60/240",
+			"reload": "4",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Submachine Pistol",
+			"source": "SRP",	
+			"type": "R",
+			"rarity": "none",
+			"weight": 4,
+			"value": 50000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"A",
+				"AM",
+				"AUTO",
+				"RF"
+			],
+			"dmg1": "1d8",
+			"range": "30/90",
+			"reload": "6",
+			"misfire": "4",
+			"ammo": "20 gp for 20",
+			"dmgType": "P",
+			"entries": [
+			]
+		},
+		{
+			"name": "Assault Rifle",
+			"source": "SRP",	
+			"type": "R",
+			"rarity": "none",
+			"weight": 9,
+			"value": 150000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"A",
+				"AM",
+				"2H",
+				"AUTO",
+				"AUTOF"
+			],
+			"dmg1": "1d10",
+			"range": "40/180",
+			"reload": "8",
+			"misfire": "4",
+			"ammo": "20 gp for 10",
+			"dmgType": "P",
+			"entries": [
+			]
+		},
+		{
+			"name": "Musket",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 30000,
+			"weaponCategory": "firearm",
+			"property": [
+				"2H",
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d12",
+			"range": "120/480",
+			"reload": "1",
+			"misfire": "2",
+			"ammo": "5 gp for 20",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Revolver",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 25000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d10",
+			"range": "80/320",
+			"reload": "6",
+			"misfire": "2",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
+			"name": "Shotgun",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 8,
+			"value": 50000,
+			"weaponCategory": "firearm",
+			"property": [
+				"RE",
+				"MI",
+				"SC",
+				"A",
+				"AM",
+				"S"
+			],
+			"dmg1": "1d8",
+			"range": "15/30",
+			"reload": "2",
+			"misfire": "1",
+			"ammo": "5 gp for 5",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"If your target is within 5 feet of you, it takes an additional {@dice 1d6} piercing damage on a hit."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blunderbuss",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 30000,
+			"weaponCategory": "firearm",
+			"property": [
+				"S",
+				"2H",
+				"H",
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "2d8",
+			"range": "15/60",
+			"reload": "1",
+			"misfire": "2",
+			"ammo": "5 gp for 5",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"Enemies adjacent to you take an additional {@dice 1d4} piercing damage on a hit."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hand Mortar",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 150000,
+			"weaponCategory": "firearm",
+			"property": [
+				"S",
+				"2H",
+				"RE",
+				"MI",
+				"EX",
+				"A",
+				"AM"
+			],
+			"dmg1": "1d8+1d6",
+			"range": "30/60",
+			"reload": "1",
+			"misfire": "3",
+			"ammo": "10 gp for 1",
+			"dmgType": "F",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+				{
+			"name": "Rifle",
+			"source": "SRP",
+			"type": "R",
+			"rarity": "none",
+			"weight": 25,
+			"value": 150000,
+			"weaponCategory": "firearm",
+			"property": [
+				"2H",
+				"RE",
+				"MI",
+				"A",
+				"AM"
+			],
+			"dmg1": "2d12",
+			"range": "200/800",
+			"reload": "1",
+			"misfire": "3",
+			"ammo": "10 gp for 5",
+			"dmgType": "P",
+			"sword": true,
+			"sword": true,
+			"weapon": true,
+			"entries": [
+			]
+		},
+		{
 			"name": "The Beginner's Blade",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": true,
 			"weight": 3,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"This decorated longsword appears to be a simple showpiece and not meant for battle. When sheathed at the hip of the wearer the hilt of the blade gives off a bright blue and gold shine.",
@@ -42,11 +1105,12 @@
 		},
 		{
 			"name": "Aci Feather",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"While this feather is equipped on your person, you can use a bonus action to make your hair dramatically blow in a nonexistent breeze.",
@@ -55,11 +1119,12 @@
 		},
 		{
 			"name": "Doom Box",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.35,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"This simple wooden box, seemingly crafted with shoddy materials, creates {@dice 1d4} harmless spiders every week.",
@@ -68,11 +1133,12 @@
 		},
 		{
 			"name": "Zingaro, the 10-Copper Mug",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.5,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"This mug has a slot on its side, just large enough to fit a coin. Slotting in 10 copper coins will produce a mild-flavored ale or beer (accompanied by an arcade-style ding for each coin slotted in).",
@@ -83,11 +1149,12 @@
 		},
 		{
 			"name": "Quantum Ring",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"This ring turns invisible when worn.",
@@ -96,11 +1163,12 @@
 		},
 		{
 			"name": "Quantum Eyeglass",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.35,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"A white eyeglass that extend outwards 1-foot, decorated with strange gold markings. Looking through this glass allows you to see yourself as if you were looking at yourself from afar. It's often called the &quot;Stalking Glass&quot;.",
@@ -109,11 +1177,12 @@
 		},
 		{
 			"name": "Quantum Belt",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.5,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"This dazzling belt reflects anything against the buckle with serene clarity, and cannot be smudged by even the grimiest of fingerprints. The buckle is shaped like a large letter &quot;Q&quot;, and looks unnecessarily gaudy.",
@@ -124,7 +1193,7 @@
 		},
 		{
 			"name": "Doom & Gloom",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": true,
@@ -232,10 +1301,11 @@
 		},
 		{
 			"name": "Obsidian Weapon",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Weapon",
 			"value": 60000,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with these obsidian weapons of demonic make.",
@@ -257,10 +1327,11 @@
 		},
 		{
 			"name": "Returning Weapon",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Weapon",
 			"value": 60000,
 			"entries": [
 				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
@@ -286,10 +1357,11 @@
 		},
 		{
 			"name": "Cap of the Cartographer",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Weapon",
 			"value": 60000,
 			"entries": [
 				"{@italic Do you suck at reading maps? At telling which way is north, south, east, weast?! Fear no more! The Cap of the Cartographer is just what you need!}",
@@ -299,10 +1371,11 @@
 		},
 		{
 			"name": "Returning Weapon +1",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Weapon",
 			"value": 600000,
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -329,10 +1402,11 @@
 		},
 		{
 			"name": "Returning Weapon +2",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Weapon",
 			"value": 2500000,
 			"entries": [
 				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
@@ -360,10 +1434,11 @@
 		{
 			"name": "Koi's Retreat",
 			"baseItem": "shield|phb",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"This iron shield has a small glass domed boss at its center, filled with mystic water that houses two koi fish which perpetually circle one another. The koi fish can bring forth good fortune, but only when left at rest.",
@@ -376,10 +1451,11 @@
 		{
 			"name": "Arvhim Pear Phone",
 			"baseItem": "smartphone|srp",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 65000,
 			"entries": [
 				"{@italic Avel Caelora doesn't have phones? Not for much longer! We here at Arvhim Technology are spreading the wondrous technology the Pear Phone&trade; to the masses!}",
@@ -389,10 +1465,11 @@
 		},
 		{
 			"name": "Solar Surfer",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"This custom-built machine (designed to be used by Solar Sailors in the Skywatcher Grand Prix) is designed to be small enough to be carried and even used for fast transport when travelling. Their quick-activation and portability make them a smart option for those in Accord who wish to get around quickly and faster than the required effort to retrieve a crew and pilot an airship.",
@@ -405,10 +1482,11 @@
 		},
 		{
 			"name": "Pen-Accelerator Mk. V",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
+			"type": "Guild Shop Item, Technological Item",
 			"value": 600000,
 			"entries": [
 				{
@@ -469,10 +1547,11 @@
 		},
 		{
 			"name": "Tri-Accelerator Mk. III",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": true,
+			"type": "Guild Shop Item, Technological Item",
 			"value": 60000,
 			"entries": [
 				{
@@ -525,7 +1604,8 @@
 		},
 		{
 			"name": "Lightning Lashed",
-			"source": "SSRPGS",
+			"source": "GS",
+			"type": "Guild Shop Weapon",
 			"tier": "major",
 			"rarity": "rare",
 			"value": 600000,
@@ -551,10 +1631,11 @@
 		{
 			"name": "Black Inches",
 			"baseItem": "whip|phb",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Weapon",
 			"value": 2500000,
 			"entries": [
 				"A long, pitch black, whip with metal tips which is said to have caused more than a few red cheeks.",
@@ -570,10 +1651,11 @@
 		{
 			"name": "Armor of the Beheaded",
 			"baseItem": "plate armor|phb",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"value": 2500000,
 			"entries": [
 				"This complete suit of plate armor is missing its helmet, and only a glance is needed to reveal a chilling aura. It was found on the body of a headless horseman slain by a high-ranking adventuring party, and beyond that, nothing else is known.",
@@ -599,10 +1681,11 @@
 		},
 		{
 			"name": "Basic Casting Assistant Device (CAD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": "by a psionic spellcaster",
+			"type": "Guild Shop Item, Technological Item",
 			"value": 60000,
 			"entries": [
 				"The Casting Assistant Device, better known as CAD, is a spell support processor. This device incorporates synthetic materials (artificially manufactured Neurons) that convert Psion signals into electric signals, using the Psion from a magic ritual (sequence) to produce a collection of electronic magic—the Activation Sequence of a spell.",
@@ -617,10 +1700,11 @@
 		{
 			"name": "Bo Prime",
 			"baseItem": "quarterstaff|phb",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": "by a spellcaster",
+			"type": "Guild Shop Weapon",
 			"value": 600000,
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -633,10 +1717,11 @@
 		},
 		{
 			"name": "Quick Picks",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": "by a bard",
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"These colorful picks attach to your fingers and allow for vibrant strumming. You can click your picks together in order to manifest a small sound that travels no further than 30 feet, so long as that sound is percussive in nature. Each pick is inscribed with a singular glyph from a runic alphabet. Translation is currently impossible—although really, nobody wants to know what they say anyway.",
@@ -653,10 +1738,11 @@
 		},
 		{
 			"name": "Cold Spaulder",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"This metal shoulder guard is always chilly to the touch.  While worn, willfully ignoring another humanoid's attempt to converse with you causes them to experience a sensation of chills running down their spine.",
@@ -665,10 +1751,11 @@
 		},
 		{
 			"name": "Cartridge: Centaur Series (CAD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 30000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;General-Purpose Centaur CAD&quot;, and gives it the following effect:",
@@ -684,10 +1771,11 @@
 		},
 		{
 			"name": "Cartridge: Sorcery Booster (CAD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 300000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;No Head Dragon CAD&quot;, and gives it the following effect:",
@@ -703,10 +1791,11 @@
 		},
 		{
 			"name": "Cartridge: Taurus Silver (CAD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 1250000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Taurus Silver CAD&quot;, and gives it the following effect:",
@@ -722,10 +1811,11 @@
 		},
 		{
 			"name": "Hadar's Abominable Elixir",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 1250000,
 			"entries": [
 				"Upon consuming this crystal-infused black elixir, your arms begin to bulge and pulsate, transforming into long, slimy tentacles.",
@@ -737,10 +1827,11 @@
 		},
 		{
 			"name": "Cartridge: Experiment Realizer (CAD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 7500,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Experiment Realizer CAD&quot;, and gives it the following effect:",
@@ -756,10 +1847,11 @@
 		},
 		{
 			"name": "Basic Universal Tuning Device (UTD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": "by a spellcaster",
+			"type": "Guild Shop Item, Technological Item",
 			"value": 60000,
 			"entries": [
 				"The Universal Tuning Device, better known as UTD, is a spell support processor. This device incorporates synthetic materials (artificially manufactured Neurons) that convert Psion signals into electric signals, using the Psion from a magic ritual (sequence) to produce a collection of electronic magic—the Activation Sequence of a spell.",
@@ -773,10 +1865,11 @@
 		},
 		{
 			"name": "Cartridge: Quick Tuning (UTD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 30000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Quick Tuning UTD&quot;, and gives it the following effect:",
@@ -792,10 +1885,11 @@
 		},
 		{
 			"name": "Cartridge: Evolution Tuning (UTD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 300000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Evolution Tuning UTD&quot;, and gives it the following effect:",
@@ -811,10 +1905,11 @@
 		},
 		{
 			"name": "Cartridge: Rewrite (UTD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 1250000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Accel Ultima UTD&quot;, and gives it the following effect:",
@@ -830,10 +1925,11 @@
 		},
 		{
 			"name": "Cartridge: Medica Silver (UTD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 30000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Medica Silver UTD&quot;, and gives it the following effect:",
@@ -849,10 +1945,11 @@
 		},
 		{
 			"name": "Cartridge: Grand Accel (UTD)",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Grand Accel UTD&quot;, and gives it the following effect:",
@@ -868,10 +1965,11 @@
 		{
 			"name": "Wanderering Blade",
 			"baseItem": "greatsword|phb",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Weapon",
 			"value": 2500000,
 			"entries": [
 				"You have a +2 to attack and damage rolls made with this magic weapon.",
@@ -882,10 +1980,11 @@
 		},
 		{
 			"name": "Plastic Explosive",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 30000,
 			"entries": [
 				"Plastic explosives are a soft and hand-moldable solid form of explosive material. Plastic explosives are especially suited for explosive demolition of obstacles and fortifications by engineers, combat engineers and criminals. It can be cut, formed, wrapped, and combined with others of its type.",
@@ -898,10 +1997,11 @@
 		},
 		{
 			"name": "Tear Gas",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 30000,
 			"entries": [
 				"Tear gas works by irritating mucous membranes in the eyes, nose, mouth and lungs, and causes crying, sneezing, coughing, difficulty breathing, pain in the eyes, and temporary blindness.",
@@ -912,10 +2012,11 @@
 		},
 		{
 			"name": "Fire Extinguisher",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"The extinguisher has 10 charges. As an action, you can expend one charge to extinguish a 5-foot area of fire.",
@@ -925,10 +2026,11 @@
 		},
 		{
 			"name": "Infrared Goggles",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"An infrared goggles has 10 charges. As a bonus action, you can expend one charge to turn them on to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light for 10 minutes. You can't discern color in darkness and the image color produced is typically monochrome (shades of green or blue).",
@@ -939,10 +2041,11 @@
 		},
 		{
 			"name": "Metal Detector",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"A handled portable sensor for detecting bits and pieces of metal in and on the ground. The metal detector has 10 charges. As an action, you can expend one charge to gain advantage on Wisdom ({@skill Perception}) checks you make when searching for metals and metallic objects for 10 minutes.",
@@ -952,10 +2055,11 @@
 		},
 		{
 			"name": "Two-Way Radio",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"A hand-held, portable, two-way radio transceiver. Multiple radios use a single channel, and only one radio on the channel can transmit at a time, although any number can listen. The transceiver is normally in receiving mode and when the user wants to talk he presses a &quot;push-to-talk&quot; button. You can communicate with someone using a two-way radio at the same frequency up to 20 miles.",
@@ -965,10 +2069,11 @@
 		},
 		{
 			"name": "Blinkback Belt",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"A set of clips are attached to this segmented belt constructed of metallic links. Up to two melee weapons or up to four light melee weapons can be hung from the belt in straps or sheaths. These weapons must not have the two-handed or double-bladed property. ",
@@ -979,10 +2084,11 @@
 		},
 		{
 			"name": "Conversing Mirrors",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 2500000,
 			"entries": [
 				"This item comes in a box-set of two near-indestructible mirrors that can withstand a direct collision with a semi. They are connected through a planar wire that spans the entire Multiverse.",
@@ -994,10 +2100,11 @@
 		},
 		{
 			"name": "Manastone Bracelets",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"{@italic &quot;Allow me to take off my training bracelets.&quot;}",
@@ -1012,10 +2119,11 @@
 		},
 		{
 			"name": "Cloak of Recognition Obstruction",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"A white cloak with a blue, soft silk interior. Two protrusions rise from the head with an upwards point, leading to cloak receiving a nickname among assassins and spies: &quot;the Cat-Earred Cloak&quot;.",
@@ -1025,10 +2133,11 @@
 		},
 		{
 			"name": "Frefil's Jolly Oozebean Sugarbombs",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				{
@@ -1099,10 +2208,11 @@
 		},
 		{
 			"name": "Infernal Puzzle Box",
-			"source": "SSRPGS",
+			"source": "GS",
 			"value": 60000,
 			"rarity": "uncommon",
 			"tier": "minor",
+			"type": "Guild Shop Item",
 			"entries": [
 				"An infernal puzzle box is a cube-shaped container 5 to 6 inches on a side, composed of airtight, interlocking parts made from materials found in the Nine Hells. Most of these boxes are made of infernal iron, though some are carved from bone or horn. Infernal puzzle boxes are used to safeguard diabolical contracts signed between devils and mortals, even after the terms of these contracts are fulfilled. An empty infernal puzzle box weighs 3 pounds regardless of the materials used to fashion it.",
 				"When an object small enough to fit inside an infernal puzzle box is placed in it, the container magically seals shut around the object, and no magic can force the box open. The sealed box becomes immune to all damage as well. Every infernal puzzle box is constructed with a unique means of opening it. The trick to solving the puzzle is always mundane, never magical. Once a creature figures out the trick or sequence of steps needed to open a particular infernal puzzle box, that creature can open the box as an action, allowing access to the box's contents.",
@@ -1111,10 +2221,11 @@
 		},
 		{
 			"name": "Storm Boomerang",
-			"source": "SSRPGS",
+			"source": "GS",
 			"value": 60000,
 			"rarity": "uncommon",
 			"tier": "major",
+			"type": "Guild Shop Weapon",
 			"baseItem": "boomerang|srp",
 			"entries": [
 				"This boomerang is a ranged weapon carved from {@creature griffon} bone and etched with the symbol of elemental air. On a hit, the boomerang deals an additional {@dice 3d4} thunder damage, and the target must succeed on a DC 10 Constitution saving throw or be {@condition stunned} until the end of its next turn.",
@@ -1123,10 +2234,11 @@
 		},
 		{
 			"name": "Dagger of Blindsight",
-			"source": "SSRPGS",
+			"source": "GS",
 			"value": 600000,
 			"rarity": "rare",
 			"tier": "major",
+			"type": "Guild Shop Weapon",
 			"baseItem": "dagger|phb",
 			"reqAttune": true,
 			"weight": 1,
@@ -1136,10 +2248,11 @@
 		},
 		{
 			"name": "Seawater Cutlass",
-			"source": "SSRPGS",
+			"source": "GS",
 			"value": 60000,
 			"rarity": "uncommon",
 			"tier": "major",
+			"type": "Guild Shop Weapon",
 			"baseItem": "scimitar|phb",
 			"entries": [
 				"These curved blades trail golden light when swung through the air. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -1148,9 +2261,10 @@
 		},
 		{
 			"name": "Spies' Murmur",
-			"source": "SSRPGS",
+			"source": "GS",
 			"value": 60000,
 			"rarity": "uncommon",
+			"type": "Guild Shop Item",
 			"tier": "minor",
 
 			"reqAttune": true,
@@ -1160,11 +2274,12 @@
 		},
 		{
 			"name": "Gloves of Flaming Fury",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"value": 600000,
 			"reqAttune": true,
 			"tier": "major",
+			"type": "Guild Shop Item",
 			"entries": [
 				"While you wear both of these leather gloves, any non-magical weapon you grasp with either glove is treated as a magic weapon.",
 				"As a bonus action, you can use the gloves to cause magical flames to envelop one or two melee weapons in your grasp. Each flaming weapon deals an extra {@dice 1d6} fire damage on a hit. The flames last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn."
@@ -1172,11 +2287,12 @@
 		},
 		{
 			"name": "Adaptive Helm",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
 			"tier": "major",
+			"type": "Guild Shop Item",
 			"entries": [
 				"This metal helmet is set with crystals that change color when exposed to elemental energy.",
 				"While wearing this helm, if you are the target of an attack which would deal acid, cold, fire, lightning, or thunder damage you can use a reaction to adapt to that damage type. While adapted, you have resistance to that damage type. The helm returns to its normal state after ten minutes."
@@ -1184,10 +2300,11 @@
 		},
 		{
 			"name": "Lifewell Tattoo",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"value": 600000,
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"tier": "major",
 			"tattoo": true,
 			"entries": [
@@ -1211,10 +2328,11 @@
 		},
 		{
 			"name": "Coiling Grasp Tattoo",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"tier": "major",
 			"tattoo": true,
 			"entries": [
@@ -1238,10 +2356,11 @@
 		},
 		{
 			"name": "Masquerade's Tattoo",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"value": 1500,
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"tier": "major",
 			"tattoo": true,
 			"entries": [
@@ -1274,10 +2393,11 @@
 		{
 			"name": "Lightbringer",
 			"baseItem": "mace|phb",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Weapon",
 			"value": 60000,
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -1286,8 +2406,9 @@
 		},
 		{
 			"name": "Bonecounter",
-			"source": "SSRPGS",
+			"source": "GS",
 			"baseItem": "mace|phb",
+			"type": "Guild Shop Weapon",
 			"tier": "major",
 			"rarity": "rare",
 			"value": 600000,
@@ -1302,9 +2423,10 @@
 		},
 		{
 			"name": "Flying Chariot",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"value": 600000,
+			"type": "Guild Shop Item",
 			"tier": "major",
 			"bonusAc": "+1",
 			"entries": [
@@ -1330,7 +2452,8 @@
 		},
 		{
 			"name": "Weapon of Resurgence",
-			"source": "SSRPGS",
+			"source": "GS",
+			"type": "Guild Shop Weapon",
 			"tier": "major",
 			"rarity": "rare",
 			"value": 600000,
@@ -1355,11 +2478,12 @@
 		},
 		{
 			"name": "Dress of Many Pockets",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.05,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"This dress has many pockets. When someone compliments this dress, you can use your reaction to reply with &quot;Thanks! It has pockets!&quot; When you do, you can stick your hand into any pocket of the dress and pull out any mundane, non-magical, and non-consumable item of your choice. You can only pull out an item once per day per person that compliments the dress. Items pulled out from the dress disappear after 10 minutes.",
@@ -1370,11 +2494,12 @@
 		},
 		{
 			"name": "Circlet of Mispronounciation",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.02,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"While wearing this circlet, despite their best attempts, creatures in your vicinity will incessantly mispronounce your name. The mispronunciations will generally rhyme with your name, with each's phonetic spelling only being slightly different",
@@ -1383,11 +2508,12 @@
 		},
 		{
 			"name": "Whistle of Duck Calling",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"When you blow this whistle, a duck appears behind you. Once you blown on it, you must wait 5 minutes before using it again. Once used, any previous ducks summoned by this whistle disappears, and is replaced by the new duck.",
@@ -1396,11 +2522,12 @@
 		},
 		{
 			"name": "Stone of Healing",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"This dull, gray stone is roughly the size of one's fist, and fits rather snuggly in the palm of one's hand. When a creature is struck with this stone, that creature takes {@dice 1d4} bludgeoning damage, immediately followed by healing for {@dice 1d4} health.",
@@ -1409,11 +2536,12 @@
 		},
 		{
 			"name": "Wand of Magic Chickens",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
 			"weight": 1,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
@@ -1424,11 +2552,12 @@
 		},
 		{
 			"name": "Rocket-Propelled Broom",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": true,
 			"weight": 10,
+			"type": "Guild Shop Item, Technological Item",
 			"value": 60000,
 			"entries": [
 				"This wooden broom, which weighs quite an amount (10 pounds), functions like a mundane (if unwieldly) broom until you stand astride it and pull the chord that acts as its kick-starter. It then launches into the air, with a lever at the side allowing you to rectify it into a hovering position.",
@@ -1442,11 +2571,12 @@
 		},
 		{
 			"name": "Strom Headphones",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
 			"weight": 10,
+			"type": "Guild Shop Item, Technological Item",
 			"value": 60000,
 			"entries": [
 				"These, as the young kids call it, hip headphones are some of the most mainstream and popular brand around. They are a sleek black and come in over the ear and bud form. The younger generation of Zyratix considers these a must have when listening to music. ",
@@ -1457,11 +2587,12 @@
 		},
 		{
 			"name": "Nairek Boombox Mk. II",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 3,
+			"type": "Guild Shop Item, Technological Item",
 			"value": 60000,
 			"entries": [
 				"This large contraption has a variety of knobs, dials, and sliders, with a certain instrument designed onto the back. It is often compared to it's smaller alternative, the remixer.",
@@ -1475,11 +2606,12 @@
 		},
 		{
 			"name": "Nairek Remixer",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.1,
+			"type": "Guild Shop Item, Technological Item",
 			"value": 60000,
 			"entries": [
 				"This simple metal box is about the size of a match lighter with a small display on its face, with a certain instrument designed onto the back. Often an item used by younger audiences to listen to music,",
@@ -1492,11 +2624,12 @@
 		},
 		{
 			"name": "Akalizer Baton",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
 			"weight": 0.2,
+			"type": "Guild Shop Item, Technological Item",
 			"value": 600000,
 			"entries": [
 				"This fluorescent baton has an accented glow of a variety of colors ranging from blue, orange, purple, green, and white. It is one foot long but extends to roughly 3 feet.",
@@ -1515,11 +2648,12 @@
 		},
 		{
 			"name": "Flame-Enchanted Rifle",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "rifle|srp",
 			"reqAttune": false,
+			"type": "Guild Shop Item, Technological Item",
 			"value": 600000,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -1529,11 +2663,12 @@
 		},
 		{
 			"name": "Cloak of Cherry Blossoms",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"While wearing this cloak, you can use a bonus action to cause a small storm of harmless cherry blossoms to flutter around you.",
@@ -1542,10 +2677,11 @@
 		},
 		{
 			"name": "Cosmic Car Keys",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"A set of car keys on a silver ring, with a little black box with a small red button on it.",
@@ -1556,10 +2692,11 @@
 		},
 		{
 			"name": "Ghost Captain's Coat",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"This coat is nice and crisp. Black leather runs down the entire frame of your body, like a trenchcoat, and your fancy pauldrons are made fancy with the thin tuffs of fur protruding from their edges. It truly makes you look the part of a captain.",
@@ -1572,10 +2709,11 @@
 		},
 		{
 			"name": "Rod of Big Spheres",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"This rod has 3 charges. While holding the rod, you can use an action to expend one of the rod's charges and create a sphere of force that hovers 3 feet off the ground.",
@@ -1586,10 +2724,11 @@
 		},
 		{
 			"name": "Seeds of Wealth",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				{
@@ -1649,10 +2788,11 @@
 		},
 		{
 			"name": "Balance of Power",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 2500000,
 			"entries": [
 				"This scale glows with a ethereal light, beckoning those who have crossed its waters to obtain it with a glorious melody.",
@@ -1664,10 +2804,11 @@
 		},
 		{
 			"name": "Golden Tongue",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"This charm, in the shape of a small golden tongue, hangs from a necklace or strap and glimmers with a brilliant yellow sheen. Occasionally, you think you can hear whispers as if the tongue were attempting to communicate with you, but surely that's just your imagination.",
@@ -1678,10 +2819,11 @@
 		},
 		{
 			"name": "Staff of the Geomancer",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": "by a bard, cleric, druid, sorcerer, or wizard",
+			"type": "Guild Shop Item",
 			"value": 2500000,
 			"entries": [
 				"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: {@spell stone shape} (1 charge), {@spell meld into stone} (2 charges), {@spell move earth} (4 charges), or {@spell wall of stone} (4 charges).",
@@ -1691,10 +2833,11 @@
 		},
 		{
 			"name": "Chimes of the Will-o'-Wisp",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"This item can only be used by a bard.",
@@ -1706,10 +2849,11 @@
 		},
 		{
 			"name": "Emblem of 1,000 Arms",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": "by a monk",
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"This emblem attaches to a piece of clothing or armor via a pin on the backside. The emblem itself shows a golden fist in flight, multiplying to infinity as its afterimages clash alongside it. The backing is made of high-quality silver and steel.",
@@ -1719,10 +2863,11 @@
 		},
 		{
 			"name": "Brute's Tattoo",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": "by a rogue",
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"tattoo": true,
 			"entries": [
@@ -1746,10 +2891,11 @@
 		},
 		{
 			"name": "Gloves of the Viper",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": "by a fighter",
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"entries": [
 				"These gloves slide over your hands like a thin veil of silk, although they feel coarse and rough. Black in color with spots of green, they make an interesting fashion statement. Thankfully though, fashion isn't the primary reason for donning these gloves.",
@@ -1760,10 +2906,11 @@
 		},
 		{
 			"name": "Wand of Sudden Transposition",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": "by a spellcaster",
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 charge and suddenly transpose two creatures of your choice.",
@@ -1775,10 +2922,11 @@
 		},
 		{
 			"name": "Makeshift Figurine",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"This figurine of wondrous power is a statuette of no discernible shape, crafted to look like a neckpiece, symbol, or other such fashionable item. Magical teleportation runes etched into the surface betray the figurine's wondrous properties, and a small hook is located near the top in order to allow it to become a necklace.",
@@ -1791,10 +2939,11 @@
 		},
 		{
 			"name": "Magnetic Weapon Holder Strips",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"These small yet powerful magnets are placed on the legs, waist, or back, and are used to hold any equipment with a magnetic property (i.e., metallic objects). Typically, these strips mainly used to holster weapons when not in use, and can be integrated in armor. However, it has been adapted to also be worn without armor using straps. These magnetic strips allows the user to carry weapons with ease up to a maximum of four (up to two weapons with the heavy property). However, this system does not alleviate weight.",
@@ -1805,10 +2954,11 @@
 		},
 		{
 			"name": "Medi-Gel",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"A useful item in both Zyrian civilian life and in the military. Medi-Gel is a medical agent produced by the Zaibatsu Corp. It is exported to neighboring countries. It is advanced enough to treat various kinds of wounds from blunt trauma to burns. Medi-Gel can be purchased legally over-the-counter.",
@@ -1819,10 +2969,11 @@
 		},
 		{
 			"name": "Bio-Foam",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 15000,
 			"entries": [
 				"A useful item in both Zyrian civilian life and in the military. It is exported to neighboring countries. A form of a first aid, Bio-Foam protects and seals wounds and regenerates tissue. Bio-Foam can be purchased legally over-the-counter.",
@@ -1833,10 +2984,11 @@
 		},
 		{
 			"name": "Handkerchief of Length",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"This item appears to be a normal silk handkerchief. However, when you place it in your pocket and speak the command word, you can then pull from your pocket a 50-foot long line of multi-colored handkerchiefs tied to each other. This functions exactly like a regular piece of rope.",
@@ -1846,11 +2998,12 @@
 		},
 		{
 			"name": "Through the Fire and the Flames",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": true,
 			"baseItem": "gauntlet|srp",
+			"type": "Guild Shop Weapon",
 			"value": 60000,
 			"entries": [
 				"These pair of gauntlets are shaped in the likeness of a dragon's mouth. You can cast the spell {@spell burning hands} once from each fist, for a total of two times, with a DC of 13. Once you use each fist this way, you cannot do so again until next dawn.",
@@ -1860,10 +3013,11 @@
 		},
 		{
 			"name": "Kindermore's Tincture of Disfigurement",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
+			"type": "Guild Shop Item, consumable",
 			"value": 300000,
 			"entries": [
 				"This vial of thick liquid of swirling greens and pinks holds one use of Kindermore's Tincture of Disfigurement. If applied to an area of the body, the tincture causes severe and painful acid burns that last for {@dice 1d4} hours. After 1 minute of severe pain, the wound begins to heal and the pain subsides. A disfigured skin scarification is in place of the skin that the tincture was applied to. The scars fully heal after {@di8ce 1d4} hours and the creature's appearance is returned to normal.",
@@ -1875,11 +3029,12 @@
 		},
 		{
 			"name": "Elemental Fang, Fire",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "lance|phb",
 			"reqAttune": true,
+			"type": "Guild Shop Weapon",
 			"value": 600000,
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
@@ -1890,11 +3045,12 @@
 		},
 		{
 			"name": "Elemental Fang, Cold",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "lance|phb",
 			"reqAttune": true,
+			"type": "Guild Shop Weapon",
 			"value": 600000,
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
@@ -1905,11 +3061,12 @@
 		},
 		{
 			"name": "Elemental Fang, Acid",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "lance|phb",
 			"reqAttune": true,
+			"type": "Guild Shop Weapon",
 			"value": 600000,
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
@@ -1920,11 +3077,12 @@
 		},
 		{
 			"name": "Elemental Fang, Lightning",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"tier": "major",
 			"baseItem": "lance|phb",
 			"reqAttune": true,
+			"type": "Guild Shop Weapon",
 			"value": 600000,
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
@@ -1935,11 +3093,12 @@
 		},
 		{
 			"name": "Stormcaller",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"baseItem": "longbow|phb",
 			"reqAttune": true,
+			"type": "Guild Shop Weapon",
 			"value": 2500000,
 			"entries": [
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
@@ -1952,10 +3111,11 @@
 		},
 		{
 			"name": "Sigil of the Claw",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical."
@@ -1963,11 +3123,12 @@
 		},
 		{
 			"name": "Knave's Eye Patch",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"value": 600000,
 			"tier": "major",
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"entries": [
 				"While wearing this eye patch, you gain these benefits:",
 				{
@@ -1982,12 +3143,13 @@
 		},
 		{
 			"name": "Bracer of Flying Daggers",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "very rare",
 			"tier": "major",
 			"value": 2500000,
 			"weight": 0.2,
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"entries": [
 				"This armband appears to have thin {@item dagger|phb|daggers} strapped to it. As an action, you can pull up to two magic daggers from the bracer and immediately hurl them, making a ranged attack with each dagger. A dagger vanishes if you don't hurl it right away, and the daggers disappear right after they hit or miss. The bracer never runs out of daggers.",
 				"As a bonus action, the thrower can call back two of the illusory daggers, forcing all creatures in a line from where the daggers were launched to make a Dexterity saving throw (DC 8 + your proficiency bonus + your Dexterity modifier). On a failed save, those creatures take {@dice 2d4} piercing damage.",
@@ -1997,9 +3159,11 @@
 		},
 		{
 			"name": "Night Caller",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"value": 60000,
+			"weight": 0.05,
+			"type": "Guild Shop Item",
 			"weight": 1,
 			"entries": [
 				"This whistle is carved from transparent crystal, and it resembles a tiny dragon curled up like a snail. The name Night Caller is etched on the whistle in Dwarvish runes. If a character succeeds on a DC 20 Intelligence ({@skill Arcana} or {@skill History}) check, the character recalls lore that says the {@creature duergar} made several such whistles for various groups in an age past.",
@@ -2012,8 +3176,9 @@
 		},
 		{
 			"name": "Amulet of the Drunkard",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"weight": 0.2,
 			"entries": [
@@ -2022,11 +3187,12 @@
 		},
 		{
 			"name": "Blood Spear",
-			"source": "SSRPGS",
+			"source": "GS",
 			"baseItem": "spear|phb",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
+			"type": "Guild Shop Weapon",
 			"weight": 3,
 			"property": [
 				"T",
@@ -2043,8 +3209,9 @@
 		},
 		{
 			"name": "Balloon Pack",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
+			"type": "Guild Shop Item",
 			"value": 60000,
 			"entries": [
 				"This backpack contains the spirit of an {@creature air elemental} and a compact leather balloon. While you're wearing the backpack, you can deploy the balloon as an action and gain the effect of the {@spell levitate} spell for 10 minutes, targeting yourself and requiring no concentration. Alternatively, you can use a reaction to deploy the balloon when you're falling and gain the effect of the {@spell feather fall} spell for yourself.",
@@ -2058,11 +3225,12 @@
 		},
 		{
 			"name": "Bottled Breath",
-			"source": "SSRPGS",
+			"source": "GS",
 			"type": "P",
 			"rarity": "uncommon",
 			"value": 30000,
 			"weight": 0.5,
+			"type": "Guild Shop Item, consumable",
 			"entries": [
 				"This bottle contains a breath of elemental air. When you inhale it, you either exhale it or hold it.",
 				"If you exhale the breath, you gain the effect of the {@spell gust of wind} spell. If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn't give you the benefit of exhaling the breath."
@@ -2073,9 +3241,10 @@
 		},
 		{
 			"name": "Paper Bird",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"value": 30000,
+			"type": "Guild Shop Item, consumable",
 			"entries": [
 				"After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
 				"The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (\u22125) in all other abilities, and it is immune to poison and psychic damage.",
@@ -2085,10 +3254,11 @@
 		},
 		{
 			"name": "Needle of Mending",
-			"source": "SSRPGS",
+			"source": "GS",
 			"baseItem": "dagger|PHB",
 			"rarity": "rare",
 			"value": 600000,
+			"type": "Guild Shop Weapon",
 			"reqAttune": true,
 			"weight": 1,
 			"property": [
@@ -2110,10 +3280,11 @@
 		},
 		{
 			"name": "Robe of Serpents",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
+			"type": "Guild Shop Item",
 			"entries": [
 				"A robe of serpents is a stylish silk garment that is popular among wealthy nobles and retired assassins. The robe is emblazoned with {@dice 1d4 + 3} stylized serpents, all brightly colored.",
 				"As a bonus action on your turn, you can transform one of the robe's serpents into a {@creature giant poisonous snake}. The snake instantly falls from the robe, slithers into an unoccupied space next to you, and acts on your initiative count. The snake can tell friendly creatures from hostile ones and attacks the latter. The snake disappears in a harmless puff of smoke after 1 hour, when it drops to 0 hit points, or when you dismiss it (no action required). Once detached, a snake can't return to the robe. When all of the robe's snakes have detached, the robe becomes a nonmagical garment."
@@ -2121,9 +3292,10 @@
 		},
 		{
 			"name": "Robe of Summer",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "rare",
 			"value": 600000,
+			"type": "Guild Shop Item",
 			"reqAttune": true,
 			"weight": 1,
 			"entries": [
@@ -2132,8 +3304,9 @@
 		},
 		{
 			"name": "Seeker Dart",
-			"source": "SSRPGS",
+			"source": "GS",
 			"baseItem": "dart|phb",
+			"type": "Guild Shop Weapon",
 			"rarity": "uncommon",
 			"value": 60000,
 			"weight": 0.25,
@@ -2152,8 +3325,9 @@
 		},
 		{
 			"name": "Two-Birds Sling",
-			"source": "SSRPGS",
+			"source": "GS",
 			"baseItem": "sling|phb",
+			"type": "Guild Shop Weapon",
 			"rarity": "uncommon",
 			"reqAttune": false,
 			"value": 60000,
@@ -2168,7 +3342,8 @@
 		},
 		{
 			"name": "Spell Rifle",
-			"source": "SSRPGS",
+			"source": "GS",
+			"type": "Guild Shop Item",
 			"rarity": "uncommon",
 			"reqAttune": false,
 			"value": 60000,
@@ -2183,9 +3358,11 @@
 		},
 		{
 			"name": "Dodecahedron of Doom",
-			"source": "SSRPGS",
+			"source": "GS",
+			"rarity": "uncommon",
 			"value": 600000,
 			"rarity": "rare",
+			"type": "Guild Shop Item",
 			"entries": [
 				"This twelve-sided metal die is 12 inches across and bears the numbers 1 through 12 engraved on its pentagonal sides. The dodecahedron contains arcane clockwork mechanisms that whir and click whenever the die is cast.",
 				"The dodecahedron can be hurled up to 60 feet as an action. A random magical effect occurs when the die comes to rest after rolling across the ground for at least 10 feet. If an effect requires a target and no eligible target is within range, nothing happens. Spells cast by the dodecahedron require no components. Roll a {@dice d12} and consult the following table to determine the effect:",
@@ -2237,8 +3414,9 @@
 		},
 		{
 			"name": "Staff of the Ivory Claw",
-			"source": "SSRPGS",
+			"source": "GS",
 			"baseItem": "staff|phb",
+			"type": "Guild Shop Weapon",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
 			"value": 600000,
@@ -2252,8 +3430,9 @@
 		},
 		{
 			"name": "Staff of Defense",
-			"source": "SSRPGS",
+			"source": "GS",
 			"baseItem": "staff|phb",
+			"type": "Guild Shop Weapon",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
 			"value": 600000,
@@ -2269,8 +3448,9 @@
 		},
 		{
 			"name": "Ring of Temporal Salvation",
-			"source": "SSRPGS",
+			"source": "GS",
 			"value": 600000,
+			"type": "Guild Shop Item",
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
@@ -2280,7 +3460,8 @@
 		},
 		{
 			"name": "Ventilating Lungs",
-			"source": "SSRPGS",
+			"source": "GS",
+			"type": "Guild Shop Item",
 			"value": 600000,
 			"rarity": "rare",
 			"reqAttune": true,
@@ -2299,9 +3480,10 @@
 		},
 		{
 			"name": "Dead Man's Plate",
-			"source": "SSRPGS",
+			"source": "GS",
 			"baseItem": "plate armor|phb",
 			"value": 600000,
+			"type": "Guild Shop Item",
 			"rarity": "rare",
 			"reqAttune": false,
 			"entries": [
@@ -2312,9 +3494,10 @@
 		},
 		{
 			"name": "Bag of Bounty",
-			"source": "SSRPGS",
+			"source": "GS",
 			"rarity": "uncommon",
 			"value": 60000,
+			"type": "Guild Shop Item",
 			"entries": [
 				"This is a sturdy leather sack with tiny Siberys shards embedded into the lining. You can use an action to cast create food and water, drawing a feast from within the bag. You shape this meal with your thoughts. You can create the standard bland fare without requiring any sort of check, but you can attempt to create finer food by making a Charisma check; if you're proficient with cook's utensils, add your bonus to this check. A failed check results in a sour and squalid meal.",
 				{
@@ -2356,7 +3539,8 @@
 		},
 		{
 			"name": "Ring of Truth Telling",
-			"source": "SSRPGS",
+			"source": "GS",
+			"type": "Guild Shop Item",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
@@ -2366,7 +3550,8 @@
 		},
 		{
 			"name": "Ring of Obscuring",
-			"source": "SSRPGS",
+			"source": "GS",
+			"type": "Guild Shop Item",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
@@ -2381,13 +3566,245 @@
 		},
 		{
 			"name": "Zelo's Morning After Pills",
-			"source": "SSRPGS",
+			"source": "GS",
+			"type": "Guild Shop Item",
 			"rarity": "common",
 			"value": 15000,
 			"reqAttune": false,
 			"entries": [
 				"A pill container filled with small white pills. Each container has 30 pills, of which a single pill can be used to accelerate the effects of being drunk. One pill while drunk will leave you with a hangover. One pill while hung over will leave you lucid. Two pills while drunk will leave you lucid.",
 				"{@italic Item designed by @Mr.Philanthropic#0001.}"
+			]
+		},
+		{
+			"name": "Aura of the Dragon",
+			"source": "Arisen",
+			"tier": "major",
+			"rarity": "legendary",
+			"weaponCategory": "martial",
+			"property": [
+				"2H",
+				"H",
+				"AR"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"reqAttune": true,
+			"entries": [
+				"{@italic This is the weapon of Bruniik, modified to be used by Tactus Agmulf.}",
+				"The Aura of the Dragon has seeped inside your soul, granting your mind focus and turning your fists to steel. This weapon represents a mastery of Bruniik's teachings—but the growth of a student never ends. While you may have succeeded in Bruniik's rigorous combat training, the true training involves the soul, and the heart.",
+				"Attacking is a matter of projecting your aura outwards. Instilling the fortitude wrought by your mental training into the minds of your opponents. Such mastery of the draconic arts does not come lightly, however. You have begun to grow scales along your upper neck and arms. Rough and filled with heart, just like the training you were put through.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"{@bold Knowledge of the Dragon}. While attuned to this weapon, your maximum {@italic knowledge points} increase by 2.",
+				"{@bold Mind of Focus}. While this weapon equipped, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type.",
+				"{@bold Structure Mastery}. Whenever you hit an object with this weapon, the hit is a critical hit.",
+				"{@bold Fist of Steel}. When you successfully hit with this weapon, you can choose to expend a number of knowledge points up to your maximum in order to enact one of the following effects:",
+									{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Knowledge Points",
+													"Effect"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"{@bold 1 KP}",
+														"Instead of its normal damage, your weapon now deals {@dice 2d6} radiant and {@dice 1d6} bludgeoning damage until the end of your turn."
+													],
+													[
+														"{@bold 2 KP}",
+														"The creature you hit must make a Constitution saving throw (DC 8 + your proficiency bonus + your Strength modifier). On a failed save, their initiative drops by {@dice 1d6}. If they would drop one or more turns in initiative, they are {@condition stunned} until the end of your next turn."
+													],
+													[
+														"{@bold 5 KP}",
+														"Starting from the point at which you activate this ability, you regain half of the damage you deal as hit points until the end of your turn."
+													],
+													[
+														"{@bold 8 KP}",
+														"You implant a part of your soul into the creature you hit, ravaging their body from the inside-out. That creature must make a Strength, Constitution, and Charisma saving throw (DC + your proficiency bonus + your Constitution modifier). On one or more failed saves, that creature unattunes to a number of items in their possession and falls {@condition unconscious} for a number of rounds equal to the amount of failed saves they made, starting from the lowest rarity item and onwards."
+													]
+												]
+											}
+										]
+									},
+				"",
+				""
+			]
+		},
+		{
+			"name": "Mystletainn",
+			"source": "Arisen",
+			"tier": "major",
+			"rarity": "legendary",
+			"weaponCategory": "martial",
+			"property": [
+				"R",
+				"AR",
+				"S"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"reqAttune": true,
+			"entries": [
+				"{@italic This is the weapon of Mistel, modified to be used by Lancelot Laurent.}",
+				"Mystletainn is a beautiful sword. A blade crafted from the purest iron, purified through sanctimonious tradition and made holy by its divine connection to knighthood and the oaths to which Mistel's followers uphold. Having reached the apex of your power, Mistel has bestowed you a replica of her blade.",
+				"The mythos surrounding the blade grants it much Mystery, and its very design is the product of secrets that may never be discovered for as long as Mistel's knighthood reigns. Legends state the blade has the dormant power to multiply into two swords: Mystletainn and Misteltein. This is the power Lancelot Laurent has unlocked within the blade.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"{@bold Knight of Mistel}. You are supernaturally aware of any aberrations, celestials, elementals, fey, fiends, and undead within 100-feet of you while attuned to Mystletainn. In addition, you cannot be possessed by creatures of those types.",
+				"{@bold The Second Blade}. As an object interaction while Mystletainn is drawn, you can manifest its second half in an adjacent hand: Misteltein. Misteltein is a greatsword that deals {@dice 2d6} slashing damage, and maintains the same properties as Mystletainn (including its +2 bonus to attack and damage rolls).",
+				"{@bold Divine Authority}. You have advantage on checks and saving throws made to inflict the {@condition charmed} or {@condition frightened} conditions while attuned to this weapon, and the spell {@spell command} automatically fails on you. In addition, if you enter your Grand Celestia form while attuned to this weapon, you gain truesight up to 30-feet.",
+				"{@bold Celestial Assertion}. You have been granted 6 mastery points as per your contract with Mistel, which you have access to while attuned to this weapon. You can spend a specified number of mastery points in order to activate any following abilities (assuming you meet their activation requirements). You regain all expended mastery points on a long rest.",
+									{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Mastery Points",
+													"Effect"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"{@bold 2 MP}",
+														"After attacking twice (once with Mystletainn and once with Misteltein), you can expend 2 mastery points to swipe your blades in an arc in front of you. Creatures of your choice within a 2x3 grid in front of you (with the middle column centered on you) must make a Dexterity saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, those creatures take {@dice 4d6} radiant damage and are {@condition blinded} until the end of their next turn."
+													],
+													[
+														"{@bold 2 MP}",
+														"When you take the attack action on your turn, you can expend 2 mastery points and attack with Misteltein as you lunge forward. On a hit, you deal {@dice 3d6} piercing damage (rather than slashing damage) to the target and any creatures of your choice in a 10-foot line behind it. In addition, you grant your attacks advantage until the end of your turn. If you already have advantage, your attacks instead gain an additional +2 to damage until the end of your next turn. Finally, the creature you hit cannot use their reaction to take attacks of opportunity against you until the end of their next turn."
+													],
+													[
+														"{@bold 1 MP}",
+														"Upon your first or third attack with Misteltein, you can expend 2 mastery points to tap into your divine connection with Mistel, drawing upon her strength as you ready yourself and your companions for battle. You and any creature you have bestowed your Boon of Knighthood upon heal for {@dice 2d10} hit points and gain {@dice 3d10} temporary hit points."
+													],
+													[
+														"{@bold 0 MP}",
+														"As a bonus action on your turn, you can expend a spell slot to gain a number of mastery points equal to its level (up to 3). You cannot increase your mastery points above 6 this way."
+													]
+												]
+											}
+										]
+									},
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You have disadvantage when you use Mystletainn to attack a target within 5 feet of you. Also, Mystletainn requires two hands to wield when you aren't mounted."
+					]
+				},
+				"",
+				""
+			]
+		},
+		{
+			"name": "Red Magnum",
+			"source": "Arisen",
+			"tier": "major",
+			"rarity": "legendary",
+			"weaponCategory": "martial",
+			"property": [
+				"RE",
+				"AM",
+				"A",
+				"AR"
+			],
+			"dmg1": "2d6",
+			"dmgType": "psychic",
+			"range": "60/240",
+			"reload": "2",
+			"ammo": "no cost",
+			"reqAttune": true,
+			"entries": [
+				"{@italic This is the weapon of Krurm, modified to be used by Korth Axe.}",
+				"The Red Magnum was forged in the flames of Onios, using a modified dual-ingot casting which combines pigblood and demonsteel into a fortified union. It is said to be as strong as Krurm himself, and as durable as his signature weapon: Woebringer.",
+				"As a newly-forged weapon, its Mystery is low, but it more than makes up for that fact with its demonic power, granted to it by Krurm himself. As such, one could make the claim that Red Magnum has just as much Mystery as Krurm. Using the demonic energy in its barrel, one can fire Red Magnum using their own strength.",
+				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+				"{@bold Demonic Energy Chamber}. When making a ranged attack with this weapon, you use your Strength modifier instead of your Dexterity modifier for the attack and damage rolls.",
+				"{@bold You Fear Me Now}. You are immune to the {@condition frightened} condition. In addition, when a creature attempts to frighten you, you can use a reaction to manifest your aura of intimidation, war, and defilement. Expend one use of your Guided by the God of War feature, and that creature must make a Wisdom saving throw with its DC. On a failed save, that creature becomes {@condition frightened} and their movement speed becomes 0, or have their speed reduced by half on a successful save. Fiends have disadvantage on this save, and creatures immune to the {@condition frightened} condition autopass this save.",
+				"{@bold Battle Planning}.You have a list of fiends who you have dominated on the fields of combat as part of the Blood War. When you take a long rest, you can select 3 creatures on your fiend list to add to your prepared list. You cannot swap out creatures from your prepared list until you finish another long rest.",
+				"{@bold Blood War}. You have trained in the heart of Onios, and have manifested 12 blood points as per your contract with Krurm. You can spend a number of blood points as an action on your turn to summon a number of fiends from your prepared list decided by you. The CR of the creatures you summon must add up to the amount of blood points you expend. You regain all expended blood points on a long rest.",
+									{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Blood Points",
+													"Fiend List"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"{@bold 1 BP}",
+														"{@creature vargouille|VGM}"
+													],
+													[
+														"{@bold 2 BP}",
+														"{@creature wind demon|CCodex}"
+													],
+													[
+														"{@bold 3 BP}",
+														"{@creature hell hound|MM}"
+													],
+													[
+														"{@bold 4 BP}",
+														"{@creature dybbuk|MTF}, {@creature merregon|MTF}"
+													],
+													[
+														"{@bold 5 BP}",
+														"{@creature barlgura|MM}"
+													],
+													[
+														"{@bold 6 BP}",
+														"{@creature white abishai|MTF}"
+													],
+													[
+														"{@bold 7 BP}",
+														"{@creature black abishai|MTF}, {@creature armanite|MTF}"
+													],
+													[
+														"{@bold 8 BP}",
+														"{@creature canoloth|MTF}"
+													],
+													[
+														"{@bold 9 BP}",
+														"{@creature nycaloth|MM}"
+													],
+													[
+														"{@bold 10 BP}",
+														"{@creature orthon|MTF}"
+													],
+													[
+														"{@bold 11 BP}",
+														"{@creature yagnoloth|MTF}"
+													],
+													[
+														"{@bold 12 BP}",
+														"{@creature erinyes|MM}"
+													]
+												]
+											}
+										]
+									},
+				{
+				},
+				"",
+				""
 			]
 		}
 	]
