@@ -819,7 +819,6 @@
 			"ammo": "2 gp for 20",
 			"dmgType": "P",
 			"sword": true,
-			"sword": true,
 			"weapon": true,
 			"entries": [
 			]
@@ -844,7 +843,6 @@
 			"misfire": "1",
 			"ammo": "4 gp for 20",
 			"dmgType": "P",
-			"sword": true,
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -923,7 +921,6 @@
 			"ammo": "5 gp for 20",
 			"dmgType": "P",
 			"sword": true,
-			"sword": true,
 			"weapon": true,
 			"entries": [
 			]
@@ -948,7 +945,6 @@
 			"misfire": "2",
 			"ammo": "4 gp for 20",
 			"dmgType": "P",
-			"sword": true,
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -976,7 +972,6 @@
 			"misfire": "1",
 			"ammo": "5 gp for 5",
 			"dmgType": "P",
-			"sword": true,
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -1013,7 +1008,6 @@
 			"ammo": "5 gp for 5",
 			"dmgType": "P",
 			"sword": true,
-			"sword": true,
 			"weapon": true,
 			"entries": [
 				{
@@ -1049,7 +1043,6 @@
 			"ammo": "10 gp for 1",
 			"dmgType": "F",
 			"sword": true,
-			"sword": true,
 			"weapon": true,
 			"entries": [
 			]
@@ -1075,7 +1068,6 @@
 			"misfire": "3",
 			"ammo": "10 gp for 5",
 			"dmgType": "P",
-			"sword": true,
 			"sword": true,
 			"weapon": true,
 			"entries": [
@@ -3225,7 +3217,6 @@
 		{
 			"name": "Bottled Breath",
 			"source": "GS",
-			"type": "P",
 			"rarity": "uncommon",
 			"value": 30000,
 			"weight": 0.5,
