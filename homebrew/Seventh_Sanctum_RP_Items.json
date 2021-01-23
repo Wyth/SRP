@@ -48,6 +48,272 @@
 		"dateAdded": 0,
 		"dateLastModified": 1954236505
 	},
+	"itemProperty": [
+	{
+		"abbreviation": "AM",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Ammo+",
+				"entries": [
+					"This weapon requires advanced ammunition to fire, usually gunpowder, bullets, or magazines."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "AN",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Alternate Name"
+			}
+		]
+	},
+	{
+		"abbreviation": "AR",
+		"source": "SRPAI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Arisen Weapon",
+				"entries": [
+					"So long as you remain bound to your Arisen, you are considered proficient in this weapon. If you ever are to become unbound to your Arisen, the weapon vanishes, and so do any benefits it gives.",
+					"No creature other than the bonded target may use or hold this weapon—the action becomes physically impossible whenever attempted. In addition, you gain the ability to summon this weapon as a bonus action on your turn, causing it to instantly appear equipped onto your form and become attuned (if you have a free attunement slot)."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "AUTO",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Automatic Weapon",
+				"entries": [
+					"Automatic weapons have a unique reload system from other firearms, and as such, feats or class features that allow you to ignore the reload property do not work on automatic weapons."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "AUTOF",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Automatic Fire",
+				"entries": [
+					"As an attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. This saving throw changes depending on the stat you use to make your ranged firearm attacks. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "CON",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Concealed",
+				"entries": [
+					"This weapon is not immediately obvious, and may be easily hidden or disguised as something else. A person attempting to locate the presence of this weapon must succeed on an {@skill Investigation} check opposed by a {@skill Stealth} check on the part of the character with the weapon equipped. Attacks with this weapon against creatures aware of you yet unaware of the weapon's presence are made with advantage."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "DI",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Disarm Immune",
+				"entries": [
+					"Any weapon that carries this property may not unwillingly be removed from your grasp while you remain conscious."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "DW",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Double Weapon",
+				"entries": [
+					"A weapon with this property may be wielded as one weapon, or as two separate weapons both considered to be light. When wielded as one weapon, the weapon may still be one or two-handed, depending on its other properties. A weapon with this property lists to sets of damage die with it, the first for the main-hand of this weapon, the second for the off-hand, and damage on both sides of a double weapon are the same as if it were wielded as a single weapon. Held as a double weapon, one hand or the other may have additional properties, listed alongside their respective damage die. Properties on the weapon (aside from two-handed) apply to both halves of the double weapon, as well."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "EX",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Explosive",
+				"entries": [
+					"On a hit, every creature within 5 feet of the target much make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer {@dice 1d8} fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so. Explosive weapons will also damage terrain (if applicable)."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "GR",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Grappling",
+				"entries": [
+					"If a weapon has this property, an attack made with this weapon against an enemy in range of the weapon or within the weapon's reach may instead be made as a grapple. If the weapon carries the finesse property as well, the grapple may be made and maintained with a Dexterity check rather than an {@skill Athletics} check. If the weapon is ranged, the target's {@skill Athletics} or {@skill Acrobatics} checks to escape the grapple are made against a DC equal to 10 + your Strength modifier."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "MI",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Misfire",
+				"entries": [
+					"Whenever you make an attack roll with a firearm, and the die roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful {@item Tinker's tools|phb} check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at the quarter of a cost of a firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "RE",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Reload",
+				"entries": [
+					"This weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "RET",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Returning",
+				"entries": [
+					"When a thrown weapon also carrying the returning property is thrown as part of an attack, it returns to its wielder immediately after the attack. When throwing a returning weapon, you can choose to not have it return in order to add 5 feet to its short range and 10 feet to its long range."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "RF",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Rapid Fire",
+				"entries": [
+					"As an attack action, you can make a special attack against one target creature within range. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a ranged weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}. You can only Rapid Fire a weapon once per turn."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "SC",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Scatter",
+				"entries": [
+					"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have. The Scatter property is unaffected by the Sharpshooter feat."
+				]
+			}
+		]
+	},
+	{
+		"abbreviation": "UN",
+		"source": "SRPHBI",
+		"entries": [
+			{
+				"type": "entries",
+				"name": "Unarmed",
+				"entries": [
+					"When you make an unarmed strike, you can choose to have the attack deal damage equal to the damage of this weapon, rather than your normal unarmed strike damage. In addition, your hands are considered free for the purposes of object interactions and grappling."
+				]
+			}
+		]
+	}
+	],
+	"itemType": [
+		{
+			"abbreviation": "TI",
+			"source": "SRPHBI",
+			"name": "Technological Item",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Technological",
+					"entries": [
+						"As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "GSI",
+			"source": "SRPGS",
+			"name": "Guild Shop Item",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Guild Shop Item",
+					"entries": [
+						"This item is only purchasable through the guild shop."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "GSW",
+			"source": "SRPGS",
+			"name": "Guild Shop Weapon",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Guild Shop Weapon",
+					"entries": [
+						"This weapon is only purchasable through the guild shop."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CONS",
+			"source": "SRPGS",
+			"name": "Consumable",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Consumable",
+					"entries": [
+						"This item is consumed on use."
+					]
+				}
+			]
+		}
+	],
 	"item": [
 		{
 			"name": "Katana",
@@ -547,7 +813,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 0.1,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 10000,
 			"entries": [
 				"Headphones are a pair of earphones joined by a band placed over the head, for listening to audio signals such as music or speech. They can be connected using an audio jack attached to a wire (or ocassionally, through a wireless pairing mechanism known as bluetooth) in order to receive audio files from an output device (usually a smartphone, music player, or equivalent).",
@@ -561,7 +827,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 0.2,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 50000,
 			"entries": [
 				"A mobile phone that performs many of the functions of a computer, typically having a touchscreen interface, Internet access, and an operating system capable of running downloaded applications.",
@@ -579,7 +845,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 2,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 30000,
 			"entries": [
 				"Flashlights come in a wide variety of sizes and quality levels. Those covered here are professional, heavy-duty models, rugged enough to withstand the rigors of modern adventuring.",
@@ -596,7 +862,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 0.01,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 2500,
 			"entries": [
 				"These batteries can be used to power most items that state they require them. Any device that uses batteries comes with them. Different items require varying amount of batteries, shown by the following list:",
@@ -611,7 +877,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 0.01,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 7500,
 			"entries": [
 				"These batteries can be used to power most items that state they require them. Any device that uses batteries comes with them. Different items require varying amount of batteries, shown by the following list:",
@@ -626,7 +892,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 1,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 1500,
 			"entries": [
 				"This disposable plastic stick, when activated, uses a chemical reaction to create light for 6 hours. It illuminates an area only 5 feet in radius. Once activated, it can’t be turned off or reused.ss",
@@ -638,7 +904,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 5,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 10000,
 			"entries": [
 				"This apparatus covers the face and connects to a chemical air filter canister to protect the lungs and eyes from toxic gases. It provides total protection from eye and lung irritants. The filter canister lasts for 12 hours of use. Changing a filter is an action. The value for one extra filter canister is 6 gold.",
@@ -650,7 +916,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 22,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 5000,
 			"entries": [
 				"This device is designed to help the police end car chases. The strip comes rolled in a spool about the size of a small suitcase. It can be deployed as an action by rolling it across a roadway, where it lies like a flat, segmented belt (at maximum it extends 15 by 5 feet). Until the strip is activated, the spikes do not protrude, and cars can pass safely over it. You can activate it as a reaction via a control device attached to the end of the strip by a 10-foot-long cord, causing the spikes to extend.",
@@ -664,7 +930,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 1,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 1000,
 			"entries": [
 				"Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any Medium-size or Small human or other creature that has an appropriate body structure. You can make an opposed Strength ({@skill Athletics}) check against a grappled creature to attach the handcuffs to the creature, putting them under the {@condition restrained} condition.",
@@ -678,7 +944,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 0.05,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 500,
 			"entries": [
 				"Handcuffs are restraints designed to lock two limbs—normally the wrists—of a prisoner together. They fit any Medium-size or Small human or other creature that has an appropriate body structure. You can make an opposed Strength ({@skill Athletics}) check against a grappled creature to attach the handcuffs to the creature, putting them under the {@condition restrained} condition.",
@@ -691,7 +957,7 @@
 			"source": "SRPHBI",
 			"rarity": "none",
 			"weight": 0.5,
-			"type": "Technological Item",
+			"type": "TI",
 			"value": 35000,
 			"entries": [
 				"This small metal device fits in your hand like a charm, and is loosely equipped with a few functions, the primary of which allow its user to record the vocal utterances of another creature.",
@@ -1110,7 +1376,7 @@
 			"tier": "major",
 			"reqAttune": true,
 			"weight": 3,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"This decorated longsword appears to be a simple showpiece and not meant for battle. When sheathed at the hip of the wearer the hilt of the blade gives off a bright blue and gold shine.",
@@ -1132,7 +1398,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"While this feather is equipped on your person, you can use a bonus action to make your hair dramatically blow in a nonexistent breeze.",
@@ -1146,7 +1412,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.35,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"This simple wooden box, seemingly crafted with shoddy materials, creates {@dice 1d4} harmless spiders every week.",
@@ -1160,7 +1426,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.5,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"This mug has a slot on its side, just large enough to fit a coin. Slotting in 10 copper coins will produce a mild-flavored ale or beer (accompanied by an arcade-style ding for each coin slotted in).",
@@ -1176,7 +1442,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"This ring turns invisible when worn.",
@@ -1190,7 +1456,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.35,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"A white eyeglass that extend outwards 1-foot, decorated with strange gold markings. Looking through this glass allows you to see yourself as if you were looking at yourself from afar. It's often called the &quot;Stalking Glass&quot;.",
@@ -1204,7 +1470,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.5,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"This dazzling belt reflects anything against the buckle with serene clarity, and cannot be smudged by even the grimiest of fingerprints. The buckle is shaped like a large letter &quot;Q&quot;, and looks unnecessarily gaudy.",
@@ -1327,7 +1593,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 60000,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with these obsidian weapons of demonic make.",
@@ -1353,7 +1619,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 60000,
 			"entries": [
 				"When this weapon is thrown as part of an attack, it returns to its wielder immediately after the attack.",
@@ -1383,7 +1649,7 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 60000,
 			"entries": [
 				"{@italic Do you suck at reading maps? At telling which way is north, south, east, weast?! Fear no more! The Cap of the Cartographer is just what you need!}",
@@ -1397,7 +1663,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 600000,
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -1428,7 +1694,7 @@
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 2500000,
 			"entries": [
 				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
@@ -1460,7 +1726,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"This iron shield has a small glass domed boss at its center, filled with mystic water that houses two koi fish which perpetually circle one another. The koi fish can bring forth good fortune, but only when left at rest.",
@@ -1477,7 +1743,7 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 65000,
 			"entries": [
 				"{@italic Avel Caelora doesn't have phones? Not for much longer! We here at Arvhim Technology are spreading the wondrous technology the Pear Phone&trade; to the masses!}",
@@ -1491,7 +1757,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"This custom-built machine (designed to be used by Solar Sailors in the Skywatcher Grand Prix) is designed to be small enough to be carried and even used for fast transport when travelling. Their quick-activation and portability make them a smart option for those in Accord who wish to get around quickly and faster than the required effort to retrieve a crew and pilot an airship.",
@@ -1508,7 +1774,10 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 600000,
 			"entries": [
 				{
@@ -1573,7 +1842,10 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": true,
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 60000,
 			"entries": [
 				{
@@ -1627,7 +1899,7 @@
 		{
 			"name": "Lightning Lashed",
 			"source": "SRPGS",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"tier": "major",
 			"rarity": "rare",
 			"value": 600000,
@@ -1657,7 +1929,7 @@
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 2500000,
 			"entries": [
 				"A long, pitch black, whip with metal tips which is said to have caused more than a few red cheeks.",
@@ -1677,7 +1949,7 @@
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 2500000,
 			"entries": [
 				"This complete suit of plate armor is missing its helmet, and only a glance is needed to reveal a chilling aura. It was found on the body of a headless horseman slain by a high-ranking adventuring party, and beyond that, nothing else is known.",
@@ -1707,7 +1979,10 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": "by a psionic spellcaster",
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 60000,
 			"entries": [
 				"The Casting Assistant Device, better known as CAD, is a spell support processor. This device incorporates synthetic materials (artificially manufactured Neurons) that convert Psion signals into electric signals, using the Psion from a magic ritual (sequence) to produce a collection of electronic magic—the Activation Sequence of a spell.",
@@ -1726,7 +2001,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": "by a spellcaster",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 600000,
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -1743,7 +2018,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": "by a bard",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"These colorful picks attach to your fingers and allow for vibrant strumming. You can click your picks together in order to manifest a small sound that travels no further than 30 feet, so long as that sound is percussive in nature. Each pick is inscribed with a singular glyph from a runic alphabet. Translation is currently impossible—although really, nobody wants to know what they say anyway.",
@@ -1764,7 +2039,7 @@
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"This metal shoulder guard is always chilly to the touch.  While worn, willfully ignoring another humanoid's attempt to converse with you causes them to experience a sensation of chills running down their spine.",
@@ -1777,7 +2052,10 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 30000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;General-Purpose Centaur CAD&quot;, and gives it the following effect:",
@@ -1797,7 +2075,10 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 300000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;No Head Dragon CAD&quot;, and gives it the following effect:",
@@ -1817,7 +2098,10 @@
 			"rarity": "very rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 1250000,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Taurus Silver CAD&quot;, and gives it the following effect:",
@@ -1837,7 +2121,10 @@
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 1250000,
 			"entries": [
 				"Upon consuming this crystal-infused black elixir, your arms begin to bulge and pulsate, transforming into long, slimy tentacles.",
@@ -1853,7 +2140,10 @@
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 7500,
 			"entries": [
 				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Experiment Realizer CAD&quot;, and gives it the following effect:",
@@ -1873,7 +2163,10 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": "by a spellcaster",
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 60000,
 			"entries": [
 				"The Universal Tuning Device, better known as UTD, is a spell support processor. This device incorporates synthetic materials (artificially manufactured Neurons) that convert Psion signals into electric signals, using the Psion from a magic ritual (sequence) to produce a collection of electronic magic—the Activation Sequence of a spell.",
@@ -1891,7 +2184,10 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 30000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Quick Tuning UTD&quot;, and gives it the following effect:",
@@ -1911,7 +2207,10 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 300000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Evolution Tuning UTD&quot;, and gives it the following effect:",
@@ -1931,7 +2230,10 @@
 			"rarity": "very rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 1250000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Accel Ultima UTD&quot;, and gives it the following effect:",
@@ -1951,7 +2253,10 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 30000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Medica Silver UTD&quot;, and gives it the following effect:",
@@ -1971,7 +2276,7 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Grand Accel UTD&quot;, and gives it the following effect:",
@@ -1991,7 +2296,7 @@
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 2500000,
 			"entries": [
 				"You have a +2 to attack and damage rolls made with this magic weapon.",
@@ -2006,7 +2311,10 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 30000,
 			"entries": [
 				"Plastic explosives are a soft and hand-moldable solid form of explosive material. Plastic explosives are especially suited for explosive demolition of obstacles and fortifications by engineers, combat engineers and criminals. It can be cut, formed, wrapped, and combined with others of its type.",
@@ -2023,7 +2331,10 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 30000,
 			"entries": [
 				"Tear gas works by irritating mucous membranes in the eyes, nose, mouth and lungs, and causes crying, sneezing, coughing, difficulty breathing, pain in the eyes, and temporary blindness.",
@@ -2038,7 +2349,7 @@
 			"rarity": "common",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"The extinguisher has 10 charges. As an action, you can expend one charge to extinguish a 5-foot area of fire.",
@@ -2052,7 +2363,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"An infrared goggles has 10 charges. As a bonus action, you can expend one charge to turn them on to see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light for 10 minutes. You can't discern color in darkness and the image color produced is typically monochrome (shades of green or blue).",
@@ -2067,7 +2378,7 @@
 			"rarity": "common",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"A handled portable sensor for detecting bits and pieces of metal in and on the ground. The metal detector has 10 charges. As an action, you can expend one charge to gain advantage on Wisdom ({@skill Perception}) checks you make when searching for metals and metallic objects for 10 minutes.",
@@ -2081,7 +2392,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"A hand-held, portable, two-way radio transceiver. Multiple radios use a single channel, and only one radio on the channel can transmit at a time, although any number can listen. The transceiver is normally in receiving mode and when the user wants to talk he presses a &quot;push-to-talk&quot; button. You can communicate with someone using a two-way radio at the same frequency up to 20 miles.",
@@ -2095,7 +2406,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"A set of clips are attached to this segmented belt constructed of metallic links. Up to two melee weapons or up to four light melee weapons can be hung from the belt in straps or sheaths. These weapons must not have the two-handed or double-bladed property. ",
@@ -2110,7 +2421,7 @@
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 2500000,
 			"entries": [
 				"This item comes in a box-set of two near-indestructible mirrors that can withstand a direct collision with a semi. They are connected through a planar wire that spans the entire Multiverse.",
@@ -2126,7 +2437,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"{@italic &quot;Allow me to take off my training bracelets.&quot;}",
@@ -2145,7 +2456,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"A white cloak with a blue, soft silk interior. Two protrusions rise from the head with an upwards point, leading to cloak receiving a nickname among assassins and spies: &quot;the Cat-Earred Cloak&quot;.",
@@ -2159,7 +2470,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				{
@@ -2234,7 +2545,7 @@
 			"value": 60000,
 			"rarity": "uncommon",
 			"tier": "minor",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"entries": [
 				"An infernal puzzle box is a cube-shaped container 5 to 6 inches on a side, composed of airtight, interlocking parts made from materials found in the Nine Hells. Most of these boxes are made of infernal iron, though some are carved from bone or horn. Infernal puzzle boxes are used to safeguard diabolical contracts signed between devils and mortals, even after the terms of these contracts are fulfilled. An empty infernal puzzle box weighs 3 pounds regardless of the materials used to fashion it.",
 				"When an object small enough to fit inside an infernal puzzle box is placed in it, the container magically seals shut around the object, and no magic can force the box open. The sealed box becomes immune to all damage as well. Every infernal puzzle box is constructed with a unique means of opening it. The trick to solving the puzzle is always mundane, never magical. Once a creature figures out the trick or sequence of steps needed to open a particular infernal puzzle box, that creature can open the box as an action, allowing access to the box's contents.",
@@ -2247,7 +2558,7 @@
 			"value": 60000,
 			"rarity": "uncommon",
 			"tier": "major",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"baseItem": "boomerang|srp",
 			"entries": [
 				"This boomerang is a ranged weapon carved from {@creature griffon} bone and etched with the symbol of elemental air. On a hit, the boomerang deals an additional {@dice 3d4} thunder damage, and the target must succeed on a DC 10 Constitution saving throw or be {@condition stunned} until the end of its next turn.",
@@ -2260,7 +2571,7 @@
 			"value": 600000,
 			"rarity": "rare",
 			"tier": "major",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"baseItem": "dagger|phb",
 			"reqAttune": true,
 			"weight": 1,
@@ -2274,7 +2585,7 @@
 			"value": 60000,
 			"rarity": "uncommon",
 			"tier": "major",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"baseItem": "scimitar|phb",
 			"entries": [
 				"These curved blades trail golden light when swung through the air. You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -2286,7 +2597,7 @@
 			"source": "SRPGS",
 			"value": 60000,
 			"rarity": "uncommon",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"tier": "minor",
 
 			"reqAttune": true,
@@ -2301,7 +2612,7 @@
 			"value": 600000,
 			"reqAttune": true,
 			"tier": "major",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"entries": [
 				"While you wear both of these leather gloves, any non-magical weapon you grasp with either glove is treated as a magic weapon.",
 				"As a bonus action, you can use the gloves to cause magical flames to envelop one or two melee weapons in your grasp. Each flaming weapon deals an extra {@dice 1d6} fire damage on a hit. The flames last until you sheath or let go of either weapon. Once used, this property can't be used again until the next dawn."
@@ -2314,7 +2625,7 @@
 			"value": 60000,
 			"reqAttune": true,
 			"tier": "major",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"entries": [
 				"This metal helmet is set with crystals that change color when exposed to elemental energy.",
 				"While wearing this helm, if you are the target of an attack which would deal acid, cold, fire, lightning, or thunder damage you can use a reaction to adapt to that damage type. While adapted, you have resistance to that damage type. The helm returns to its normal state after ten minutes."
@@ -2326,7 +2637,7 @@
 			"rarity": "rare",
 			"value": 600000,
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"tier": "major",
 			"tattoo": true,
 			"entries": [
@@ -2354,7 +2665,7 @@
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"tier": "major",
 			"tattoo": true,
 			"entries": [
@@ -2382,7 +2693,7 @@
 			"rarity": "common",
 			"value": 1500,
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"tier": "major",
 			"tattoo": true,
 			"entries": [
@@ -2419,7 +2730,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 60000,
 			"entries": [
 				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -2430,7 +2741,7 @@
 			"name": "Bonecounter",
 			"source": "SRPGS",
 			"baseItem": "mace|phb",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"tier": "major",
 			"rarity": "rare",
 			"value": 600000,
@@ -2448,7 +2759,7 @@
 			"source": "SRPGS",
 			"rarity": "rare",
 			"value": 600000,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"tier": "major",
 			"bonusAc": "+1",
 			"entries": [
@@ -2475,7 +2786,7 @@
 		{
 			"name": "Weapon of Resurgence",
 			"source": "SRPGS",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"tier": "major",
 			"rarity": "rare",
 			"value": 600000,
@@ -2505,7 +2816,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.05,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"This dress has many pockets. When someone compliments this dress, you can use your reaction to reply with &quot;Thanks! It has pockets!&quot; When you do, you can stick your hand into any pocket of the dress and pull out any mundane, non-magical, and non-consumable item of your choice. You can only pull out an item once per day per person that compliments the dress. Items pulled out from the dress disappear after 10 minutes.",
@@ -2521,7 +2832,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.02,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"While wearing this circlet, despite their best attempts, creatures in your vicinity will incessantly mispronounce your name. The mispronunciations will generally rhyme with your name, with each's phonetic spelling only being slightly different",
@@ -2535,7 +2846,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"When you blow this whistle, a duck appears behind you. Once you blown on it, you must wait 5 minutes before using it again. Once used, any previous ducks summoned by this whistle disappears, and is replaced by the new duck.",
@@ -2549,7 +2860,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"This dull, gray stone is roughly the size of one's fist, and fits rather snuggly in the palm of one's hand. When a creature is struck with this stone, that creature takes {@dice 1d4} bludgeoning damage, immediately followed by healing for {@dice 1d4} health.",
@@ -2563,7 +2874,7 @@
 			"tier": "major",
 			"reqAttune": false,
 			"weight": 1,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
@@ -2579,7 +2890,10 @@
 			"tier": "major",
 			"reqAttune": true,
 			"weight": 10,
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 60000,
 			"entries": [
 				"This wooden broom, which weighs quite an amount (10 pounds), functions like a mundane (if unwieldly) broom until you stand astride it and pull the chord that acts as its kick-starter. It then launches into the air, with a lever at the side allowing you to rectify it into a hovering position.",
@@ -2598,7 +2912,10 @@
 			"tier": "major",
 			"reqAttune": false,
 			"weight": 10,
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 60000,
 			"entries": [
 				"These, as the young kids call it, hip headphones are some of the most mainstream and popular brand around. They are a sleek black and come in over the ear and bud form. The younger generation of Zyratix considers these a must have when listening to music. ",
@@ -2614,7 +2931,10 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 3,
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 60000,
 			"entries": [
 				"This large contraption has a variety of knobs, dials, and sliders, with a certain instrument designed onto the back. It is often compared to it's smaller alternative, the remixer.",
@@ -2633,7 +2953,10 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.1,
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 60000,
 			"entries": [
 				"This simple metal box is about the size of a match lighter with a small display on its face, with a certain instrument designed onto the back. Often an item used by younger audiences to listen to music,",
@@ -2651,7 +2974,10 @@
 			"tier": "major",
 			"reqAttune": false,
 			"weight": 0.2,
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 600000,
 			"entries": [
 				"This fluorescent baton has an accented glow of a variety of colors ranging from blue, orange, purple, green, and white. It is one foot long but extends to roughly 3 feet.",
@@ -2675,7 +3001,10 @@
 			"tier": "major",
 			"baseItem": "rifle|srp",
 			"reqAttune": false,
-			"type": "Guild Shop Item, Technological Item",
+			"type": [
+				"GSI",
+				"TI"
+			],
 			"value": 600000,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -2690,7 +3019,7 @@
 			"tier": "minor",
 			"reqAttune": false,
 			"weight": 0.01,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"While wearing this cloak, you can use a bonus action to cause a small storm of harmless cherry blossoms to flutter around you.",
@@ -2703,7 +3032,7 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"A set of car keys on a silver ring, with a little black box with a small red button on it.",
@@ -2718,7 +3047,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"This coat is nice and crisp. Black leather runs down the entire frame of your body, like a trenchcoat, and your fancy pauldrons are made fancy with the thin tuffs of fur protruding from their edges. It truly makes you look the part of a captain.",
@@ -2735,7 +3064,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"This rod has 3 charges. While holding the rod, you can use an action to expend one of the rod's charges and create a sphere of force that hovers 3 feet off the ground.",
@@ -2750,7 +3079,7 @@
 			"rarity": "rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				{
@@ -2814,7 +3143,7 @@
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 2500000,
 			"entries": [
 				"This scale glows with a ethereal light, beckoning those who have crossed its waters to obtain it with a glorious melody.",
@@ -2830,7 +3159,7 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"This charm, in the shape of a small golden tongue, hangs from a necklace or strap and glimmers with a brilliant yellow sheen. Occasionally, you think you can hear whispers as if the tongue were attempting to communicate with you, but surely that's just your imagination.",
@@ -2845,7 +3174,7 @@
 			"rarity": "very rare",
 			"tier": "major",
 			"reqAttune": "by a bard, cleric, druid, sorcerer, or wizard",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 2500000,
 			"entries": [
 				"This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: {@spell stone shape} (1 charge), {@spell meld into stone} (2 charges), {@spell move earth} (4 charges), or {@spell wall of stone} (4 charges).",
@@ -2859,7 +3188,7 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"This item can only be used by a bard.",
@@ -2875,7 +3204,7 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": "by a monk",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"This emblem attaches to a piece of clothing or armor via a pin on the backside. The emblem itself shows a golden fist in flight, multiplying to infinity as its afterimages clash alongside it. The backing is made of high-quality silver and steel.",
@@ -2889,7 +3218,7 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": "by a rogue",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"tattoo": true,
 			"entries": [
@@ -2917,7 +3246,7 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": "by a fighter",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"entries": [
 				"These gloves slide over your hands like a thin veil of silk, although they feel coarse and rough. Black in color with spots of green, they make an interesting fashion statement. Thankfully though, fashion isn't the primary reason for donning these gloves.",
@@ -2932,7 +3261,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": "by a spellcaster",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 charge and suddenly transpose two creatures of your choice.",
@@ -2948,7 +3277,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"This figurine of wondrous power is a statuette of no discernible shape, crafted to look like a neckpiece, symbol, or other such fashionable item. Magical teleportation runes etched into the surface betray the figurine's wondrous properties, and a small hook is located near the top in order to allow it to become a necklace.",
@@ -2965,7 +3294,7 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"These small yet powerful magnets are placed on the legs, waist, or back, and are used to hold any equipment with a magnetic property (i.e., metallic objects). Typically, these strips mainly used to holster weapons when not in use, and can be integrated in armor. However, it has been adapted to also be worn without armor using straps. These magnetic strips allows the user to carry weapons with ease up to a maximum of four (up to two weapons with the heavy property). However, this system does not alleviate weight.",
@@ -2980,7 +3309,7 @@
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"A useful item in both Zyrian civilian life and in the military. Medi-Gel is a medical agent produced by the Zaibatsu Corp. It is exported to neighboring countries. It is advanced enough to treat various kinds of wounds from blunt trauma to burns. Medi-Gel can be purchased legally over-the-counter.",
@@ -2995,7 +3324,7 @@
 			"rarity": "common",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 15000,
 			"entries": [
 				"A useful item in both Zyrian civilian life and in the military. It is exported to neighboring countries. A form of a first aid, Bio-Foam protects and seals wounds and regenerates tissue. Bio-Foam can be purchased legally over-the-counter.",
@@ -3010,7 +3339,7 @@
 			"rarity": "uncommon",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"This item appears to be a normal silk handkerchief. However, when you place it in your pocket and speak the command word, you can then pull from your pocket a 50-foot long line of multi-colored handkerchiefs tied to each other. This functions exactly like a regular piece of rope.",
@@ -3025,7 +3354,7 @@
 			"tier": "major",
 			"reqAttune": true,
 			"baseItem": "gauntlet|srp",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 60000,
 			"entries": [
 				"These pair of gauntlets are shaped in the likeness of a dragon's mouth. You can cast the spell {@spell burning hands} once from each fist, for a total of two times, with a DC of 13. Once you use each fist this way, you cannot do so again until next dawn.",
@@ -3039,7 +3368,10 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"value": 300000,
 			"entries": [
 				"This vial of thick liquid of swirling greens and pinks holds one use of Kindermore's Tincture of Disfigurement. If applied to an area of the body, the tincture causes severe and painful acid burns that last for {@dice 1d4} hours. After 1 minute of severe pain, the wound begins to heal and the pain subsides. A disfigured skin scarification is in place of the skin that the tincture was applied to. The scars fully heal after {@di8ce 1d4} hours and the creature's appearance is returned to normal.",
@@ -3056,7 +3388,7 @@
 			"tier": "major",
 			"baseItem": "lance|phb",
 			"reqAttune": true,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 600000,
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
@@ -3072,7 +3404,7 @@
 			"tier": "major",
 			"baseItem": "lance|phb",
 			"reqAttune": true,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 600000,
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
@@ -3088,7 +3420,7 @@
 			"tier": "major",
 			"baseItem": "lance|phb",
 			"reqAttune": true,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 600000,
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
@@ -3104,7 +3436,7 @@
 			"tier": "major",
 			"baseItem": "lance|phb",
 			"reqAttune": true,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 600000,
 			"entries": [
 				"You gain a +1 to attack and damage rolls with this item.",
@@ -3120,7 +3452,7 @@
 			"tier": "major",
 			"baseItem": "longbow|phb",
 			"reqAttune": true,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"value": 2500000,
 			"entries": [
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
@@ -3137,7 +3469,7 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"reqAttune": false,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical."
@@ -3150,7 +3482,7 @@
 			"value": 600000,
 			"tier": "major",
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"entries": [
 				"While wearing this eye patch, you gain these benefits:",
 				{
@@ -3171,7 +3503,7 @@
 			"value": 2500000,
 			"weight": 0.2,
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"entries": [
 				"This armband appears to have thin {@item dagger|phb|daggers} strapped to it. As an action, you can pull up to two magic daggers from the bracer and immediately hurl them, making a ranged attack with each dagger. A dagger vanishes if you don't hurl it right away, and the daggers disappear right after they hit or miss. The bracer never runs out of daggers.",
 				"As a bonus action, the thrower can call back two of the illusory daggers, forcing all creatures in a line from where the daggers were launched to make a Dexterity saving throw (DC 8 + your proficiency bonus + your Dexterity modifier). On a failed save, those creatures take {@dice 2d4} piercing damage.",
@@ -3184,7 +3516,7 @@
 			"source": "SRPGS",
 			"rarity": "uncommon",
 			"value": 60000,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"weight": 1,
 			"entries": [
 				"This whistle is carved from transparent crystal, and it resembles a tiny dragon curled up like a snail. The name Night Caller is etched on the whistle in Dwarvish runes. If a character succeeds on a DC 20 Intelligence ({@skill Arcana} or {@skill History}) check, the character recalls lore that says the {@creature duergar} made several such whistles for various groups in an age past.",
@@ -3199,7 +3531,7 @@
 			"name": "Amulet of the Drunkard",
 			"source": "SRPGS",
 			"rarity": "uncommon",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"weight": 0.2,
 			"entries": [
@@ -3213,7 +3545,7 @@
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"weight": 3,
 			"property": [
 				"T",
@@ -3232,7 +3564,7 @@
 			"name": "Balloon Pack",
 			"source": "SRPGS",
 			"rarity": "uncommon",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 60000,
 			"entries": [
 				"This backpack contains the spirit of an {@creature air elemental} and a compact leather balloon. While you're wearing the backpack, you can deploy the balloon as an action and gain the effect of the {@spell levitate} spell for 10 minutes, targeting yourself and requiring no concentration. Alternatively, you can use a reaction to deploy the balloon when you're falling and gain the effect of the {@spell feather fall} spell for yourself.",
@@ -3250,7 +3582,10 @@
 			"rarity": "uncommon",
 			"value": 30000,
 			"weight": 0.5,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"entries": [
 				"This bottle contains a breath of elemental air. When you inhale it, you either exhale it or hold it.",
 				"If you exhale the breath, you gain the effect of the {@spell gust of wind} spell. If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn't give you the benefit of exhaling the breath."
@@ -3264,7 +3599,10 @@
 			"source": "SRPGS",
 			"rarity": "uncommon",
 			"value": 30000,
-			"type": "Guild Shop Item, consumable",
+			"type": [
+				"GSI",
+				"CONS"
+			],
 			"entries": [
 				"After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
 				"The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (\u22125) in all other abilities, and it is immune to poison and psychic damage.",
@@ -3278,7 +3616,7 @@
 			"baseItem": "dagger|PHB",
 			"rarity": "rare",
 			"value": 600000,
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"reqAttune": true,
 			"weight": 1,
 			"property": [
@@ -3304,7 +3642,7 @@
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"entries": [
 				"A robe of serpents is a stylish silk garment that is popular among wealthy nobles and retired assassins. The robe is emblazoned with {@dice 1d4 + 3} stylized serpents, all brightly colored.",
 				"As a bonus action on your turn, you can transform one of the robe's serpents into a {@creature giant poisonous snake}. The snake instantly falls from the robe, slithers into an unoccupied space next to you, and acts on your initiative count. The snake can tell friendly creatures from hostile ones and attacks the latter. The snake disappears in a harmless puff of smoke after 1 hour, when it drops to 0 hit points, or when you dismiss it (no action required). Once detached, a snake can't return to the robe. When all of the robe's snakes have detached, the robe becomes a nonmagical garment."
@@ -3315,7 +3653,7 @@
 			"source": "SRPGS",
 			"rarity": "rare",
 			"value": 600000,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"reqAttune": true,
 			"weight": 1,
 			"entries": [
@@ -3326,7 +3664,7 @@
 			"name": "Seeker Dart",
 			"source": "SRPGS",
 			"baseItem": "dart|phb",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"rarity": "uncommon",
 			"value": 60000,
 			"weight": 0.25,
@@ -3347,7 +3685,7 @@
 			"name": "Two-Birds Sling",
 			"source": "SRPGS",
 			"baseItem": "sling|phb",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"rarity": "uncommon",
 			"reqAttune": false,
 			"value": 60000,
@@ -3363,7 +3701,7 @@
 		{
 			"name": "Spell Rifle",
 			"source": "SRPGS",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"rarity": "uncommon",
 			"reqAttune": false,
 			"value": 60000,
@@ -3381,7 +3719,7 @@
 			"source": "SRPGS",
 			"value": 600000,
 			"rarity": "rare",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"entries": [
 				"This twelve-sided metal die is 12 inches across and bears the numbers 1 through 12 engraved on its pentagonal sides. The dodecahedron contains arcane clockwork mechanisms that whir and click whenever the die is cast.",
 				"The dodecahedron can be hurled up to 60 feet as an action. A random magical effect occurs when the die comes to rest after rolling across the ground for at least 10 feet. If an effect requires a target and no eligible target is within range, nothing happens. Spells cast by the dodecahedron require no components. Roll a {@dice d12} and consult the following table to determine the effect:",
@@ -3435,7 +3773,7 @@
 			"name": "Staff of the Ivory Claw",
 			"source": "SRPGS",
 			"baseItem": "staff|phb",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
 			"value": 600000,
@@ -3451,7 +3789,7 @@
 			"name": "Staff of Defense",
 			"source": "SRPGS",
 			"baseItem": "staff|phb",
-			"type": "Guild Shop Weapon",
+			"type": "GSW",
 			"rarity": "rare",
 			"reqAttune": "by a spellcaster",
 			"value": 600000,
@@ -3469,7 +3807,7 @@
 			"name": "Ring of Temporal Salvation",
 			"source": "SRPGS",
 			"value": 600000,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"rarity": "rare",
 			"reqAttune": true,
 			"entries": [
@@ -3480,7 +3818,7 @@
 		{
 			"name": "Ventilating Lungs",
 			"source": "SRPGS",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"value": 600000,
 			"rarity": "rare",
 			"reqAttune": true,
@@ -3502,7 +3840,7 @@
 			"source": "SRPGS",
 			"baseItem": "plate armor|phb",
 			"value": 600000,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"rarity": "rare",
 			"reqAttune": false,
 			"entries": [
@@ -3516,7 +3854,7 @@
 			"source": "SRPGS",
 			"rarity": "uncommon",
 			"value": 60000,
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"entries": [
 				"This is a sturdy leather sack with tiny Siberys shards embedded into the lining. You can use an action to cast create food and water, drawing a feast from within the bag. You shape this meal with your thoughts. You can create the standard bland fare without requiring any sort of check, but you can attempt to create finer food by making a Charisma check; if you're proficient with cook's utensils, add your bonus to this check. A failed check results in a sour and squalid meal.",
 				{
@@ -3559,7 +3897,7 @@
 		{
 			"name": "Ring of Truth Telling",
 			"source": "SRPGS",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
@@ -3570,7 +3908,7 @@
 		{
 			"name": "Ring of Obscuring",
 			"source": "SRPGS",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"rarity": "uncommon",
 			"value": 60000,
 			"reqAttune": true,
@@ -3586,7 +3924,7 @@
 		{
 			"name": "Zelo's Morning After Pills",
 			"source": "SRPGS",
-			"type": "Guild Shop Item",
+			"type": "GSI",
 			"rarity": "common",
 			"value": 15000,
 			"reqAttune": false,
@@ -3826,287 +4164,5 @@
 				""
 			]
 		}
-	],
-	"itemProperty": [
-		{
-			"abbreviation": "A",
-			"source": "PHB",
-			"page": 146,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Ammunition",
-					"entries": [
-						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.",
-						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.range}} ft.)"
-		},
-		{
-			"abbreviation": "AF",
-			"source": "DMG",
-			"page": 267,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Ammunition",
-					"entries": [
-						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. The ammunition of a firearm is destroyed upon use.",
-						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.range}} ft.)"
-		},
-		{
-			"abbreviation": "BF",
-			"source": "DMG",
-			"page": 267,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Burst Fire",
-					"entries": [
-						"A weapon that has the burst fire property can make a single-target attack, or it can spray a 10-foot-cube area within normal range with shots. Each creature in the area must succeed on a DC 15 Dexterity saving throw or take the weapon's normal damage. This saving throw changes depending on the stat you use to make your ranged firearm attacks. This action uses ten pieces of ammunition."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "F",
-			"source": "PHB",
-			"page": 147,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Finesse",
-					"entries": [
-						"When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "CON",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Concealed",
-					"entries": [
-						"This weapon is not immediately obvious, and may be easily hidden or disguised as something else. A person attempting to locate the presence of this weapon must succeed on an {@skill Investigation} check opposed by a {@skill Stealth} check on the part of the character with the weapon equipped. Attacks with this weapon against creatures aware of you yet unaware of the weapon's presence are made with advantage."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "DW",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Double Weapon",
-					"entries": [
-						"A weapon with this property may be wielded as one weapon, or as two separate weapons both considered to be light. When wielded as one weapon, the weapon may still be one or two-handed, depending on its other properties. A weapon with this property lists to sets of damage die with it, the first for the main-hand of this weapon, the second for the off-hand, and damage on both sides of a double weapon are the same as if it were wielded as a single weapon. Held as a double weapon, one hand or the other may have additional properties, listed alongside their respective damage die. Properties on the weapon (aside from two-handed) apply to both halves of the double weapon, as well."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.dmg2}})"
-		},
-		{
-			"abbreviation": "AR",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Arisen Weapon",
-					"entries": [
-						"So long as you remain bound to your Arisen, you are considered proficient in this weapon. If you ever are to become unbound to your Arisen, the weapon vanishes, and so do any benefits it gives.",
-						"No creature other than the bonded target may use or hold this weapon—the action becomes physically impossible whenever attempted. In addition, you gain the ability to summon this weapon as a bonus action on your turn, causing it to instantly appear equipped onto your form and become attuned (if you have a free attunement slot)."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "GR",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Grappling",
-					"entries": [
-						"If a weapon has this property, an attack made with this weapon against an enemy in range of the weapon or within the weapon's reach may instead be made as a grapple. If the weapon carries the finesse property as well, the grapple may be made and maintained with a Dexterity check rather than an {@skill Athletics} check. If the weapon is ranged, the target's {@skill Athletics} or {@skill Acrobatics} checks to escape the grapple are made against a DC equal to 10 + your Strength modifier."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "RET",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Returning",
-					"entries": [
-						"When a thrown weapon also carrying the returning property is thrown as part of an attack, it returns to its wielder immediately after the attack. When throwing a returning weapon, you can choose to not have it return in order to add 5 feet to its short range and 10 feet to its long range."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "DI",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Disarm Immune",
-					"entries": [
-						"Any weapon that carries this property may not unwillingly be removed from your grasp while you remain conscious."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "AN",
-			"source": "SRP",
-			"name": "Alternate Name"
-		},
-		{
-			"abbreviation": "UN",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Unarmed",
-					"entries": [
-						"When you make an unarmed strike, you can choose to have the attack deal damage equal to the damage of this weapon, rather than your normal unarmed strike damage. In addition, your hands are considered free for the purposes of object interactions and grappling."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "RE",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Reload",
-					"entries": [
-						"This weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.reload}})"
-		},
-		{
-			"abbreviation": "MI",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Misfire",
-					"entries": [
-						"Whenever you make an attack roll with a firearm, and the die roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful {@item Tinker's tools|phb} check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at the quarter of a cost of a firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.misfire}})"
-		},
-		{
-			"abbreviation": "AM",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Ammo+",
-					"entries": [
-						"This weapon requires advanced ammunition to fire, usually gunpowder, bullets, or magazines."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.ammo}})"
-		},
-		{
-			"abbreviation": "EX",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Explosive",
-					"entries": [
-						"On a hit, every creature within 5 feet of the target much make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer {@dice 1d8} fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so. Explosive weapons will also damage terrain (if applicable)."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "AUTO",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Automatic Weapon",
-					"entries": [
-						"Automatic weapons have a unique reload system from other firearms, and as such, feats or class features that allow you to ignore the reload property do not work on automatic weapons."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "RF",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Rapid Fire",
-					"entries": [
-						"As an attack action, you can make a special attack against one target creature within range. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a ranged weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}. You can only Rapid Fire a weapon once per turn."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "AUTOF",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Automatic Fire",
-					"entries": [
-						"As an attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. This saving throw changes depending on the stat you use to make your ranged firearm attacks. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "SC",
-			"source": "SRP",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Scatter",
-					"entries": [
-						"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have. The Scatter property is unaffected by the Sharpshooter feat."
-					]
-				}
-			]
-		},
-				{
-			"abbreviation": "T",
-			"source": "PHB",
-			"page": 147,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Thrown",
-					"entries": [
-						"If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. When you make a ranged attack with a thrown weapon, you can choose to immediately draw one weapon as a part of that attack."
-					]
-				}
-			],
-			"template": "{{prop_name}} ({{item.range}} ft.)"
-		}
-			]
+	]
 }
