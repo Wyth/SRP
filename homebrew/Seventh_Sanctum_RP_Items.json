@@ -1769,134 +1769,6 @@
 			]
 		},
 		{
-			"name": "Pen-Accelerator Mk. V",
-			"source": "SRPGS",
-			"rarity": "rare",
-			"tier": "major",
-			"reqAttune": true,
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 600000,
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-				"These five orbital nanolasers revolve in an arc around your back—the set of oscillating crystals at their cores reflecting light back in a sheen of colors representative of their elemental properties. A small computer attaches to your waist underneath your clothes, hooked up to wires connected to sensing pads on your body which can translate the firing of synapses in your mind."
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-				"As a bonus action on your turn, you can fire one of the five lasers at an ally or hostile creature. Each laser has a range of 90 feet, and an attack roll equal to your proficiency bonus + your Intelligence modifier (if required)."
-					]
-				},
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Crystal",
-													"Effect"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"{@bold Blue}",
-														"On a hit, deals {@dice 1d4+2} cold damage."
-													],
-													[
-														"{@bold Purple}",
-														"On a hit, deals {@dice 1d4+2} lightning damage."
-													],
-													[
-														"{@bold Red}",
-														"On a hit, deals {@dice 1d4+2} fire damage."
-													],
-													[
-														"{@bold Yellow}",
-														"Gives a creature {@dice 1d4+2} temporary hit points."
-													],
-													[
-														"{@bold Green}",
-														"Heals a creature for {@dice 1d4} hit points."
-													]
-												]
-											}
-										]
-									},
-				"Your Pen-Accelerator has 10 charges, and firing any laser expends one charge. You regain all expended charges on a long rest.",
-				"{@italic Item designed by @Amarulence#5357.}",
-				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
-			]
-		},
-		{
-			"name": "Tri-Accelerator Mk. III",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "major",
-			"reqAttune": true,
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 60000,
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-				"These three orbital nanolasers revolve in an arc around your back—the set of oscillating crystals at their cores reflecting light back as shimmering daylight. A small computer attaches to your waist underneath your clothes, hooked up to wires connected to sensing pads on your body which can translate the firing of synapses in your mind."
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-				"As a bonus action on your turn, you can expend up to 3 charges to induce an effect based on how many charges you expend."
-					]
-				},
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Charges Expended",
-													"Effect"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"{@bold 1 Charge}",
-														"Your movement speed increases by 20 for 3 turns."
-													],
-													[
-														"{@bold 2 Charges}",
-														"Your movement speed increases by 40 for 2 turns."
-													],
-													[
-														"{@bold 3 Charges}",
-														"Your movement speed increases by 80 for 1 turn."
-													]
-												]
-											}
-										]
-									},
-				"This bonus movement speed applies {@italic after} any other effects that would modify your movement speed, including the Dash action. The Tri-Accelerator has 3 charges, and regains all expended charges on a long rest.",
-				"{@italic Item designed by @Amarulence#5357.}",
-				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
-			]
-		},
-		{
 			"name": "Lightning Lashed",
 			"source": "SRPGS",
 			"type": "GSW",
@@ -1974,27 +1846,6 @@
 			]
 		},
 		{
-			"name": "Basic Casting Assistant Device (CAD)",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "major",
-			"reqAttune": "by a psionic spellcaster",
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 60000,
-			"entries": [
-				"The Casting Assistant Device, better known as CAD, is a spell support processor. This device incorporates synthetic materials (artificially manufactured Neurons) that convert Psion signals into electric signals, using the Psion from a magic ritual (sequence) to produce a collection of electronic magic—the Activation Sequence of a spell.",
-				"CADs allows the processing of all the necessary components for magic in a single moment. In detail, these devices help accelerate the invocation of magic, as well as provide stability.",
-				"Choose whether your CAD takes the form of a bracelet, necklace, simple melee weapon, or {@item pistol|srp}. You can not use your CAD to perform a melee or ranged attack (unless you are using it as an improvised weapon).",
-				"While attuned to a basic CAD, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of any spell that requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.",
-				"You can modify your CAD with cartridges, which will temporary evolve the weapon for a limited amount of uses. You can only have one cartridge slotted into a CAD at a time. Swapping out cartridges is an object interaction. These cartridges can also be found in the Guild Shop.",
-				"{@italic Item designed by @Amarulence#5357.}",
-				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
-			]
-		},
-		{
 			"name": "Bo Prime",
 			"baseItem": "quarterstaff|phb",
 			"source": "SRPGS",
@@ -2047,249 +1898,6 @@
 			]
 		},
 		{
-			"name": "Cartridge: Centaur Series (CAD)",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 30000,
-			"entries": [
-				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;General-Purpose Centaur CAD&quot;, and gives it the following effect:",
-				{
-					"type": "list",
-					"items": [
-						"Whenever your Psionic die would decrease by one die size, you can expend one charge to retain its current value."
-					]
-				},
-				"You have 5 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
-			"name": "Cartridge: Sorcery Booster (CAD)",
-			"source": "SRPGS",
-			"rarity": "rare",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 300000,
-			"entries": [
-				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;No Head Dragon CAD&quot;, and gives it the following effect:",
-				{
-					"type": "list",
-					"items": [
-						"Whenever an enemy would be forced to make a saving throw against a spell that requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat, you can expend a charge to impose disadvantage on the throw."
-					]
-				},
-				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
-			"name": "Cartridge: Taurus Silver (CAD)",
-			"source": "SRPGS",
-			"rarity": "very rare",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 1250000,
-			"entries": [
-				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Taurus Silver CAD&quot;, and gives it the following effect:",
-				{
-					"type": "list",
-					"items": [
-						"When you would cast a spell that requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat that requires an action, you can expend a charge to make it a bonus action."
-					]
-				},
-				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
-			"name": "Hadar's Abominable Elixir",
-			"source": "SRPGS",
-			"rarity": "very rare",
-			"tier": "major",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 1250000,
-			"entries": [
-				"Upon consuming this crystal-infused black elixir, your arms begin to bulge and pulsate, transforming into long, slimy tentacles.",
-				"You attack with your tentacles in place of your normal unarmed strikes, which deal {@dice 2d6} acid damage on a hit. In addition, your unarmed strikes gain a reach of 10 feet.",
-				"While under the effects of this elixir, you lose the ability to perform dexterous tasks, such as wielding weapons, carrying shields for defense, or performing careful procedures such as surgery. You are not considered unarmed or wielding monk weapons for the purposes of the monk's Martial Arts feature.",
-				"This effects of this elixir last for one hour. At the conclusion of the hour, roll a {@dice d20}. On a roll of 1, the effects become permanent.",
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
-			"name": "Cartridge: Experiment Realizer (CAD)",
-			"source": "SRPGS",
-			"rarity": "common",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 7500,
-			"entries": [
-				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Experiment Realizer CAD&quot;, and gives it the following effect:",
-				{
-					"type": "list",
-					"items": [
-						"You can expend one a charge to cast the {@spell dancing lights} cantrip as a bonus action."
-					]
-				},
-				"You have 5 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
-			"name": "Basic Universal Tuning Device (UTD)",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "major",
-			"reqAttune": "by a spellcaster",
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 60000,
-			"entries": [
-				"The Universal Tuning Device, better known as UTD, is a spell support processor. This device incorporates synthetic materials (artificially manufactured Neurons) that convert Psion signals into electric signals, using the Psion from a magic ritual (sequence) to produce a collection of electronic magic—the Activation Sequence of a spell.",
-				"UTDs allows for the modification of magic in a single moment. In detail, these devices allow for on-the-fly measures, as well as provide unique opportunities to take advantages of a target's weaknesses.",
-				"Choose whether your UTD takes the form of a bracelet, necklace, simple melee weapon, or {@item pistol|srp}. You can not use your UTD to perform a melee or ranged attack (unless you are using it as an improvised weapon).",
-				"While attuned to a basic UTD, you can cast the mending spell at will. When cast this way, you can repair a break or tear up to 5 feet in size. In addition, you can reroll 1s on spells. That roll must restore hit points or be a damage roll that deals cold, fire, or lightning damage.",
-				"You can modify your UTD with cartridges, which will temporary evolve the weapon for a limited amount of uses. You can only have one cartridge slotted into a UTD at a time. Swapping out cartridges is an object interaction. These cartridges can also be found in the Guild Shop.",
-				"{@italic Item designed by @Amarulence#5357.}",
-				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
-			]
-		},
-		{
-			"name": "Cartridge: Quick Tuning (UTD)",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 30000,
-			"entries": [
-				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Quick Tuning UTD&quot;, and gives it the following effect:",
-				{
-					"type": "list",
-					"items": [
-						"When you cast a spell that deals cold, fire, or lightning damage, you can expend a charge. Change that damage type to one of the following: cold, fire, or lightning."
-					]
-				},
-				"You have 6 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
-			"name": "Cartridge: Evolution Tuning (UTD)",
-			"source": "SRPGS",
-			"rarity": "rare",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 300000,
-			"entries": [
-				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Evolution Tuning UTD&quot;, and gives it the following effect:",
-				{
-					"type": "list",
-					"items": [
-						"When you cast cast a spell that deals cold, fire, or lightning damage, you can expend a charge. You can roll one additional damage die for that spell. You choose whether the additional damage die deals cold, fire, or lightning damage. Regardless of what you choose, the additional damage die cannot deal the same damage type as the base spell."
-					]
-				},
-				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
-			"name": "Cartridge: Rewrite (UTD)",
-			"source": "SRPGS",
-			"rarity": "very rare",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 1250000,
-			"entries": [
-				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Accel Ultima UTD&quot;, and gives it the following effect:",
-				{
-					"type": "list",
-					"items": [
-						"When you cast a spell of 2nd-level or higher that restores hit points or deals cold, fire, or lightning damage, you can expend a charge. You replicate the effects of the spell as if it were upcast by one spell slot, but you only exhaust the appropriate on-level spell slot."
-					]
-				},
-				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
-			"name": "Cartridge: Medica Silver (UTD)",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 30000,
-			"entries": [
-				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Medica Silver UTD&quot;, and gives it the following effect:",
-				{
-					"type": "list",
-					"items": [
-						"When you cast a spell that restores hit points, you can expend a charge. Add your Intelligence modifier to the roll."
-					]
-				},
-				"You have 5 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
-			"name": "Cartridge: Grand Accel (UTD)",
-			"source": "SRPGS",
-			"rarity": "rare",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": "GSI",
-			"value": 600000,
-			"entries": [
-				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Grand Accel UTD&quot;, and gives it the following effect:",
-				{
-					"type": "list",
-					"items": [
-						"While this cartridge is slotted in, you can reroll 1s on rolls that give temporary hit points, or damage rolls that deal radiant, necrotic, or thunder damage."
-					]
-				},
-				"{@italic Item designed by @Amarulence#5357.}"
-			]
-		},
-		{
 			"name": "Wanderering Blade",
 			"baseItem": "greatsword|phb",
 			"source": "SRPGS",
@@ -2303,44 +1911,6 @@
 				"This weapon has found it's way to many different hands over the years. The runes on this blade light ablaze with sickening radiance. Blades of this type are talked about throughout history, inspiring awe and fear depending on who lays their eyes on the blade.",
 				"When you hit a creature with this greatsword, you can choose to channel the blade's history into the target. That creature must make a Wisdom saving throw (DC 16) or be {@condition frightened} by the wielder until the end of their next turn, as the deaths of every creature felled by the blade flashes before their eyes. On a successful save, the creature becomes immune to this effect for 2 rounds.",
 				"{@italic Item designed by @bigbeefydood11#1340.}"
-			]
-		},
-		{
-			"name": "Plastic Explosive",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "major",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 30000,
-			"entries": [
-				"Plastic explosives are a soft and hand-moldable solid form of explosive material. Plastic explosives are especially suited for explosive demolition of obstacles and fortifications by engineers, combat engineers and criminals. It can be cut, formed, wrapped, and combined with others of its type.",
-				"{@bold Planted.} Each creature within 5 feet of the explosive must make a Dexterity saving throw, taking {@dice 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one. It deals double damage against objects and structures.",
-				"You can combine units of plastic explosive so they explode at the same time. Each additional pound of plastic explosive increases the damage by {@dice 1d6} (to a maximum of {@dice 10d6}) and the burst radius by 5 feet (to a maximum of 20 feet).",
-				"In addition, when you combine two or more units, you can change the burst radius to a cone-shaped explosion (you must determine the area affected by the explosive when you plant it).",
-				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
-				"{@italic Item designed by @Gebri#6969.}"
-			]
-		},
-		{
-			"name": "Tear Gas",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "major",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 30000,
-			"entries": [
-				"Tear gas works by irritating mucous membranes in the eyes, nose, mouth and lungs, and causes crying, sneezing, coughing, difficulty breathing, pain in the eyes, and temporary blindness.",
-				"{@bold Grenade.} As an action, a character can throw a smoke grenade at a point. One round after the grenade lands, it emits a cloud of tear gas that creates a heavily obscured area in a 20-foot radius. It disperses after 1 minute, though a moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round. Any creature starting its turn in the gas is considered {@condition blinded} and it must make a Constitution saving throw or be {@condition incapacitated} (DC 15). A creature wearing a gas mask automatically succeeds the saving throw.",
-				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
-				"{@italic Item designed by @Gebri#6969.}"
 			]
 		},
 		{
@@ -2884,135 +2454,6 @@
 			]
 		},
 		{
-			"name": "Rocket-Propelled Broom",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "major",
-			"reqAttune": true,
-			"weight": 10,
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 60000,
-			"entries": [
-				"This wooden broom, which weighs quite an amount (10 pounds), functions like a mundane (if unwieldly) broom until you stand astride it and pull the chord that acts as its kick-starter. It then launches into the air, with a lever at the side allowing you to rectify it into a hovering position.",
-				"It has a flying speed of 80 feet and can carry up to 400 pounds, but its flying speed becomes halved feet while carrying over 200 pounds. In addition, when attempting to move while overloaded, the rider must roll a d20. On a roll of 1, the broom falters as the rocket jams, causing you to fall at a speed of 30 feet per round until the broom is kick-started back up (requiring an action).",
-				"The broom cannot travel more than 60-feet above any surface, as the antigravity sensors on its lower ridge would malfunction, causing the broom to stall and fall at a speed of 30 feet per round before restarting itself after reapproaching its maximum height.",
-				"You can send the broom to travel alone to a destination within 1 mile of you so long as you can enter the coordinates in the planar transport module (a task which requires a successful Intelligence check with a DC 15. Seriously, who designed this thing?!). A failed save will result in your broom taking you somewhere {@italic a bit} off the mark, with the definition of &quot;a bit&quot; being up to DM discretion.",
-				"While flying on this broom, the amount of noise it kicks up as the rocket propels you forward and the engine hums provides ample opportunity for your presence to be discovered. Any item or spell that can remove sound (such as the silence spell) will block out this sound as it would any normal mundane item.",
-				"{@italic Item designed by @Amarulence#5357.}",
-				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
-			]
-		},
-		{
-			"name": "Strom Headphones",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "major",
-			"reqAttune": false,
-			"weight": 10,
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 60000,
-			"entries": [
-				"These, as the young kids call it, hip headphones are some of the most mainstream and popular brand around. They are a sleek black and come in over the ear and bud form. The younger generation of Zyratix considers these a must have when listening to music. ",
-				"While wearing both halves of the headphones you are under the {@condition deafened} condition and listen to some cool jams. While deafened by these headphones you are immune to charm effects that require you to hear. You are still able to wear one and not be deafened.",
-				"{@italic Item designed by @Aizea La Win#5106.}",
-				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
-			]
-		},
-		{
-			"name": "Nairek Boombox Mk. II",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "minor",
-			"reqAttune": false,
-			"weight": 3,
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 60000,
-			"entries": [
-				"This large contraption has a variety of knobs, dials, and sliders, with a certain instrument designed onto the back. It is often compared to it's smaller alternative, the remixer.",
-				"While holding this device, a creature can use its action to have Nayrek Remixer start listening. If anything within 30 feet of the device is performing with sound, whether using an instrument, singing, or something else, the ring can store the sounds of it provided it listens for at least five minutes. The Nayrek Remixer can hold up to 100 different &quot;songs&quot; on it.",
-				"As an item interaction the user may have a song playback. This music can be heard up to 100 feet away but can also be channeled through a pair of headphones and privately listened.",
-				"The user may also spend an additional item interaction to crank up the volume to max. While at max volume the distance the device can be heard extends 100 feet and any creature that can hear within 30 feet of the boombox makes concentration checks at disadvantage.",
-				"If in Zyratix, the user may upload songs from a central database rather than record them live.",
-				"{@italic Item designed by @Aizea La Win#5106.}",
-				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
-			]
-		},
-		{
-			"name": "Nairek Remixer",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"tier": "minor",
-			"reqAttune": false,
-			"weight": 0.1,
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 60000,
-			"entries": [
-				"This simple metal box is about the size of a match lighter with a small display on its face, with a certain instrument designed onto the back. Often an item used by younger audiences to listen to music,",
-				"While holding this device, a creature can use its action to have Nayrek Remixer start listening. If anything within 30 feet of the device is performing with sound, whether using an instrument, singing, or something else, the ring can store the sounds of it provided it listens for at least five minutes. The Nayrek Remixer can hold up to 60 different &quot;songs&quot; on it.",
-				"As an item interaction the user may have a song playback. This music can be heard up to 60 feet away but can also be channeled through a pair of headphones and privately listened. ",
-				"If in Zyratix, the user may upload songs from a central database rather than record them live.",
-				"{@italic Item designed by @Aizea La Win#5106.}",
-				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
-			]
-		},
-		{
-			"name": "Akalizer Baton",
-			"source": "SRPGS",
-			"rarity": "rare",
-			"tier": "major",
-			"reqAttune": false,
-			"weight": 0.2,
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 600000,
-			"entries": [
-				"This fluorescent baton has an accented glow of a variety of colors ranging from blue, orange, purple, green, and white. It is one foot long but extends to roughly 3 feet.",
-				"While holding this baton the user may spend an action extending and constructing a motorcycle from the device. This has the normal statistics of a motorcycle with these adjustments:",
-				{
-					"type": "list",
-					"items": [
-						"It has an AC of 17.",
-						"It has a damage threshold of 10.",
-						"It sheds bright light out 15-feet."
-					]
-				},
-				"{@italic Item designed by @Aizea La Win#5106.}",
-				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
-			]
-		},
-		{
-			"name": "Flame-Enchanted Rifle",
-			"source": "SRPGS",
-			"rarity": "rare",
-			"tier": "major",
-			"baseItem": "rifle|srp",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"TI"
-			],
-			"value": 600000,
-			"entries": [
-				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"This weapon has been modified with magic runes. As a free action, the wielder may activate the runes on this weapon. While activated, the next attack does an additional {@dice 2d6} fire damage, and if the attack hits a creature, it must make a DC 15 Strength save or be knocked prone. Once used this way, the rune becomes innert for 24 hours.",
-				"{@italic Item designed by @EPICENDER#0745.}"
-			]
-		},
-		{
 			"name": "Cloak of Cherry Blossoms",
 			"source": "SRPGS",
 			"rarity": "common",
@@ -3363,25 +2804,6 @@
 			]
 		},
 		{
-			"name": "Kindermore's Tincture of Disfigurement",
-			"source": "SRPGS",
-			"rarity": "rare",
-			"tier": "minor",
-			"reqAttune": false,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"value": 300000,
-			"entries": [
-				"This vial of thick liquid of swirling greens and pinks holds one use of Kindermore's Tincture of Disfigurement. If applied to an area of the body, the tincture causes severe and painful acid burns that last for {@dice 1d4} hours. After 1 minute of severe pain, the wound begins to heal and the pain subsides. A disfigured skin scarification is in place of the skin that the tincture was applied to. The scars fully heal after {@di8ce 1d4} hours and the creature's appearance is returned to normal.",
-				"The tincture causes the target to take {@dice 3d8} acid damage. It's hit point maximum is also reduced by an amount equal to the damage taken. The effect cannot cause the target's maximum hit points to drop to 0. If it would drop to 0, the target instead is reduced to a maximum of 1, falls unconscious, and must begin making death saving throws.  At the end of the duration, the effects on a target's maximum hit points is removed and the target regains the lost HP.",
-				"The healing effect at the end of the duration does not occur if the creature dies. The healing effect of the tincture has no effect on constructs, undead, or inanimate objects.",
-				"The acid can be applied to the face in an attempt to disguise a creatures identity. A successful DC 20 Intelligence check  is necessary to discern the true identity. The effect does not end for the entire duration except through the {@spell regenerate} or {@spell wish} spells.",
-				"{@italic Item designed by @Aizea La Win#5106.}"
-			]
-		},
-		{
 			"name": "Elemental Fang, Fire",
 			"source": "SRPGS",
 			"rarity": "rare",
@@ -3574,40 +2996,6 @@
 			"attachedSpells": [
 				"levitate",
 				"feather fall"
-			]
-		},
-		{
-			"name": "Bottled Breath",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"value": 30000,
-			"weight": 0.5,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"entries": [
-				"This bottle contains a breath of elemental air. When you inhale it, you either exhale it or hold it.",
-				"If you exhale the breath, you gain the effect of the {@spell gust of wind} spell. If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn't give you the benefit of exhaling the breath."
-			],
-			"attachedSpells": [
-				"gust of wind"
-			]
-		},
-		{
-			"name": "Paper Bird",
-			"source": "SRPGS",
-			"rarity": "uncommon",
-			"value": 30000,
-			"type": [
-				"GSI",
-				"CONS"
-			],
-			"entries": [
-				"After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
-				"The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (\u22125) in all other abilities, and it is immune to poison and psychic damage.",
-				"It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the bird's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
-				"Paper birds usually come in small, flat boxes containing {@dice 1d6 + 3} sheets of the parchment."
 			]
 		},
 		{
@@ -4162,6 +3550,546 @@
 				},
 				"",
 				""
+			]
+		},
+		{
+			"name": "Pen-Accelerator Mk. V",
+			"source": "SRPGS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "GSI",
+			"value": 600000,
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+				"These five orbital nanolasers revolve in an arc around your back—the set of oscillating crystals at their cores reflecting light back in a sheen of colors representative of their elemental properties. A small computer attaches to your waist underneath your clothes, hooked up to wires connected to sensing pads on your body which can translate the firing of synapses in your mind."
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+				"As a bonus action on your turn, you can fire one of the five lasers at an ally or hostile creature. Each laser has a range of 90 feet, and an attack roll equal to your proficiency bonus + your Intelligence modifier (if required)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Crystal",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"{@bold Blue}",
+									"On a hit, deals {@dice 1d4+2} cold damage."
+								],
+								[
+									"{@bold Purple}",
+									"On a hit, deals {@dice 1d4+2} lightning damage."
+								],
+								[
+									"{@bold Red}",
+									"On a hit, deals {@dice 1d4+2} fire damage."
+								],
+								[
+									"{@bold Yellow}",
+									"Gives a creature {@dice 1d4+2} temporary hit points."
+								],
+								[
+									"{@bold Green}",
+									"Heals a creature for {@dice 1d4} hit points."
+								]
+							]
+						}
+					]
+				},
+				"Your Pen-Accelerator has 10 charges, and firing any laser expends one charge. You regain all expended charges on a long rest.",
+				"{@italic Item designed by @Amarulence#5357.}",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Tri-Accelerator Mk. III",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": true,
+			"type": "GSI",
+			"value": 60000,
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+				"These three orbital nanolasers revolve in an arc around your back—the set of oscillating crystals at their cores reflecting light back as shimmering daylight. A small computer attaches to your waist underneath your clothes, hooked up to wires connected to sensing pads on your body which can translate the firing of synapses in your mind."
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+				"As a bonus action on your turn, you can expend up to 3 charges to induce an effect based on how many charges you expend."
+					]
+				},
+									{
+										"type": "entries",
+										"name": "",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"Charges Expended",
+													"Effect"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"{@bold 1 Charge}",
+														"Your movement speed increases by 20 for 3 turns."
+													],
+													[
+														"{@bold 2 Charges}",
+														"Your movement speed increases by 40 for 2 turns."
+													],
+													[
+														"{@bold 3 Charges}",
+														"Your movement speed increases by 80 for 1 turn."
+													]
+												]
+											}
+										]
+									},
+				"This bonus movement speed applies {@italic after} any other effects that would modify your movement speed, including the Dash action. The Tri-Accelerator has 3 charges, and regains all expended charges on a long rest.",
+				"{@italic Item designed by @Amarulence#5357.}",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Basic Casting Assistant Device (CAD)",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": "by a psionic spellcaster",
+			"type": "GSI",
+			"value": 60000,
+			"entries": [
+				"The Casting Assistant Device, better known as CAD, is a spell support processor. This device incorporates synthetic materials (artificially manufactured Neurons) that convert Psion signals into electric signals, using the Psion from a magic ritual (sequence) to produce a collection of electronic magic—the Activation Sequence of a spell.",
+				"CADs allows the processing of all the necessary components for magic in a single moment. In detail, these devices help accelerate the invocation of magic, as well as provide stability.",
+				"Choose whether your CAD takes the form of a bracelet, necklace, simple melee weapon, or {@item pistol|srp}. You can not use your CAD to perform a melee or ranged attack (unless you are using it as an improvised weapon).",
+				"While attuned to a basic CAD, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of any spell that requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat.",
+				"You can modify your CAD with cartridges, which will temporary evolve the weapon for a limited amount of uses. You can only have one cartridge slotted into a CAD at a time. Swapping out cartridges is an object interaction. These cartridges can also be found in the Guild Shop.",
+				"{@italic Item designed by @Amarulence#5357.}",
+				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Cartridge: Centaur Series (CAD)",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 30000,
+			"entries": [
+				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;General-Purpose Centaur CAD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever your Psionic die would decrease by one die size, you can expend one charge to retain its current value."
+					]
+				},
+				"You have 5 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Sorcery Booster (CAD)",
+			"source": "SRPGS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 300000,
+			"entries": [
+				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;No Head Dragon CAD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"Whenever an enemy would be forced to make a saving throw against a spell that requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat, you can expend a charge to impose disadvantage on the throw."
+					]
+				},
+				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Taurus Silver (CAD)",
+			"source": "SRPGS",
+			"rarity": "very rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 1250000,
+			"entries": [
+				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Taurus Silver CAD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you would cast a spell that requires you have a Psionic Talent feature, Psionic Focus, or the Wild Talent feat that requires an action, you can expend a charge to make it a bonus action."
+					]
+				},
+				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Hadar's Abominable Elixir",
+			"source": "SRPGS",
+			"rarity": "very rare",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 1250000,
+			"entries": [
+				"Upon consuming this crystal-infused black elixir, your arms begin to bulge and pulsate, transforming into long, slimy tentacles.",
+				"You attack with your tentacles in place of your normal unarmed strikes, which deal {@dice 2d6} acid damage on a hit. In addition, your unarmed strikes gain a reach of 10 feet.",
+				"While under the effects of this elixir, you lose the ability to perform dexterous tasks, such as wielding weapons, carrying shields for defense, or performing careful procedures such as surgery. You are not considered unarmed or wielding monk weapons for the purposes of the monk's Martial Arts feature.",
+				"This effects of this elixir last for one hour. At the conclusion of the hour, roll a {@dice d20}. On a roll of 1, the effects become permanent.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Experiment Realizer (CAD)",
+			"source": "SRPGS",
+			"rarity": "common",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 7500,
+			"entries": [
+				"This cartridge, while slotted into a Basic CAD, changes its name to the &quot;Experiment Realizer CAD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"You can expend one a charge to cast the {@spell dancing lights} cantrip as a bonus action."
+					]
+				},
+				"You have 5 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Basic Universal Tuning Device (UTD)",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": "by a spellcaster",
+			"type": "GSI",
+			"value": 60000,
+			"entries": [
+				"The Universal Tuning Device, better known as UTD, is a spell support processor. This device incorporates synthetic materials (artificially manufactured Neurons) that convert Psion signals into electric signals, using the Psion from a magic ritual (sequence) to produce a collection of electronic magic—the Activation Sequence of a spell.",
+				"UTDs allows for the modification of magic in a single moment. In detail, these devices allow for on-the-fly measures, as well as provide unique opportunities to take advantages of a target's weaknesses.",
+				"Choose whether your UTD takes the form of a bracelet, necklace, simple melee weapon, or {@item pistol|srp}. You can not use your UTD to perform a melee or ranged attack (unless you are using it as an improvised weapon).",
+				"While attuned to a basic UTD, you can cast the mending spell at will. When cast this way, you can repair a break or tear up to 5 feet in size. In addition, you can reroll 1s on spells. That roll must restore hit points or be a damage roll that deals cold, fire, or lightning damage.",
+				"You can modify your UTD with cartridges, which will temporary evolve the weapon for a limited amount of uses. You can only have one cartridge slotted into a UTD at a time. Swapping out cartridges is an object interaction. These cartridges can also be found in the Guild Shop.",
+				"{@italic Item designed by @Amarulence#5357.}",
+				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Cartridge: Quick Tuning (UTD)",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 30000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Quick Tuning UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that deals cold, fire, or lightning damage, you can expend a charge. Change that damage type to one of the following: cold, fire, or lightning."
+					]
+				},
+				"You have 6 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Evolution Tuning (UTD)",
+			"source": "SRPGS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 300000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Evolution Tuning UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast cast a spell that deals cold, fire, or lightning damage, you can expend a charge. You can roll one additional damage die for that spell. You choose whether the additional damage die deals cold, fire, or lightning damage. Regardless of what you choose, the additional damage die cannot deal the same damage type as the base spell."
+					]
+				},
+				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Rewrite (UTD)",
+			"source": "SRPGS",
+			"rarity": "very rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 1250000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Accel Ultima UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell of 2nd-level or higher that restores hit points or deals cold, fire, or lightning damage, you can expend a charge. You replicate the effects of the spell as if it were upcast by one spell slot, but you only exhaust the appropriate on-level spell slot."
+					]
+				},
+				"You have 3 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Medica Silver (UTD)",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 30000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Medica Silver UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that restores hit points, you can expend a charge. Add your Intelligence modifier to the roll."
+					]
+				},
+				"You have 5 charges, and once all charges are depleted, the cartridge becomes nonmagical.",
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Cartridge: Grand Accel (UTD)",
+			"source": "SRPGS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 600000,
+			"entries": [
+				"This cartridge, while slotted into a Basic UTD, changes its name to the &quot;Grand Accel UTD&quot;, and gives it the following effect:",
+				{
+					"type": "list",
+					"items": [
+						"While this cartridge is slotted in, you can reroll 1s on rolls that give temporary hit points, or damage rolls that deal radiant, necrotic, or thunder damage."
+					]
+				},
+				"{@italic Item designed by @Amarulence#5357.}"
+			]
+		},
+		{
+			"name": "Plastic Explosive",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 30000,
+			"entries": [
+				"Plastic explosives are a soft and hand-moldable solid form of explosive material. Plastic explosives are especially suited for explosive demolition of obstacles and fortifications by engineers, combat engineers and criminals. It can be cut, formed, wrapped, and combined with others of its type.",
+				"{@bold Planted.} Each creature within 5 feet of the explosive must make a Dexterity saving throw, taking {@dice 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one. It deals double damage against objects and structures.",
+				"You can combine units of plastic explosive so they explode at the same time. Each additional pound of plastic explosive increases the damage by {@dice 1d6} (to a maximum of {@dice 10d6}) and the burst radius by 5 feet (to a maximum of 20 feet).",
+				"In addition, when you combine two or more units, you can change the burst radius to a cone-shaped explosion (you must determine the area affected by the explosive when you plant it).",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
+			"name": "Tear Gas",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 30000,
+			"entries": [
+				"Tear gas works by irritating mucous membranes in the eyes, nose, mouth and lungs, and causes crying, sneezing, coughing, difficulty breathing, pain in the eyes, and temporary blindness.",
+				"{@bold Grenade.} As an action, a character can throw a smoke grenade at a point. One round after the grenade lands, it emits a cloud of tear gas that creates a heavily obscured area in a 20-foot radius. It disperses after 1 minute, though a moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round. Any creature starting its turn in the gas is considered {@condition blinded} and it must make a Constitution saving throw or be {@condition incapacitated} (DC 15). A creature wearing a gas mask automatically succeeds the saving throw.",
+				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle.",
+				"{@italic Item designed by @Gebri#6969.}"
+			]
+		},
+		{
+			"name": "Rocket-Propelled Broom",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": true,
+			"weight": 10,
+			"type": "GSI",
+			"value": 60000,
+			"entries": [
+				"This wooden broom, which weighs quite an amount (10 pounds), functions like a mundane (if unwieldly) broom until you stand astride it and pull the chord that acts as its kick-starter. It then launches into the air, with a lever at the side allowing you to rectify it into a hovering position.",
+				"It has a flying speed of 80 feet and can carry up to 400 pounds, but its flying speed becomes halved feet while carrying over 200 pounds. In addition, when attempting to move while overloaded, the rider must roll a d20. On a roll of 1, the broom falters as the rocket jams, causing you to fall at a speed of 30 feet per round until the broom is kick-started back up (requiring an action).",
+				"The broom cannot travel more than 60-feet above any surface, as the antigravity sensors on its lower ridge would malfunction, causing the broom to stall and fall at a speed of 30 feet per round before restarting itself after reapproaching its maximum height.",
+				"You can send the broom to travel alone to a destination within 1 mile of you so long as you can enter the coordinates in the planar transport module (a task which requires a successful Intelligence check with a DC 15. Seriously, who designed this thing?!). A failed save will result in your broom taking you somewhere {@italic a bit} off the mark, with the definition of &quot;a bit&quot; being up to DM discretion.",
+				"While flying on this broom, the amount of noise it kicks up as the rocket propels you forward and the engine hums provides ample opportunity for your presence to be discovered. Any item or spell that can remove sound (such as the silence spell) will block out this sound as it would any normal mundane item.",
+				"{@italic Item designed by @Amarulence#5357.}",
+				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Strom Headphones",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "major",
+			"reqAttune": false,
+			"weight": 10,
+			"type": "GSI",
+			"value": 60000,
+			"entries": [
+				"These, as the young kids call it, hip headphones are some of the most mainstream and popular brand around. They are a sleek black and come in over the ear and bud form. The younger generation of Zyratix considers these a must have when listening to music. ",
+				"While wearing both halves of the headphones you are under the {@condition deafened} condition and listen to some cool jams. While deafened by these headphones you are immune to charm effects that require you to hear. You are still able to wear one and not be deafened.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
+				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Nairek Boombox Mk. II",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"weight": 3,
+			"type": "GSI",
+			"value": 60000,
+			"entries": [
+				"This large contraption has a variety of knobs, dials, and sliders, with a certain instrument designed onto the back. It is often compared to it's smaller alternative, the remixer.",
+				"While holding this device, a creature can use its action to have Nayrek Remixer start listening. If anything within 30 feet of the device is performing with sound, whether using an instrument, singing, or something else, the ring can store the sounds of it provided it listens for at least five minutes. The Nayrek Remixer can hold up to 100 different &quot;songs&quot; on it.",
+				"As an item interaction the user may have a song playback. This music can be heard up to 100 feet away but can also be channeled through a pair of headphones and privately listened.",
+				"The user may also spend an additional item interaction to crank up the volume to max. While at max volume the distance the device can be heard extends 100 feet and any creature that can hear within 30 feet of the boombox makes concentration checks at disadvantage.",
+				"If in Zyratix, the user may upload songs from a central database rather than record them live.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
+				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Nairek Remixer",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"tier": "minor",
+			"reqAttune": false,
+			"weight": 0.1,
+			"type": "GSI",
+			"value": 60000,
+			"entries": [
+				"This simple metal box is about the size of a match lighter with a small display on its face, with a certain instrument designed onto the back. Often an item used by younger audiences to listen to music,",
+				"While holding this device, a creature can use its action to have Nayrek Remixer start listening. If anything within 30 feet of the device is performing with sound, whether using an instrument, singing, or something else, the ring can store the sounds of it provided it listens for at least five minutes. The Nayrek Remixer can hold up to 60 different &quot;songs&quot; on it.",
+				"As an item interaction the user may have a song playback. This music can be heard up to 60 feet away but can also be channeled through a pair of headphones and privately listened. ",
+				"If in Zyratix, the user may upload songs from a central database rather than record them live.",
+				"{@italic Item designed by @Aizea La Win#5106.}",
+				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Akalizer Baton",
+			"source": "SRPGS",
+			"rarity": "rare",
+			"tier": "major",
+			"reqAttune": false,
+			"weight": 0.2,
+			"type": "GSI",
+			"value": 600000,
+			"entries": [
+				"This fluorescent baton has an accented glow of a variety of colors ranging from blue, orange, purple, green, and white. It is one foot long but extends to roughly 3 feet.",
+				"While holding this baton the user may spend an action extending and constructing a motorcycle from the device. This has the normal statistics of a motorcycle with these adjustments:",
+				{
+					"type": "list",
+					"items": [
+						"It has an AC of 17.",
+						"It has a damage threshold of 10.",
+						"It sheds bright light out 15-feet."
+					]
+				},
+				"{@italic Item designed by @Aizea La Win#5106.}",
+				"{@bold Technological}. As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
+			]
+		},
+		{
+			"name": "Flame-Enchanted Rifle",
+			"source": "SRPGS",
+			"rarity": "rare",
+			"tier": "major",
+			"baseItem": "rifle|srp",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 600000,
+			"entries": [
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+				"This weapon has been modified with magic runes. As a free action, the wielder may activate the runes on this weapon. While activated, the next attack does an additional {@dice 2d6} fire damage, and if the attack hits a creature, it must make a DC 15 Strength save or be knocked prone. Once used this way, the rune becomes innert for 24 hours.",
+				"{@italic Item designed by @EPICENDER#0745.}"
+			]
+		},
+		{
+			"name": "Kindermore's Tincture of Disfigurement",
+			"source": "SRPGS",
+			"rarity": "rare",
+			"tier": "minor",
+			"reqAttune": false,
+			"type": "GSI",
+			"value": 300000,
+			"entries": [
+				"This vial of thick liquid of swirling greens and pinks holds one use of Kindermore's Tincture of Disfigurement. If applied to an area of the body, the tincture causes severe and painful acid burns that last for {@dice 1d4} hours. After 1 minute of severe pain, the wound begins to heal and the pain subsides. A disfigured skin scarification is in place of the skin that the tincture was applied to. The scars fully heal after {@di8ce 1d4} hours and the creature's appearance is returned to normal.",
+				"The tincture causes the target to take {@dice 3d8} acid damage. It's hit point maximum is also reduced by an amount equal to the damage taken. The effect cannot cause the target's maximum hit points to drop to 0. If it would drop to 0, the target instead is reduced to a maximum of 1, falls unconscious, and must begin making death saving throws.  At the end of the duration, the effects on a target's maximum hit points is removed and the target regains the lost HP.",
+				"The healing effect at the end of the duration does not occur if the creature dies. The healing effect of the tincture has no effect on constructs, undead, or inanimate objects.",
+				"The acid can be applied to the face in an attempt to disguise a creatures identity. A successful DC 20 Intelligence check  is necessary to discern the true identity. The effect does not end for the entire duration except through the {@spell regenerate} or {@spell wish} spells.",
+				"{@italic Item designed by @Aizea La Win#5106.}"
+			]
+		},
+		{
+			"name": "Bottled Breath",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"value": 30000,
+			"weight": 0.5,
+			"type": "GSI",
+			"entries": [
+				"This bottle contains a breath of elemental air. When you inhale it, you either exhale it or hold it.",
+				"If you exhale the breath, you gain the effect of the {@spell gust of wind} spell. If you hold the breath, you don't need to breathe for 1 hour, though you can end this benefit early (for example, to speak). Ending it early doesn't give you the benefit of exhaling the breath."
+			],
+			"attachedSpells": [
+				"gust of wind"
+			]
+		},
+		{
+			"name": "Paper Bird",
+			"source": "SRPGS",
+			"rarity": "uncommon",
+			"value": 30000,
+			"type": "GSI",
+			"entries": [
+				"After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
+				"The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (\u22125) in all other abilities, and it is immune to poison and psychic damage.",
+				"It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the bird's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
+				"Paper birds usually come in small, flat boxes containing {@dice 1d6 + 3} sheets of the parchment."
 			]
 		}
 	]
