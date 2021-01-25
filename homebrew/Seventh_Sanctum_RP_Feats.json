@@ -492,6 +492,40 @@
 			]
 		},
 		{
+			"name": "Advanced Mutation",
+			"source": "SRPF",
+			"prerequisite": [{
+				"race": [{
+					"name": "Demibeast (Leonin), Demibeast (Ursus), Demibeast (Wolf)"
+				}]
+			}],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1,
+						"entry": "Increase the chosen ability score by 1, to a maximum of 20."
+					}
+				}
+			],
+			"entries": [
+				"You’ve mutated an additional trait, being among the few Demihumans to manifest another boon. Whether this be through evolution, a freak accident, or a magic ritual, you’ve been changed in some way. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You may choose an additional trait from the Birth of Creation list to evolve and benefit from."
+					]
+				}
+			]
+		},
+		{
 			"name": "Energy Saber",
 			"source": "SRPF",
 			"prerequisite": [{
