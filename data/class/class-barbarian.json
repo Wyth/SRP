@@ -472,18 +472,6 @@
 					]
 				},
 				{
-					"name": "Path of the Beast",
-					"shortName": "Beast",
-					"source": "TCE",
-					"page": 24,
-					"subclassFeatures": [
-						"Path of the Beast|Barbarian||Beast|TCE|3",
-						"Bestial Soul|Barbarian||Beast|TCE|6",
-						"Infectious Fury|Barbarian||Beast|TCE|10",
-						"Call the Hunt|Barbarian||Beast|TCE|14"
-					]
-				},
-				{
 					"name": "Path of Wild Magic",
 					"shortName": "Wild Magic",
 					"source": "TCE",
