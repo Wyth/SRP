@@ -39325,7 +39325,11 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
-					}
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
 				]
 			}
 		},
