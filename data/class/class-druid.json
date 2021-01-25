@@ -1194,7 +1194,6 @@
 								"When you gain Wild Shape as a 2nd-level druid, you might wonder which beasts you've already seen. The following tables organize beasts from the monster manual according to the beasts' most likely environments. Consider the environment your druid grew up in, then consult the appropriate table for a list of animals that your druid has probably seen by 2nd level.",
 								"These tables can also help you and your DM determine which animals you might see on your travels. In addition, the tables include each beast's challenge rating and note whether a beast has a flying or swimming speed. This information will help you determine whether you qualify to assume that beast's form.",
 								"The tables include all the individual beasts that are eligible for Wild Shape (up to a challenge rating of 1) or the Circle Forms feature of the Circle of the Moon (up to a challenge rating of 6).",
-								"Druid’s 1st level ability Wild Shape can now be used to turn into creatures from the module Tome of Beasts. In order to transform into these creatures, the player in question must have a detailed understanding of their anatomy, which can be anything from visibly seeing the creature to subduing them for study. A Dungeon Master can give out new transformation knowledge as a result of quests to Druids, which will be shown in the Rewards section of the completed quest."
 								{
 									"type": "table",
 									"caption": "Arctic",
@@ -2462,7 +2461,6 @@
 					]
 				},
 				"You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall {@condition unconscious}, drop to 0 hit points, or die.",
-				"The spell Power Word Kill will affect a druid, even while under the effects of Wild Shape, assuming their true form meets the prerequisites for the spell to activate.",
 				"While you are transformed, the following rules apply:",
 				{
 					"type": "list",
@@ -2666,7 +2664,7 @@
 			"classSource": "PHB",
 			"level": 18,
 			"entries": [
-				"Beginning at 18th level, you can now speak languages you know while in Wild Shape. Additionally, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
+				"Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components."
 			]
 		},
 		{
