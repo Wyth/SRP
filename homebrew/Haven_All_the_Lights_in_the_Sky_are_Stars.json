@@ -1861,8 +1861,16 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			},
@@ -1994,6 +2002,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Warlock",
@@ -2130,6 +2142,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Warlock",
@@ -2277,6 +2293,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -2509,8 +2529,16 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -2571,12 +2599,20 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			},
@@ -2657,12 +2693,20 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -2735,12 +2779,20 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -2806,8 +2858,16 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -2935,12 +2995,20 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			},
@@ -3047,12 +3115,20 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			},
@@ -3126,8 +3202,16 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -3189,6 +3273,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			},
@@ -3270,12 +3358,20 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -3348,8 +3444,16 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -3416,8 +3520,16 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			},
@@ -3495,12 +3607,20 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -3584,12 +3704,20 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
