@@ -1287,6 +1287,7 @@
 				"Binding Rites"
 			],
 			"entries": [
+				"Spirits of Guilt cause your enemies hesitation in acts that would wrong you. While Guilt is bound, when an ally within 30 feet of you is the target of an attack roll you can use your reaction to reduce the attack roll by 2. The penalty the enemy creature receives increases by 2 when Guilt is bound in a 3rd level through 5th level spell slot (-4) and again when Guilt is bound in a 6th level spell slot or higher (-6). The creature's attacks cannot be affected again for 1 minute.",
 				{
 					"type": "entries",
 					"name": "Release",
