@@ -458,6 +458,40 @@
 			]
 		},
 		{
+			"name": "Cybernetic Evolution",
+			"source": "SRPF",
+			"prerequisite": [{
+				"race": [{
+					"name": "half-nasod"
+				}]
+			}],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1,
+						"entry": "Increase the chosen ability score by 1, to a maximum of 20."
+					}
+				}
+			],
+			"entries": [
+				"You’ve decided to cybernetically augment yourself further beyond than most other Half-Nasod’s, embracing the superiority of steel over flesh. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You may choose an additional Cybernetic Implant of your choice to augment yourself with from the Cybernetic Implants list."
+					]
+				}
+			]
+		},
+		{
 			"name": "Energy Saber",
 			"source": "SRPF",
 			"prerequisite": [{
