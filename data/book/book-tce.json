@@ -4416,27 +4416,7 @@
 								],
 								[
 									"Uncommon+",
-									"{@item +1 All-Purpose Tool|TCE|All-Purpose Tool}",
-									"Yes"
-								],
-								[
-									"Uncommon+",
-									"{@item +1 Amulet of the Devout|TCE|Amulet of the Devout}",
-									"Yes"
-								],
-								[
-									"Uncommon+",
-									"{@item +1 Arcane Grimoire|TCE|Arcane Grimoire}",
-									"Yes"
-								],
-								[
-									"Uncommon+",
 									"{@item Barrier Tattoo (small)|TCE|Barrier Tattoo}",
-									"Yes"
-								],
-								[
-									"Uncommon+",
-									"{@item +1 Bloodwell Vial|TCE|Bloodwell Vial}",
 									"Yes"
 								],
 								[
@@ -4460,18 +4440,8 @@
 									"Yes"
 								],
 								[
-									"Uncommon+",
-									"{@item +1 Moon Sickle|TCE|Moon Sickle}",
-									"Yes"
-								],
-								[
 									"Uncommon",
 									"{@item Nature's Mantle|TCE}",
-									"Yes"
-								],
-								[
-									"Uncommon+",
-									"{@item +1 Rhythm-Maker's Drum|TCE|Rhythm-Maker's Drum}",
 									"Yes"
 								],
 								[
@@ -4704,9 +4674,6 @@
 									"items": [
 										"{@item Absorbing Tattoo|TCE}",
 										"{@item Alchemical Compendium|TCE}",
-										"{@item +1 All-Purpose Tool|TCE|All-Purpose Tool}",
-										"{@item +1 Amulet of the Devout|TCE|Amulet of the Devout}",
-										"{@item +1 Arcane Grimoire|TCE|Arcane Grimoire}",
 										"{@item Astral Shard|TCE}",
 										"{@item Astromancy Archive|TCE}",
 										"{@item Atlas of Endless Horizons|TCE}",
@@ -4715,7 +4682,6 @@
 										"{@item Barrier Tattoo (Small)|TCE|Barrier Tattoo}",
 										"{@item Bell Branch|TCE}",
 										"{@item Blood Fury Tattoo|TCE}",
-										"{@item +1 Bloodwell Vial|TCE|Bloodwell Vial}",
 										"{@item Cauldron of Rebirth|TCE}",
 										"{@item Coiling Grasp Tattoo|TCE}",
 										"{@item Crook of Rao|TCE}",
@@ -4738,14 +4704,12 @@
 										"{@item Lyre of Building|TCE}",
 										"{@item Masquerade Tattoo|TCE}",
 										"{@item Mighty Servant of Leuk-O|TCE}",
-										"{@item +1 Moon Sickle|TCE|Moon Sickle}",
 										"{@item Nature's Mantle|TCE}",
 										"{@item Outer Essence Shard|TCE}",
 										"{@item Planecaller's Codex|TCE}",
 										"{@item Prosthetic Limb|TCE}",
 										"{@item Protective Verses|TCE}",
 										"{@item Reveler's Concertina|TCE}",
-										"{@item +1 Rhythm-Maker's Drum|TCE|Rhythm-Maker's Drum}",
 										"{@item Shadowfell Brand Tattoo|TCE}",
 										"{@item Shadowfell Shard|TCE}",
 										"{@item Spellwrought Tattoo|TCE}",

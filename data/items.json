@@ -6,110 +6,6 @@
 	},
 	"item": [
 		{
-			"name": "+1 All-Purpose Tool",
-			"source": "TCE",
-			"page": 119,
-			"rarity": "uncommon",
-			"reqAttune": "by an artificer",
-			"wondrous": true,
-			"bonusSpellAttack": "+1",
-			"entries": [
-				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
-				"While holding this tool, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
-				"As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "+1 Amulet of the Devout",
-			"source": "TCE",
-			"page": 119,
-			"rarity": "uncommon",
-			"reqAttune": "by a cleric or paladin",
-			"wondrous": true,
-			"weight": 1,
-			"bonusSpellAttack": "+1",
-			"entries": [
-				"This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your spells.",
-				"While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "+1 Arcane Grimoire",
-			"source": "TCE",
-			"page": 120,
-			"rarity": "uncommon",
-			"reqAttune": "by a wizard",
-			"wondrous": true,
-			"weight": 3,
-			"bonusSpellAttack": "+1",
-			"focus": [
-				"Wizard"
-			],
-			"entries": [
-				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
-				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
-			]
-		},
-		{
-			"name": "+1 Bloodwell Vial",
-			"source": "TCE",
-			"page": 122,
-			"rarity": "uncommon",
-			"reqAttune": "by a sorcerer",
-			"wondrous": true,
-			"weight": 0.01,
-			"bonusSpellAttack": "+1",
-			"focus": [
-				"Sorcerer"
-			],
-			"entries": [
-				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
-				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "+1 Moon Sickle",
-			"source": "TCE",
-			"page": 133,
-			"baseItem": "sickle|PHB",
-			"type": "M",
-			"rarity": "uncommon",
-			"reqAttune": "by a druid or ranger",
-			"weight": 2,
-			"weaponCategory": "simple",
-			"property": [
-				"L"
-			],
-			"dmg1": "{@dice 1d4}",
-			"dmgType": "S",
-			"bonusSpellAttack": "+1",
-			"focus": [
-				"Druid",
-				"Ranger"
-			],
-			"weapon": true,
-			"entries": [
-				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
-				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
-			]
-		},
-		{
-			"name": "+1 Rhythm-Maker's Drum",
-			"source": "TCE",
-			"page": 134,
-			"type": "INS",
-			"rarity": "uncommon",
-			"reqAttune": "by a bard",
-			"wondrous": true,
-			"weight": 3,
-			"grantsProficiency": true,
-			"bonusSpellAttack": "+1",
-			"entries": [
-				"While holding this {@item drum|PHB}, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
-				"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature. This property of the {@item drum|PHB} can't be used again until the next dawn"
-			]
-		},
-		{
 			"name": "+1 Rod of the Pact Keeper",
 			"source": "DMG",
 			"page": 197,
@@ -146,100 +42,6 @@
 			]
 		},
 		{
-			"name": "+2 All-Purpose Tool",
-			"source": "TCE",
-			"page": 119,
-			"rarity": "rare",
-			"reqAttune": "by an artificer",
-			"wondrous": true,
-			"bonusSpellAttack": "+2",
-			"entries": [
-				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
-				"While holding this tool, you gain a +2 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
-				"As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "+2 Amulet of the Devout",
-			"source": "TCE",
-			"page": 119,
-			"rarity": "rare",
-			"reqAttune": "by a cleric or paladin",
-			"wondrous": true,
-			"weight": 1,
-			"bonusSpellAttack": "+2",
-			"entries": [
-				"This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +2 bonus to spell attack rolls and the saving throw DCs of your spells.",
-				"While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "+2 Arcane Grimoire",
-			"source": "TCE",
-			"page": 120,
-			"rarity": "rare",
-			"reqAttune": "by a wizard",
-			"wondrous": true,
-			"weight": 3,
-			"bonusSpellAttack": "+2",
-			"entries": [
-				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
-				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
-			]
-		},
-		{
-			"name": "+2 Bloodwell Vial",
-			"source": "TCE",
-			"page": 122,
-			"rarity": "rare",
-			"reqAttune": "by a sorcerer",
-			"wondrous": true,
-			"weight": 0.01,
-			"bonusSpellAttack": "+2",
-			"entries": [
-				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
-				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "+2 Moon Sickle",
-			"source": "TCE",
-			"page": 133,
-			"baseItem": "sickle|PHB",
-			"type": "M",
-			"rarity": "rare",
-			"reqAttune": "by a druid or ranger",
-			"weight": 2,
-			"weaponCategory": "simple",
-			"property": [
-				"L"
-			],
-			"dmg1": "{@dice 1d4}",
-			"dmgType": "S",
-			"bonusSpellAttack": "+2",
-			"weapon": true,
-			"entries": [
-				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
-				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
-			]
-		},
-		{
-			"name": "+2 Rhythm-Maker's Drum",
-			"source": "TCE",
-			"page": 134,
-			"type": "INS",
-			"rarity": "rare",
-			"reqAttune": "by a bard",
-			"wondrous": true,
-			"weight": 3,
-			"grantsProficiency": true,
-			"bonusSpellAttack": "+2",
-			"entries": [
-				"While holding this {@item drum|PHB}, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
-				"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature. This property of the {@item drum|PHB} can't be used again until the next dawn"
-			]
-		},
-		{
 			"name": "+2 Rod of the Pact Keeper",
 			"source": "DMG",
 			"page": 197,
@@ -273,100 +75,6 @@
 			],
 			"lootTables": [
 				"Magic Item Table G"
-			]
-		},
-		{
-			"name": "+3 All-Purpose Tool",
-			"source": "TCE",
-			"page": 119,
-			"rarity": "very rare",
-			"reqAttune": "by an artificer",
-			"wondrous": true,
-			"bonusSpellAttack": "+3",
-			"entries": [
-				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
-				"While holding this tool, you gain a +3 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
-				"As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "+3 Amulet of the Devout",
-			"source": "TCE",
-			"page": 119,
-			"rarity": "very rare",
-			"reqAttune": "by a cleric or paladin",
-			"wondrous": true,
-			"weight": 1,
-			"bonusSpellAttack": "+3",
-			"entries": [
-				"This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +3 bonus to spell attack rolls and the saving throw DCs of your spells.",
-				"While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "+3 Arcane Grimoire",
-			"source": "TCE",
-			"page": 120,
-			"rarity": "very rare",
-			"reqAttune": "by a wizard",
-			"wondrous": true,
-			"weight": 3,
-			"bonusSpellAttack": "+3",
-			"entries": [
-				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
-				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
-			]
-		},
-		{
-			"name": "+3 Bloodwell Vial",
-			"source": "TCE",
-			"page": 122,
-			"rarity": "very rare",
-			"reqAttune": "by a sorcerer",
-			"wondrous": true,
-			"weight": 0.01,
-			"bonusSpellAttack": "+3",
-			"entries": [
-				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
-				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "+3 Moon Sickle",
-			"source": "TCE",
-			"page": 133,
-			"baseItem": "sickle|PHB",
-			"type": "M",
-			"rarity": "very rare",
-			"reqAttune": "by a druid or ranger",
-			"weight": 2,
-			"weaponCategory": "simple",
-			"property": [
-				"L"
-			],
-			"dmg1": "{@dice 1d4}",
-			"dmgType": "S",
-			"bonusSpellAttack": "+3",
-			"weapon": true,
-			"entries": [
-				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a bonus to attack and damage rolls made with it, and you gain a +3 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
-				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
-			]
-		},
-		{
-			"name": "+3 Rhythm-Maker's Drum",
-			"source": "TCE",
-			"page": 134,
-			"type": "INS",
-			"rarity": "very rare",
-			"reqAttune": "by a bard",
-			"wondrous": true,
-			"weight": 3,
-			"grantsProficiency": true,
-			"bonusSpellAttack": "+3",
-			"entries": [
-				"While holding this {@item drum|PHB}, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
-				"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature. This property of the {@item drum|PHB} can't be used again until the next dawn"
 			]
 		},
 		{
@@ -16425,7 +16133,7 @@
 			"name": "Lifewell Tattoo",
 			"source": "TCE",
 			"page": 129,
-			"rarity": "very rare",
+			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
@@ -17583,43 +17291,6 @@
 						]
 					]
 				}
-			]
-		},
-		{
-			"name": "Masquerade Tattoo",
-			"source": "TCE",
-			"page": 131,
-			"rarity": "common",
-			"reqAttune": true,
-			"wondrous": true,
-			"tattoo": true,
-			"entries": [
-				"Produced by a special needle, this magic tattoo appears on your body as whatever you desire.",
-				{
-					"type": "entries",
-					"name": "Tattoo Attunement",
-					"entries": [
-						"To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin.",
-						"If your attunement to the tattoo ends, the tattoo vanishes, and the needle reappears in your space."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fluid Ink",
-					"entries": [
-						"As a bonus action, you can shape the tattoo into any color or pattern and move it to any area of your skin. Whatever form it takes, it is always obviously a tattoo. It can range in size from no smaller than a copper piece to an intricate work of art that covers all your skin."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Disguise Self",
-					"entries": [
-						"As an action, you can use the tattoo to cast the {@spell disguise self} spell (DC 13 to discern the disguise). Once the spell is cast from the tattoo, it can't be cast from the tattoo again until the next dawn."
-					]
-				}
-			],
-			"attachedSpells": [
-				"disguise self"
 			]
 		},
 		{
@@ -22545,7 +22216,7 @@
 			"source": "TCE",
 			"page": 134,
 			"type": "INS",
-			"rarity": "rare",
+			"rarity": "very rare",
 			"reqAttune": "by a bard",
 			"wondrous": true,
 			"entries": [
