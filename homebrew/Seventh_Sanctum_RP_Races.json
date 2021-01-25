@@ -2746,18 +2746,92 @@
 					"type": "entries"
 				},
 				{
-					"name": "Obscuring Gaze",
+					"name": "Cybernetic Implants",
 					"entries": [
-                     "You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+                     "All Half-Nasods have been modified from their original race in some way, with these cybernetics varying immensely. You can select three cybernetic traits of your choice from the following list:"
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Auto-Stabilize",
+					"type": "inset",
+					"name": "",
 					"entries": [
-                     "When you begin bleeding during combat, your energy core enters an emergency self-preservation mode as you slip into an inert state. Once per long rest, whenever you are dropped to zero hit points, you can choose to stabilize yourself without needing a Medicine check."
+						{
+							"entries": [
+                               "{@b Implanted Weapon.} You have a one-handed ranged or melee weapon that you are proficient with hidden under your skin. This weapon has the properties it would normally have, and the Concealed property if it didn’t have it already. Drawing this weapon is an item interaction. You may swap out the weapon implanted in this way at the completion of a long rest. This implant may be chosen twice."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Cybernetic Reflexes.} Your reflexes have been cybernetically enhanced, allowing you to send your senses into overdrive for a limited time as time seems to slow around you. You may take the Dodge action as a bonus action an amount of times equal to half your proficiency bonus, rounded down. You regain all expended uses on a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Reinforced Bones.} Your skeleton and / or skin has been reinforced and / or covered with an experimental, organic version of steel, increasing your durability exponentially. As a reaction to which you take when you are hit by an attack, you may increase your AC by 2 until the end of your turn as you attempt to block incoming attacks. You may do this an amount of times equal to your proficiency bonus. You regain all expended uses on a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Automated Defense Systems.} You’ve been implanted with defense systems that are programmed to defend you when you would otherwise be unable to defend yourself. If you are attacked by a creature while you are unconscious, incapacitated, stunned, or paralyzed, your defenses will momentarily take control of your body. Taking hold of the weapon you were wielding before being inflicted with the status effect, you may make one attack against the attacking creature before the attack resolves if they are within range or your reach if using a melee weapon. Your Automated Defense Systems may activate an amount of times equal to half your proficiency bonus rounded down before needing to recharge. You regain all expended uses on a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Propulsion Systems.} You’ve outfitted your arms and / or legs with low power propulsion units, allowing you to take flight temporarily through the power of science. As a bonus action, you may manifest these systems. You gain a flight speed equal to your walking speed, though you must end your turn on a solid surface. Otherwise, your propulsion systems will sputter out, and you fall to the ground at the end of your turn. You may activate your propulsion systems a number of times equal to your proficiency bonus. You regain all expended uses on a short or long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Threat Detector.} You’ve implanted an experimental set of sensors within your parietal lobe, sensors that subconsciously evaluate the environment and creatures around you without any input from you. If you are surprised at the beginning of combat, and aren’t incapacitated, you can immediately expend an amount of movement up to your maximum in an attempt to escape harm."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Microgenerator.} You’ve implanted a small, high-voltage generator within your circulatory system that packs a shocking punch. When you’re reduced to a quarter of your HP (rounded down), you may use a reaction to unleash an electroshock in a ten foot radius. All creatures within that radius must make a Strength saving throw equal to 8 + proficiency bonus + Constitution modifier or be pushed back ten feet and knocked prone. Once you’ve used this implant, you must complete a long rest before using it again."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Biomonitor.} Your circulatory system has been modified with a biomonitor, which keeps track of and sends a chemical agent into your bloodstream at your beck and call. As a reaction to taking damage, you may inject yourself with a potion you have preloaded into your Biomonitor system. You may pour a potion into your Biomonitor by pouring it into a port within your arm as an action. The potion may not be withdrawn after being poured out into the Biomonitor system."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Titanium Bones.} Going a step further than simply applying a coating to your skeleton or skin, you’ve reinforced yourself with pure titanium. You are considered one size larger than you are for the purposes of determining carrying capacity and the amount you can push, drag, or lift."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Optical Implants.} You’ve opted to replace your organic eyes with cybernetic versions, enhancing and honing your senses far beyond what a normal creature could ever hope to achieve. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Vibro Sensor.} You’ve implanted yourself with a finely tuned audio implant that can pick up and detect vibrations that would normally be imperceptible to an ordinary organic creature. As a bonus action, you can tune into this sensor. You gain tremorsense out to 30 feet until the end of your next turn. You may use this sensor an amount of times equal to your proficiency bonus before it must recharge. You regain all expended uses on a long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"entries": [
+                               "{@b Internal Defibrillator.} You’ve been outfitted with the most top of line implant in self-preservation, an internal defibrillator. Implanted near your heart, this implant passively monitors your vitals and comes into play when it would detect your imminent demise. When you would die from failing three death saving throws, an electric jolt is sent into your heart, stabilizing you on the spot and saving you from certain death. Once activated, you must complete a long rest before this implant recharges."
+						],
+							"type": "entries"
+						}
 					],
-					"type": "entries"
+					"data": {
+						"overwrite": "Cybernetic Implants"
+					}
 				},
 				{
 					"name": "Energy Weapon",
