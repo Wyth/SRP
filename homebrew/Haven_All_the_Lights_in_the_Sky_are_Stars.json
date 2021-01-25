@@ -1861,6 +1861,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
 					},
@@ -2000,6 +2004,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					}
@@ -2134,6 +2142,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Warlock",
@@ -2517,6 +2529,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
 					},
@@ -2581,6 +2597,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Warlock",
@@ -2673,6 +2693,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
@@ -2755,6 +2779,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
@@ -2828,6 +2856,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Wizard",
@@ -2963,6 +2995,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
@@ -3079,6 +3115,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
@@ -3160,6 +3200,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Wizard",
@@ -3314,6 +3358,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
@@ -3396,6 +3444,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Witch",
+						"source": "ZariethWitch"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
 					},
@@ -3466,6 +3518,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Wizard",
@@ -3549,6 +3605,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Warlock",
@@ -3642,6 +3702,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Warlock",
