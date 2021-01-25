@@ -4360,7 +4360,7 @@
 			],
 			"entries": [
 				"You can draw a weapon that has the thrown property as part of the attack you make with the weapon.",
-				"In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll."
+				"When you make a ranged attack using a thrown weapon, you gain a +1 bonus to the attack and damage rolls of the weapon."
 			]
 		},
 		{
