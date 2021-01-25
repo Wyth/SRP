@@ -2157,8 +2157,11 @@
 						"The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.",
 						"As a bonus action, you can command the familiar to take the {@action Attack} action.",
 						"The familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.",
-						"If the familiar forces a creature to make a saving throw, it uses your spell save DC.",
-						"When the familiar takes damage, you can use your reaction to grant it resistance against that damage."
+						"If the familiar forces a creature to make a saving throw, it uses 8 + your proficiency bonus + your Charisma modifier rather than it being equal to your spell save DC. It cannot benefit from Rod of the Pact Keeper.",
+						"The pseudodragon, in place of poison on its stinger, now deals acid damage instead of poison damage with its condition now simply being a magical effect (creatures with magic resistance have advantage on this save)",
+						"The sprite, in place of using poison on its shortbow, is now simply a magical effect.",
+						"The quasit, in place of poison on its claws, now uses necrotic damage and is not a poison, rather being a magical effect.",
+						"The imp, in place of poison on its stinger, now uses necrotic damage and is now a magical effect."
 					]
 				}
 			]
@@ -2635,7 +2638,30 @@
 			"entries": [
 				"You learn the {@spell find familiar} spell and can cast it as a ritual. The spell doesn't count against your number of spells known.",
 				"When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: {@creature imp}, {@creature pseudodragon}, {@creature quasit}, or {@creature sprite}.",
-				"Additionally, when you take the {@action Attack} action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own."
+				"Additionally, when you take the {@action Attack} action, you can forgo one of your own attacks to allow your familiar to use its reaction to make one attack of its own.",
+				"You add hit point to your familiar equal to 3 * Your Warlock Levels",
+				{
+					"type": "entries",
+					"name": "Might of the Master",
+					"entries": [
+						"The following numbers increase by 1 when your proficiency bonus increases by 1: the familiar’s skill and saving throw bonuses (and the bonuses to hit and damage of its attacks)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eldritch Reconstruction",
+					"entries": [
+						"As an action, your familiar heals for 2d8 + 2 hit points. The +2 scales with Might of the Master. This ability has 3 charges, and you regain all expended charges on a long rest."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Pact of the Chain familiars have received a few changes:",
+					"entries": [
+						"The pseudodragon‘s poison lasts for one minute, and creatures can attempt the save at the end of their turns.",
+						"The poisoned condition for sprites now allows for a creature to make a save at the end of each of their turns."
+					]
+				}
 			]
 		},
 		{

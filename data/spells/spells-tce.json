@@ -249,6 +249,10 @@
 						"name": "Wizard",
 						"source": "PHB",
 						"definedInSource": "TCE"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					}
 				]
 			}
@@ -709,6 +713,10 @@
 						"name": "Wizard",
 						"source": "PHB",
 						"definedInSource": "TCE"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					}
 				]
 			}
@@ -1545,6 +1553,10 @@
 						"name": "Wizard",
 						"source": "PHB",
 						"definedInSource": "TCE"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					}
 				]
 			}
