@@ -1287,12 +1287,13 @@
 				"Binding Rites"
 			],
 			"entries": [
-				"Spirits of Guilt cause your enemies hesitation in acts that would wrong you. While Guilt is bound, when an ally within 30 feet of you is the target of an attack roll you can use your reaction to reduce the attack roll by 2. The penalty the enemy creature receives increases by 2 when Guilt is bound in a 3rd level through 5th level spell slot (-4) and again when Guilt is bound in a 6th level spell slot or higher (-6). The creature's attacks cannot be affected again for 1 minute.",
+				"Spirits of Guilt cause your enemies hesitation in acts that would wrong you. While Guilt is bound, when you are attacked you can use your reaction to gain a bonus to AC against that attack equal to the level of the spirit.",
+				"You can use this feature a number of times equal to the spirit's level. You regain all expended uses when you finish a long rest.",
 				{
 					"type": "entries",
 					"name": "Release",
 					"entries": [
-						"When you release Guilt from your power as a bonus action, choose a creature within 30 feet of you. That creature must make a Wisdom saving throw to make an attack against an ally of yours. On a failure, the attack is lost. This lasts until the creature has made a number of attack rolls equal to the spirit's level."
+						"When you release Guilt from your power as a bonus action, one creature you can see within 60 feet has disadvantage on attack rolls against you for 1 minute. At the end of each of its turn the target can make a Wisdom saving throw against your spell save DC, ending the effect on itself on a success."
 					]
 				}
 			]
@@ -2303,10 +2304,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you can use your action to compel a creature you can see within 60 feet to look at a warped illusion of itself. The target sees you as a wretched, horrifying countenance of itself\u2014a visage that manipulates it with its insecurities and plays on its fears.",
-				"You cast {@spell geas} on the target without expending a spell slot or material components. The target must still make the Wisdom saving throw, resisting the effects on a success. If they fail the save, the target is also {@condition frightened} of you for the duration,  although they can still willingly move closer to the source of its fear.",
-				"In addition, when you use Dark Reflection to cast 𝘨𝘦𝘢𝘴 this way, the duration also becomes 7 years.",
-				"Once you use this feature successfully, you cannot use Dark Reflection again for a week. If the feature fails, you instead regain its use on a long rest. In addition, you can only have one creature under the effects of Dark Reflection at a time. You can break off any current Dark Reflections you have on a creature at will."
+				"At 14th level, you can use your action to compel a creature you can see within 60 feet to look at a warped illusion of itself. The target sees you as a wretched, horrifying version of itself\u2014a visage that manipulates it with its insecurities and plays on its fears. You cast {@spell geas} on the target without expending a spell slot or material components. When cast in this way, the target is also {@condition frightened} of you for the duration, and the duration of the spell is seven years.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
 		{

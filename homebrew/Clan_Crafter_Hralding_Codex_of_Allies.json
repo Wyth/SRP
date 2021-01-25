@@ -4180,10 +4180,6 @@
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Your Ancestral Weapon|Sorcerer||Ancestral Weapon|CoA|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Ancient’s Might|Sorcerer||Ancestral Weapon|CoA|1"
 				}
 			]
 		},
@@ -4206,7 +4202,7 @@
 			"name": "Ancient's Aegis",
 			"type": "entries",
 			"entries": [
-				"Starting at 1st level, as a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. The aegis takes the form of a spectral shield-bearer that protects the target. The aegis reduces any bludgeoning, piercing, or slashing damage the target takes by 2 + your sorcerer level divided by 4 (minimum of 1). This effect lasts for 1 minute, until the aegis is depleted, until you use it again, or until you are incapacitated."
+				"Starting at 1st level, as a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. The aegis takes the form of a spectral shield-bearer that protects the target. The aegis can absorb a number of points of bludgeoning, piercing, or slashing damage equal to 4 + half your sorcerer level. This effect lasts for 1 minute, until the aegis is depleted, until you use it again, or until you are incapacitated."
 			],
 			"source": "CoA",
 			"page": 99,
@@ -4236,21 +4232,6 @@
 			"header": 1
 		},
 		{
-			"name": "Ancient’s Might",
-			"type": "entries",
-			"entries": [
-				"Starting at 1st level, your hit point maximum increases by 1 when you take this class, and it increases by 1 for every level in Sorcerer you take thereafter."
-			],
-			"source": "CoA",
-			"page": 99,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Ancestral Weapon",
-			"subclassSource": "CoA",
-			"level": 1,
-			"header": 1
-		},
-		{
 			"name": "Weapon Channeling",
 			"source": "CoA",
 			"page": 99,
@@ -4263,8 +4244,7 @@
 			"entries": [
 				"At 6th level, you learn to cast spells through the strike of your ancestral weapon.",
 				"Whenever you take the Attack action during your turn, as a bonus action you can cast a sorcerer cantrip or spend 1 sorcery point to cast a sorcerer spell. The spell or cantrip must require a spell attack roll as part of its effect.",
-				"If you do so, its casting time becomes one bonus action, its range becomes equal to your reach and you must target the same creature you targeted with the melee attack. Ranged spell attacks made in this manner do not have disadvantage if you are within 5 feet of a hostile creature. You follow other rules normally for casting it, including expending a spell slot.",
-				"Weapon Channeling can now be used with cantrips or 1st-level sorcerer spells that have either a spell attack roll or use a weapon attack roll in the spell."
+				"If you do so, its casting time becomes one bonus action, its range becomes equal to your reach and you must target the same creature you targeted with the melee attack. Ranged spell attacks made in this manner do not have disadvantage if you are within 5 feet of a hostile creature. You follow other rules normally for casting it, including expending a spell slot."
 			]
 		},
 		{
