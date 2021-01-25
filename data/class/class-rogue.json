@@ -3056,7 +3056,8 @@
 			"level": 13,
 			"header": 2,
 			"entries": [
-				"Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you."
+				"Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while another creature is within 5 feet of you, you can use your reaction to have the attack target that creature instead of you.",
+				"This feature does not work if the attacker does not have the reach to hit the creature you choose as the new target."
 			]
 		},
 		{
