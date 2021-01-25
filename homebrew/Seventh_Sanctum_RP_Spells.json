@@ -207,6 +207,10 @@
 					{
 						"name": "Warlock",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					}
 				],
 				"fromSubclass": [
@@ -714,6 +718,10 @@
 					{
 						"name": "Warlock",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					}
 				],
 				"fromSubclass": [
@@ -1970,6 +1978,10 @@
 					{
 						"name": "Warlock",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					}
 				],
 				"fromSubclass": [
@@ -3032,6 +3044,10 @@
 					{
 						"name": "Artificer",
 						"source": "ERLW"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					}
 				],
 				"fromSubclass": [
@@ -3606,6 +3622,10 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "ZariethWitch"
 					},
 					{
 						"name": "Warlock",
