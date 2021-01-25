@@ -516,7 +516,7 @@
 					"subclassFeatures": [
 						"School of Necromancy|Wizard||Necromancy||2",
 						"Undead Thralls|Wizard||Necromancy||6",
-						"Inured to Undeath|Wizard||Necromancy||10",
+						"Mastery of Undeath|Wizard||Necromancy||10",
 						"Command Undead|Wizard||Necromancy||14"
 					]
 				},
@@ -2180,12 +2180,12 @@
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Grim Harvest|Wizard||Necromancy||2"
+					"subclassFeature": "Grim Binding|Wizard||Necromancy||2"
 				}
 			]
 		},
 		{
-			"name": "Grim Harvest",
+			"name": "Grim Binding",
 			"source": "PHB",
 			"page": 118,
 			"className": "Wizard",
@@ -2195,7 +2195,40 @@
 			"level": 2,
 			"header": 1,
 			"entries": [
-				"At 2nd level, you gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the {@filter School of Necromancy|spells|school=N}. You don't gain this benefit for killing constructs or undead."
+				"Starting at 3rd level, you form a pact with an undead spirit, allowing you to call it to your side as a companion. The form the spirit takes is decided by you, and you can freely transform any corpse or skeleton into your undead spirit, regardless of structure or creature type. Use the table to determine what type of undead you can summon, and how many you can have summoned at once:",
+				{
+					"type": "table",
+					"caption": "Grim Bindings Table",
+					"colLabels": [
+						"Level",
+						"Undead Creatures"
+					],
+					"rows": [
+						[
+							"2nd level",
+							"One undead creature of CR 1/4 or lower"
+						],
+						[
+							"4th level",
+							"Up to two undead creatures, whose CRs add up to 1/2 or lower"
+						],
+						[
+							"8th level",
+							"Up to two undead creatures, whose CRs add up to 1 or lower"
+						],
+						[
+							"12th level",
+							"Up to two undead creatures, whose CRs add up to 2 or lower"
+						],
+						[
+							"16th level",
+							"Up to three undead creatures, whose CRs add up to 3 or lower"
+						]
+					]
+				},
+				"Summoning your undead spirit from a corpse or skeleton requires an action. Summoning more than one undead spirit requires one action per spirit. Any undead spirits you summon last until their hit points hit zero, or you forcefully unanimate them as an action.",
+				"Your undead spirits act alongside your initiative count. They take orders from you, requiring no action economy from you.",
+				"You can animate a number of undead spirits using this ability a number of times equal to your Intelligence modifier (minimum of 1). You regain all expended uses of this ability on a long rest."
 			]
 		},
 		{
@@ -2229,13 +2262,13 @@
 					"type": "list",
 					"items": [
 						"The creature's hit point maximum is increased by an amount equal to your wizard level.",
-						"The creature adds your proficiency bonus to its weapon damage rolls."
+						"The creature adds your proficiency bonus to its attack and damage rolls."
 					]
 				}
 			]
 		},
 		{
-			"name": "Inured to Undeath",
+			"name": "Mastery of Undeath",
 			"source": "PHB",
 			"page": 118,
 			"className": "Wizard",
@@ -2245,7 +2278,7 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Beginning at 10th level, you have resistance to necrotic damage, and your hit point maximum can't be reduced. You have spent so much time dealing with undead and the forces that animate them that you have become inured to some of their worst effects."
+				"Beginning at 10th level, you have resistance to necrotic damage, and your hit point maximum can't be reduced. In addition, undead you summon through {@spell animate dead} can be ordered as a free action on your turn, rather than a bonus action."
 			]
 		},
 		{
