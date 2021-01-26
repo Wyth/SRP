@@ -2836,7 +2836,7 @@
 				{
 					"name": "Energy Weapon",
 					"entries": [
-                     "You can use your bonus action to construct a beam of destructive energy centered around your weapon. For the rest of your turn, successful weapon attacks force the creature targeted to make a Constitution saving throw. On a failed save, the creature takes an additional {@dice 2d6} radiant damage and is {@condition Poisoned} until the end of your next turn. Once you use this trait, you can't use it again until you finish a short or long rest."
+                     "You can use your bonus action to construct a beam of destructive energy centered around your weapon. For the rest of your turn, successful weapon attacks force the creature targeted to make a Constitution saving throw equal to 8 + your proficiency bonus + DEX or STR. On a failed save, the creature takes an additional {@dice 2d6} radiant damage and is {@condition Poisoned} until the end of your next turn. Once you use this trait, you can't use it again until you finish a short or long rest."
 					],
 					"type": "entries"
 				},
