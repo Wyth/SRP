@@ -5549,7 +5549,7 @@
 						{
 							"name": "Innate Medium Armor",
 							"entries": [
-                                "The armor your soul inhabits is scale mail making your Armor Class 14 + your Dexterity modifier (max 2). If you use your Soul Transfer trait to transfer yourself to another piece of medium armor then the formula for calculating your Armor Class becomes that of the armor you transfer yourself to. You are also affected by any other additional properties of the armor such as a Strength requirement, a disadvantage on Stealth checks, a bonus to your Armor Class or even a curse."
+                                "The armor your soul inhabits is scale mail making your Armor Class 14 + your Dexterity modifier (max 2). If you use your Soul Transfer trait to transfer yourself to another piece of medium armor then the formula for calculating your Armor Class becomes that of the armor you transfer yourself to. You are also affected by any other additional properties of the armor such as a Strength requirement, a disadvantage on Stealth checks, a bonus to your Armor Class or even a curse. While you wearing armor, you may treat yourself as unarmored instead."
 							],
 							"type": "entries"
 						},
@@ -5598,7 +5598,7 @@
 						{
 							"name": "Innate Heavy Armor",
 							"entries": [
-                                "The armor your soul inhabits is chain mail making your Armor Class 16. If you use your Soul Transfer trait to transfer yourself to another piece of heavy armor then the formula for calculating your Armor Class becomes that of the armor you transfer yourself to. You are also affected by any other additional properties of the armor such as a Strength requirement, a disadvantage on Stealth checks, a bonus to your Armor Class or even a curse."
+                                "The armor your soul inhabits is chain mail making your Armor Class 16. If you use your Soul Transfer trait to transfer yourself to another piece of heavy armor then the formula for calculating your Armor Class becomes that of the armor you transfer yourself to. You are also affected by any other additional properties of the armor such as a Strength requirement, a disadvantage on Stealth checks, a bonus to your Armor Class or even a curse. While you wearing armor, you may treat yourself as unarmored instead."
 							],
 							"type": "entries"
 						},
