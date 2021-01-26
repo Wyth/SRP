@@ -917,33 +917,33 @@
 			]
 		},
 		{
-			"name": "Destined For Greatness",
+			"name": "Master of None",
 			"source": "SRPF",
 			"prerequisite": [{
 				"other": "Must not be benefiting from the Jack of All Trades feature."
 			}],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1,
+						"entry": "Increase the chosen ability score by 1, to a maximum of 20."
+					}
+				}
+			],
 			"entries": [
-				"You have lived a life focused on a singular task, and as such, have mastered singular craft that you yourself hold dear. You gain the following benefits:",
+				"Whether it be through curiosity, natural talent, a blessing from above, you've found yourself to be decently skilled at a small range of skills that just seem to come naturally to you. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in a skill of your choice.",
-						"You gain a +1 bonus to any ability check you make which apply your chosen skill's proficiency.",
-						"The ability score most relevant to the skill increases by 1, to a maximum of 20."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Master of None",
-					"entries": [
-						"Whether it be through curiosity, natural talent, a blessing from above, you've found yourself to be decently skilled at a small range of skills that just seem to come naturally to you. You gain the following benefits:",
-						{
-							"type": "list",
-							"items": [
-								"Increase one ability score of your choice by 1, to a maximum of 20.",
-								"You may add half your proficiency bonus (rounded down) to any ability check you make of the increased ability score, as long as it doesn't already include your proficiency bonus."
-							]
-						}
+						"You may add half your proficiency bonus (rounded down) to any ability check you make of the increased ability score, as long as it doesn't already include your proficiency bonus."
 					]
 				}
 			]
