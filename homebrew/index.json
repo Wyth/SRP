@@ -6,6 +6,7 @@
 		"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory."
 	],
 	"toImport": [
+    "Matthew_Mercer_Blood_Hunter_2020_SRP.json",
     "Tashas_Crucible_of_Everything_Else-SRP_Allowed.json",
     "Seventh_Sanctum_RP_FakerRanger.json",
     "Seventh_Sanctum_RP_GunslingerRogue.json",
@@ -20,9 +21,9 @@
     "Seventh_Sanctum_RP_Races.json",
     "Seventh_Sanctum_RP_Items.json",
     "Seventh_Sanctum_RP_Spells.json",
-    "Zarieth_The_Witch.json",
-    "Clan_Crafter_Hralding_Codex_of_Allies.json",
-    "Haven_All_the_Lights_in_the_Sky_are_Stars.json",
+    "Zarieth_The_WitchSRP.json",
+    "Clan_Crafter_Hralding_Codex_of_AlliesSRP.json",
+    "Haven_All_the_Lights_in_the_Sky_are_StarsSRP.json",
     "Keith_Baker_Exploring_Eberron.json",
     "Kobold_Press_Creature_Codex.json",
 	"Kobold_Press_Tome_of_Beasts_2.json",
