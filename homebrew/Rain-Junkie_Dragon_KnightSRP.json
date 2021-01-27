@@ -433,11 +433,10 @@
 					"name": "Platinum Practice",
 					"subclassFeatures": [
 						"Platinum Practice|Dragon Knight|DK|Platinum|DK|3",
-						"Combat Blessings|Dragon Knight|DK|Platinum|DK|7",
-						"Bahamut's Boon|Dragon Knight|DK|Platinum|DK|10",
-						"Platinum Presence|Dragon Knight|DK|Platinum|DK|10",
-						"Undying Courage|Dragon Knight|DK|Platinum|DK|15",
-						"Bindings of Bahamut|Dragon Knight|DK|Platinum|DK|18"
+						"Holy Light|Dragon Knight|DK|Platinum|DK|7",
+						"Radiant Bastion|Dragon Knight|DK|Platinum|DK|10",
+						"Divine Covenant|Dragon Knight|DK|Platinum|DK|15",
+						"Divine Ward|Dragon Knight|DK|Platinum|DK|18"
 					],
 					"source": "DK",
 					"shortName": "Platinum"
@@ -2295,26 +2294,22 @@
 			"subclassSource": "DK",
 			"level": 3,
 			"entries": [
-				"A few dragon knights worship the Platinum Dragon, Bahamut. These few are members of the Platinum Practice, and are dedicated to preserving the lives of their allies and the innocent. Your dragon's relevant damage type becomes radiant, and any damage and condition immunities it has are replaced with immunity to radiant damage.",
+				"A few dragon knights worship the Platinum Dragon, Bahamut. These few are members of the Platinum Practice, and are dedicated to preserving the lives of their allies and the innocent.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Draconic Radiance|Dragon Knight|DK|Platinum|DK|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Divine Banner|Dragon Knight|DK|Platinum|DK|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Radiant Symbol|Dragon Knight|DK|Platinum|DK|3"
+					"subclassFeature": "Platinum Protector|Dragon Knight|DK|Platinum|DK|3"
 				}
 			]
 		},
 		{
 			"name": "Draconic Radiance",
 			"entries": [
-				"At 3rd level, your draconic nature and that of your companion shifts to reflect the influence of radiance you now wield. ",
-				"Your dragon also physically shifts to reflect this change, and its scales change color to look like the brightest platinum."
+				"At 3rd level, your draconic nature and that of your companion shifts to reflect the holy magic you now wield. Your dragon's relevant damage type becomes radiant, and any damage and condition immunities it has are replaced with immunity to radiant damage.",
+				"Your dragon also physically shifts to reflect this change, and its scales change colour to look like the brightest platinum."
 			],
 			"source": "DK",
 			"className": "Dragon Knight",
@@ -2325,10 +2320,11 @@
 			"header": 1
 		},
 		{
-			"name": "Divine Banner",
+			"name": "Platinum Protector",
 			"entries": [
-				"Additionally at 3rd level, you can create a divine weapon, imbued with the magic of the platinum dragon. During the course of a short or long rest, you can spend 1 hour to create this divine weapon, which takes the shape of either a pike or a spear (your choice).",
-				"The weapon deals radiant damage rather than its regular damage type. You can only have one of these weapons at a time, and when you create a new one, the previous one is destroyed."
+				"At 3rd level, you can imbue your armour with Bahamut's divine light, allowing you to better protect your allies. As a bonus action on your turn, you can cause your armour to glow with divine power; for 1 minute or until you're incapacitated, you shed bright light in a 5 foot radius and dim light for an additional 5 feet.",
+				"Whenever you or another creature takes damage while within 5 feet of you while you shed this light, you can use your reaction to reduce the damage by an amount equal to 1d6 + half your dragon knight level.",
+				"You can use this feature a number of times equal to your Charisma modifier (minimum of 1), and regain all expended uses on a short or long rest."
 			],
 			"source": "DK",
 			"className": "Dragon Knight",
@@ -2339,57 +2335,7 @@
 			"header": 1
 		},
 		{
-			"name": "Radiant Symbol",
-			"entries": [
-				"Finally at 3rd level, you can use your banner to inspire your allies to greater feats of strength. As an action, you can wave your banner until the start of your next turn. When you do so, any allied creature can use a bonus action while within 10 feet of you to gain one of the following effects, which you choose when you wave your banner:",
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Banner of Might",
-							"entries": [
-								"While in this banner's range, an ally can activate the effect of the banner to add 1d4 radiant damage to any weapon attacks they make until the start of their next turn."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Banner of Resilience",
-							"entries": [
-								"While in this banner's range, an ally can activate the effect of the banner to increase its AC by 1 until the start of its next turn."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Banner of Agility",
-							"entries": [
-								"While in this banner's range, an ally can activate the effect of the banner to double its movement speed until the end of its turn."
-							]
-						}
-					]
-				},
-				"Alternatively, you can choose to plant the banner in the ground after choosing an effect. When you do so, you and your allies can interact with your banner by using a bonus action as though you were waving it. The banner remains for 1 minute, and cannot be reclaimed or used as a weapon during this time. After you plant your banner, you can't do so again until you finish a short or long rest."
-			],
-			"source": "DK",
-			"className": "Dragon Knight",
-			"classSource": "DK",
-			"subclassShortName": "Platinum",
-			"subclassSource": "DK",
-			"level": 3,
-			"header": 1
-		},
-		{
-			"name": "Combat Blessings",
+			"name": "Holy Light",
 			"source": "DK",
 			"className": "Dragon Knight",
 			"classSource": "DK",
@@ -2398,12 +2344,13 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"Beginning at 7th level, whenever you use your action to wave your divine banner, if your dragon companion sees you, it can use its reaction to make a melee attack.",
-				"In addition, the banner's range while planted increases to 30 feet. Its range is also increased to 30 feet if you wave it while you are within 5 feet of your dragon."
+				"Beginning at 7th level, you now shed bright light in a 10 foot radius when you cause your armour to shed divine light, and you can now reduce the damage a creature takes while it's within 10 feet of you.",
+				"While you channel your divine light, radiant energy circulates through your blood, granting you blessings of fortitude which catalyzes your very presence. While you are using your Platinum Protector feature, you have advantage on Intelligence and Wisdom saving throws against magical effects, and you cannot be frightened.",				
+				"When you reach 15th level, both the radius of the light and range you can protect your allies increases to 15 feet."
 			]
 		},
 		{
-			"name": "Bahamut's Boon",
+			"name": "Radiant Bastion",
 			"source": "DK",
 			"className": "Dragon Knight",
 			"classSource": "DK",
@@ -2412,24 +2359,11 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"At 10th level, whenever a creature would make an attack against you while you are waving the banner, you can make an attack against that creature as a reaction."
+				"Beginning at 10th level, you're able to easily stand against the tide of battle. When you or your dragon take the Dodge action on your turn, you can't be moved against your will as long as you're not incapacitated."
 			]
 		},
 		{
-			"name": "Platinum Presence",
-			"source": "DK",
-			"className": "Dragon Knight",
-			"classSource": "DK",
-			"subclassShortName": "Platinum",
-			"subclassSource": "DK",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"Also at 10th level, the sheer power of Bahamut that flows through you allows you to find his enemies. You know the direction to any chromatic dragon within 1 mile of you, but do not know its exact location, or the distance it is from you."
-			]
-		},
-		{
-			"name": "Undying Courage",
+			"name": "Divine Covenant",
 			"source": "DK",
 			"className": "Dragon Knight",
 			"classSource": "DK",
@@ -2438,13 +2372,11 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Starting at 15th level, your banner becomes much more powerful. Whenever you wave your banner, all of the effects become available to choose from, rather than just one. Whenever you use a bonus action to gain a benefit from the banner, you can choose a second benefit.",
-				"Additionally, if you would be reduced to 0 hit points while you are waving your banner, you can choose to be reduced to 1 hit point instead. When you do so, your banner loses the ability to grant one of the benefits it offers until you finish a long rest. You choose the benefit that is lost.",
-				"Once you use this feature, you can't do so again until you finish a long rest."
+				"Starting at 15th level, when you reduce the damage a creature would take to 0 with your Platinum Protector, you can cause that creature to gain a number of temporary hit points equal to 1d6 + your Charisma modifier."
 			]
 		},
 		{
-			"name": "Bindings of Bahamut",
+			"name": "Divine Ward",
 			"source": "DK",
 			"className": "Dragon Knight",
 			"classSource": "DK",
@@ -2453,11 +2385,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"At 18th level, your banner not only inspires allies, but also create barriers to trap foes. When you place a banner, you can create two additional banners, each of which must be within 30 feet of the first banner.",
-				"When these banners land, you can create a transparent wall of shimmering, divine energy appear between any number of the banners. The wall is 10 feet high and 1 inch thick, and is immune to all damage, but can be dispelled with a 6th level {@spell dispel magic} or a spell that nullifies magic of a similar or higher level. Spells that dispel walls in this way only dispel walls in the area they target, and any section outside their range is not dispelled.",
-				"The walls cannot be moved through by creatures, other than ones you designate when you create the walls.",
-				"When the walls appear, all creatures in its space are pushed to a side of the wall of your choice.",
-				"Once you use this ability, you cannot do so again until you finish a long rest."
+				"At 18th level, you no longer need to use a reaction to reduce the damage a creature takes with your Platinum Protector feature, and you can reduce the damage a creature takes a number of times equal to your half your Charisma modifier (rounded up_. You can't reduce a single instance of damage that a creature takes multiple times this way. You regain all uses of this feature at the start of your next turn."
 			]
 		},
 		{
