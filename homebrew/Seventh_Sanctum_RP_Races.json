@@ -288,7 +288,7 @@
 				{
 					"name": "Devil's Palace",
 					"entries": [
-                        "As an action, you can target one humanoid creature within 30 feet of you. That creature must succeed on a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, that creature becomes {@condition charmed} by you for one minute.",
+                        "As an action, you can target a creature within 30 feet of you. That creature must succeed on a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, that creature becomes {@condition charmed} by you for one minute.",
 						"If your target suffers any harm (other than being damaged by your Draining Kiss), the effect immediately ends, and that creature is no longer charmed. Once you use this ability, you cannot use it again until you finish a long rest."
 					],
 					"type": "entries"
@@ -296,8 +296,8 @@
 				{
 					"name": "Draining Kiss",
 					"entries": [
-						"As an action, you kiss a creature {@condition charmed} by you or a willing creature within 5 feet of you. That target must make a Constitution saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier.",
-						"On a failed save, that target takes {@dice 2d6} psychic damage, and you heal for amount equal to half the damage taken (rounded down). The psychic damage increases to 3d6 at 5th level. 4d6 at 10th level, 5d6 at 15th level, and 6d6 at 20th level.",
+						"As a reaction upon first charming a creature with Devil's Palace, and as a bonus action thereafter, you kiss a creature {@condition charmed} by you or a willing creature within 5 feet of you. That target must make a Constitution saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier.",
+						"On a failed save, that target takes {@dice 2d6} psychic damage, and you heal for amount equal to half the damage taken (rounded down). The psychic damage increases to {@dice 3d6} at 5th level. {@dice 4d6} at 10th level, {@dice 5d6} at 15th level, and {@dice 6d6} at 20th level.",
 						"You can use this ability a number of times equal to your Charisma modifier (minimum of once), and regain all expended uses on a long rest."
 					],
 					"type": "entries"
