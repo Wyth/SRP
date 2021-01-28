@@ -408,6 +408,7 @@
 				{
 					"name": "Rider Practice",
 					"subclassFeatures": [
+						"Dragon Knight Practice|Dragon Knight|DK|Rider|DK|3",
 						"Rider Practice|Dragon Knight|DK|Rider|DK|3",
 						"Dragon's Scale|Dragon Knight|DK|Rider|DK|7",
 						"Dragon's Wing|Dragon Knight|DK|Rider|DK|10",
@@ -2047,6 +2048,18 @@
 	],
 	"subclassFeature": [
 		{
+			"name": "Dragon Knight Practice",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Rider",
+			"subclassSource": "DK",
+			"level": 3,
+			"entries": [
+				"All dragon knights can call themselves members of the Rider Practice, Elemental Practice, Valiant Practice, Platinum Practice, or Shadow Practice. The Rider Practice focuses on working in sync with their dragon: both in and out of the heat of combat. The bond between knight and dragon is highly valued by those of the Rider Practice. The Elemental Practice heightens their battle skill with magic, believing that the only true way to bond with their dragons is reflect their destructive powers with magic. The Valiant Practice use a banner to support their allies in the heat of battle. The Platinum Practice uses the divine magic of Bahamut to support their allies, protecting them with their divine armour. The Shadow Practice uses misdirection and guile to gain the upper hand in all situations."
+			]
+		},
+		{
 			"name": "Rider Practice",
 			"source": "DK",
 			"className": "Dragon Knight",
@@ -2055,7 +2068,7 @@
 			"subclassSource": "DK",
 			"level": 3,
 			"entries": [
-				"The bond between a dragon knight and their dragon is strong, but those of the Rider Practice take that even further beyond. They seek to live and to die beside their dragon, a sentiment shared by the dragon itself. While not all riders mount their dragons, those who don't are rare. Those of the Rider Practice fight, and win, in tandem with their dragon.",
+				"The bond between a dragon knight and their dragon is strong, but those of the Rider Practice take that even further beyond. They seek to live and to die beside their dragon, a sentiment shared by the dragon itself. While not all riders mount their dragons, those who don't are rare. Those of the Rider Practice fight in tandem with their dragon, and win in tandem with them.",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Dragon's Claw|Dragon Knight|DK|Rider|DK|3"
@@ -2069,8 +2082,8 @@
 		{
 			"name": "Dragon's Claw",
 			"entries": [
-				"Starting at 3rd level, you and your dragon are able to coordinate to disorient your enemies. When both you and your dragon are within 5 feet of a hostile creature, the creature has disadvantage on any attack roll that doesn't target you or your dragon.",
-				"Additionally, when a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to attempt to grapple the target."
+				"Starting at 3rd level, you and your dragon are able to co- ordinate to disorientate your enemies. When both you and your dragon are within 5 feet of a hostile creature, the creature has disadvantage on any attack roll that doesn't target you or your dragon.",
+				"Additionally, when a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to attempt to grapple or shove the creature."
 			],
 			"source": "DK",
 			"className": "Dragon Knight",
@@ -2083,8 +2096,8 @@
 		{
 			"name": "Dragon's Eye",
 			"entries": [
-				"At 3rd level, you and your dragon's keen understanding of each other allows you to better act in battle. When you and your dragon roll initiative, your dragon can change its initiative to match your own.",
-				"Additionally, if you can see your dragon, creatures that it can see don't gain advantage on attack rolls as a result of being hidden from you."
+				"At 3rd level, you and your dragon's keen understanding of each other allows you to better act in battle. You and your dragon can add your Charisma modifier to each of your initiative rolls.",
+				"Additionally, if you can see your dragon, creatures that it can see don't gain advantage on attack rolls against you as a result of being hidden from you."
 			],
 			"source": "DK",
 			"className": "Dragon Knight",
@@ -2105,7 +2118,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 7th level, if your dragon is within 5 feet of you, it can protect you from a creature it can see as an action. Until the start of the dragon's next turn, the creature's attack rolls against you have disadvantage. If your dragon isn't within 5 feet of you, the effect ends.",
-				"Additionally, you can use an action to stabilize your dragon, without needing to make a Wisdom (Medicine) check. When stabilized this way, your dragon will regain 1 hit point after 1d4 minutes instead of 1d4 hours."
+				"Additionally, you can use an action to stabilize your dragon, without needing to make a Wisdom (Medicine) check. When stabilized this way, your dragon will regain 1 hit point after 1d4 minutes instead of {@dice 1d4} hours."
 			]
 		},
 		{
@@ -2119,7 +2132,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 10th level, you and your dragon rule the sky. Mounting and dismounting your dragon only costs 5 feet of movement instead of half your speed, you have advantage on saving throws made to avoid falling off your dragon, and neither you or your dragon take falling damage if you fall 20 feet or less.",
-				"Additionally, your dragon can fly up to 20 feet in a straight line upwards as an action. This movement doesn't provoke opportunity attacks."
+				"Additionally, your dragon can fly up to 20 feet in a straight line upward as an action. This movement doesn't provoke opportunity attacks."
 			]
 		},
 		{
@@ -2146,7 +2159,7 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, the range of Titanic Roar is increased to 120 feet, creatures that are frightened of your dragon have a speed of 0, and when you and your dragon hit a creature that is frightened of your dragon with a weapon attack, the attack is considered a critical hit."
+				"Starting at 18th level, the range of Titanic Roar is increased to 120 feet, creatures that are frightened of your dragon have a speed of 0, and when you or your dragon hit a creature that is frightened of your dragon with a weapon attack, the attack is considered a critical hit."
 			]
 		},
 		{
