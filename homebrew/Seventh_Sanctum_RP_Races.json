@@ -2834,9 +2834,9 @@
 					}
 				},
 				{
-					"name": "Energy Weapon",
+					"name": "Unibeam",
 					"entries": [
-                     "You can use your bonus action to construct a beam of destructive energy centered around your weapon. For the rest of your turn, successful weapon attacks force the creature targeted to make a Constitution saving throw equal to 8 + your proficiency bonus + DEX or STR. On a failed save, the creature takes an additional {@dice 2d6} radiant damage and is {@condition Poisoned} until the end of your next turn. Once you use this trait, you can't use it again until you finish a short or long rest."
+                     "Drawing upon your internal power reserves, you overcharge your core and let out a burst of radiant energy to completely and utterly decimate your foes in a burst of radiance. As an action, you let out a blast of radiant energy in a 5 foot wide, 30 foot long line. Creatures caught within the line must succeed on a Dexterity saving throw equal to 8 + Proficiency Bonus + Constitution Modifier. On a failed save, they take {@dice 1d8} radiant damage. For every level above 1, add an additional {@dice 1d8} radiant damage. On a successful save, they instead take half damage. Once you use this trait, you can't use it again until you finish a long rest as your core recharges. "
 					],
 					"type": "entries"
 				},
