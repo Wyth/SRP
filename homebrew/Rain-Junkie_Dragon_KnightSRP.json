@@ -482,6 +482,20 @@
 					],
 					"source": "DK",
 					"shortName": "Garden"
+				},
+				{
+					"name": "Valiant Practice",
+					"subclassFeatures": [
+						"Valiant Practice|Dragon Knight|DK|Valiant|DK|3",
+						"Valiant Banner|Dragon Knight|DK|Valiant|DK|3",
+						"Symbol of Inspiration|Dragon Knight|DK|Valiant|DK|3",
+						"Battle Standard|Dragon Knight|DK|Valiant|DK|7",
+						"Valiant Strike|Dragon Knight|DK|Valiant|DK|10",
+						"Undying Courage|Dragon Knight|DK|Valiant|DK|15",
+						"Valiant Bindings|Dragon Knight|DK|Valiant|DK|18"
+					],
+					"source": "DK",
+					"shortName": "Valiant"
 				}
 			],
 			"fluff": [
@@ -2893,6 +2907,126 @@
 			"header": 2,
 			"entries": [
 				"At 18th level, when you cast a spell using your Seasonal Magic, your dragon use its reaction to make a claw attack."
+			]
+		},
+		{
+			"name": "Valiant Practice",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Valiant",
+			"subclassSource": "DK",
+			"level": 3,
+			"entries": [
+				"Those of the Valiant Practice strive to lead their allies in battle. By weilding a magical banner to inspire valor and hope in their allies, these dragon knights are able to control and command the battlefield."
+			]
+		},
+		{
+			"name": "Valiant Banner",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Valiant",
+			"subclassSource": "DK",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Additionally at 3rd level, you can imbue a glaive, halberd, pike, spear or trident with your magic. During the course of a short or long rest, you can spend 1 hour to create this special weapon. You can only have one special weapon made this way at a time; if you create a new special weapon, the previous weapon loses its magic.",
+				"The weapon's damage type is the same as the dragon's relevant damage type (e.g. a dragon knight with a red dragon will have a weapon that deals fire damage), rather than its normal damage type."
+			]
+		},
+		{
+			"name": "Symbol of Inspiration",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Valiant",
+			"subclassSource": "DK",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, you can use your banner to inspire your allies to greater feats of strength. As an action, you can wave your banner until the start of your next turn. When you do so, an allied creature can use a bonus action while within 10 feet of you to gain one of the following effects, which you choose when you wave your banner.",
+				{
+					"type": "entries",
+					"name": "Banner of Might.",
+					"entries": [
+						"While in this banner’s range, an ally can activate the effect of the banner to add 1d4 damage to any weapon attacks they make until the start of their next turn. The additional damage's type is the same as your dragon's relevant damage type."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Banner of Resilience.",
+					"entries": [
+						"While in this banner’s range, an ally can activate the effect of the banner to increase its AC by 1 until the start of its next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Banner of Agility.",
+					"entries": [
+						"While in this banner’s range, an ally can activate the effect of the banner to double its movement speed until the end of its turn."
+					]
+				},
+				"Alternatively, you can choose to plant the banner in the ground after choosing an effect, placing it in an empty space within 5 feet of you. When you do so, an you and your allies can interact with your banner in the same way as though you were waving it using a bonus action. The banner remains for 1 minute, and can't be reclaimed or used as a weapon during this time. After you plant your banner, you can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Battle Standard",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Valiant",
+			"subclassSource": "DK",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Beginning at 7th level, whenever you use your action to wave your valiant banner, if your dragon companion can see you, it can use its reaction to make a melee attack.",
+				"In addition, the banner’s range while planted increases to 30 feet. Its range is also increased to 30 feet if you wave it while you are within 5 feet of your dragon.",
+				"Additionally, you can now plant your banner twice per short or long rest."
+			]
+		},
+		{
+			"name": "Valiant Strike",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Valiant",
+			"subclassSource": "DK",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, whenever a creature would make an attack against you while you are waving the banner, you can make an attack against that creature as a reaction."
+			]
+		},
+		{
+			"name": "Undying Courage",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Valiant",
+			"subclassSource": "DK",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting At 15th level, your banner becomes much more powerful. Whenever you wave your banner, all of the effects become available to choose from, rather than just one. Whenever you use a bonus action to gain a benefit from the banner, you can choose a second benefit.",
+				"Additionally, if you would be reduced to 0 hit points while you are waving your banner, you can choose to be reduced to 1 hit point instead. When you do so, your banner loses the ability to grant one of the benefits it offers until you finish a long rest. You choose the benefit that is lost.",
+				"Once you use this feature, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Valiant Bindings",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Valiant",
+			"subclassSource": "DK",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, your banner not only inspire allies, but also create barriers to trap foes. When you place a banner, you can create two additional banners, each of which must be within 30 feet of the first banner.",
+				"When these banners land, you can create a transparent wall of shimmering energy appear between any number of the banners. The wall is 10 feet high and 1 inch thick, and is immune to all damage, but can be dispelled by a 6th level dispel magic or a spell that nullifies magic of a similar or higher level. Spells that dispel walls in this way only dispel walls in the area they target, and any section outside of wall outside their range is not dispelled.",
+				"The walls cannot be moved through by creatures, other than ones you designate when you create the walls. When the wall appears, all creatures in its space are pushed to a side of the wall of your choice.",
+				"Once you use this ability, you cannot do so again until you finish a long rest."				
 			]
 		}
 	]
