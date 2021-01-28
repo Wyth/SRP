@@ -452,6 +452,20 @@
 					],
 					"source": "DK",
 					"shortName": "Shadow"
+				},
+				{
+					"name": "Fey Practice",
+					"subclassFeatures": [
+						"Fey Practice|Dragon Knight|DK|Fey|DK|3",
+						"Shimmering Splendor|Dragon Knight|DK|Fey|DK|3",
+						"Fey Touched|Dragon Knight|DK|Fey|DK|3",
+						"Disruptive Breath|Dragon Knight|DK|Fey|DK|7",
+						"Shifting Reality|Dragon Knight|DK|Fey|DK|10",
+						"Residual Magics|Dragon Knight|DK|Fey|DK|15",
+						"Ever Present Splendor|Dragon Knight|DK|Fey|DK|18"
+					],
+					"source": "DK",
+					"shortName": "Fey"
 				}
 			],
 			"fluff": [
@@ -2345,7 +2359,7 @@
 			"header": 2,
 			"entries": [
 				"Beginning at 7th level, you now shed bright light in a 10 foot radius when you cause your armour to shed divine light, and you can now reduce the damage a creature takes while it's within 10 feet of you.",
-				"While you channel your divine light, radiant energy circulates through your blood, granting you blessings of fortitude which catalyzes your very presence. While you are using your Platinum Protector feature, you have advantage on Intelligence and Wisdom saving throws against magical effects, and you cannot be frightened.",				
+				"While you channel your divine light, radiant energy circulates through your blood, granting you blessings of fortitude which catalyzes your very presence. While you are using your Platinum Protector feature, you have advantage on Intelligence and Wisdom saving throws against magical effects, and you cannot be frightened.",
 				"When you reach 15th level, both the radius of the light and range you can protect your allies increases to 15 feet."
 			]
 		},
@@ -2478,6 +2492,122 @@
 			"entries": [
 				"At 18th level, you can create a vortex of swirling darkness around yourself as an action on your turn. Any number of creatures you choose within 30 feet of you must make a Constitution saving throw, with the DC being equal to 8 + your proficiency bonus + your Charisma modifier. On a failed save, creatures take {@dice 10d10} necrotic damage and you can choose to have them either pulled up to 15 feet towards you or pushed up to 15 feet directly away from you. On a successful saving throw, creatures take half as much damage and aren't moved.",
 				"Once you use this ability, you can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Fey Practice",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Fey",
+			"subclassSource": "DK",
+			"level": 3,
+			"entries": [
+				"Dragon Knights who consort with fey or are connected to the Feywild walk the path of the Fey Practice. Mysterious, tricky and capricious, these dragon knights wield illusory power to deceive and destroy their enemies in pursuit of their inscrutable goals."
+			]
+		},
+		{
+			"name": "Fey Touched",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Fey",
+			"subclassSource": "DK",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Additionally at 3rd level, your dragons fey magic seeps across your bond, infusing you with magical energy, you no longer need to sleep, and can instead fill long rests with light activity. You gain proficiency in either Arcana or Nature skills. Finally you know either the minor illusion or druidcraft cantrip, Charisma is your spellcasting ability for it."
+			]
+		},
+		{
+			"name": "Shimmering Splendor",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Fey",
+			"subclassSource": "DK",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose this practice at 3rd level, your dragon is infused with the mystic energies of the feywild, giving it great innate magical power. As an action, your dragon can tap into its magics to create a shimmering illusionary clone of itself within 30 feet of itself. A clone has all of the same statistics as your dragon, but its hit point maximum is equal to your dragon knight level, it has an AC of 10 + your Charisma modifier, and cannot take actions.",
+				"An illusion acts on your dragon's turn and cannot move more than 100 feet away from it. An illusion lasts for 1 minute or until slain. Your dragon can have a maximum of two illusions active at once. When your dragon makes an attack, it can attack as if it were in the illusion's space.",
+				"When your dragon gains a breath weapon, its range is reduced. A breath weapon in the shape of a line becomes a 5 foot by 15 foot line, and a breath weapon in the shape of a cone becomes a 10-foot cone. When your dragon uses its breath weapon, each illusion also uses its breath weapon. If a creature is subjected to more than one breath weapon at once, it is only affected by one.",
+				"Finally, your dragon size becomes small and cannot be increased. The maximum number of illusions your dragon can have active at once increases by 1 at level 5 and again at level 9."
+			]
+		},
+		{
+			"name": "Disruptive Breath",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Fey",
+			"subclassSource": "DK",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level your dragons connection to fey magics strengthens. As an action, your dragon exhales a cloud of magically infused gas which confuses and charms. The range and area of this breath weapon is the same as your dragon's breath weapon. Each creature in the area must make a Wisdom saving throw. On a failed save, the target can't take reactions and must roll a d8 at the start of each of its turns to determine its behavior for that turn:",
+				{
+					"type": "table",
+					"caption": "1d8 Behaviour",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1-4",
+							"The creature uses all its movement to move in a random direction. The creature doesn't take an action this turn."
+						],
+						[
+							"5-6",
+							"The creature doesn't move or take actions this turn."
+						],
+						[
+							"7-8",
+							"The creature can act and move normally."
+						]
+					]
+				},
+				"An affected creature repeats the saving throw at the end of each of its turns, ending the effect on a success. Once your dragon has used this special breath weapon it cannot do so again until it finishes a short or long rest."
+			]
+		},
+		{
+			"name": "Shifting Reality",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Fey",
+			"subclassSource": "DK",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level your dragons illusions shift and flicker with energy, when your dragon is hit with an attack, it can use its reaction to swap places with an illusion within 30 feet of it causing the illusion to take damage in its stead. It can do this a number of times equal to your Charisma modifier, regaining any expended uses when it completes a long rest."
+			]
+		},
+		{
+			"name": "Residual Magics",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Fey",
+			"subclassSource": "DK",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, your illusions becoming pseudo-tangible, gaining resistance to nonmagical bludgeoning, piercing and slashing damage. When a creature fails a saving throw, against your breath weapon or your Disruptive Breath feature, it becomes covered in soft glowing embers. The next attack roll against the creature has advantage, and it can't benefit from being invisible until the end of your next turn."
+			]
+		},
+		{
+			"name": "Ever Present Splendor",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"subclassShortName": "Fey",
+			"subclassSource": "DK",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, when your dragon makes a bite attack, all of your dragons illusions can make a single claw attack. While you are within 10 feet of your dragon, you are cloaked in dazzling fey energy, causing you to appear unearthly. You have advantage on Charisma checks and saving throws."
 			]
 		}
 	]
