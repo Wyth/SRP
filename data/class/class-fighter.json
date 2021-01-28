@@ -460,7 +460,7 @@
 						"Royal Envoy|Fighter||Purple Dragon Knight (Banneret)|SCAG|7",
 						"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|10",
 						"Bulwark|Fighter||Purple Dragon Knight (Banneret)|SCAG|15",
-						"Inspiring Surge|Fighter||Purple Dragon Knight (Banneret)|SCAG|18"
+						"Knight's Vow|Fighter||Purple Dragon Knight (Banneret)|SCAG|18"
 					]
 				},
 				{
@@ -2386,7 +2386,7 @@
 			"header": 1,
 			"entries": [
 				"When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.",
-				"When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you."
+				"When you use your Second Wind feature, you can choose a number of allied creatures up to 1 + your Charisma modifier (minimum of one) within 60 feet of you. Each one regains hit points equal to your Charisma modifier + your fighter level (minimum of 1), provided that the creature can see or hear you."
 			]
 		},
 		{
@@ -2400,8 +2400,7 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.",
-				"Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights."
+				"Purple Dragon knights are tied to a specific order of Cormyrean knighthood. Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than Purple Dragon knights."
 			]
 		},
 		{
@@ -2415,8 +2414,8 @@
 			"level": 7,
 			"header": 2,
 			"entries": [
-				"A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.",
-				"At 7th level, you gain proficiency in the {@skill Persuasion} skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Insight}, {@skill Intimidation}, or {@skill Performance}.",
+				"Starting at 7th level, you can give yourself a bonus to your initiative rolls equal to your Charisma modifier.",
+				"You also gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: {@skill Animal Handling}, {@skill Insight}, {@skill Intimidation}, or {@skill Performance.}",
 				"Your proficiency bonus is doubled for any ability check you make that uses {@skill Persuasion}. You receive this benefit regardless of the skill proficiency you gain from this feature."
 			]
 		},
@@ -2431,8 +2430,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, when you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.",
-				"Starting at 18th level, you can choose two allies within 60 feet of you, rather than one."
+				"Starting at 10th level, when you use your Action Surge feature, you can choose a number of allies equal to 1 + half your Charisma modifier (rounded down) within 60 feet of you. The creatures you choose can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you. If your allies attack a creature you have attacked this round, their attack has advantage.",
+				"Starting at 18th level, the number of allies you can choose is equal 1 + your Charisma modifier."
 			]
 		},
 		{
@@ -2446,11 +2445,11 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't {@condition incapacitated}, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll."
+				"Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll a saving throw and you aren't {@condition incapacitated}, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll."
 			]
 		},
 		{
-			"name": "Inspiring Surge",
+			"name": "Knight's Vow",
 			"source": "SCAG",
 			"page": 128,
 			"className": "Fighter",
@@ -2460,7 +2459,9 @@
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"Starting at 18th level, you can choose two allies within 60 feet of you, rather than one."
+				"Starting at 18th level, you can spend an action rallying the resolve of your allies. When you do so, you and a number of other friendly creatures you choose up to your Charisma modifier (minimum of one) within 60 feet of you that can see or hear you and can understand you can't be charmed or frightened. If a target is already charmed or frightened, that condition is suppressed for as long as this feature is active.",
+				"These benefits last for one hour or until you fall unconscious.",
+				"You can use this feature two times, and you regain all expended uses of it when you finish a long rest."
 			]
 		},
 		{
