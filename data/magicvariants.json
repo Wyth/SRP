@@ -502,10 +502,10 @@
 					}
 				],
 				"rarity": "common",
-				"reqAttune": "by a creature with a prosthetic limb, or a warforged",
 				"entries": [
-					"An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.",
-					"As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes."
+					"An armblade is a magic weapon that attaches to your arm as an action, becoming inseparable from you as long as it's attached. You may use an action detach the armblade from yourself. The armblade may be detached from you by another creature with an action if you are unconscious or dead.",
+					"As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes.",
+					"This item is only usable by a creature with a prosthetic limb, a warforged, or a Nasod"
 				]
 			}
 		},
