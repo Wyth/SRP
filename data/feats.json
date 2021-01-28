@@ -2914,15 +2914,6 @@
 					"page": 74
 				}
 			],
-			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "elf"
-						}
-					]
-				}
-			],
 			"ability": [
 				{
 					"choose": {
