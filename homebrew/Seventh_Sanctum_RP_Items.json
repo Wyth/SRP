@@ -2892,6 +2892,7 @@
 			"tier": "major",
 			"reqAttune": false,
 			"type": "OTH",
+			"wondrous": true,
 			"value": 60000,
 			"entries": [
 				"While wearing this sigil, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical. It does not provide this bonus when wielding unarmed weapons. Higher grade variations are possible to be found."
