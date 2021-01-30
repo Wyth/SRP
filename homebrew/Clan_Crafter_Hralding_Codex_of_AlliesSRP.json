@@ -31,19 +31,6 @@
 			"classSource": "PHB"
 		},
 		{
-			"name": "Path of the Immortal Titan",
-			"shortName": "Immortal",
-			"source": "CoA",
-			"subclassFeatures": [
-				"Path of the Immortal Titan|Barbarian||Immortal|CoA|3",
-				"Titanic Growth|Barbarian||Immortal|CoA|6",
-				"Mighty Leap|Barbarian||Immortal|CoA|10",
-				"Unyielding Force|Barbarian||Immortal|CoA|14"
-			],
-			"className": "Barbarian",
-			"classSource": "PHB"
-		},
-		{
 			"name": "College of Satire",
 			"shortName": "Satire",
 			"source": "CoA",
@@ -1762,70 +1749,6 @@
 				"When you reach 14th level, your rage can push you beyond the limits of your mortal body.",
 				"Whenever you increase your damage with a Bloodrage die, you can choose to spend an additional Bloodrage die or expend a hit die in addition to a Bloodrage die.",
 				"If you spend 2 dice in this manner and use your Crippling Blow feature you can choose to forego gaining temporary hit points from 1 or 2 dice. If you forego the hit points from 2 dice and the creature fails its saving throw, its movement speed is instead reduced to 0 feet."
-			]
-		},
-		{
-			"name": "Path of the Immortal Titan",
-			"source": "CoA",
-			"page": 46,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Immortal",
-			"subclassSource": "CoA",
-			"level": 3,
-			"entries": [
-				"Barbarians who follow the Path of the Immortal Titan are known as immortals. Immortals are renowned for both strength and tenacity. These massive barbarians are resillient combatants who can move swiftly in heavy armor and grow to achieve incredible feats of titanic strength.",
-				{
-					"type": "entries",
-					"name": "Immortal Resilience",
-					"entries": [
-						"Starting at 3rd level, you gain proficiency in heavy armor. You can use your Rage feature and gain the benefits of Fast Movement while wearing heavy armor.",
-						"In addition, at the start of each of your turns while you are raging, you gain a number of temporary hit points equal to half your barbarian level + your Constitution modifier if you have at least 1 hit point. The hit points disappear when you stop raging."
-					]
-				}
-			]
-		},
-		{
-			"name": "Titanic Growth",
-			"source": "CoA",
-			"page": 46,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Immortal",
-			"subclassSource": "CoA",
-			"level": 6,
-			"entries": [
-				"Starting at 6th level, while you are raging you may use your bonus action to grow, gaining the 'enlarge' effect of the enlarge/reduce spell (no concentration) until the end of your next turn. You can use this ability a number of times equal to your Proficiency Bonus and you regain all expended uses when you finish a short or long rest.",
-				"In addition, the extra 1d4 weapon damage from the 'enlarge' effect becomes 1d6 at 10th level and 1d8 at 14th level."
-			]
-		},
-		{
-			"name": "Mighty Leap",
-			"source": "CoA",
-			"page": 46,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Immortal",
-			"subclassSource": "CoA",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"Starting at 10th level, you may use your bonus action to jump a number of feet horizontally equal to or less than half your walking speed with Fast Movement. If you are enlarged by your Titanic Growth when you jump in this way, each creature within 5 feet of the spaces you land must succeed on a Strength saving throw (DC equals 8 + your Proficiency bonus + your Strength modifier) or be knocked prone.",
-				"Jumping in this manner does not expend any feet of movement."
-			]
-		},
-		{
-			"name": "Unyielding Force",
-			"source": "CoA",
-			"page": 46,
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Immortal",
-			"subclassSource": "CoA",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"Starting at 14th level, whenever you hit a huge or smaller creature with a melee attack while you are raging, you can use your reaction to force the target to succeed on a Strength saving throw (DC equals 8 + your Proficiency bonus + your Strength modifier) or be knocked up to 15 feet away from you in a straight line. While you are enlarged by your Titanic Growth, you can knock a target up to 25 feet away from you. If the target hits an object, this movement immediately ends and the target takes 1d6 bludgeoning damage for each 5 feet of movement remaining."
 			]
 		},
 		{
