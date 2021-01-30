@@ -6,6 +6,7 @@
 		"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory."
 	],
 	"toImport": [
+    "Seventh_Sanctum_RP_DreamworldSorcerer.json"
     "Seventh_Sanctum_RP_DesertSoulSorcerer.json"
     "Seventh_Sanctum_RP_SurgeonRogue.json",
     "Seventh_Sanctum_RP_SundancerRanger.json",
