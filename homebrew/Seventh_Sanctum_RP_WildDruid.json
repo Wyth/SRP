@@ -320,7 +320,103 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"At 14th level, you become able to use another mystical ability that is specific to the ancestry of your chosen Wild Shape. Each of these abilities require you to expend a 5th-level or higher spell slot, but they do not scale with spell slot level like the bestial magic spell-like abilities do."
+				"At 14th level, you become able to use another mystical ability that is specific to the ancestry of your chosen Wild Shape. Each of these abilities require you to expend a 5th-level or higher spell slot, but they do not scale with spell slot level like the bestial magic spell-like abilities do.",
+				{
+	"type": "table",
+	"caption": "Ancestral Magics",
+	"colLabels": [
+		"Wild Shape",
+		"Attack Name",
+		"Effect"
+	],
+	"rows": [
+		[
+			"Wolf",
+			"Lupine Howl",
+			"As an action while in your chosen form, you can expend a spell slot of 5th level or higher to emit a piercing howl. Each creature in a 60-foot cone must make a Constitution saving throw. A creature takes {@dice 8d8} thunder damage and is frightened of you until the end of your next turn on a failed save, or half as much damage and is not frightened on a successful one."
+		],
+		[
+			"Bear",
+			"Primal Guardian",
+			{
+				"type": "entries",
+				"entries": [
+					"As an action while in your chosen form, you can expend a spell slot of 5th level or higher. When you do so, you begin to channel primal energies through your ursine form, becoming a guardian for your allies.",
+					"For 1 minute, you regain {@dice 3d6} hit points at the start of each of your turns, and whenever an ally is attacked within 5 feet of you, you can use your reaction to force them to attack you instead. You must make Concentration checks to maintain this feature. You can maintain the effects of Primal Guardian and Wrath of the Ancients at the same time, but when you do so, the Concentration checks you make count for both effects, so if you fail the check, both effects fade."
+				]
+			}
+		],
+		[
+			"Tiger",
+			"Marked For Death",
+			{
+				"type": "entries",
+				"entries": [
+					"As an action while in your chosen form, you can expend a spell slot of 5th level or higher. When you do so, you mark an enemy you can see for death.",
+					"For 1 minute, you deal an additional {@dice 3d6} damage on every attack against the creature. Additionally, you know its location in relation to you during this effect's duration, regardless of whether you can see it or not, providing it is still on the same plane of existence as you. If you kill the creature during this effect, it ends, and you regain 30 hit points. You must make Concentration checks to maintain this effect."
+				]
+			}
+		],
+		[
+			"Eagle",
+			"Aerial Predator",
+			{
+				"type": "entries",
+				"entries": [
+					"As an action while you are in your chosen form, you can expend a spell slot of 5th level or higher. When you do so, you gain the following abilities for the next hour.",
+					{
+						"type": "list",
+						"items": [
+							"You gain the Flyby Feature, which means you don't provoke an opportunity attack when you fly out of an enemy's reach.",
+							"You gain advantage on Acrobatics checks made to avoid obstacles while flying.",
+							"Your fly speed increases to 100ft.",
+							"You can use your bonus action to impose disadvantage on attack rolls against you while you are in the air, provided that there are no objects or creatures within 10 feet of you in all directions."
+						]
+					}
+				]
+			}
+		],
+		[
+			"Toad",
+			"Neurotoxic Vapours",
+			{
+				"type": "entries",
+				"entries": [
+					"As an action while you are in your chosen form, you can expend a spell slot of 5th level or higher and start to exude a billowing vapour from your pores.",
+					"Whenever a creature starts their turn within 10 feet of you, they must succeed on a Wisdom saving throw against your spell save DC. On a failure, the creature's brain is wracked with pain, they take {@dice 2d10} poison damage and become incapacitated until the end of their next turn. You must make Concentration checks to maintain this effect."
+				]
+			}
+		],
+		[
+			"Spider",
+			"Crawling Darkness",
+			{
+				"type": "entries",
+				"entries": [
+					"As an action while you are in your chosen form, you can expend a spell slot of 5th level or higher. When you do so, you gain the following abilities for the next hour.",
+					{
+						"type": "list",
+						"items": [
+							"You have a +10 bonus to Dexterity (Stealth) checks",
+							"You can fire your webbing long ranges to create traversable tightropes across gaps as wide as 120 feet.",
+							"Your Web action no longer needs to be recharged.",
+							"You can use your reaction to use your Web action whenever a creature moves more than 20 feet away from you."
+						]
+					},
+					"Additionally, you gain the following action for the duration, which can be used on your turns in combat.",
+					{
+						"type": "entries",
+						"name": "Web Spray (Recharge 5-6).",
+						"entries": [
+							"You fire a large gout of webbing at a point within 60 feet. Every creature within 5 feet of the impact point must make a Dexterity saving throw or they become restrained by the webbing.",
+							"As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+						]
+					}
+				]
+			}
+		]
+	]
+}
 			]
 		}
 	]
