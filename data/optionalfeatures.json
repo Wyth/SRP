@@ -4853,7 +4853,7 @@
 				}
 			],
 			"entries": [
-				"When you cast the cantrip {@spell booming blade|scag}, all creatures within 5 feet of you must make a Constitution saving throw equal to your spell save DC. On a failed save, a creature takes thunder damage equal to your Charisma modifier (minimum of 0)."
+				"When you cast the cantrip {@spell booming blade|tce}, all creatures within 5 feet of you must make a Constitution saving throw equal to your spell save DC. On a failed save, a creature takes thunder damage equal to your Charisma modifier (minimum of 0)."
 			]
 		},
 		{
@@ -4876,7 +4876,7 @@
 				}
 			],
 			"entries": [
-				"When you cast the cantrip {@spell green-flame blade|scag}, flames leap from the second creature the cantrip targets to a third within 5 feet of it inflicting fire damage equal to your Charisma modifier."
+				"When you cast the cantrip {@spell green-flame blade|tce}, flames leap from the second creature the cantrip targets to a third within 5 feet of it inflicting fire damage equal to your Charisma modifier."
 			]
 		},
 		{
