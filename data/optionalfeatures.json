@@ -4853,7 +4853,7 @@
 				}
 			],
 			"entries": [
-				"When you cast the cantrip {@spell booming blade}, all creatures within 5 feet of you must make a Constitution saving throw equal to your spell save DC. On a failed save, a creature takes thunder damage equal to your Charisma modifier (minimum of 0)."
+				"When you cast the cantrip {@spell booming blade|scag}, all creatures within 5 feet of you must make a Constitution saving throw equal to your spell save DC. On a failed save, a creature takes thunder damage equal to your Charisma modifier (minimum of 0)."
 			]
 		},
 		{
@@ -4876,7 +4876,7 @@
 				}
 			],
 			"entries": [
-				"When you cast the cantrip {@spell green-flame blade}, flames leap from the second creature the cantrip targets to a third within 5 feet of it inflicting fire damage equal to your Charisma modifier."
+				"When you cast the cantrip {@spell green-flame blade|scag}, flames leap from the second creature the cantrip targets to a third within 5 feet of it inflicting fire damage equal to your Charisma modifier."
 			]
 		},
 		{
@@ -4919,7 +4919,7 @@
 				}
 			],
 			"entries": [
-				"You can cast tongues on yourself at will, without expending a spell slot or material components."
+				"You can cast {@spell tongues} on yourself at will, without expending a spell slot or material components."
 			]
 		},
 		{
@@ -4997,7 +4997,7 @@
 				}
 			],
 			"entries": [
-				"You gain the ability to cast {@spell find greater steed} once per long rest without expending a spell slot."
+				"You gain the ability to cast {@spell find greater steed|xge} once per long rest without expending a spell slot."
 			]
 		},
 		{
@@ -5015,7 +5015,7 @@
 				}
 			],
 			"entries": [
-				"With this invocation you can choose to hold a target instead of pulling it closer with the cantrip {@spell lightning lure}. If you use it this way the target takes the lightning damage from the cantrip as normal per round they stay grappled. The target can break free with a Strength saving throw at the end of its turn against your spell save DC."
+				"With this invocation you can choose to hold a target instead of pulling it closer with the cantrip {@spell lightning lure|tce}. If you use it this way the target takes the lightning damage from the cantrip as normal per round they stay grappled. The target can break free with a Strength saving throw at the end of its turn against your spell save DC."
 			]
 		},
 		{
@@ -5378,7 +5378,7 @@
 			]
 		},
 		{
-			"name": "Searing Strike",
+			"name": "Water's Edge",
 			"source": "PHB",
 			"page": 110,
 			"srd": true,
