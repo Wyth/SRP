@@ -106,7 +106,7 @@
 						"The wearer's walking speed increases by 5 feet.",
 						"The armor includes gauntlets, each of which is a magic melee weapon that can be wielded only when the hand is holding nothing. The wearer is proficient with the gauntlets, and each one deals 1d8 force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the gauntlet detaches and flies at the attack's target, then immediately returns to the wearer and reattaches.",
 						"The armor can't be removed against the wearer's will.",
-						"If the wearer is missing any limbs, the armor replaces those limbs\u2014hands, arms, feet, legs, or similar appendages. The replacements function identically to the body parts they replace."
+						"If the wearer is missing any limbs, the armor replaces those limbs—hands, arms, feet, legs, or similar appendages. The replacements function identically to the body parts they replace."
 					]
 				}
 			]
@@ -706,7 +706,7 @@
 				}
 			],
 			"entries": [
-				"You can cast {@spell hold monster} at will\u2014targeting a celestial, fiend, or elemental\u2014without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
+				"You can cast {@spell hold monster} at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again."
 			]
 		},
 		{
@@ -2378,7 +2378,7 @@
 						}
 					},
 					"item": [
-						"2\u20135 pouches"
+						"2–5 pouches"
 					]
 				}
 			],
@@ -4783,6 +4783,634 @@
 			],
 			"entries": [
 				"You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight."
+			]
+		},
+		{
+			"name": "Bound Steed",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Chain"
+				}
+			],
+			"entries": [
+				"You can cast {@spell find steed} once without expending a spell slot.",
+				"You regain the ability to do so when you finish a long rest."
+			]
+		},
+		{
+			"name": "Dual Blade",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Blade"
+				}
+			],
+			"entries": [
+				"When you summon a one handed weapon with the light property as your weapon with the Pact of the Blade Feature, you can summon a weapon of the same type in your other hand as a bonus action.",
+				"Both summoned weapons count as your pact weapon for the purposes of class features. In addition, when engaging in two weapon fighting you may add your relevant ability modifier to the damage of your off hand attacks."
+			]
+		},
+		{
+			"name": "Teacher of the Arcane",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Tome"
+				}
+			],
+			"entries": [
+				"You gain the ability to impart your abilities onto your allies. When you cast a warlock spell with a casting time of 1 action, you can hold your Book of Shadows and increase its casting time to 1 minute. You expend the spell slot, but none of the spell’s effects occur. Instead, the spell transfers into one of your book's pages for later use. This page can be torn out and given to another creature so they may cast it. Any creature holding the page thereafter can use an action to activate the spell. The creature holding the page casts the spell at the spell slot level used to make it, though the spell is cast using your spellcasting ability.",
+				"You may only have one of these pages active at a time, and you cannot regain your spell slot maximum until it is cast. The page remains enchanted until your next short or long rest, at which point the page turns to ash and you regain the spell slot."
+			]
+		},
+		{
+			"name": "Booming Aura",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"spell": [
+						"booming blade#c"
+					]
+				}
+			],
+			"entries": [
+				"When you cast the cantrip {@spell booming blade}, all creatures within 5 feet of you must make a Constitution saving throw equal to your spell save DC. On a failed save, a creature takes thunder damage equal to your Charisma modifier (minimum of 0)."
+			]
+		},
+		{
+			"name": "Green-Flame Chain",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"spell": [
+						"green-flame blade#c"
+					]
+				}
+			],
+			"entries": [
+				"When you cast the cantrip {@spell green-flame blade}, flames leap from the second creature the cantrip targets to a third within 5 feet of it inflicting fire damage equal to your Charisma modifier."
+			]
+		},
+		{
+			"name": "Unerring Blast",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"spell": [
+						"eldritch blast#c"
+					]
+				}
+			],
+			"entries": [
+				"When you cast the eldritch blast cantrip, and one of your spell attacks misses its target, you can use your bonus action to make another attack roll in an attempt to hit the creature you missed."
+			]
+		},
+		{
+			"name": "Voice of the Rune Master",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can cast tongues on yourself at will, without expending a spell slot or material components."
+			]
+		},
+		{
+			"name": "Bond of Loyalty",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Chain"
+				}
+			],
+			"entries": [
+				"Whenever you or your familiar would take damage, the other can use their reaction to magically take the damage instead of the target taking it. This doesn't transfer any effects that might accompany the damage. You can only use this feature if your familiar is within 100 feet of you."
+			]
+		},
+		{
+			"name": "Book of Eldritch Secrets",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Tome",
+					"level": {
+						"level": 12,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You learn two extra spells of your choice from either the warlock spell list or your expanded patron spell list. These spells must be of a level you can cast with a warlock spell slot, and the chosen spells don’t count against the number of spells you know for the class."
+			]
+		},
+		{
+			"name": "Book of Unfettered Lore",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Tome",
+					"level": {
+						"level": 15,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"entries": [
+				"For any invocations that grant spells that use warlock spell slots, you can ignore any restrictions that limit how often those spells can be cast per long rest."
+			]
+		},
+		{
+			"name": "Bound Greater Steed",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Chain",
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain the ability to cast {@spell find greater steed} once per long rest without expending a spell slot."
+			]
+		},
+		{
+			"name": "Lightning Lasso",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Chain",
+					"spell": [
+						"lightning lure#c"
+					]
+				}
+			],
+			"entries": [
+				"With this invocation you can choose to hold a target instead of pulling it closer with the cantrip {@spell lightning lure}. If you use it this way the target takes the lightning damage from the cantrip as normal per round they stay grappled. The target can break free with a Strength saving throw at the end of its turn against your spell save DC."
+			]
+		},
+		{
+			"name": "Master of Many Chains",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Chain",
+					"level": {
+						"level": 12,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain a second familiar of the same type as the one you already have."
+			]
+		},
+		{
+			"name": "Searing Strike",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Blade",
+					"level": {
+						"level": 12,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When you hit a creature with your pact weapon, the creature takes extra radiant damage equal to your Charisma modifier (minimum of 1). You cannot take this invocation if you already have the Lifedrinker invocation."
+			]
+		},
+		{
+			"name": "Superior Mystic Arcanum",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Tome",
+					"level": {
+						"level": 18,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You select a second 6th-level Mystic Arcanum spell, and once per long rest, you regain the use of your 6th-level Mystic Arcanum at the end of a short rest."
+			]
+		},
+		{
+			"name": "Two Minds in One",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Chain",
+					"level": {
+						"level": 18,
+						"class": {
+							"name": "Warlock"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When you cast a concentration spell, your familiar can hold concentration on that spell for you and increase your total number of concentration spells you can maintain at the same time (maximum of 2).",
+				"If, while concentrating, your familiar moves more than 30 feet from you, is incapacitated, fails a concentration check, or dies, then concentration on the spell is lost, and you must succeed on a concentration check with a DC of 10 + the level of the spell your familiar was concentrating on or become Stunned until the beginning of your next turn."
+			]
+		},
+		{
+			"name": "Witching Blade",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Blade"
+				}
+			],
+			"entries": [
+				"You can use your Charisma modifier instead of your Strength or Dexterity modifiers for attack and damage rolls made with your pact weapon."
+			]
+		},
+		{
+			"name": "Ally of Nature",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Archfey or Wilderness"
+				}
+			],
+			"entries": [
+				"You can cast {@spell awaken} once using a warlock spell slot. You can’t do so again until you finish a long rest. The creature you awakened is also imbued with your patron's magic, taking on an appearance similar to the theme of your patron."
+			]
+		},
+		{
+			"name": "Aspect of Jubilex",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Fiend"
+				}
+			],
+			"entries": [
+				"Any spell granted to you by your Expanded Spell list that deals fire damage may instead deal acid damage, and melts flammable objects in the area rather than burning them.",
+				"Additionally, your body takes on an amorphous property. You can now move through the spaces of larger creatures."
+			]
+		},
+		{
+			"name": "Aura of Baalzebul",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"patron": "Fiend"
+				}
+			],
+			"entries": [
+				"Creatures within 30 feet of you automatically lose any immunity to the poisoned condition they may possess, and any such creature's immunity to poison damage becomes resistance while within your aura."
+			]
+		},
+		{
+			"name": "Celestial Blessing",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Celestial"
+				}
+			],
+			"entries": [
+				"You can cast {@spell Bless} as a 1st level spell at will without maintaining concentration. You can use this feature a number of times equal to your Charisma modifier. You regain any expended uses after completing a long rest."
+			]
+		},
+		{
+			"name": "Celestial Instincts",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"patron": "Celestial"
+				}
+			],
+			"entries": [
+				"You can cast {@spell detect evil and good} at will, without expending a spell slot."
+			]
+		},
+		{
+			"name": "Eldritch Seal",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"patron": "Undying",
+					"spell": [
+						"eldritch blast#c"
+					]
+				}
+			],
+			"entries": [
+				"You can halt the flow of a creature's life force with your attacks. Once per turn, when you successfully hit a creature with {@spell eldritch blast}, that creature cannot be healed or benefit from healing effects until the end of its next turn."
+			]
+		},
+		{
+			"name": "Enthraller's Might",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 18,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Great Old One"
+				}
+			],
+			"entries": [
+				"Your patron has imbued you with the power to infect the minds of other sentient creatures. You may now use {@italic create thrall} on any incapacitated creature as long as they have an Intelligence score of 3 or higher."
+			]
+		},
+		{
+			"name": "Everlasting Counsel",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Great Old One"
+				}
+			],
+			"entries": [
+				"You may cast {@spell augury} at will, without expending a spell slot. In addition, you may cast {@spell augury} one additional time before incurring the chance of a random reading."
+			]
+		},
+		{
+			"name": "Hellfire",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 18,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Fiend"
+				}
+			],
+			"entries": [
+				"You may cast {@spell meteor swarm} once using a warlock spell slot. You can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "High Tide",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Fathomless"
+				}
+			],
+			"entries": [
+				"You can cast {@spell tidal wave|xge} at the 3rd level up to an amount of times equal to your Charisma modifier (minimum of 1)."
+			]
+		},
+		{
+			"name": "Power from Death",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Undying"
+				}
+			],
+			"entries": [
+				"When you stabilize a creature with {@spell spare the dying}, you may regain one expended warlock spell slot. You can't do so again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Rite of Returning",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 18,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Undying"
+				}
+			],
+			"entries": [
+				"You can cast {@spell clone} once using a warlock spell slot. You can't do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Servants of the Green Path",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Archfey or Wilderness"
+				}
+			],
+			"entries": [
+				"You can cast {@spell conjure animals} once using a warlock spell slot. You can’t do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Searing Strike",
+			"source": "PHB",
+			"page": 110,
+			"srd": true,
+			"featureType": "EI",
+			"prerequisite": [
+				{
+					"pact": "Blade",
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Warlock"
+						}
+					},
+					"patron": "Fathomless"
+				}
+			],
+			"entries": [
+				"As a bonus action, you can create a melee weapon you are proficient with from a source of water for a duration of 1 minute. This weapon counts as magical for the purposes of overcoming resistance and immunity to nonmagical attacks. If you are not wielding the weapon you created using this feature at the end of your turn, it disappears. You can use this feature up to the amount of times equal to your Charisma modifier (minimum of 1) and you regain any expended uses after a short or long rest. You can decide from two options when you summon this weapon:",
+				{
+					"type": "entries",
+					"name": "Ice Edge:",
+					"entries": [
+						"Your weapon turns to ice and deals an additional {@dice 1d6} cold damage, on top of your normal melee damage. The damage is increased by an additional {@dice 1d6} at 9th ({@dice 2d6}), 13th ({@dice 3d6}), and 17th ({@dice 4d6}) level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lightning Edge:",
+					"entries": [
+						"Your weapon electrifies around the water blade and deals an additional {@dice 1d6} lightning damage, on top of your normal melee damage. The damage is increased by an additional {@dice 1d6} at 9th ({@dice 2d6}), 13th ({@dice 3d6}), and 17th ({@dice 4d6}) level."
+					]
+				}
 			]
 		}
 	]
