@@ -188,7 +188,8 @@
 					"Whenever you make an attack roll with a firearm, and the die roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful {@item Tinker's tools|phb} check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at the quarter of a cost of a firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
 				]
 			}
-		]
+		],
+		"template": "{{prop_name}} ({{item.misfire}})"
 	},
 	{
 		"abbreviation": "RE",
@@ -201,7 +202,8 @@
 					"This weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
 				]
 			}
-		]
+		],
+		"template": "{{prop_name}} ({{item.reload}})"
 	},
 	{
 		"abbreviation": "RET",
