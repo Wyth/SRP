@@ -1471,6 +1471,22 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Doombringer",
+			"source": "SRPF",
+			"prerequisite": [],
+			"entries": [
+				"You have achieved new heights when dual wielding firearms. You gain the following benefits as you strive to lay waste to those who would oppose you:",
+				{
+					"type": "list",
+					"items": [
+						"You deal +1 to damage rolls while wielding two firearms.",
+						"You gain the ability to dual wield two one-handed firearms.",
+						"While dual wielding firearms you may enter the Doombringer stance as a free action on your turn. The stance lasts until the end of your turn. While in the Doombringer stance you draw both firearms onto a single target.  You must take your entire attack action against the target. If all of your attacks hit you deal 1 additional damage die to each attack. You may use this stance an amount of times equal to half your Dexterity modifier rounded down. Expended uses recharge on a short or long rest."
+					]
+				}
+			]
 		}
 	]
 }
