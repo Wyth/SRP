@@ -188,25 +188,6 @@
 			]
 		},
 		{
-			"name": "Akimbo Master",
-			"source": "SRPF",
-			"prerequisite": [{
-				"other": "Proficiency in a firearm"
-			}],
-			"entries": [
-				"You master the art of wielding two ranged weapons at once. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You can draw or holster two sidearms when you would normally be able to draw or holster only one.",
-						"If you are wielding two ranged weapons with the reload property, you can ignore the reload property for those weapons, and do not need a free hand to reload them. This does not work on weapons with a reload property of 1.",
-						"You can wield two one-handed ranged weapons at once, even if they do not have the light property. In addition, You can use two-weapon fighting with one-handed ranged weapons.",
-						"Whenever you engage in two-weapon fighting using ranged weapons, you can make one extra attack as a part of that Attack action instead of using your bonus action."
-					]
-				}
-			]
-		},
-		{
 			"name": "Front Line Infantry",
 			"source": "SRPF",
 			"prerequisite": [{
