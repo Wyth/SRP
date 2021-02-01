@@ -1,0 +1,771 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPMoonGuardian",
+				"abbreviation": "MG",
+				"full": "Moon Guardian",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"class": [
+		{
+			"name": "Moon Guardian",
+			"source": "SRPMoonGuardian",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"wis"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"heavy"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"tools": [
+					"Navigator's tools"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"Insight",
+								"History",
+								"Nature",
+								"Perception",
+								"Survival",
+								"Religion",
+								"Athletics",
+								"Acrobatics"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item chain mail|phb} or (b) {@item leather armor|phb}",
+					"(a) a {@item greataxe|phb} or (b) a {@item warhammer|phb}",
+					"(a) an {@item explorer's pack|phb}, (b) a {@item diplomat's pack|PHB}"
+				],
+				"goldAlternative": "{@dice 5d4} × 10",
+				"defaultData": [
+					{
+						"a": [
+							"chain mail|phb"
+						],
+						"b": [
+							"leather armor|phb"
+						]
+					},
+					{
+						"a": [
+							"greataxe|phb"
+						],
+						"b": [
+							"warhammer|phb"
+						]
+					},
+					{
+						"a": [
+							"explorer's pack|phb"
+						],
+						"b": [
+							"diplomat's pack|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13,
+					"wis": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light",
+						"medium"
+					],
+					"weapons": [
+						"simple",
+						"martial"
+					]
+				}
+			},
+			"classFeatures": [
+				"Moon Wisdom|Moon Guardian|SRPMoonGuardian|1",
+				"Moon Eyes|Moon Guardian|SRPMoonGuardian|1",
+				"Moon Whispers|Moon Guardian|SRPMoonGuardian|2",
+				{
+					"classFeature": "The Blessing|Moon Guardian|SRPMoonGuardian|3",
+					"gainSubclassFeature": true
+				},
+				"Moon Weapon|Moon Guardian|SRPMoonGuardian|3",
+				"Moon Charge|Moon Guardian|SRPMoonGuardian|3",
+				"Ability Score Improvement|Moon Guardian|SRPMoonGuardian|4",
+				"Extra Attack|Moon Guardian|SRPMoonGuardian|5",
+				"Moon Rush|Moon Guardian|SRPMoonGuardian|6",
+				{
+					"classFeature": "The Blessing|Moon Guardian|SRPMoonGuardian|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Moon Guardian|SRPMoonGuardian|8",
+				"Guardians Never Die|Moon Guardian|SRPMoonGuardian|9",
+				"The Call of the Moon|Moon Guardian|SRPMoonGuardian|11",
+				"Ability Score Improvement|Moon Guardian|SRPMoonGuardian|12",
+				{
+					"classFeature": "The Blessing|Moon Guardian|SRPMoonGuardian|13",
+					"gainSubclassFeature": true
+				},
+				"Lunar Crash|Moon Guardian|SRPMoonGuardian|14",
+				"Ability Score Improvement|Moon Guardian|SRPMoonGuardian|16",
+				"Moon Sanctuary|Moon Guardian|SRPMoonGuardian|17",
+				{
+					"classFeature": "The Blessing|Moon Guardian|SRPMoonGuardian|18",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Moon Guardian|SRPMoonGuardian|19",
+				"Lunar Acendence|Moon Guardian|SRPMoonGuardian|20"
+			],
+			"subclassTitle": "The Blessing",
+			"subclasses": [
+				{
+					"name": "Blessing of the Blue Moon",
+					"subclassFeatures": [
+						"Blessing of The Blue Moon|Moon Guardian|SRPMoonGuardian|Blue Moon|SRPMoonGuardian|3",
+						"Spirit Tides|Moon Guardian|SRPMoonGuardian|Blue Moon|SRPMoonGuardian|3",
+						"Moon Touch|Moon Guardian|SRPMoonGuardian|Blue Moon|SRPMoonGuardian|7",
+						"Moon Gate (Blue Moon)|Moon Guardian|SRPMoonGuardian|Blue Moon|SRPMoonGuardian|13",
+						"Blessed Waters|Moon Guardian|SRPMoonGuardian|Blue Moon|SRPMoonGuardian|13",
+						"Helping Light|Moon Guardian|SRPMoonGuardian|Blue Moon|SRPMoonGuardian|18"
+					],
+					"source": "SRPMoonGuardian",
+					"shortName": "Blue Moon"
+				},
+				{
+					"name": "Blessing of The Blood Moon",
+					"subclassFeatures": [
+						"Blessing of The Blood Moon|Moon Guardian|SRPMoonGuardian|Blood Moon|SRPMoonGuardian|3",
+						"Lunar Flux|Moon Guardian|SRPMoonGuardian|Blood Moon|SRPMoonGuardian|3",
+						"Blood Strike|Moon Guardian|SRPMoonGuardian|Blood Moon|SRPMoonGuardian|7",
+						"Moon Gate (Blood Moon)|Moon Guardian|SRPMoonGuardian|Blood Moon|SRPMoonGuardian|13",
+						"Blood Hunt|Moon Guardian|SRPMoonGuardian|Blood Moon|SRPMoonGuardian|13",
+						"Lunar Wrath|Moon Guardian|SRPMoonGuardian|Blood Moon|SRPMoonGuardian|18"
+					],
+					"source": "SRPMoonGuardian",
+					"shortName": "Blood Moon"
+				},
+				{
+					"name": "Blessing of The Full Moon",
+					"subclassFeatures": [
+						"Blessing of The Full Moon|Moon Guardian|SRPMoonGuardian|Full Moon|SRPMoonGuardian|3",
+						"Lunar Barrier|Moon Guardian|SRPMoonGuardian|Full Moon|SRPMoonGuardian|7",
+						"Moon Gate (Full Moon)|Moon Guardian|SRPMoonGuardian|Full Moon|SRPMoonGuardian|13",
+						"Lunar Cleansing|Moon Guardian|SRPMoonGuardian|Full Moon|SRPMoonGuardian|13",
+						"Fortitude of the Moon|Moon Guardian|SRPMoonGuardian|Full Moon|SRPMoonGuardian|18"
+					],
+					"source": "SRPMoonGuardian",
+					"shortName": "Full Moon"
+				}
+			],
+			"fluff": [
+				{
+					"entries": [
+						"A pale human stands in the moonlight, greatsword gleaming as the red moon wanes in the background, shining its light on a swarm of felled foes.",
+						"As your final moment draw near, you see in the darkness a dim beacon of hope. Your Tiefling companion knelt in reverence to the moon, bathes you and your party in protective energy.",
+						"When the battle seems all but lost, a quiet prayer is heard as an image of the moon blocks out the sun and your Triton ally glows with a celestial light as she charges the enemy alone.",
+						{
+							"type": "entries",
+							"name": "Moon Guardian",
+							"entries": [
+								"The Moon is a powerful entity. A celestial body that affects the entirety of Kagrea from it's place in the heavens. The Moon tugs at our waters creating tides, guides those who cannot see through the darkness, and to a select few, it grants them extraordinary strength and wisdom. Each Moon Guardian is blessed by the moon, marking them. These markings can range from a small birthmark on the back of ones neck, to intricate skin patterns that run along the body. Many Moon Guardians walk the path of neutrality, often looking for signs and omens from the moon, instead of walking their own paths. Still, often times Moon Guardians are unpredictable in nature, changing just as often as the wanes and waxes of the moon."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Birth Rights",
+							"entries": [
+								"Every Moon Guardian is chosen by the moon at birth. These powers granted by the moons mark usually begin to appear in adolescence for a guardian. Religious cults, tribes of people, and sects of Moon Guardians themselves often seek out moons marks on children in hopes to develop and manifest their powers as soon as possible. Many more still are born without knowledge of their blessing. As such they go far into life before discovering the power they have been granted. Moon Guardians are often found in certain bloodlines throughout history. The father or grandmother of Moon Guardians are often Moon Guardians themselves Some peoples consider the birth of a Moon Guardian a blessing for the future. Others say they are harbingers of doom."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Moon Weapon",
+							"entries": [
+								"A Moon Guardian and their weapon are very closely tied. These weapons are usually just as important to a Moon Guardian as their mark itself, as the weapon is how they channel most of the moons power. Channeling power through a weapon requires two hands, as the moon asks for complete dedication to it. A Moon guardian is seldom seen without their weapon and they are often symbols of which blessings they have received. Blue Moon The blessing of the blue moon allows you to become more rational and calm in the face of adversity. Your link with nature becomes more assertive, and you feel more connected to every creature that surrounds you. You push and pull the ebb and flow of battle, using the moons energy to bring life to yourself and allies  "
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Creating A Moon Guardian",
+							"entries": [
+								"If you wish to create a Moon Guardian, think about your connection to the moon, about your path to serving it. Decide how you have used your abilities to get through life and when your powers first manifested.."
+							]
+						}
+					],
+					"name": "Moon Guardian",
+					"type": "section"
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Moon Wisdom",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 1,
+			"entries": [
+				"When you reach 1st level the Moon whispers wonders and secrets into your being, slowly claiming your dedication and guarding you against unwanted rest. You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+			]
+		},
+		{
+			"name": "Moon Eyes",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 1,
+			"entries": [
+				"At 1st level, your eyes are incredibly keen, and under the moonlight shine with a blue aura that resembles the moon brightness. Your eyes allow you the following two abilities:",
+				{
+					"type": "entries",
+					"name": "Darkvision:",
+					"entries": [
+						"Blessed with the moon powers, your vision can easily cut through the darkness. You can see dim light within 60 feet of you like bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astronomical Knowledge:",
+					"entries": [
+						"Whenever you make a check pertaining to the stars or other cosmic bodies, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+					]
+				}
+			]
+		},
+		{
+			"name": "Moon Whispers",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 2,
+			"entries": [
+				"At 2nd level, the moon gives its power; you can use your Wisdom modifier for initiative instead of Dexterity."
+			]
+		},
+		{
+			"name": "The Blessing",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 3,
+			"entries": [
+				"At the 3rd level, you choose your blessing through the moon guidance.",
+				{
+					"type": "list",
+					"items": [
+						"The blessing you choose grants you features at 3rd and again at 7th, 13th, and 18th levels."
+					]
+				}
+			]
+		},
+		{
+			"name": "Moon Weapon",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 3,
+			"entries": [
+				"At the 3rd level the moon grants you a bit of her power and a two-handed melee weapon that you choose becomes your Moon Weapon. You can select a new Moon Weapon at the end of a long rest. Your Moon Weapon grants you minor protection while conscious and wielding it you gain +1 AC."
+			]
+		},
+		{
+			"name": "Moon Charge",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 3,
+			"entries": [
+				"Additionally at 3rd level, by channeling the moon's might, a freezing aura envolops your Moon Weapon. Once per short or long ,rest as a bonus action, you may activate this ability onto your Moon Weapon which allows it to deal an additional {@dice 1d6} cold damage for ten minutes.",
+				"This damage increases by {@dice 1d6} when you reach 14th level ({@dice 2d6})."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you and your Moon Wisdom form a more potent fighting team. When you take the attack action on your turn, if your companion can see you, it can use its reaction to make a melee attack."
+			]
+		},
+		{
+			"name": "Moon Rush",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 6,
+			"entries": [
+				"At the 6th level, the Moon Weapon you wield becomes unaffected by gravity. You can now use your Moon Weapon to make a thrown weapon attack to a creature within 15 ft of you.",
+				"As a bonus action, if you have thrown your weapon this turn, you can fly to your weapons location in a straight line (or as straight as the terrain allows). Any opportunity attacks made against you while you are flying back are made at disadvantage.",
+				"You may use this a number of times equal to your Wisdom modifier per long rest",
+				{
+					"type": "inset",
+					"name": "Throw",
+					"entries": [
+						"You use the same ability modifier for that attack roll and damage roll that you would use for a melee attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Blessing",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain a feature granted by your Blessing Feature"
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Guardians Never Die",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 9,
+			"entries": [
+				"At the 9th level, if you drop to 0 hit points, a ray of light envelops you and at the start of your next turn you stand up with 1 hit point and are no longer prone. You can use this feature once per long rest."
+			]
+		},
+		{
+			"name": "The Call of the Moon",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 11,
+			"entries": [
+				"At the 11th level, as an action, you may invoke the powers and protection of the moon upon yourself for 10 minutes and gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"While wielding your moon weapon you gain an additiomal +1 AC.",
+						"All of your attacks with your Moon Weapon deal an extra {@dice 2d6} cold damage.",
+						"Your weapon deals additional damage equal to your wisdom modifier."
+					]
+				},
+				"You may use this feature once per short or long rest."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "The Blessing",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 13,
+			"entries": [
+				"At 13th level, you gain a feature granted by your Blessing Feature"
+			]
+		},
+		{
+			"name": "Lunar Crash",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 14,
+			"entries": [
+				"Beginning at the 14th level your Moon Rush gains reach up to 30 feet.",
+				"Additionally any creature within the path between you and your weapon, when you use Moon Rush, must make a Dexterity saving throw (DC 8 + proficiency bonus + Wis) on a fail save take {@dice 2d8} magical bludgeoning damage and are knocked prone."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Moon Sanctuary",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 17,
+			"entries": [
+				"When you reach the 17th level, You pray to the moon to grant you sanctuary. As an action you can cast {@spell Hallow} without spell components and only takes 12 hours to cast.",
+				"You can use this feature once per long rest."
+			]
+		},
+		{
+			"name": "The Blessing",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain a feature granted by your The Blessing."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Lunar Acendence",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"level": 20,
+			"entries": [
+				"At 20th level once per long rest you can take your ascended form for one minute. If you are in daylight an image of the moon appears to partially eclipse the sun, this eclipse casts everything around you in a 100 foot radius into darkness.",
+				"While you are ascended you radiate 15ft of bright silver light. Additionally your Moon Weapon takes on a form twice it's current size, granting it reach of 15ft. Successful Moon Weapon attacks deal their damage in a 5 foot radius of the target as well as to it, as moonlight begins to overflow from their body.",
+				"When the creature enters the area of your light for the first time or starts its turn there it must make a Constitution saving throw. It takes {@dice 3d10} cold damage on a failed save, or half as much damage on a successful one."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Blessing of The Blue Moon",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blue Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 3,
+			"entries": [
+				"The blessing of the blue moon allows you to become more rational and calm in the face of adversity. Your link with nature becomes more assertive, and you feel more connected to every creature that surrounds you. You push and pull the ebb and flow of battle, using the moons energy to bring life to yourself and allies"
+			]
+		},
+		{
+			"name": "Spirit Tides",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blue Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 3,
+			"entries": [
+				"At the 3rd level the moon commands the water to protect your allies. As a reaction when a friendly creature you see within 30 feet of you gets hit by an attack, you can create a water shield that surrounds that ally, granting them +5 AC until the start of their next turn.",
+				"You can use this feature a number of times equal to your Wisdom modifier. All uses refresh on long rest."
+			]
+		},
+		{
+			"name": "Moon Touch",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blue Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At the 7th level, as a bonus action, the moon power inside you heals a creature you can see for a number of hit points equal to {@dice 1d8} + your Wisdom modifier.",
+				"You can use this feature a number of times equal to your Wisdom modifier, and it has no effect on undead or constructs. All uses refresh on a long rest.",
+				{
+					"type": "list",
+					"items": [
+						"Increasing at 11th level ({@dice 2d8}), and 17th level ({@dice 3d8})."
+					]
+				}
+			]
+		},
+		{
+			"name": "Moon Gate (Blue Moon)",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blue Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At the 13th level, the moon will protect the people around you. As a reaction, if an ally you see withing 60ft of you is about to get hit by an attack, you create a pool of water beneath them. They fall in, causing the attack to miss, and reappear in a place you see withing 30ft of you; after coming out, they have been healed {@dice 2d8} + your Wisdom modifier.",
+				"This feature can be used up your Wisdom modifier and recover all expended uses on a long rest."
+			]
+		},
+		{
+			"name": "Blessed Waters",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blue Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level you can now breathe underwater. Anytime you are fully submerged in still water you heal for {@dice 2d8}+ your Moon Guardian level. You can use this feature once per short or long rest. In addition if you have access to clean water during a short rest you can create up to three vials of Holy Water."
+			]
+		},
+		{
+			"name": "Helping Light",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blue Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"The moon has recognized your effort to help those in need, so it has given you the power to do so.",
+				"At the 18th level, once a day, as an action, you pray to the moon, and a ray of light falls upon you and all of your allies in a 60ft radius; they recover hit points equal to your Moon Guardian level x 4"
+			]
+		},
+		{
+			"name": "Blessing of The Blood Moon",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blood Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 3,
+			"entries": [
+				"The Blood Moon's Blessing allows you to become more aware of your surroundings, and enhances your body. Your strikes become defter, more precise, and more deadly than the average Moon Guardian. On top of this power, your ability to track and find your foes has grown so you may further server the moon."
+			]
+		},
+		{
+			"name": "Lunar Flux",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blood Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 3,
+			"entries": [
+				"At 3rd level, once per turn when you successfully strike an enemy with your moon weapon you can reposition yourself to a space within 15 ft. This movement does not provoke opportunity attacks.",
+				"You can use this a number of times equal to your Wisdom modifier and all uses refresh on a long rest."
+			]
+		},
+		{
+			"name": "Blood Strike",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blood Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, your ability to draw from the moon allows you do drain the vitality of your enemies.",
+				"Once per turn, when you hit a creature with your moon weapon, you may deal additional damage to that creature in addition to the weapon's damage. The damage is {@dice 3d8} necrotic damage.",
+				"This feature can be used an amount of times equal to your Wisdom modifier. You regain all uses when you finish a long rest. The damage of this ability increases to ({@dice 4d8}) when you reach 11th level, and ({@dice 5d8}) when you reach 17th level"
+			]
+		},
+		{
+			"name": "Moon Gate (Blood Moon)",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blood Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, when you or a creature within 30 ft of you takes damage, you may use your reaction to teleport to an unoccupied space you can see within 30 ft of you and make one attack with your moon weapon. When the attack hits, you heal for an amount of hit points equal to {@dice 3d8} + your Wisdom modifier.",
+				"This feature can be used a number of times equal to your Wisdom modifier and you regain all expended uses at the end of a long rest."
+			]
+		},
+		{
+			"name": "Blood Hunt",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blood Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level the blood moon has granted ou the ability to track down wounded foes. When tracking a creature that you have wounded within the last 24hrs you have advantage on any checks made to locate it. As an action You can sense any wounded creature within a mile."
+			]
+		},
+		{
+			"name": "Lunar Wrath",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Blood Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, the moon whispers her judgment into your ear, fueling your next attack with overwhelming power allowing you to execute a creature. If the creature you choose has 100 hit points or fewer, it dies instantly. Otherwise, this ability has no effect. This feature can only be used once per long rest."
+			]
+		},
+		{
+			"name": "Blessing of The Full Moon",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Full Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 3,
+			"entries": [
+				"The Full Moon's blessing grants you the ability to shield and protect others. Using the Moons energy you become a dim beacon of hope that others look to for guidance and protection. The Moon fortifies you against attacks and allows you to shrug off weaker blows.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Moon Spirit Blessing|Moon Guardian|SRPMoonGuardian|Full Moon|SRPMoonGuardian|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lunar Reflection|Moon Guardian|SRPMoonGuardian|Full Moon|SRPMoonGuardian|3"
+				}
+			]
+		},
+		{
+			"name": "Moon Spirit Blessing",
+			"entries": [
+				"At 3rd level, a moon spirit imparts a second blessing into your moon weapon, converting your weapon into an awakened weapon and converting all cold damage granted from class features to radiant damage."
+			],
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Full Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Lunar Reflection",
+			"entries": [
+				"At the 3rd level, you gain active defense. Once per turn as a reaction, when a melee weapon attack hits you, you can attempt to turn the user's attack. If the initial attack roll surpasses the enemy AC, the damage rolled is split between the two of you.",
+				"You may use this feature a number of times equal to your Wisdom modifier, and you regain all expended uses on a long rest."
+			],
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Full Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Lunar Barrier",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Full Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, whenever you finish a short or long rest, you are enveloped in a lunar ward. The ward has hitpoints equal to twice your Moon Guardian level + your Wisdom modifier. The ward has a damage threshold equal to your Wisdom + Constitution modifier, and the damage taken by the ward cannot be reduced by any means. Once the temporary hitpoints are reduced to 0 the ward falls.",
+				{
+					"type": "inset",
+					"name": "Damage Threshold",
+					"entries": [
+						"An object with a Damage Threshold has immunity to all damage unless it takes an amount of damage from a single Attack or Effect equal to or greater than its Damage Threshold, in which case it takes damage as normal."
+					]
+				}
+			]
+		},
+		{
+			"name": "Moon Gate (Full Moon)",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Full Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, when a friendly creature within 60 feet of you is hit by an attack, you may use your reaction to teleport to their space and instantly move your ally into an unoccupied space within 5 feet of you, causing the attack to target you instead.",
+				"This feature can be used a number of times equal to your Wisdom modifier and you regain all expended uses at the end of a long rest."
+			]
+		},
+		{
+			"name": "Lunar Cleansing",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Full Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"At 13th level, once a day during a short rest you can use the moons cleansing light to cast Greater Restoration without material components."
+			]
+		},
+		{
+			"name": "Fortitude of the Moon",
+			"source": "SRPMoonGuardian",
+			"className": "Moon Guardian",
+			"classSource": "SRPMoonGuardian",
+			"subclassShortName": "Full Moon",
+			"subclassSource": "SRPMoonGuardian",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th as an action you enter a state of enlightenment; the power of the moon runs through your veins for one minute. You gain resistance to all damage types, and all hostile creatures within 60 feet of you cannot move away. While a hostile creature is in this radius, it may only target you with damaging attacks or spells.",
+				"When you take damage from an enemy melee weapon attack, the enemy takes radiant damage equal to your moon guardian level. You cannot take any actions or reactions or receive any healing other than using an action to exit this form.",
+				"You also activate your inner reserves of defense and gain temporary hit points equal to your Moon Guardian level. These temporary hit points can be used to fuel your lunar ward if it is active. Your awakaned weapon begins to sing your personal warsong. Creatures who are immune to the charmed condition are not forced to target you and can move away from you.",
+				"Once you use this feature, you cannot use it again until you finish a long rest."
+			]
+		}
+	]
+}
