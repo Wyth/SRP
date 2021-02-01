@@ -73,8 +73,10 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Also at 3rd Level, you are able to concentrate and instill your ki into the arrows or bolts that you fire. Before you make an attack on your turn, you may use a bonus action to focus your ki into one of your ranged weapons you chose with your Bonus Proficiencies, causing the first attack you make with that ranged weapon this turn to deal extra damage on a hit equal to your Martial Arts die + your Wisdom modifier. At 5th level, you can choose to spend 1 ki when you use this ability. If you do, the extra damage applies instead to the first two such ranged weapon attack you make on your turn.",
-				"In addition, you gain knowledge of the cantrip {@spell true strike} if you don't already know it, and its range increases to the furthest long range of any ranged weapon you are holding. You may also cast this spell with a bonus action by spending 1 ki."
+				"Also at 3rd level, you are able to concentrate and instill your ki into the arrows or bolts that you fire. Before you make an attack on your turn, you may use a bonus action to focus your ki into one of the ranged weapons you chose with your Bonus Proficiencies, causing the first attack you make with that ranged weapon this turn to deal extra damage on a hit equal to your Martial Arts die + your Wisdom modifier.",
+				"In addition, you gain knowledge of the cantrip {@spell true strike} if you don't already know it, and its range increases to the furthest long range of any ranged weapon you are holding.",
+				"Starting at 5th level, you gain the ability to spend 1 ki point to cause the extra damage from Spiritual Archery to apply instead to the first two such ranged weapon attacks you make on your turn.",
+				"Alternatively at 5th level, you can also spend 1 ki point to cast your true strike cantrip as a free action. When you cast true strike as a free action this way, the effects of true strike occur immediately, rather than taking a turn to activate."
 			]
 		},
 		{
