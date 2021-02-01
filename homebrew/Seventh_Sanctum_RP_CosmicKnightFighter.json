@@ -68,7 +68,8 @@
 					"items": [
 						"You gain proficiency with navigator's tools",
 						"You gain darkvision out to a range of 60 feet. If you already have darkvision from another source, its range increases by 30 feet",
-						"You learn the {@spell dancing lights} cantrip, and when you cast it, it requires no material components"
+						"You learn the {@spell dancing lights} cantrip, and when you cast it, it requires no material components",
+						"You are immune to any ill effects from being in a vacuum (such as traveling through space), including the need to breathe. You only gain the benefit of this feature in a vacuum, and not in any other circumstances that may involve similar negatives such as the need to breathe."
 					]
 				}
 			],
@@ -172,7 +173,7 @@
 					"name": "Dimensional Warp.",
 					"entries": [
 						"Immediately before or after you make a weapon attack on your turn, you can use your bonus action to teleport up to 20 feet to an unoccupied space you can see.",
-						"Starting at 10th level, when you use this option, the next time you hit a creature with a weapon attack before the end of your next turn, the target takes an extra 2d6 force damage from the attack."
+						"Starting at 10th level, when you use this option, the next time you hit a creature with a weapon attack before the end of your next turn, the target takes an extra {@dice 2d6} force damage from the attack."
 					]
 				},
 				{
@@ -180,7 +181,7 @@
 					"name": "Lunar Lock.",
 					"entries": [
 						"When you hit a creature with a weapon attack, you can infuse the target with a moonlit glow, exerting a restrictive force upon it. Until the end of your next turn, the target sheds dim light in a 10-foot radius and it can't willingly move away from you.",
-						"Starting at 10th level, when you use this option, the target also takes an extra 2d6 cold damage from the attack."
+						"Starting at 10th level, when you use this option, the target also takes an extra {@dice 2d6} cold damage from the attack."
 					]
 				},
 				{
@@ -188,7 +189,7 @@
 					"name": "Meteoric Impact.",
 					"entries": [
 						"Immediately before you make a weapon attack on your turn, you can use your bonus action to infuse your strikes with the unrelenting force of a comet. Until the end of your turn, whenever you hit a creature with a weapon attack, the target is pushed up to 5 feet away from you, and if you score a critical hit on the attack, and the target is huge or smaller, it is also knocked prone.",
-						"Starting at 10th level, when you use this option, the next time you hit a creature with a weapon attack before the end of your turn, the target takes an extra 2d6 fire damage from the attack."
+						"Starting at 10th level, when you use this option, the next time you hit a creature with a weapon attack before the end of your turn, the target takes an extra {@dice 2d6} fire damage from the attack."
 					]
 				},
 				{
@@ -196,7 +197,7 @@
 					"name": "Nebulous Shroud.",
 					"entries": [
 						"Immediately before you make a weapon attack on your turn, you can cause a thin cloud of fog to surround you, which whirrs with faint, illusory images of your choosing. The cloud causes you to be lightly obscured to all other creatures, and the next time a creature makes an attack against you while the cloud exists, the attack roll is made with disadvantage. The cloud fades immediately after that attack, or after 1 minute if no creature makes an attack against you before then.",
-						"Starting at 10th level, when you use this option, the next time you hit a creature with a weapon attack while the cloud exists, the target takes an extra 2d6 psychic damage from the attack."
+						"Starting at 10th level, when you use this option, the next time you hit a creature with a weapon attack while the cloud exists, the target takes an extra {@dice 2d6} psychic damage from the attack."
 					]
 				},
 				{
@@ -204,15 +205,15 @@
 					"name": "Planetary Shell.",
 					"entries": [
 						"Immediately before you make a weapon attack on your turn, you can use your bonus action to coat yourself in a thick layer of rocky debris. The next time you take bludgeoning, piercing, or slashing damage before the end of your next turn, you have resistance to that damage.",
-						"Starting at 10th level, when you use this option, the next time you hit a creature with a weapon attack before the end of your next turn, the target takes an extra 2d6 cold, fire, or poison damage from the attack (your choice)."
+						"Starting at 10th level, when you use this option, the next time you hit a creature with a weapon attack before the end of your next turn, the target takes an extra {@dice 2d6} cold, fire, or poison damage from the attack (your choice)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Solar Flare.",
 					"entries": [
-						"When you hit a creature with a weapon attack on your turn, you can unleash an overwhelmingly brilliant flash of light immediately after the attack. The target becomes blinded until the end of your turn or until it takes any damage.",
-						"Starting at 10th level, when you use this option, the target also takes an extra 2d6 radiant damage from the attack."
+						"When you hit a creature with a weapon attack on your turn, you can unleash an overwhelmingly brilliant flash of light immediately after the attack. The target becomes blinded until the end of your turn.",
+						"Starting at 10th level, when you use this option, the target also takes an extra {@dice 2d6} radiant damage from the attack."
 					]
 				}
 			]
