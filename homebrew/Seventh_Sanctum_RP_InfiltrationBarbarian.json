@@ -120,7 +120,7 @@
 			"name": "Silent Rage",
 			"entries": [
 				"Whenever you enter a rage, you can inhale light and sound to create a magical aura of silence and shadow. The aura extends 10 feet from you in every direction, but not through total cover. Your aura lasts until you dismiss it as a bonus action or your rage ends.",
-				"Your aura acts as the areas of both a {@spell silence} spell and of a {@spell pass without trace} spell. You can still use your Danger Sense even while you are deafened by your aura.",
+				"Your aura acts as the areas of both a {@spell silence} spell and of a {@spell pass without trace} spell. You can still use your Danger Sense even while you are deafened by your aura. If a creature attempts to cast a spell with a verbal component while in your aura, that creature expends the spell slot of the spell (if needed) and rolls a Charisma saving throw with a DC equal to 8 + your proficiency bonus + your Strength modifier. On a successful save, the spell is cast successfully.",
 				"If you are targeted by a {@spell dispel magic} spell, your aura counts as a spell with a level equal to half your barbarian level."
 			],
 			"source": "SRPInfiltration",
