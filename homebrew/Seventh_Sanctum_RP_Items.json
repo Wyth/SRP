@@ -44,219 +44,218 @@
 				"targetSchema": "1.0.0"
 			}
 		],
-
 		"dateAdded": 0,
 		"dateLastModified": 1954236505
 	},
 	"itemProperty": [
-	{
-		"abbreviation": "AM",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Ammo+",
-				"entries": [
-					"This weapon requires advanced ammunition to fire, usually gunpowder, bullets, or magazines."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "AN",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Alternate Name"
-			}
-		]
-	},
-	{
-		"abbreviation": "AR",
-		"source": "SRPAI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Arisen Weapon",
-				"entries": [
-					"So long as you remain bound to your Arisen, you are considered proficient in this weapon. If you ever are to become unbound to your Arisen, the weapon vanishes, and so do any benefits it gives.",
-					"No creature other than the bonded target may use or hold this weapon—the action becomes physically impossible whenever attempted. In addition, you gain the ability to summon this weapon as a bonus action on your turn, causing it to instantly appear equipped onto your form and become attuned (if you have a free attunement slot)."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "AUTO",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Automatic Weapon",
-				"entries": [
-					"Automatic weapons have a unique reload system from other firearms, and as such, feats or class features that allow you to ignore the reload property do not work on automatic weapons."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "AUTOF",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Automatic Fire",
-				"entries": [
-					"As an attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. This saving throw changes depending on the stat you use to make your ranged firearm attacks. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "CON",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Concealed",
-				"entries": [
-					"This weapon is not immediately obvious, and may be easily hidden or disguised as something else. A person attempting to locate the presence of this weapon must succeed on an {@skill Investigation} check opposed by a {@skill Stealth} check on the part of the character with the weapon equipped. Attacks with this weapon against creatures aware of you yet unaware of the weapon's presence are made with advantage."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "DI",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Disarm Immune",
-				"entries": [
-					"Any weapon that carries this property may not unwillingly be removed from your grasp while you remain conscious."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "DW",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Double Weapon",
-				"entries": [
-					"A weapon with this property may be wielded as one weapon, or as two separate weapons both considered to be light. When wielded as one weapon, the weapon may still be one or two-handed, depending on its other properties. A weapon with this property lists to sets of damage die with it, the first for the main-hand of this weapon, the second for the off-hand, and damage on both sides of a double weapon are the same as if it were wielded as a single weapon. Held as a double weapon, one hand or the other may have additional properties, listed alongside their respective damage die. Properties on the weapon (aside from two-handed) apply to both halves of the double weapon, as well."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "EX",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Explosive",
-				"entries": [
-					"On a hit, every creature within 5 feet of the target much make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer {@dice 1d8} fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so. Explosive weapons will also damage terrain (if applicable)."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "GR",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Grappling",
-				"entries": [
-					"If a weapon has this property, an attack made with this weapon against an enemy in range of the weapon or within the weapon's reach may instead be made as a grapple. If the weapon carries the finesse property as well, the grapple may be made and maintained with a Dexterity check rather than an {@skill Athletics} check. If the weapon is ranged, the target's {@skill Athletics} or {@skill Acrobatics} checks to escape the grapple are made against a DC equal to 10 + your Strength modifier."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "MI",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Misfire",
-				"entries": [
-					"Whenever you make an attack roll with a firearm, and the die roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful {@item Tinker's tools|phb} check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at the quarter of a cost of a firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
-				]
-			}
-		],
-		"template": "{{prop_name}} ({{item.misfire}})"
-	},
-	{
-		"abbreviation": "RE",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Reload",
-				"entries": [
-					"This weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
-				]
-			}
-		],
-		"template": "{{prop_name}} ({{item.reload}})"
-	},
-	{
-		"abbreviation": "RET",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Returning",
-				"entries": [
-					"When a thrown weapon also carrying the returning property is thrown as part of an attack, it returns to its wielder immediately after the attack. When throwing a returning weapon, you can choose to not have it return in order to add 5 feet to its short range and 10 feet to its long range."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "RF",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Rapid Fire",
-				"entries": [
-					"As an attack action, you can make a special attack against one target creature within range. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a ranged weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}. You can only Rapid Fire a weapon once per turn."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "SC",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Scatter",
-				"entries": [
-					"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have. The Scatter property is unaffected by the Sharpshooter feat."
-				]
-			}
-		]
-	},
-	{
-		"abbreviation": "UN",
-		"source": "SRPHBI",
-		"entries": [
-			{
-				"type": "entries",
-				"name": "Unarmed",
-				"entries": [
-					"When you make an unarmed strike, you can choose to have the attack deal damage equal to the damage of this weapon, rather than your normal unarmed strike damage. In addition, your hands are considered free for the purposes of object interactions and grappling."
-				]
-			}
-		]
-	}
+		{
+			"abbreviation": "AM",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ammo+",
+					"entries": [
+						"This weapon requires advanced ammunition to fire, usually gunpowder, bullets, or magazines."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AN",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Alternate Name"
+				}
+			]
+		},
+		{
+			"abbreviation": "AR",
+			"source": "SRPAI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Arisen Weapon",
+					"entries": [
+						"So long as you remain bound to your Arisen, you are considered proficient in this weapon. If you ever are to become unbound to your Arisen, the weapon vanishes, and so do any benefits it gives.",
+						"No creature other than the bonded target may use or hold this weapon—the action becomes physically impossible whenever attempted. In addition, you gain the ability to summon this weapon as a bonus action on your turn, causing it to instantly appear equipped onto your form and become attuned (if you have a free attunement slot)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AUTO",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Automatic Weapon",
+					"entries": [
+						"Automatic weapons have a unique reload system from other firearms, and as such, feats or class features that allow you to ignore the reload property do not work on automatic weapons."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AUTOF",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Automatic Fire",
+					"entries": [
+						"As an attack action, you can make a special attack against creatures in a cone in front of you, with the cone's size equal to half the weapon's short range. Expend 6 pieces of ammunition. Creatures in that cone must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. This saving throw changes depending on the stat you use to make your ranged firearm attacks. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CON",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Concealed",
+					"entries": [
+						"This weapon is not immediately obvious, and may be easily hidden or disguised as something else. A person attempting to locate the presence of this weapon must succeed on an {@skill Investigation} check opposed by a {@skill Stealth} check on the part of the character with the weapon equipped. Attacks with this weapon against creatures aware of you yet unaware of the weapon's presence are made with advantage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DI",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disarm Immune",
+					"entries": [
+						"Any weapon that carries this property may not unwillingly be removed from your grasp while you remain conscious."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DW",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double Weapon",
+					"entries": [
+						"A weapon with this property may be wielded as one weapon, or as two separate weapons both considered to be light. When wielded as one weapon, the weapon may still be one or two-handed, depending on its other properties. A weapon with this property lists to sets of damage die with it, the first for the main-hand of this weapon, the second for the off-hand, and damage on both sides of a double weapon are the same as if it were wielded as a single weapon. Held as a double weapon, one hand or the other may have additional properties, listed alongside their respective damage die. Properties on the weapon (aside from two-handed) apply to both halves of the double weapon, as well."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "EX",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Explosive",
+					"entries": [
+						"On a hit, every creature within 5 feet of the target much make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer {@dice 1d8} fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so. Explosive weapons will also damage terrain (if applicable)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "GR",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Grappling",
+					"entries": [
+						"If a weapon has this property, an attack made with this weapon against an enemy in range of the weapon or within the weapon's reach may instead be made as a grapple. If the weapon carries the finesse property as well, the grapple may be made and maintained with a Dexterity check rather than an {@skill Athletics} check. If the weapon is ranged, the target's {@skill Athletics} or {@skill Acrobatics} checks to escape the grapple are made against a DC equal to 10 + your Strength modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MI",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Misfire",
+					"entries": [
+						"Whenever you make an attack roll with a firearm, and the die roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful {@item Tinker's tools|phb} check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be mended out of combat at the quarter of a cost of a firearm. Creatures who use a firearm without being proficient increase the weapon's misfire score by 1."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.misfire}})"
+		},
+		{
+			"abbreviation": "RE",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"This weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.reload}})"
+		},
+		{
+			"abbreviation": "RET",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Returning",
+					"entries": [
+						"When a thrown weapon also carrying the returning property is thrown as part of an attack, it returns to its wielder immediately after the attack. When throwing a returning weapon, you can choose to not have it return in order to add 5 feet to its short range and 10 feet to its long range."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RF",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Rapid Fire",
+					"entries": [
+						"As an attack action, you can make a special attack against one target creature within range. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a ranged weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}. You can only Rapid Fire a weapon once per turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SC",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Scatter",
+					"entries": [
+						"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have. The Scatter property is unaffected by the Sharpshooter feat."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "UN",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Unarmed",
+					"entries": [
+						"When you make an unarmed strike, you can choose to have the attack deal damage equal to the damage of this weapon, rather than your normal unarmed strike damage. In addition, your hands are considered free for the purposes of object interactions and grappling."
+					]
+				}
+			]
+		}
 	],
 	"itemType": [
 		{
@@ -389,8 +388,7 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Chain, spiked",
@@ -432,7 +430,7 @@
 			"weaponCategory": "exotic",
 			"property": [
 				"F",
-				"DW",	
+				"DW",
 				"R",
 				"2H"
 			],
@@ -441,8 +439,7 @@
 			"dmgType": "B",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Chakram",
@@ -462,8 +459,7 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Claw",
@@ -482,8 +478,7 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Dagger, boot-toe",
@@ -584,8 +579,7 @@
 			"dmgType": "B",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Jian",
@@ -605,8 +599,7 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Khopesh",
@@ -623,8 +616,7 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Two-Handed Khopesh",
@@ -732,8 +724,7 @@
 			"dmgType": "B",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Push Dagger",
@@ -779,8 +770,7 @@
 			"dmgType": "B",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Two-Handed Scythe",
@@ -983,8 +973,7 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Tomahawk",
@@ -1004,8 +993,7 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Bola",
@@ -1118,8 +1106,7 @@
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Pistol",
@@ -1143,12 +1130,11 @@
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Submachine Pistol",
-			"source": "SRPHBI",	
+			"source": "SRPHBI",
 			"type": "R",
 			"rarity": "none",
 			"weight": 4,
@@ -1168,12 +1154,11 @@
 			"misfire": "4",
 			"ammo": "20 gp for 20",
 			"dmgType": "P",
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Assault Rifle",
-			"source": "SRPHBI",	
+			"source": "SRPHBI",
 			"type": "R",
 			"rarity": "none",
 			"weight": 9,
@@ -1194,8 +1179,7 @@
 			"misfire": "4",
 			"ammo": "20 gp for 10",
 			"dmgType": "P",
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Musket",
@@ -1220,8 +1204,7 @@
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Revolver",
@@ -1245,8 +1228,7 @@
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Shotgun",
@@ -1342,8 +1324,7 @@
 			"dmgType": "F",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Rifle",
@@ -1368,8 +1349,7 @@
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true,
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "The Beginner's Blade",
@@ -1531,53 +1511,53 @@
 						"It takes one bonus action to activate charges 1-3 and a full action to activate 4-6."
 					]
 				},
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Charges",
-													"Effect"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"{@bold 1 Charge}",
-														"You gain advantage on ability checks for the next minute."
-													],
-													[
-														"{@bold 2 Charges}",
-														"You gain double your movement speed for the next minute."
-													],
-													[
-														"{@bold 3 Charges}",
-														"You gain advantage on attack rolls and saving throws for the next minute and are concentrating on this effect."
-													],
-													[
-														"{@bold 4 Charges}",
-														"You gain temporary hit points equal to half your maximum HP total."
-													],
-													[
-														"{@bold 5 Charges}",
-														"You cast the haste spell targetting only your self and are concentrating on it for the next minute."
-													],
-													[
-														"{@bold 6 Charges}",
-														"For the next minute, the next attack that hits instantly kills the target. This does not affect constructs, creatures without a soul,  creatures immune to exhaustion, or creatures with legendary actions. Such creatures takes an extra {@dice 6d8} necrotic damage from the hit."
-													]
-												]
-											}
-										]
-									},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Charges",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"{@bold 1 Charge}",
+									"You gain advantage on ability checks for the next minute."
+								],
+								[
+									"{@bold 2 Charges}",
+									"You gain double your movement speed for the next minute."
+								],
+								[
+									"{@bold 3 Charges}",
+									"You gain advantage on attack rolls and saving throws for the next minute and are concentrating on this effect."
+								],
+								[
+									"{@bold 4 Charges}",
+									"You gain temporary hit points equal to half your maximum HP total."
+								],
+								[
+									"{@bold 5 Charges}",
+									"You cast the haste spell targetting only your self and are concentrating on it for the next minute."
+								],
+								[
+									"{@bold 6 Charges}",
+									"For the next minute, the next attack that hits instantly kills the target. This does not affect constructs, creatures without a soul,  creatures immune to exhaustion, or creatures with legendary actions. Such creatures takes an extra {@dice 6d8} necrotic damage from the hit."
+								]
+							]
+						}
+					]
+				},
 				{
 					"type": "entries",
 					"entries": [
-				"{@italic Item designed by @Aizea La Win#5106.}"
+						"{@italic Item designed by @Aizea La Win#5106.}"
 					]
 				},
 				{
@@ -2048,66 +2028,66 @@
 				{
 					"type": "entries",
 					"entries": [
-				"You can eat one of these delicious, jelly-filled sweets as a bonus action on your turn. Each one comes with a side effect that lasts for one hour and depends on the associated color and flavor of the bean. Refer below when determining the bean's effects. Each bag contains one bean of each type."
+						"You can eat one of these delicious, jelly-filled sweets as a bonus action on your turn. Each one comes with a side effect that lasts for one hour and depends on the associated color and flavor of the bean. Refer below when determining the bean's effects. Each bag contains one bean of each type."
 					]
 				},
 				{
 					"type": "entries",
 					"entries": [
-				"{@bold Upset Stomach}. You can only be under the effects of one sugarbomb that has this property at a time. Eating a sugarbomb while already under the effects of another one ends the first one's effect early and forces you to make a DC 13 Constitution saving throw. On a failed save, you become {@condition poisoned} for 1 minute."
+						"{@bold Upset Stomach}. You can only be under the effects of one sugarbomb that has this property at a time. Eating a sugarbomb while already under the effects of another one ends the first one's effect early and forces you to make a DC 13 Constitution saving throw. On a failed save, you become {@condition poisoned} for 1 minute."
 					]
 				},
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Jellybean",
-													"Effect"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"{@bold White Chilled Peppermint}",
-														"Gummy exterior with a watery center. You can breathe underwater."
-													],
-													[
-														"{@bold Black Bubbling Licorice}",
-														"Thick, but effervescent. You have resistance to acid damage and can safely eat otherwise inedible & nonpoisonous organic materials."
-													],
-													[
-														"{@bold Blue Sour Lemon-Lime}",
-														"Pleasantly gummy, but slightly numbs the mouth. Grappling or being grappled deals {@dice 1d8} acid damage to the other creature."
-													],
-													[
-														"{@bold Gray-Hot Spiced Mead}",
-														"Harder exterior with a gooey center. You have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
-													],
-													[
-														"{@bold Gold-Foil Caramel}",
-														"Rubbery and chewy. You gain a climbing speed equal to your movement speed."
-													],
-													[
-														"{@bold Red Cinnamon Strawberry}",
-														"Thick and coats the tongue slightly. You gain {@dice 1d8+4} temporary hit points."
-													],
-													[
-														"{@bold Green Savory Apple}",
-														"Spongey center covered with a dissolving shell. You have resistance to poison damage and advantage on ability checks to escape the {@condition grappled} condition and {@condition restrained} condition."
-													],
-													[
-														"{@bold Yellow Mustard Currant}",
-														"Slippery and resilient. You have resistance against lightning damage and immunity to damage from the magic missile spell."
-													]
-												]
-											}
-										]
-									},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Jellybean",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"{@bold White Chilled Peppermint}",
+									"Gummy exterior with a watery center. You can breathe underwater."
+								],
+								[
+									"{@bold Black Bubbling Licorice}",
+									"Thick, but effervescent. You have resistance to acid damage and can safely eat otherwise inedible & nonpoisonous organic materials."
+								],
+								[
+									"{@bold Blue Sour Lemon-Lime}",
+									"Pleasantly gummy, but slightly numbs the mouth. Grappling or being grappled deals {@dice 1d8} acid damage to the other creature."
+								],
+								[
+									"{@bold Gray-Hot Spiced Mead}",
+									"Harder exterior with a gooey center. You have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+								],
+								[
+									"{@bold Gold-Foil Caramel}",
+									"Rubbery and chewy. You gain a climbing speed equal to your movement speed."
+								],
+								[
+									"{@bold Red Cinnamon Strawberry}",
+									"Thick and coats the tongue slightly. You gain {@dice 1d8+4} temporary hit points."
+								],
+								[
+									"{@bold Green Savory Apple}",
+									"Spongey center covered with a dissolving shell. You have resistance to poison damage and advantage on ability checks to escape the {@condition grappled} condition and {@condition restrained} condition."
+								],
+								[
+									"{@bold Yellow Mustard Currant}",
+									"Slippery and resilient. You have resistance against lightning damage and immunity to damage from the magic missile spell."
+								]
+							]
+						}
+					]
+				},
 				"{@italic Item designed by @Gebri#6969.}"
 			]
 		},
@@ -2171,7 +2151,6 @@
 			"rarity": "uncommon",
 			"type": "GSI",
 			"tier": "minor",
-
 			"reqAttune": true,
 			"entries": [
 				"This headpiece, crafted from dark metal, is worn curved around the ear. If you know a creature wearing another Spies' Murmur and that creature is within 1 mile of you, you can communicate telepathically with each other. As a bonus action, you can allow that creature to hear everything you hear for 1 hour. You can end this effect as a bonus action, and it ends if you're {@condition incapacitated}."
@@ -2528,54 +2507,54 @@
 				{
 					"type": "entries",
 					"entries": [
-				"These seeds resemble the seeds of a beech tree, but when successfully raised from sapling to blossom, they bear coins instead of fruit. Raising the tree from a mere sapling to its branching wisdom requires one month of tending."
+						"These seeds resemble the seeds of a beech tree, but when successfully raised from sapling to blossom, they bear coins instead of fruit. Raising the tree from a mere sapling to its branching wisdom requires one month of tending."
 					]
 				},
 				{
 					"type": "entries",
 					"entries": [
-				"When the tree blossoms, roll on the table to determine what type of coin the tree will bear:"
+						"When the tree blossoms, roll on the table to determine what type of coin the tree will bear:"
 					]
 				},
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"{@dice 1d20}",
-													"Coin"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"{@bold 1-5}",
-														"Copper"
-													],
-													[
-														"{@bold 6-10}",
-														"Silver"
-													],
-													[
-														"{@bold 11-15}",
-														"Electrum"
-													],
-													[
-														"{@bold 16-19}",
-														"Gold"
-													],
-													[
-														"{@bold 20}",
-														"Platinum"
-													]
-												]
-											}
-										]
-									},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"{@dice 1d20}",
+								"Coin"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"{@bold 1-5}",
+									"Copper"
+								],
+								[
+									"{@bold 6-10}",
+									"Silver"
+								],
+								[
+									"{@bold 11-15}",
+									"Electrum"
+								],
+								[
+									"{@bold 16-19}",
+									"Gold"
+								],
+								[
+									"{@bold 20}",
+									"Platinum"
+								]
+							]
+						}
+					]
+				},
 				"The tree will bear a singular harvest, and afterwards, no more coins will blossom forth. The branches contain {@dice 20d20} coins of the type you rolled.",
 				"{@italic Item designed by @Amarulence#5357.}"
 			]
@@ -2670,7 +2649,8 @@
 					"type": "entries",
 					"name": "Rougish Vitality",
 					"entries": [
-				"After you use a bonus action granted by your Cunning Action feature, you gain a number of temporary hit points equal to 1 + your Constitution modifier. These temporary hit points last for one minute. In addition, if you use your bonus action to {@action Dash} using your Cunning Action feature and step within reach of a hostile creature, you can make a single attack as a free action. You can only use the second effect of Rougish Vitality once per turn."					]
+						"After you use a bonus action granted by your Cunning Action feature, you gain a number of temporary hit points equal to 1 + your Constitution modifier. These temporary hit points last for one minute. In addition, if you use your bonus action to {@action Dash} using your Cunning Action feature and step within reach of a hostile creature, you can make a single attack as a free action. You can only use the second effect of Rougish Vitality once per turn."
+					]
 				},
 				{
 					"type": "entries",
@@ -3126,27 +3106,27 @@
 					],
 					"rows": [
 						[
-							"1\u20132",
+							"1–2",
 							"The dodecahedron explodes and is destroyed. Each creature within 20 feet of the exploding die must make a DC 13 Dexterity saving throw, taking 40 ({@dice 9d8}) force damage on a failed save, or half as much damage on a successful one."
 						],
 						[
-							"3\u20134",
+							"3–4",
 							"The dodecahedron casts {@spell light} on itself. The effect lasts until a creature touches the die."
 						],
 						[
-							"5\u20136",
+							"5–6",
 							"The dodecahedron casts {@spell ray of frost} (+5 to hit), targeting a random creature within 60 feet of it that doesn't have total cover against the attack."
 						],
 						[
-							"7\u20138",
+							"7–8",
 							"The dodecahedron casts {@spell shocking grasp} (+5 to hit) on the next creature that touches it."
 						],
 						[
-							"9\u201310",
+							"9–10",
 							"The dodecahedron casts {@spell darkness} on itself. The effect has a duration of 10 minutes."
 						],
 						[
-							"11\u201312",
+							"11–12",
 							"The next creature to touch the dodecahedron gains {@dice 1d10} temporary hit points that last for 1 hour."
 						]
 					]
@@ -3347,41 +3327,41 @@
 				"{@bold Mind of Focus}. While this weapon equipped, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type.",
 				"{@bold Structure Mastery}. Whenever you hit an object with this weapon, the hit is a critical hit.",
 				"{@bold Fist of Steel}. When you successfully hit with this weapon, you can choose to expend a number of knowledge points up to your maximum in order to enact one of the following effects:",
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Knowledge Points",
-													"Effect"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"{@bold 1 KP}",
-														"Instead of its normal damage, your weapon now deals {@dice 2d6} radiant and {@dice 1d6} bludgeoning damage until the end of your turn."
-													],
-													[
-														"{@bold 2 KP}",
-														"The creature you hit must make a Constitution saving throw (DC 8 + your proficiency bonus + your Strength modifier). On a failed save, their initiative drops by {@dice 1d6}. If they would drop one or more turns in initiative, they are {@condition stunned} until the end of your next turn."
-													],
-													[
-														"{@bold 5 KP}",
-														"Starting from the point at which you activate this ability, you regain half of the damage you deal as hit points until the end of your turn."
-													],
-													[
-														"{@bold 8 KP}",
-														"You implant a part of your soul into the creature you hit, ravaging their body from the inside-out. That creature must make a Strength, Constitution, and Charisma saving throw (DC + your proficiency bonus + your Constitution modifier). On one or more failed saves, that creature unattunes to a number of items in their possession and falls {@condition unconscious} for a number of rounds equal to the amount of failed saves they made, starting from the lowest rarity item and onwards."
-													]
-												]
-											}
-										]
-									},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Knowledge Points",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"{@bold 1 KP}",
+									"Instead of its normal damage, your weapon now deals {@dice 2d6} radiant and {@dice 1d6} bludgeoning damage until the end of your turn."
+								],
+								[
+									"{@bold 2 KP}",
+									"The creature you hit must make a Constitution saving throw (DC 8 + your proficiency bonus + your Strength modifier). On a failed save, their initiative drops by {@dice 1d6}. If they would drop one or more turns in initiative, they are {@condition stunned} until the end of your next turn."
+								],
+								[
+									"{@bold 5 KP}",
+									"Starting from the point at which you activate this ability, you regain half of the damage you deal as hit points until the end of your turn."
+								],
+								[
+									"{@bold 8 KP}",
+									"You implant a part of your soul into the creature you hit, ravaging their body from the inside-out. That creature must make a Strength, Constitution, and Charisma saving throw (DC + your proficiency bonus + your Constitution modifier). On one or more failed saves, that creature unattunes to a number of items in their possession and falls {@condition unconscious} for a number of rounds equal to the amount of failed saves they made, starting from the lowest rarity item and onwards."
+								]
+							]
+						}
+					]
+				},
 				"",
 				""
 			]
@@ -3409,41 +3389,41 @@
 				"{@bold The Second Blade}. As an object interaction while Mystletainn is drawn, you can manifest its second half in an adjacent hand: Misteltein. Misteltein is a greatsword that deals {@dice 2d6} slashing damage, and maintains the same properties as Mystletainn (including its +2 bonus to attack and damage rolls).",
 				"{@bold Divine Authority}. You have advantage on checks and saving throws made to inflict the {@condition charmed} or {@condition frightened} conditions while attuned to this weapon, and the spell {@spell command} automatically fails on you. In addition, if you enter your Grand Celestia form while attuned to this weapon, you gain truesight up to 30-feet.",
 				"{@bold Celestial Assertion}. You have been granted 6 mastery points as per your contract with Mistel, which you have access to while attuned to this weapon. You can spend a specified number of mastery points in order to activate any following abilities (assuming you meet their activation requirements). You regain all expended mastery points on a long rest.",
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Mastery Points",
-													"Effect"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"{@bold 2 MP}",
-														"After attacking twice (once with Mystletainn and once with Misteltein), you can expend 2 mastery points to swipe your blades in an arc in front of you. Creatures of your choice within a 2x3 grid in front of you (with the middle column centered on you) must make a Dexterity saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, those creatures take {@dice 4d6} radiant damage and are {@condition blinded} until the end of their next turn."
-													],
-													[
-														"{@bold 2 MP}",
-														"When you take the attack action on your turn, you can expend 2 mastery points and attack with Misteltein as you lunge forward. On a hit, you deal {@dice 3d6} piercing damage (rather than slashing damage) to the target and any creatures of your choice in a 10-foot line behind it. In addition, you grant your attacks advantage until the end of your turn. If you already have advantage, your attacks instead gain an additional +2 to damage until the end of your next turn. Finally, the creature you hit cannot use their reaction to take attacks of opportunity against you until the end of their next turn."
-													],
-													[
-														"{@bold 1 MP}",
-														"Upon your first or third attack with Misteltein, you can expend 2 mastery points to tap into your divine connection with Mistel, drawing upon her strength as you ready yourself and your companions for battle. You and any creature you have bestowed your Boon of Knighthood upon heal for {@dice 2d10} hit points and gain {@dice 3d10} temporary hit points."
-													],
-													[
-														"{@bold 0 MP}",
-														"As a bonus action on your turn, you can expend a spell slot to gain a number of mastery points equal to its level (up to 3). You cannot increase your mastery points above 6 this way."
-													]
-												]
-											}
-										]
-									},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Mastery Points",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"{@bold 2 MP}",
+									"After attacking twice (once with Mystletainn and once with Misteltein), you can expend 2 mastery points to swipe your blades in an arc in front of you. Creatures of your choice within a 2x3 grid in front of you (with the middle column centered on you) must make a Dexterity saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, those creatures take {@dice 4d6} radiant damage and are {@condition blinded} until the end of their next turn."
+								],
+								[
+									"{@bold 2 MP}",
+									"When you take the attack action on your turn, you can expend 2 mastery points and attack with Misteltein as you lunge forward. On a hit, you deal {@dice 3d6} piercing damage (rather than slashing damage) to the target and any creatures of your choice in a 10-foot line behind it. In addition, you grant your attacks advantage until the end of your turn. If you already have advantage, your attacks instead gain an additional +2 to damage until the end of your next turn. Finally, the creature you hit cannot use their reaction to take attacks of opportunity against you until the end of their next turn."
+								],
+								[
+									"{@bold 1 MP}",
+									"Upon your first or third attack with Misteltein, you can expend 2 mastery points to tap into your divine connection with Mistel, drawing upon her strength as you ready yourself and your companions for battle. You and any creature you have bestowed your Boon of Knighthood upon heal for {@dice 2d10} hit points and gain {@dice 3d10} temporary hit points."
+								],
+								[
+									"{@bold 0 MP}",
+									"As a bonus action on your turn, you can expend a spell slot to gain a number of mastery points equal to its level (up to 3). You cannot increase your mastery points above 6 this way."
+								]
+							]
+						}
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Special",
@@ -3482,75 +3462,74 @@
 				"{@bold You Fear Me Now}. You are immune to the {@condition frightened} condition. In addition, when a creature attempts to frighten you, you can use a reaction to manifest your aura of intimidation, war, and defilement. Expend one use of your Guided by the God of War feature, and that creature must make a Wisdom saving throw with its DC. On a failed save, that creature becomes {@condition frightened} and their movement speed becomes 0, or have their speed reduced by half on a successful save. Fiends have disadvantage on this save, and creatures immune to the {@condition frightened} condition autopass this save.",
 				"{@bold Battle Planning}.You have a list of fiends who you have dominated on the fields of combat as part of the Blood War. When you take a long rest, you can select 3 creatures on your fiend list to add to your prepared list. You cannot swap out creatures from your prepared list until you finish another long rest.",
 				"{@bold Blood War}. You have trained in the heart of Onios, and have manifested 12 blood points as per your contract with Krurm. You can spend a number of blood points as an action on your turn to summon a number of fiends from your prepared list decided by you. The CR of the creatures you summon must add up to the amount of blood points you expend. You regain all expended blood points on a long rest.",
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Blood Points",
-													"Fiend List"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"{@bold 1 BP}",
-														"{@creature vargouille|VGM}"
-													],
-													[
-														"{@bold 2 BP}",
-														"{@creature wind demon|CCodex}"
-													],
-													[
-														"{@bold 3 BP}",
-														"{@creature hell hound|MM}"
-													],
-													[
-														"{@bold 4 BP}",
-														"{@creature dybbuk|MTF}, {@creature merregon|MTF}"
-													],
-													[
-														"{@bold 5 BP}",
-														"{@creature barlgura|MM}"
-													],
-													[
-														"{@bold 6 BP}",
-														"{@creature white abishai|MTF}"
-													],
-													[
-														"{@bold 7 BP}",
-														"{@creature black abishai|MTF}, {@creature armanite|MTF}"
-													],
-													[
-														"{@bold 8 BP}",
-														"{@creature canoloth|MTF}"
-													],
-													[
-														"{@bold 9 BP}",
-														"{@creature nycaloth|MM}"
-													],
-													[
-														"{@bold 10 BP}",
-														"{@creature orthon|MTF}"
-													],
-													[
-														"{@bold 11 BP}",
-														"{@creature yagnoloth|MTF}"
-													],
-													[
-														"{@bold 12 BP}",
-														"{@creature erinyes|MM}"
-													]
-												]
-											}
-										]
-									},
 				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Blood Points",
+								"Fiend List"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"{@bold 1 BP}",
+									"{@creature vargouille|VGM}"
+								],
+								[
+									"{@bold 2 BP}",
+									"{@creature wind demon|CCodex}"
+								],
+								[
+									"{@bold 3 BP}",
+									"{@creature hell hound|MM}"
+								],
+								[
+									"{@bold 4 BP}",
+									"{@creature dybbuk|MTF}, {@creature merregon|MTF}"
+								],
+								[
+									"{@bold 5 BP}",
+									"{@creature barlgura|MM}"
+								],
+								[
+									"{@bold 6 BP}",
+									"{@creature white abishai|MTF}"
+								],
+								[
+									"{@bold 7 BP}",
+									"{@creature black abishai|MTF}, {@creature armanite|MTF}"
+								],
+								[
+									"{@bold 8 BP}",
+									"{@creature canoloth|MTF}"
+								],
+								[
+									"{@bold 9 BP}",
+									"{@creature nycaloth|MM}"
+								],
+								[
+									"{@bold 10 BP}",
+									"{@creature orthon|MTF}"
+								],
+								[
+									"{@bold 11 BP}",
+									"{@creature yagnoloth|MTF}"
+								],
+								[
+									"{@bold 12 BP}",
+									"{@creature erinyes|MM}"
+								]
+							]
+						}
+					]
 				},
+				{},
 				"",
 				""
 			]
@@ -3567,13 +3546,13 @@
 				{
 					"type": "entries",
 					"entries": [
-				"These five orbital nanolasers revolve in an arc around your back—the set of oscillating crystals at their cores reflecting light back in a sheen of colors representative of their elemental properties. A small computer attaches to your waist underneath your clothes, hooked up to wires connected to sensing pads on your body which can translate the firing of synapses in your mind."
+						"These five orbital nanolasers revolve in an arc around your back—the set of oscillating crystals at their cores reflecting light back in a sheen of colors representative of their elemental properties. A small computer attaches to your waist underneath your clothes, hooked up to wires connected to sensing pads on your body which can translate the firing of synapses in your mind."
 					]
 				},
 				{
 					"type": "entries",
 					"entries": [
-				"As a bonus action on your turn, you can fire one of the five lasers at an ally or hostile creature. Each laser has a range of 90 feet, and an attack roll equal to your proficiency bonus + your Intelligence modifier (if required)."
+						"As a bonus action on your turn, you can fire one of the five lasers at an ally or hostile creature. Each laser has a range of 90 feet, and an attack roll equal to your proficiency bonus + your Intelligence modifier (if required)."
 					]
 				},
 				{
@@ -3632,46 +3611,46 @@
 				{
 					"type": "entries",
 					"entries": [
-				"These three orbital nanolasers revolve in an arc around your back—the set of oscillating crystals at their cores reflecting light back as shimmering daylight. A small computer attaches to your waist underneath your clothes, hooked up to wires connected to sensing pads on your body which can translate the firing of synapses in your mind."
+						"These three orbital nanolasers revolve in an arc around your back—the set of oscillating crystals at their cores reflecting light back as shimmering daylight. A small computer attaches to your waist underneath your clothes, hooked up to wires connected to sensing pads on your body which can translate the firing of synapses in your mind."
 					]
 				},
 				{
 					"type": "entries",
 					"entries": [
-				"As a bonus action on your turn, you can expend up to 3 charges to induce an effect based on how many charges you expend."
+						"As a bonus action on your turn, you can expend up to 3 charges to induce an effect based on how many charges you expend."
 					]
 				},
-									{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Charges Expended",
-													"Effect"
-												],
-												"colStyles": [
-													"col-2 text-center",
-													"col-10"
-												],
-												"rows": [
-													[
-														"{@bold 1 Charge}",
-														"Your movement speed increases by 20 for 3 turns."
-													],
-													[
-														"{@bold 2 Charges}",
-														"Your movement speed increases by 40 for 2 turns."
-													],
-													[
-														"{@bold 3 Charges}",
-														"Your movement speed increases by 80 for 1 turn."
-													]
-												]
-											}
-										]
-									},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Charges Expended",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"{@bold 1 Charge}",
+									"Your movement speed increases by 20 for 3 turns."
+								],
+								[
+									"{@bold 2 Charges}",
+									"Your movement speed increases by 40 for 2 turns."
+								],
+								[
+									"{@bold 3 Charges}",
+									"Your movement speed increases by 80 for 1 turn."
+								]
+							]
+						}
+					]
+				},
 				"This bonus movement speed applies {@italic after} any other effects that would modify your movement speed, including the Dash action. The Tri-Accelerator has 3 charges, and regains all expended charges on a long rest.",
 				"{@italic Item designed by @Amarulence#5357.}",
 				"{@bold Technological.} As a pure technological item, nothing as to how this item functions is a result of magic, and as such, it is unaffected by spells such as dispel magic and antimagic circle."
@@ -4057,14 +4036,15 @@
 			"rarity": "rare",
 			"tier": "minor",
 			"reqAttune": false,
+			"weight": 0.5,			
 			"type": "GSI",
-			"value": 300000,
+			"value": 600000,
 			"entries": [
-				"This vial of thick liquid of swirling greens and pinks holds one use of Kindermore's Tincture of Disfigurement. If applied to an area of the body, the tincture causes severe and painful acid burns that last for {@dice 1d4} hours. After 1 minute of severe pain, the wound begins to heal and the pain subsides. A disfigured skin scarification is in place of the skin that the tincture was applied to. The scars fully heal after {@di8ce 1d4} hours and the creature's appearance is returned to normal.",
-				"The tincture causes the target to take {@dice 3d8} acid damage. It's hit point maximum is also reduced by an amount equal to the damage taken. The effect cannot cause the target's maximum hit points to drop to 0. If it would drop to 0, the target instead is reduced to a maximum of 1, falls unconscious, and must begin making death saving throws.  At the end of the duration, the effects on a target's maximum hit points is removed and the target regains the lost HP.",
+				"This vial of thick liquid of swirling greens and pinks holds one use of Kindermore's Tincture of Disfigurement. If applied to an area of the body, the tincture causes severe and painful acid burns that last for {@dice 1d4} hours. After 1 minute of severe pain, the wound begins to heal and the pain subsides. A disfigured skin scarification is in place of the skin that the tincture was applied to. The scars fully heal after {@dice 1d4} hours and the creature's appearance is returned to normal.",
+				"The tincture causes the target to take {@dice 3d8} acid damage. It's hit point maximum is also reduced by an amount equal to the damage taken. The effect cannot cause the target's Max HP to drop to 0. If it would drop to 0, the target instead is reduced to a Max HP of 1, falls unconscious, and must begin making death saving throws.  At the end of the duration, the effects on Max HP is removed and the target regains the lost HP.",
 				"The healing effect at the end of the duration does not occur if the creature dies. The healing effect of the tincture has no effect on constructs, undead, or inanimate objects.",
-				"The acid can be applied to the face in an attempt to disguise a creatures identity. A successful DC 20 Intelligence check  is necessary to discern the true identity. The effect does not end for the entire duration except through the {@spell regenerate} or {@spell wish} spells.",
-				"{@italic Item designed by @Aizea La Win#5106.}"
+				"The acid can be applied to the face in an attempt to disguise a creatures identity. A successful DC20 Intelligence check  is necessary to discern the true identity. The effect does not end for the entire duration except by a {@spell Regenerate} Spell or {@spell Wish}.",
+				"{@italic Item designed by Aizea La Win#5106.}"
 			]
 		},
 		{
@@ -4090,14 +4070,14 @@
 			"type": "GSI",
 			"entries": [
 				"After you write a message of fifty words or fewer on this magic sheet of parchment and speak a creature's name, the parchment magically folds into a Tiny paper bird and flies to the recipient whose name you uttered. The recipient must be on the same plane of existence as you, otherwise the bird turns into ash as it takes flight.",
-				"The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (\u22125) in all other abilities, and it is immune to poison and psychic damage.",
+				"The bird is an object that has 1 hit point, an Armor Class of 13, a flying speed of 60 feet, a Dexterity of 16 (+3), and a score of 1 (−5) in all other abilities, and it is immune to poison and psychic damage.",
 				"It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the bird's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
 				"Paper birds usually come in small, flat boxes containing {@dice 1d6 + 3} sheets of the parchment."
 			]
 		},
 		{
 			"name": "Light Pistol",
-			"source": "SRPHBI",	
+			"source": "SRPHBI",
 			"type": "R",
 			"rarity": "none",
 			"weight": 2,
@@ -4116,12 +4096,11 @@
 			"misfire": "1",
 			"ammo": "4 gp for 20",
 			"dmgType": "P",
-			"entries": [
-			]
+			"entries": []
 		},
 		{
 			"name": "Personal Defense Weapon",
-			"source": "SRPHBI",	
+			"source": "SRPHBI",
 			"type": "R",
 			"rarity": "none",
 			"weight": 5,
@@ -4152,7 +4131,7 @@
 		},
 		{
 			"name": "Carbine",
-			"source": "SRPHBI",	
+			"source": "SRPHBI",
 			"type": "R",
 			"rarity": "none",
 			"weight": 4,
@@ -4183,7 +4162,7 @@
 		},
 		{
 			"name": "Double-Barrel Shotgun",
-			"source": "SRPHBI",	
+			"source": "SRPHBI",
 			"type": "R",
 			"rarity": "none",
 			"weight": 6,
@@ -4223,7 +4202,7 @@
 		},
 		{
 			"name": "Burst Pistol",
-			"source": "SRPHBI",	
+			"source": "SRPHBI",
 			"type": "R",
 			"rarity": "none",
 			"weight": 2,
