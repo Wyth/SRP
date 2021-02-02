@@ -4163,8 +4163,7 @@
 				"AM",
 				"MI",
 				"RE",
-				"AUTO",
-				"AUTOF"
+				"AUTO"
 			],
 			"dmg1": "1d8",
 			"range": "40/120",
@@ -4173,6 +4172,13 @@
 			"ammo": "20 gp for 10",
 			"dmgType": "P",
 			"entries": [
+				{
+					"type": "entries",
+					"name": "Firing Line.",
+					"entries": [
+						"As an attack action, you can make a special attack against creatures in a line in front of you, with the line’s size equal to 5 feet in width and the length of the weapon's short range. Expend 4 pieces of ammunition. Creatures in that line must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. This saving throw changes depending on the stat you use to make your ranged firearm attacks. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
+					]
+				}
 			]
 		},
 		{
