@@ -4094,6 +4094,157 @@
 				"It travels to within 5 feet of its intended recipient by the most direct route, whereupon it turns into a nonmagical and inanimate sheet of parchment that can be unfolded only by the intended recipient. If the bird's hit points or speed is reduced to 0 or if it is otherwise immobilized, it turns into ash.",
 				"Paper birds usually come in small, flat boxes containing {@dice 1d6 + 3} sheets of the parchment."
 			]
+		},
+		{
+			"name": "Light Pistol",
+			"source": "SRPHBI",	
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"AM",
+				"L",
+				"MI",
+				"RE"
+			],
+			"dmg1": "1d8",
+			"range": "60/200",
+			"reload": "4",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"entries": [
+			]
+		},
+		{
+			"name": "Personal Defense Weapon",
+			"source": "SRPHBI",	
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 15000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"AM",
+				"L",
+				"MI",
+				"RE"
+			],
+			"dmg1": "1d6",
+			"range": "80/320",
+			"reload": "6",
+			"misfire": "2",
+			"ammo": "20 gp for 20",
+			"dmgType": "P",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Burst Fire.",
+					"entries": [
+						"Personal defense weapons often have selective fire. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Carbine",
+			"source": "SRPHBI",	
+			"type": "R",
+			"rarity": "none",
+			"weight": 4,
+			"value": 100000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"AM",
+				"MI",
+				"RE",
+				"AUTO",
+				"AUTOF"
+			],
+			"dmg1": "1d8",
+			"range": "40/120",
+			"reload": "6",
+			"misfire": "3",
+			"ammo": "20 gp for 10",
+			"dmgType": "P",
+			"entries": [
+			]
+		},
+		{
+			"name": "Double-Barrel Shotgun",
+			"source": "SRPHBI",	
+			"type": "R",
+			"rarity": "none",
+			"weight": 6,
+			"value": 20000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"AM",
+				"2H",
+				"MI",
+				"RE",
+				"SC",
+				"S"
+			],
+			"dmg1": "1d10",
+			"range": "30/60",
+			"reload": "2",
+			"misfire": "1",
+			"ammo": "5 gp for 5",
+			"dmgType": "B",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special.",
+					"entries": [
+						"If your target is within 5 feet of you, it takes an additional {@dice 1d6} piercing damage on a hit. You may not benefit from the rogue's Sneak Attack feature while using this weapon two-handed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Two For One.",
+					"entries": [
+						"As an attack action, you can make a special attack against a creature in front of you. Expending all ammunition, you can make a ranged attack roll. On a hit, the target takes {@dice 2d10} plus your Dexterity modifier in bludgeoning damage. You can use this feature once per turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Burst Pistol",
+			"source": "SRPHBI",	
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 15000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"AM",
+				"L",
+				"MI",
+				"RE"
+			],
+			"dmg1": "1d4",
+			"range": "30/60",
+			"reload": "6",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Burst Fire.",
+					"entries": [
+						"Personal defense weapons often have selective fire. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}"
+					]
+				}
+			]
 		}
 	]
 }
