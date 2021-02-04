@@ -151,11 +151,11 @@
 				{
 					"title": "Spell Slots per Spell Level",
 					"colLabels": [
-						"{@filter 1st|spells|level=1|class=Ranger (Re-Revised)}",
-						"{@filter 2nd|spells|level=2|class=Ranger (Re-Revised)}",
-						"{@filter 3rd|spells|level=3|class=Ranger (Re-Revised)}",
-						"{@filter 4th|spells|level=4|class=Ranger (Re-Revised)}",
-						"{@filter 5th|spells|level=5|class=Ranger (Re-Revised)}"
+						"{@filter 1st|spells|level=1|class=Ranger}",
+						"{@filter 2nd|spells|level=2|class=Ranger}",
+						"{@filter 3rd|spells|level=3|class=Ranger}",
+						"{@filter 4th|spells|level=4|class=Ranger}",
+						"{@filter 5th|spells|level=5|class=Ranger}"
 					],
 					"rows": [
 						[
