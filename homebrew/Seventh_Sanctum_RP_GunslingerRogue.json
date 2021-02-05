@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "SRPGunslinger",
+				"json": "SRPGunslingerRogue",
 				"abbreviation": "SRPGR",
 				"full": "Gunslinger Rogue",
 				"authors": [
@@ -25,12 +25,12 @@
 			"name": "Gunslinger",
 			"subclassTitle": "Roguish Archetype",
 			"subclassFeatures": [
-				"Gunslinger|Rogue||Gunslinger|SRPGunslinger|3",
-				"Silencer|Rogue||Gunslinger|SRPGunslinger|9",
-				"Practiced Sniper|Rogue||Gunslinger|SRPGunslinger|13",
-				"Absolute Operator|Rogue||Gunslinger|SRPGunslinger|17"
+				"Gunslinger|Rogue||Gunslinger|SRPGunslingerRogue|3",
+				"Silencer|Rogue||Gunslinger|SRPGunslingerRogue|9",
+				"Practiced Sniper|Rogue||Gunslinger|SRPGunslingerRogue|13",
+				"Absolute Operator|Rogue||Gunslinger|SRPGunslingerRogue|17"
 			],
-			"source": "SRPGunslinger",
+			"source": "SRPGunslingerRogue",
 			"shortName": "Gunslinger",
 			"className": "Rogue",
 			"classSource": "PHB"
@@ -39,23 +39,23 @@
 	"subclassFeature": [
 		{
 			"name": "Gunslinger",
-			"source": "SRPGunslinger",
+			"source": "SRPGunslingerRogue",
 			"page": 94,
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Gunslinger",
-			"subclassSource": "SRPGunslinger",
+			"subclassSource": "SRPGunslingerRogue",
 			"level": 3,
 			"entries": [
 				"Most rogues and specialists spend their years of expertise on learning a specific skill-set, whether that be assassination, thievery, or courtroom dialogue. However, what is arguably the most deadly is a rogue who has devoted themselves in their entirety to the act of researching weapons - exposive weapons.",
 				"This archetype focuses on key points that the Fighter variant does not. Namely, less focus on the crafting of unique firearms and more emphasis on the act of utilizing existing ones; exploiting weaknesses in your opponent has never been easier than with the Gunslinger Rogue.",
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Firearm Proficiency|Rogue||Gunslinger|SRPGunslinger|3"
+					"subclassFeature": "Firearm Proficiency|Rogue||Gunslinger|SRPGunslingerRogue|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Careful Aim|Rogue||Gunslinger|SRPGunslinger|3"
+					"subclassFeature": "Careful Aim|Rogue||Gunslinger|SRPGunslingerRogue|3"
 				}
 			]
 		},
@@ -65,12 +65,12 @@
 			"entries": [
 							"Starting when you choose this archetype at 3rd level, you gain proficiency with firearms, allowing you to add your proficiency bonus to attacks made with firearms."
 						],
-			"source": "SRPGunslinger",
+			"source": "SRPGunslingerRogue",
 			"page": 94,
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Gunslinger",
-			"subclassSource": "SRPGunslinger",
+			"subclassSource": "SRPGunslingerRogue",
 			"level": 3,
 			"header": 1
 		},
@@ -80,23 +80,23 @@
 			"entries": [
 							"When you choose this archetype at 3rd level, your Cunning Action improves. Aiming while wielding a firearm decreases that firearm's misfire value by 1 until the end of the turn. In addition, if your weapon misfires, you can use a reaction to prevent it from jamming using your finesse. You can only use your reaction this way once per short or long rest."
 						],
-			"source": "SRPGunslinger",
+			"source": "SRPGunslingerRogue",
 			"page": 94,
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Gunslinger",
-			"subclassSource": "SRPGunslinger",
+			"subclassSource": "SRPGunslingerRogue",
 			"level": 3,
 			"header": 1
 		},
 		{
 			"name": "Silencer",
-			"source": "SRPGunslinger",
+			"source": "SRPGunslingerRogue",
 			"page": 94,
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Gunslinger",
-			"subclassSource": "SRPGunslinger",
+			"subclassSource": "SRPGunslingerRogue",
 			"level": 9,
 			"header": 2,
 			"entries": [
@@ -106,12 +106,12 @@
 		},
 		{
 			"name": "Practiced Sniper",
-			"source": "SRPGunslinger",
+			"source": "SRPGunslingerRogue",
 			"page": 94,
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Gunslinger",
-			"subclassSource": "SRPGunslinger",
+			"subclassSource": "SRPGunslingerRogue",
 			"level": 13,
 			"header": 2,
 			"entries": [
@@ -120,12 +120,12 @@
 		},
 		{
 			"name": "Absolute Operator",
-			"source": "SRPGunslinger",
+			"source": "SRPGunslingerRogue",
 			"page": 94,
 			"className": "Rogue",
 			"classSource": "PHB",
 			"subclassShortName": "Gunslinger",
-			"subclassSource": "SRPGunslinger",
+			"subclassSource": "SRPGunslingerRogue",
 			"level": 17,
 			"header": 2,
 			"entries": [
