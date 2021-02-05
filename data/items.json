@@ -2129,9 +2129,8 @@
 			"page": 115,
 			"type": "RG",
 			"rarity": "common",
-			"reqAttune": true,
 			"entries": [
-				"If you are reduced to zero hit points while attuned to a band of loyalty, you instantly die. These rings are favored by spies who can't afford to fall into enemy hands."
+				"After spending an hour putting on the Band of Loyalty, if you are reduced to zero hit points while wearing it, you instantly die. These rings are favored by spies who can't afford to fall into enemy hands."
 			]
 		},
 		{
