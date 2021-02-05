@@ -1146,7 +1146,8 @@
 				"A",
 				"AM",
 				"AUTO",
-				"RF"
+				"RF", 
+				"S"
 			],
 			"dmg1": "1d8",
 			"range": "30/90",
@@ -4099,37 +4100,6 @@
 			"entries": []
 		},
 		{
-			"name": "Personal Defense Weapon",
-			"source": "SRPHBI",
-			"type": "R",
-			"rarity": "none",
-			"weight": 5,
-			"value": 15000,
-			"weaponCategory": "firearm",
-			"property": [
-				"A",
-				"AM",
-				"L",
-				"MI",
-				"RE"
-			],
-			"dmg1": "1d6",
-			"range": "80/320",
-			"reload": "6",
-			"misfire": "2",
-			"ammo": "20 gp for 20",
-			"dmgType": "P",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Burst Fire.",
-					"entries": [
-						"Personal defense weapons often have selective fire. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}"
-					]
-				}
-			]
-		},
-		{
 			"name": "Carbine",
 			"source": "SRPHBI",
 			"type": "R",
@@ -4214,7 +4184,8 @@
 				"AUTO",
 				"L",
 				"MI",
-				"RE"
+				"RE",
+				"S"
 			],
 			"dmg1": "1d4",
 			"range": "30/60",
@@ -4227,7 +4198,7 @@
 					"type": "entries",
 					"name": "Burst Fire.",
 					"entries": [
-						"Personal defense weapons often have selective fire. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a weapon attack roll. The target takes {@dice 1d6} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d6}"
+						"Personal defense weapons often have selective fire. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a weapon attack roll. The target takes {@dice 1d4} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d4}"
 					]
 				}
 			]
