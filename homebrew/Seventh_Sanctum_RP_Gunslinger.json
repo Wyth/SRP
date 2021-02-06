@@ -2106,7 +2106,7 @@
 			"classSource": "SRPGunslinger",
 			"level": 2,
 			"entries": [
-				"Also at 2nd level, you learn a number of tricks that are fueled by your grit. How often you can do this is determined by a number a grit points. Your gunslinger level determines the number of points you have, as shown in the Grit Points column of the Gunslinger table.",
+				"Also at 2nd level, you learn a number of {@filter tricks|optionalfeatures|feature type=Gunslinger Tricks} that are fueled by your grit. How often you can do this is determined by a number a grit points. Your gunslinger level determines the number of points you have, as shown in the Grit Points column of the Gunslinger table.",
 				{
 					"type": "entries",
 					"name": "Tricks",
@@ -2229,7 +2229,7 @@
 			"classSource": "SRPGunslinger",
 			"level": 6,
 			"entries": [
-				"At 6th level, you learn how to customize your gear with experimental utilities. You can pick one of the firearm upgrades and learn it fully, benefiting from its effects while it is attached to a firearm. Even if a firearm has an upgrade on it, you cannot benefit from it unless you chose it as a part of this feature. Firearms with upgrades on them count as magical for the purposes of overcoming nonmagical immunity and resistance.",
+				"At 6th level, you learn how to customize your gear with experimental utilities. You can pick one of the {@filter firearm upgrades|optionalfeatures|feature type=Firearm Upgrades} and learn it fully, benefiting from its effects while it is attached to a firearm. Even if a firearm has an upgrade on it, you cannot benefit from it unless you chose it as a part of this feature. Firearms with upgrades on them count as magical for the purposes of overcoming nonmagical immunity and resistance.",
 				"You gain two of these upgrades to attach to firearms when you learn that upgrade. Any additional upgrades cost 200 gp to create. Removing or reattaching an upgrade costs 50 gp after its been made and attached to a firearm.",
 				"You learn another upgrade when you gain certain levels in this class, which is 9th, 13th, and 17th level."
 			]
