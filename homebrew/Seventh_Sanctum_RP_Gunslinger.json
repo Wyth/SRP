@@ -1,0 +1,2875 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPGunslinger",
+				"abbreviation": "SRPG",
+				"full": "The Gunslinger",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"itemProperty": [
+		{
+			"abbreviation": "SP",
+			"source": "SRPGunslinger",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bitchy Spray",
+					"entries": [
+						"Whenever you make a ranged attack against a creature, each creature within 5 feet of the original target and the normal range of your firearm is subjected to the attack roll, as if the attack was made against them. If the attack would hit that creature, they take {@dice 1d4} bludgeoning damage. This attack's damage cannot be modified by your features, except on a critical hit."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SPB",
+			"source": "SRPGunslinger",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bitchier Spray",
+					"entries": [
+						"Whenever you make a ranged attack against a creature, each creature within 5 feet of the original target and the normal range of your firearm is subjected to the attack roll, as if the attack was made against them. If the attack would hit that creature, they take {@dice 1d6} bludgeoning damage. This attack's damage cannot be modified by your features, except on a critical hit."
+					]
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Flintlock",
+			"source": "SRPGunslinger",
+			"type": "R",
+			"rarity": "none",
+			"weight": 4,
+			"value": 40000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"MI",
+				"RE"
+			],
+			"dmg1": "1d6",
+			"range": "50/150",
+			"reload": "6",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"entries": []
+		},
+		{
+			"name": "Concealed Smallarm",
+			"source": "SRPGunslinger",
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 20000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"L",
+				"MI",
+				"RE"
+			],
+			"dmg1": "1d4",
+			"range": "30/90",
+			"reload": "4",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"entries": []
+		},
+		{
+			"name": "Sidearm",
+			"source": "SRPGunslinger",
+			"type": "R",
+			"rarity": "none",
+			"weight": 4,
+			"value": 40000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"MI",
+				"RE"
+			],
+			"dmg1": "1d8",
+			"range": "40/120",
+			"reload": "4",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"entries": []
+		},
+		{
+			"name": "Scattergun",
+			"source": "SRPGunslinger",
+			"type": "R",
+			"rarity": "none",
+			"weight": 6,
+			"value": 40000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"MI",
+				"RE",
+				"SP",
+				"H"
+			],
+			"dmg1": "2d4",
+			"range": "20/40",
+			"reload": "4",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "B",
+			"entries": []
+		},
+		{
+			"name": "Boomstick",
+			"source": "SRPGunslinger",
+			"type": "R",
+			"rarity": "none",
+			"weight": 12,
+			"value": 40000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"MI",
+				"RE",
+				"SPB",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"range": "30/60",
+			"reload": "2",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "B",
+			"entries": []
+		},
+		{
+			"name": "Longarm",
+			"source": "SRPGunslinger",
+			"type": "R",
+			"rarity": "none",
+			"weight": 7,
+			"value": 40000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"MI",
+				"RE",
+				"2H"
+			],
+			"dmg1": "1d8",
+			"range": "100/400",
+			"reload": "4",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"entries": []
+		},
+		{
+			"name": "Winchester",
+			"source": "SRPGunslinger",
+			"type": "R",
+			"rarity": "none",
+			"weight": 8,
+			"value": 40000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"MI",
+				"RE",
+				"H",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"range": "140/560",
+			"reload": "2",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"entries": []
+		},
+		{
+			"name": "Arquebus",
+			"source": "SRPGunslinger",
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 40000,
+			"weaponCategory": "firearm",
+			"property": [
+				"A",
+				"MI",
+				"RE",
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"range": "80/320",
+			"reload": "2",
+			"misfire": "1",
+			"ammo": "4 gp for 20",
+			"dmgType": "P",
+			"entries": []
+		}
+	],
+	"class": [
+		{
+			"name": "Gunslinger",
+			"source": "SRPGunslinger",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"proficiency": [
+				"dex",
+				"int"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"shields"
+				],
+				"weapons": [
+					"simple",
+					"firearms"
+				],
+				"tools": [
+					"Tinker's tools, and any one artisan's tool or any one musical instrument of your choice"
+				],
+				"skills": [
+					"Choose any two"
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"A firearm, a flintlock, and 20 bullets for each",
+					"(a) a {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}, or (b) a {@item shield|phb}",
+					"(a) {@item leather armor|phb} or (b) {@item scale mail|phb}",
+					"(a) a {@item burglar's pack|phb}, (b) an {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}"
+				],
+				"defaultData": [
+					{
+						"_": [
+							"A firearm, a flintlock, and 20 bullets for each"
+						]
+					},
+					{
+						"a": [
+							{
+								"equipmentType": "weaponSimple",
+								"quantity": 1
+							}
+						],
+						"b": [
+							"shield|phb"
+						]
+					},
+					{
+						"a": [
+							"leather armor|phb"
+						],
+						"b": [
+							"scale mail|phb"
+						]
+					},
+					{
+						"a": [
+							"burglar's pack|phb"
+						],
+						"b": [
+							"dungeoneer's pack|phb"
+						],
+						"c": [
+							"explorer's pack|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"dex": 13
+				},
+				"proficienciesGained": {
+					"armor": [
+						"light"
+					],
+					"weapons": [
+						"Four simple weapons or firearms"
+					],
+					"tools": [
+						"Tinker's tools"
+					]
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Grit Points",
+						"Tricks Known"
+					],
+					"rows": [
+						[
+							" ",
+							" "
+						],
+						[
+							"2",
+							"2"
+						],
+						[
+							"3",
+							"3"
+						],
+						[
+							"4",
+							"3"
+						],
+						[
+							"5",
+							"4"
+						],
+						[
+							"6",
+							"4"
+						],
+						[
+							"7",
+							"5"
+						],
+						[
+							"8",
+							"5"
+						],
+						[
+							"9",
+							"6"
+						],
+						[
+							"10",
+							"6"
+						],
+						[
+							"11",
+							"7"
+						],
+						[
+							"12",
+							"7"
+						],
+						[
+							"13",
+							"8"
+						],
+						[
+							"14",
+							"8"
+						],
+						[
+							"15",
+							"8"
+						],
+						[
+							"16",
+							"9"
+						],
+						[
+							"17",
+							"9"
+						],
+						[
+							"18",
+							"9"
+						],
+						[
+							"19",
+							"10"
+						],
+						[
+							"20",
+							"10"
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Gunslinging|Gunslinger|SRPGunslinger|1",
+				"Lucky Charm|Gunslinger|SRPGunslinger|1",
+				"Fighting Style|Gunslinger|SRPGunslinger|2",
+				"Grit|Gunslinger|SRPGunslinger|2",
+				"Overwatch|Gunslinger|SRPGunslinger|2",
+				"Gunslinger Trail|Gunslinger|SRPGunslinger|3",
+				{
+					"classFeature": "Gunslinger Trail Feature|Gunslinger|SRPGunslinger|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Gunslinger|SRPGunslinger|4",
+				"Reactive|Gunslinger|SRPGunslinger|5",
+				{
+					"classFeature": "Gunslinger Trail Feature|Gunslinger|SRPGunslinger|5",
+					"gainSubclassFeature": true
+				},
+				"Firearm Tinkerer|Gunslinger|SRPGunslinger|6",
+				"Evasion|Gunslinger|SRPGunslinger|7",
+				{
+					"classFeature": "Gunslinger Trail Feature|Gunslinger|SRPGunslinger|7",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Gunslinger|SRPGunslinger|8",
+				{
+					"classFeature": "Gunslinger Trail Feature|Gunslinger|SRPGunslinger|11",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Gunslinger|SRPGunslinger|12",
+				"Gunsmith|Gunslinger|SRPGunslinger|14",
+				{
+					"classFeature": "Gunslinger Trail Feature|Gunslinger|SRPGunslinger|15",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Gunslinger|SRPGunslinger|16",
+				"Sharpeye|Gunslinger|SRPGunslinger|18",
+				"Ability Score Improvement|Gunslinger|SRPGunslinger|19",
+				"Gunslinger Supreme|Gunslinger|SRPGunslinger|20"
+			],
+			"subclassTitle": "Gunslinger Trail",
+			"subclasses": [
+				{
+					"name": "Gunslinger Trail: Buccaneer Trail",
+					"subclassFeatures": [
+						"Gunslinger Trail: Buccaneer Trail|Gunslinger|SRPGunslinger|Buccaneer|SRPGunslinger|3",
+						"Buccaneer's Shootout|Gunslinger|SRPGunslinger|Buccaneer|SRPGunslinger|5",
+						"Flourishing Tricks|Gunslinger|SRPGunslinger|Buccaneer|SRPGunslinger|7",
+						"Showstopper|Gunslinger|SRPGunslinger|Buccaneer|SRPGunslinger|11",
+						"Master Duelist|Gunslinger|SRPGunslinger|Buccaneer|SRPGunslinger|15"
+					],
+					"source": "SRPGunslinger",
+					"shortName": "Buccaneer"
+				},
+				{
+					"name": "Gunslinger Trail: Commando Trail",
+					"subclassFeatures": [
+						"Gunslinger Trail: Commando Trail|Gunslinger|SRPGunslinger|Commando|SRPGunslinger|3",
+						"Commando's Shootout|Gunslinger|SRPGunslinger|Commando|SRPGunslinger|5",
+						"Athletic Resolve|Gunslinger|SRPGunslinger|Commando|SRPGunslinger|7",
+						"Frenzy|Gunslinger|SRPGunslinger|Commando|SRPGunslinger|11",
+						"Will to Fight|Gunslinger|SRPGunslinger|Commando|SRPGunslinger|15"
+					],
+					"source": "SRPGunslinger",
+					"shortName": "Commando"
+				},
+				{
+					"name": "Gunslinger Trail: Desperado Trail",
+					"subclassFeatures": [
+						"Gunslinger Trail: Desperado Trail|Gunslinger|SRPGunslinger|Desperado|SRPGunslinger|3",
+						"Desperado's Shootout|Gunslinger|SRPGunslinger|Desperado|SRPGunslinger|5",
+						"Restraints Ain't Nothin'|Gunslinger|SRPGunslinger|Desperado|SRPGunslinger|7",
+						"Backpedal|Gunslinger|SRPGunslinger|Desperado|SRPGunslinger|11",
+						"Mitigating Risks|Gunslinger|SRPGunslinger|Desperado|SRPGunslinger|15"
+					],
+					"source": "SRPGunslinger",
+					"shortName": "Desperado"
+				},
+				{
+					"name": "Gunslinger Trail: Vaquero Trail",
+					"subclassFeatures": [
+						"Gunslinger Trail: Vaquero Trail|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|3",
+						"Vaquero's Shootout|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|5",
+						"Gear Up|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|7",
+						"Unerring Shots|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|11",
+						"Peak of Gunslinging|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|15"
+					],
+					"source": "SRPGunslinger",
+					"shortName": "Vaquero"
+				}
+			]
+		}
+	],
+	"optionalfeature": [
+		{
+			"type": "optfeature",
+			"name": "Bayonet",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Firearm Upgrades"
+			],
+			"entries": [
+				"You can use the firearm to make a melee attack. You are proficient with attacks made with the bayonette, use Strength for your attack and damage rolls, and do {@dice 1d4} piercing damage on a hit, or {@dice 1d6} damage if this upgrade is attached to a two-handed firearm."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Charged Chamber",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Firearm Upgrades"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"Firearms lacking the two-handed property"
+					]
+				}
+			],
+			"entries": [
+				"You do an additional +1 damage on ranged attacks against creatures within 30 feet of you."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Extended Chamber",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Firearm Upgrades"
+			],
+			"entries": [
+				"You increase the reload score on the firearm by 2. This cannot be implemented on a SRP rifle."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Long Barrel",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Firearm Upgrades"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"Firearms lacking the scatter property"
+					]
+				}
+			],
+			"entries": [
+				"You increase the range of your firearm by 10/30. If it has the two-handed property, increase the range by 20/80."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Muffler",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Firearm Upgrades"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"Firearms lacking the scatter property"
+					]
+				}
+			],
+			"entries": [
+				"Whenever you use your firearm to make a ranged attack, the attack is inaudible past a distance of 30 feet."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Scope",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Firearm Upgrades"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"Two-handed property"
+					]
+				}
+			],
+			"entries": [
+				"You add a +1 to your ranged attack rolls against creatures that are more than 30 feet away from you."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Shaped Shots",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Firearm Upgrades"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"Scatter property"
+					]
+				}
+			],
+			"entries": [
+				"Any creature of your choice is immune to damage done by the scatter property."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Stock Grip",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Firearm Upgrades"
+			],
+			"entries": [
+				"While holding this firearm with two hands, you cannot be disarmed of it unless you choose to, or you are incapacitated."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Aiming for the Legs",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"entries": [
+				"When you make an attack with a firearm against a creature, you can spend 1 grit point to take a shot to knock them over. On a hit, the creature must make a Strength saving throw or be knocked prone."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Attention Grabber",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"entries": [
+				"You can fire a firearm to gain advantage on a Charisma (Intimidation) check."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Dazed and Confused",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"entries": [
+				"You can spend 1 grit point to replace an attack made with a firearm with an attempt to dizzy your opponent. On a hit, the creature must make a Constitution saving throw or have disadvantage on ability checks until the end of your next turn."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Disarmed and Alarmed",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"entries": [
+				"When you make an attack with a firearm against a creature, you can spend 1 grit point to try and launch an item out of their hand. On a hit, the creature must make a Strength saving throw or drop one held object of your choice, and have that object pushed 10 feet away from you."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Line 'Em Up",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"entries": [
+				"You can spend 1 grit point before making a ranged attack with a firearm that lacks the scatter property to fire through multiple creatures. Choose one target within range, creating a line from yourself to the target. Each creature in the line excluding you and the target must make a Dexterity saving throw, taking {@dice 2d6} damage of your firearm's damage type on a failed save. If you misfire, the effect fails.",
+				"You can spend additional grit points to do an additional {@dice 1d6} damage per grit point spent to each creature that makes the save."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Staggering Blow",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"entries": [
+				"Whenever you make an attack with a firearm against a creature, you can spend 1 grit point and attempt to repel them as well. On a hit, the creature must make a Strength saving throw or be pushed back 15 feet from you."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Challenged to Draw",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Commando Trail",
+						"entrySummary": "Commando Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to cast {@spell compelled duel}, instead with a range of 60 feet."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Hit the Dirt",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Commando Trail",
+						"entrySummary": "Commando Trail"
+					}
+				}
+			],
+			"entries": [
+				"Standing up from being prone only costs 5 feet of movement. Additionally, immediately after going prone, you can spend 1 grit point so that being prone doesn't give other creatures within 5 feet of you advantage on attack rolls against you until you are no longer prone."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "I Know This One",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Desperado Trail",
+						"entrySummary": "Desperado Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to cast {@spell identify}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Leap of Faith",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Desperado Trail",
+						"entrySummary": "Desperado Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to cast {@spell jump} on yourself."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Seen It Before",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Vaquero Trail",
+						"entrySummary": "Vaquero Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to make an Intelligence or Wisdom check as a bonus action or by using Overwatch, such as taking the Search action."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Trapsetter",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Vaquero Trail",
+						"entrySummary": "Vaquero Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to cast {@spell snare}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Quick Feet",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Buccaneer Trail",
+						"entrySummary": "Buccaneer Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to cast {@spell zephyr strike}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Quick Hands",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Buccaneer Trail",
+						"entrySummary": "Buccaneer Trail"
+					}
+				}
+			],
+			"entries": [
+				"You become a master of fighting with two weapons, training yourself in the most efficient and quickest ways to draw and wield them in battle. You gain the following benefits:",
+				"You can use two-weapon fighting even when the one- handed weapons you are wielding aren't light.",
+				"You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Chemical Fires (3)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You load a special bullet and fire it at a point within range. You can spend 1 grit point to cast {@spell pyrotechnics}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Crash Course (3)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When you misfire on an attack roll with a firearm, you can choose to have it not misfire."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Deadeye",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"When you take the Attack action and make an attack with a firearm, you can spend 1 grit point to gain advantage on that attack."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Marksman's Ability",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Whenever a creature within 30 feet of you is attacked by a ranged attack, you can use Overwatch to shoot down the projectile. Make a ranged attack roll with a firearm against the projectile, treating the original attack's attack roll as your target AC. On a hit, you successfully interrupt and block the attack."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Serpent's Tongue (3)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 2 grit points to cast {@spell suggestion}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Violent Shot",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Whenever you make an attack with a firearm against a creature and hit, you can spend grit points to do an additional {@dice 1d8}, plus an extra {@dice 1d8} damage per each extra grit point spent."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Who's Counting Bullets Anyway",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to either swap the ammunition you loaded or reload one firearm you are holding without replacing an attack or using your bonus action, but you can only replace or put in up to 3 pieces of ammunition."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Ballistics Training (3)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Commando Trail",
+						"entrySummary": "Commando Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to either swap the ammunition you loaded or reload one firearm you are holding without replacing an attack or using your bonus action, but you can only replace or put in up to 3 pieces of ammunition."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Feel it in My Gut (3)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Vaquero Trail",
+						"entrySummary": "Vaquero Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 2 grit points to cast {@spell find traps} or {@spell locate object}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Honing Talent (3)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Desperado Trail",
+						"entrySummary": "Desperado Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 2 grit points to cast {@spell enhance ability}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Right Tool for the Job",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Desperado Trail",
+						"entrySummary": "Desperado Trail"
+					}
+				}
+			],
+			"entries": [
+				"You learn two cantrips of your choice from the wizard spell list. Intelligence is your spellcasting ability modifier for these spells. Casting these spells doesn't require material components."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Seafarer",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Buccaneer Trail",
+						"entrySummary": "Buccaneer Trail"
+					}
+				}
+			],
+			"entries": [
+				"You gain a climb speed and swim speed equal to your movement speed. If you already have a climb or swim speed, you can choose to instead add 10 feet of movement to that speed."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Swordplay",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Buccaneer Trail",
+						"entrySummary": "Buccaneer Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point while holding a one-handed melee weapon to gain a +1 bonus to attack rolls made with that weapon for 1 minute."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Trailblazer",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Vaquero Trail",
+						"entrySummary": "Vaquero Trail"
+					}
+				}
+			],
+			"entries": [
+				"You learn how to lead others through the path. Difficult terrain doesn't slow your group's travel. Additionally, your group can't become lost except by magical means, and you find twice as much food while foraging."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Toughest Grit",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 5,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Commando Trail",
+						"entrySummary": "Commando Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 2 grit points as a bonus action to use and roll one of your hit die. You regain hit points equal to your roll + your Constitution modifier (minimum of 2). You can spend additional grit points to give yourself {@dice 2d4} temporary hit points per grit point spent."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Booming Shot (3)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 3 grit points casting blindness/deafness. When you cast a spell in this fashion, you can only make a creature deafened. Additionally, you expend one piece of ammunition from your firearm as you cast the spell, as you send a booming bullet whizzing past a creature."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Can't Hide From Me",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to ignore half and three-quarters cover when making a ranged attack with a firearm."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Dazing Shot",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 3 grit points to prepare dazing shots. On your next attack you make with firearm when you hit, you can force the target to make a Constitution saving throw or have disadvantage on attack rolls until the end of your next turn."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Fan the Hammer",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 3 grit points to use your action and the rest of your ammunition in one firearm you are holding to fan the hammer. Pick one point within 30 feet; each creature within 10 feet must make a Dexterity saving throw. On a failed save, each creature takes {@dice 3d8} damage of your firearm's damage type. On a success, a creature takes no damage, but must move 10 feet away from this effect. Creatures who have their movement speed reduced to 0 automatically fail this save."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Nothing Surprises Me",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Choose Intelligence, Wisdom, or Charisma. You can add half your proficiency bonus, rounded down, to any ability check you make based on your chosen ability score that doesn't already use your proficiency bonus. You can pick this trick more than once, choosing a different ability score each time."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Redraw",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Whenever you draw or holster a firearm, you can choose to draw or holster a different firearm immediately."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Take Cover",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit points to create half cover within 5 feet of you as bonus action, such as flipping a table, squeezing around a narrow corner, or hiding behind another creature."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Acrobat by Trade",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Desperado Trail",
+						"entrySummary": "Desperado Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to use your bonus action to make a Dexterity check, such as taking the Hide action or making a Dexterity (Sleight of Hand) check."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Dauntless",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Buccaneer Trail",
+						"entrySummary": "Buccaneer Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to gain advantage on a saving throw to resist being charmed or frightened."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Every Cowboy Needs a Companion",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Vaquero Trail",
+						"entrySummary": "Vaquero Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 2 grit points to cast {@spell find familiar} or {@spell find steed}. When you cast the spell using this feature, the creature summoned is a beast. Additionally, you must be in an environment where you can tame an appropriate creature. Using this feature to cast either spell means you have released the previous creature from your service, and that you summon a new companion instead. You cannot have both a familiar and a steed active at the same time.",
+				"Finally, while this creature is on your person, such as on your shoulder, or you are mounted on this creature, it cannot be targeted by attack rolls and saving throws."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Lighten the Load",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Commando Trail",
+						"entrySummary": "Commando Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to cast {@spell longstrider}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Outlaw's Coordination",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Desperado Trail",
+						"entrySummary": "Desperado Trail"
+					}
+				}
+			],
+			"entries": [
+				"Once when you roll for initiative, you can spend 2 grit points when you roll for initiative to either give yourself the same roll of one willing creature, or let one willing creature have the same roll as you. You can choose whether you go before or after this creature."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Rending Shot",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Commando Trail",
+						"entrySummary": "Commando Trail"
+					}
+				}
+			],
+			"entries": [
+				"Once on your turn when you make an attack with a firearm and hit, you can spend 3 grit points to give advantage on all attacks against the creature you hit until the start of your next turn."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Seven Steps",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Buccaneer Trail",
+						"entrySummary": "Buccaneer Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 2 grit points to double your movement speed until the end of your turn."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Wildlife Enthusiast",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 9,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Vaquero Trail",
+						"entrySummary": "Vaquero Trail"
+					}
+				}
+			],
+			"entries": [
+				"You gain proficiency with the Animal Handling or Survival skill, your choice."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Down but Not Out (2)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 4 grit points to cast {@spell death ward}, targeting yourself."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Helios Overwatch",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"Whenever you use Shootout, you can spend 1 grit point to also use Helios Overwatch. Make a Wisdom (Perception) check before you use Shootout. Any invisible creature within 60 feet of you must make a Dexterity (Stealth) check to avoid being heard. You can then use Shootout against a creature that failed the contest, ignoring any disadvantage that might be imposed from that creature being invisible, or a creature you can see. A creature that takes damage from Shootout becomes marked, and this creature is no longer invisible until the end of your next turn. You cannot use this feature if you are deafened."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Staggering Shot (2)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 4 grit points to cast {@spell staggering smite}, except you can make a ranged attack with a firearm instead of a melee attack if you wish. All the other effects and rules of the spell still apply."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Where Did Those Come From?",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 1 grit point to gain 20 pieces of ammunition for one firearm of your choice. For each additional grit point spent, you gain another 10 pieces of ammunition for a firearm of your choosing. This special ammunition disappears after you take a long rest."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Battle Frenzy (2)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Commando Trail",
+						"entrySummary": "Commando Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 4 grit points to cast {@spell haste}, targeting yourself."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Heightened Gut Insticts (2)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Vaquero Trail",
+						"entrySummary": "Vaquero Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 2 grit points to cast {@spell locate creature}, or {@spell hunter's mark} as a 3rd-level spell."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Run Like You Mean It (2)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 13,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Buccaneer Trail or Desperado Trail",
+						"entrySummary": "Buccaneer Trail or Desperado Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 4 grit points to cast {@spell freedom of movement}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Failure Isn't an Option",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 2 grit points whenever you make an ability check that you are proficient with to instead add double your proficiency bonus to the roll."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Gunslinger's Lore (2)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You can spend 5 grit points to cast {@spell legend lore}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Sharp Mind",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gunslinger"
+						}
+					}
+				}
+			],
+			"entries": [
+				"You gain proficiency with one saving throw of your choice."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Bullet Swarm (2)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Commando Trail",
+						"entrySummary": "Commando Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 5 grit points to cast {@spell conjure volley} by expending a piece of ammunition from a firearm."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Captain's Resolve",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Buccaneer Trail",
+						"entrySummary": "Buccaneer Trail"
+					}
+				}
+			],
+			"entries": [
+				"If you use your bonus action, you can spend 1 grit point to get another use of your bonus action for this turn."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Revisionist History (2)",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Desperado Trail",
+						"entrySummary": "Desperado Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 5 grit points to cast {@spell modify memory}."
+			]
+		},
+		{
+			"type": "optfeature",
+			"name": "Solo Shootout",
+			"source": "SRPGunslinger",
+			"page": 12,
+			"featureType": [
+				"Gunslinger Tricks"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 17,
+						"class": {
+							"name": "Gunslinger"
+						}
+					},
+					"otherSummary": {
+						"entry": "Vaquero Trail",
+						"entrySummary": "Vaquero Trail"
+					}
+				}
+			],
+			"entries": [
+				"You can spend 5 grit points to activate your Solo Shootout for 1 minute. When you do so, you can attack twice, instead of once, whenever you take the Attack action. However, both  attacks must be made with a firearm that lacks the two- handed property."
+			]
+		}
+	],
+	"fluff": [
+		{
+			"name": "The Gunslinger",
+			"type": "section",
+			"entries": [
+				"A dwarf stands staunch on a hill and looks out at the horde shambling towards her. She steels herself for just a moment before summoning quicker for this moment, just a minute, by the strength of her grit. She fires at the swarm of zombies approaching her, taking point blank shots at them even as they are attacking her.",
+				"As the ship sways and vaults from side to side, an elf keeps his footing in check. He holds just a scimitar and a flintlock in each hand, but manages to blast any foes that get close, or strike them down with his sword. When things are looking dire, an orc beseiges the buccaneer from behind, trying to strike him down with a powerful greataxe stroke. The elf turns and parries the blow with reactive ease, subtly redirecting the blow slightly and stepping away as the greataxe buries itself into the hull of the ship.",
+				"The wind blows in his face as a human stands down the middle of a dirt road, staring down five bandits before him. In the blink of an eye, the gun practically flies out of the holster and into his hand. In five calculated shots, each bandit is wounded before they can even think about their weapons. The man vaults over to a wooden pillar keeping a saloon balcony up and makes cover as best he can as his assailants fire their arrows at him.",
+				"All of these characters are gunslingers, a band of trailblazers that often seek thrills and adventure wherever they disembark. The solitary and sharp rider, the reckless and dauntless outlaw, the suave and beguiling duelist, the hardened and rugged shooter─gunslingers all share a love for adventure and a deep respect and knowledge of their shared craft. Each one took up the gunslinger mantle as a part of their lifestyle and creed.",
+				{
+					"type": "entries",
+					"name": "The Weapon of Choice",
+					"entries": [
+						"Gunslingers have familiarity with some weapons, but what sets them apart is their ability to tinker with firearms, guns, and explosive weapons. Even compared to others that simply know the intricacies of these weapons, gunslingers are so well versed with a firearm, they can perform what are otherwise unnaturally swift repairs and reloads in the heat of battle. Past this unnatural ability, gunslingers are as diverse as the weapons they modify. Some are found braving the seas as privateers, pirates, and captains; some still ride the plains as cowboys, bounty hunters, and sheriffs; even then, others can be found as outlaws, skirmishers, and deadeyes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Heart of the Story",
+					"entries": [
+						"What sets gunslingers apart from others who know and respect their craft is the seeking of adventure. Not every officer, bandit, or fighter can call themselves a gunslinger─most don't want anything to do with the dangers that come from thrill-seeking.",
+						"True gunslingers are called to gain worldly knowledge that comes from engaging with all walks of life; seeking adventure doesn't just pay off in riches, but in experience and knowledge. There is no knowledge to be gained from settling down in one spot forever, after all."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creating a Gunslinger",
+					"entries": [
+						"As you create your gunslinger, think about two key elements: where did you learn your craft, and what gives you your wander-lust? Was this a craft passed onto you from a mentor, or did your develop this craft in solitute? What do you want to learn? What drove you to this training in the first place? A desire to explore, a dying wish, or feeling ill-content can all be good reasons.",
+						"You may have been lucky to have a knowledged master to pass on their knowledge, or you trained and learned through rigorous trial and error. Did you adopt this lifestyle to escape your past, or to discover your future? How did you get your hands on your first firearm? It could be one you found after one fateful day, or maybe something handed down to you from someone else. Regardless of how you received it, your guns are your life's blood─you don't know how you would adapt without them.",
+						{
+							"type": "entries",
+							"name": "Quick Build",
+							"entries": [
+								"You can make a gunslinger quickly by following these suggestions. First, make Dexterity your highest ability score. Your next-highest score should be Intelligence if you want to be knowledgeable and sharp, Wisdom if you want to be worldly and perceptive, or Charisma if you want to be suave and witty. Keep in mind that if you plan to adopt a certain Gunslinger Trail, some trails will prefer different scores. Finally, pick the Folk Hero background."
+							]
+						}
+					]
+				}
+			],
+			"source": "SRPGunslinger",
+			"page": 1
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Gunslinging",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 1,
+			"entries": [
+				"When you choose this class at 1st level, you become an adept with the extrinsic nature of firearms. You learn how to craft, fix, and shoot firearms, and as such, whenever you attempt to fix a firearm after it misfires, you automatically succeed the attempt. You can craft firearms and bullets using tinker's tools and the appropriate materials for half of their purchasing price.",
+				"Additionally, you can use a bonus action to reload a firearm as long as it does not have a reload of 1. If you are holding a one-handed firearm with the light property in both hands, you can reload them both, ignoring the requirement for a free hand.",
+				"Finally, your knowledge of your craft is superior to most. Whenever you make a roll related to firearms, guns, or smokepowder, such as identifying a new piece of weaponry, attempting to discern what type of firearm shot someone, or even avoiding the explosion of a malfunctioning weapon or barrel of smokepowder, you have advantage on that roll."
+			]
+		},
+		{
+			"name": "Lucky Charm",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, your lifestyle gives you a knack of talent in particular situations. You can choose one of the following luck charms and learn one language of your choice.",
+				"At 10th level, you can pick out an additional lucky charm and learn another language. You can trade out a lucky charm for a different one at this level. You have the option to pick a lucky charm that is restricted to your Gunslinger Trail. \"Use an Object\" action for the purposes of this feature.",
+				{
+					"type": "table",
+					"caption": "Lucky Charms",
+					"colLabels": [
+						"Charm",
+						"Lucky Charm Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"Eruditic Tome",
+							"You gain proficiency in the History skill. You have advantage on any ability check to recall information on a creature. Finally, you can add up to half of your proficiency bonus to any Intelligence or tool check you aren't proficient with."
+						],
+						[
+							"Heart Locket",
+							"You gain proficiency in the Persuasion skill. Additionally, you have advantage on any ability check to stop or start a fight. When you roll for initiative, you can add your Charisma modifier to your AC until the start of your turn."
+						],
+						[
+							"Rabbit's Foot",
+							"You gain proficiency in the Acrobatics skill. You can add your Dexterity modifier to your distance for any long or high jumps you make. Whenever you roll for initiative, you roll with advantage."
+						],
+						[
+							"Cracked Monocle",
+							"You gain proficiency in the Perception skill. You gain darkvision out to a range of 30 feet. If you already have darkvision, its range increases by 30 feet."
+						],
+						[
+							"Calling Card",
+							"You gain proficiency with one skill of your choice. Add double your proficiency bonus to checks made with that skill. Additionally, you become proficient with two martial weapons of your choice."
+						],
+						[
+							"Cutlass Tassle (Buccaneer)",
+							"You gain proficiency in the Performance skill. You have advantage on checks for interacting with sailors, provided they can see and understand you."
+						],
+						[
+							"Broken Trigger (Commando)",
+							"You gain proficiency in the Investigation skill. You have advantage on checks for interacting with soldiers, provided they can see and understand you."
+						],
+						[
+							"Torn Bandana (Desperado)",
+							"You gain proficiency in the Deception skill. You have advantage on checks for interacting with outlaws, provided they can see and understand you."
+						],
+						[
+							"Bullet-Worn Duster (Vaquero)",
+							"You gain proficiency in the Insight skill. You have advantage on checks for discerning someone's emotional state, provided you can see and understand them."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+				{
+					"type": "entries",
+					"name": "Akimbo",
+					"entries": [
+						"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack, and use firearms instead of melee weapons. In addition, you may reload both firearms at once whenever you would normally reload, even if you do not have a hand free."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Archery",
+					"entries": [
+						"You gain a +2 bonus to attack rolls you make with ranged weapons."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Close Quarters Shooter",
+					"entries": [
+						"Being within 5 feet of a creature doesn't impose disadvantage on your ranged attacks made with a weapon. You have a +1 bonus to attack rolls on ranged attacks made with a weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Phalanx",
+					"entries": [
+						"While holding a shield, you can use your action to brace your firearm against a shield, allowing you to use a firearm with the two-handed property with one hand. While braced in this way, your movement speed is reduced by 15 feet. You can end this effect at any time. Additionally, a hand equpping a shield counts as a free hand for the purposes of reloading a firearm."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pistoleer",
+					"entries": [
+						"When you are wielding a firearm that lacks the scatter property in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sharpshooter",
+					"entries": [
+						"When you roll a 1 or 2 on a damage die for an attack you make with a firearm that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed property for you to gain this benefit."
+					]
+				}
+			]
+		},
+		{
+			"name": "Grit",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 2,
+			"entries": [
+				"Also at 2nd level, you learn a number of tricks that are fueled by your grit. How often you can do this is determined by a number a grit points. Your gunslinger level determines the number of points you have, as shown in the Grit Points column of the Gunslinger table.",
+				{
+					"type": "entries",
+					"name": "Tricks",
+					"entries": [
+						"You can spend these points to fuel various grit features, such as tricks. You start knowing two tricks of your choice. You learn more tricks as you gain levels in this class, as determined by the Tricks column of the Gunslinger table. When you gain a level in this class, you can choose one of the tricks you know and replace it with another trick that you can learn at that level.",
+						"Some of your tricks modify an attack. You can only use one trick on an attack. If a trick has a number next to it, that determines how many times you can use that feature. These uses recharge on a long rest. Additionally, a level prerequisite in a trick refers to gunslinger level, not character level.",
+						"You can spend a maximum of 1 grit point on class features. At 5th level, this limit increases by 1, for a total of 2. This limit increases again by 1 at 9th, 13th, and 17th levels. Once you reach 5th level, you can spend additional grit points to increase the level of a trick spell that you cast, provided that the spell has an enhanced effect at a higher level. Spells cast with tricks don't require material components."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Regaining Grit.",
+					"entries": [
+						"When you spend a grit point, it is unavailable until you finish a short or long rest, at the end of which you recollect and regain all your grit. You can never have more grit points than shown on the Gunslinger table for your level. You must spend at least 30 minutes of the rest tinkering with firearms to regain your grit points."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Throws.",
+					"entries": [
+						"Finally, some of your tricks require your target to make a saving throw to resist the feature's effects. Some Gunslinger Trails will change the saving throw DC to be based on a different ability score. For now, the saving throw DC is calculated as follows:",
+						{
+							"type": "abilityDc",
+							"name": "Grit save DC",
+							"attributes": [
+								"int"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Overwatch",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 2,
+			"entries": [
+				"Beginning at 2nd level, your reflexes become honed razor sharp. Overwatch is a special use of your reaction you can use after you take the Attack action. You can use Overwatch for opportunity attacks and some of your class features. You start knowing three ways to use your reaction for Overwatch, each of which cost 1 grit point to use: Preparation, Shootout, and Quick Tinkering.",
+				"At 11th level, you gain a second reaction you can use. At 20th level, you gain a third reaction. All the other rules for how reactions work still apply to you.",
+				{
+					"type": "entries",
+					"name": "Preparation",
+					"entries": [
+						"You can turn a critical hit into a normal hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shootout",
+					"entries": [
+						"When a creature within normal range of your firearm takes the Attack action or casts a spell, you can make one attack against that creature before its attack is made or spell is resolved. Each Trail gives a specific improvement to your Shootout at 5th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quick Tinkering",
+					"entries": [
+						"You can immediately fix a firearm after it has misfired, even without tinker's tools, provided you have an empty hand."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gunslinger Trail",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				"When you reach 3rd level, you have mastered not just a combat style, but a way of life. You choose a Gunslinger Trail from the Buccaneer, Commando, Desperado, and Vaquero Trails. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+			]
+		},
+		{
+			"name": "Gunslinger Trail Feature",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain a feature granted by your Gunslinger Trail."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Reactive",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 5,
+			"entries": [
+				"At 5th level, your reflexes as a gunslinger are rarely rivaled. You can no longer be surprised, and being incapacitated does not stop you from taking reactions while you are only incapacitated; conditions that also make you incapacitated, such as being paralyzed, petrified, stunned, or unconscious, still prevent you from taking reactions."
+			]
+		},
+		{
+			"name": "Gunslinger Trail Feature",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 5,
+			"entries": [
+				"At 5th level, you gain a feature granted by your Gunslinger Trail."
+			]
+		},
+		{
+			"name": "Firearm Tinkerer",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 6,
+			"entries": [
+				"At 6th level, you learn how to customize your gear with experimental utilities. You can pick one of the firearm upgrades and learn it fully, benefiting from its effects while it is attached to a firearm. Even if a firearm has an upgrade on it, you cannot benefit from it unless you chose it as a part of this feature. Firearms with upgrades on them count as magical for the purposes of overcoming nonmagical immunity and resistance.",
+				"You gain two of these upgrades to attach to firearms when you learn that upgrade. Any additional upgrades cost 200 gp to create. Removing or reattaching an upgrade costs 50 gp after its been made and attached to a firearm.",
+				"You learn another upgrade when you gain certain levels in this class, which is 9th, 13th, and 17th level."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 7,
+			"entries": [
+				"Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+			]
+		},
+		{
+			"name": "Gunslinger Trail Feature",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain a feature granted by your Gunslinger Trail."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Gunslinger Trail Feature",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain a feature granted by your Gunslinger Trail."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Gunsmith",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 14,
+			"entries": [
+				"At 14th level, you have reached the pinnacle of firearm tinkering. Creating additional upgrades or removing them from firearms no longer costs gold. Additionally, your firearms no longer misfire."
+			]
+		},
+		{
+			"name": "Gunslinger Trail Feature",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain a feature granted by your Gunslinger Trail."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Sharpeye",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 18,
+			"entries": [
+				"When you reach 18th level, gunslinging becomes even more precise and deadly. Whenever you make an attack with a firearm, your attacks score a critical hit on a roll of 19 or 20."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a feat."
+			]
+		},
+		{
+			"name": "Gunslinger Supreme",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"level": 20,
+			"entries": [
+				"At 20th level, when you roll for initiative and have no grit points remaining, you regain 4 grit points."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Gunslinger Trail: Buccaneer Trail",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Buccaneer",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Buccaneer's Grit|Gunslinger|SRPGunslinger|Buccaneer|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Tricks|Gunslinger|SRPGunslinger|Buccaneer|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sword-Slinging|Gunslinger|SRPGunslinger|Buccaneer|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Parry|Gunslinger|SRPGunslinger|Buccaneer|SRPGunslinger|3"
+				}
+			]
+		},
+		{
+			"name": "Buccaneer's Grit",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Buccaneer",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				"You now use Charisma instead of Intelligence when determining your grit save DC."
+			]
+		},
+		{
+			"name": "Bonus Tricks",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Buccaneer",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				"When you pick this archetype, you have access to the tricks restricted to the Buccaneer Trail. You gain one additional trick, choosing between the tricks restricted to the Buccaneer Trail. You can choose one additional trick restricted to this subclass at 5th level, then again at 9th, 13th, and 17th levels. These tricks do not count against your tricks known, as shown on the Tricks Known column of the Gunslinger table."
+			]
+		},
+		{
+			"name": "Sword-Slinging",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Buccaneer",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you learn to mesh your gunslinging with graceful steps into melee forays. While you are holding a firearm and a melee weapon, attacks made with a melee weapon do additional damage equal to your Charisma modifier (minimum of 1). You don't provoke opportunity attacks from creatures you attack with a melee weapon, regardless if the attack hit or miss, until the start of your next turn.",
+				"Additionally, being within 5 feet of a creature doesn't impose disadvantage on your ranged attack rolls made with a firearm, provided that you are holding a melee weapon.",
+				"Finally, if you are holding a one-handed melee weapon in one hand, you can ignore the requirement for a free hand when reloading a firearm you are holding."
+			]
+		},
+		{
+			"name": "Parry",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Buccaneer",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, you gain a new way to use Overwatch, to attempt to Parry; when you are targeted by a melee attack while holding a melee weapon, you can use your reaction to increase your AC by an amount equal to 1 + your Charisma modifer (minimum of 2) for that attack roll."
+			]
+		},
+		{
+			"name": "Buccaneer's Shootout",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Buccaneer",
+			"subclassSource": "SRPGunslinger",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"At 5th level, Shootout no longer costs grit points to use when you make the attack with a melee weapon."
+			]
+		},
+		{
+			"name": "Flourishing Tricks",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Buccaneer",
+			"subclassSource": "SRPGunslinger",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, your attacks made with melee weapons count as attacks made with firearms for your gunslinger features."
+			]
+		},
+		{
+			"name": "Showstopper",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Buccaneer",
+			"subclassSource": "SRPGunslinger",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you distract opponents with your flurries of the blade. Once on your turn, when you make an attack with a melee weapon and hit a creature, you can attempt to beguile a different creature with your bedazzling and impressive swordplay. A creature within 20 feet of you that can see you that you haven't attacked must make a Charisma saving throw against your grit save DC or be charmed by you until the end of your next turn."
+			]
+		},
+		{
+			"name": "Master Duelist",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Buccaneer",
+			"subclassSource": "SRPGunslinger",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When you reach 15th level, your calm and composure seen in fights gains legendary renown. You can add your Charisma modifier (minimum of 1) to any ability checks and saving throws using Strength or Dexterity."
+			]
+		},
+		{
+			"name": "Gunslinger Trail: Commando Trail",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Commando",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Tricks|Gunslinger|SRPGunslinger|Commando|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bullet-Worn Body|Gunslinger|SRPGunslinger|Commando|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Born to Shoot|Gunslinger|SRPGunslinger|Commando|SRPGunslinger|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Tricks",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Commando",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				"When you pick this archetype, you have access to the tricks restricted to the Commando Trail. You gain one additional trick, choosing between the tricks restricted to the Commando Trail. You can choose one additional trick restricted to this subclass at 5th level, then again at 9th, 13th, and 17th levels. These tricks do not count against your tricks known, as shown on the Tricks Known column of the Gunslinger table."
+			]
+		},
+		{
+			"name": "Bullet-Worn Body",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Commando",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				"Your hit point maximum increases by 3, and it increases by 1 again whenever you gain a level in this class."
+			]
+		},
+		{
+			"name": "Born to Shoot",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Commando",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				"At 3rd level, your grit bleeds into your shootout sense more naturally. The amount of grit points you have as shown by the Grit Points column on the Gunslinger table increases by an amount equal to your proficiency bonus."
+			]
+		},
+		{
+			"name": "Commando's Shootout",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Commando",
+			"subclassSource": "SRPGunslinger",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"At 5th level, Shootout no longer costs grit points to use."
+			]
+		},
+		{
+			"name": "Athletic Resolve",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Commando",
+			"subclassSource": "SRPGunslinger",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus."
+			]
+		},
+		{
+			"name": "Frenzy",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Commando",
+			"subclassSource": "SRPGunslinger",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, your battle frenzy allows you to fire blasts with inhuman speeds. You gain a new way to use Overwatch, to Frenzy; whenever you use Shootout, you can immediately expend other uses of Overwatch to make additional attacks against the same creature."
+			]
+		},
+		{
+			"name": "Will to Fight",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Commando",
+			"subclassSource": "SRPGunslinger",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When you reach 15th level, your resolve and fortitude is incomparable. You gain proficiency in all saving throws."
+			]
+		},
+		{
+			"name": "Gunslinger Trail: Desperado Trail",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Desperado",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Tricks|Gunslinger|SRPGunslinger|Desperado|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Gunslinger|SRPGunslinger|Desperado|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Crackshot|Gunslinger|SRPGunslinger|Desperado|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Steel Resolve|Gunslinger|SRPGunslinger|Desperado|SRPGunslinger|3"
+				}
+			]
+		},
+		{
+			"name": "Bonus Tricks",
+			"entries": [
+				"When you pick this archetype, you have access to the tricks restricted to the Desperado Trail. You gain one additional trick, choosing between the tricks restricted to the Desperado Trail. You can choose one additional trick restricted to this subclass at 5th level, then again at 9th, 13th, and 17th levels. These tricks do not count against your tricks known, as shown on the Tricks Known column of the Gunslinger table."
+			],
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Desperado",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"entries": [
+				"You gain proficiency with thieves' tools, and add double your proficiency bonus for checks with tools you are proficient in."
+			],
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Desperado",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Crackshot",
+			"entries": [
+				"At 3rd level, your grit manifests in reckless shots that can hinder enemies. Before you take the Attack action, you can use your bonus action to use Crackshot until the start of your next turn. Whenever you make an attack against a creature using a firearm and hit, the next attack roll that creature makes has disadvantage."
+			],
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Desperado",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Steel Resolve",
+			"entries": [
+				"Also at 3rd level, you learn how to avoid being slowed down. You gain a new way to use Overwatch, to Steel Resolve; if you would suffer from an effect that would inflict the paralyzed, restrained, or stunned conditions on you, you can use your reaction to end the effect before it takes a hold of you."
+			],
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Desperado",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Desperado's Shootout",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Desperado",
+			"subclassSource": "SRPGunslinger",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"At 5th level, Shootout no longer costs grit points to use when you make the attack with a firearm that has the two-handed property."
+			]
+		},
+		{
+			"name": "Restraints Ain't Nothin'",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Desperado",
+			"subclassSource": "SRPGunslinger",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, binds have a harder time pinning down your slippery nature. Whenever you roll to avoid or escape a grapple, you have advantage on that roll. Additionally, you can spend 5 feet of movement to slip out of nonmagical restraints, such as manacles."
+			]
+		},
+		{
+			"name": "Backpedal",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Desperado",
+			"subclassSource": "SRPGunslinger",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, making haste in dire situations becomes your specialty. Whenever you take a bonus action to use Crackshot, you can take the Dash action as a part of that action."
+			]
+		},
+		{
+			"name": "Mitigating Risks",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Desperado",
+			"subclassSource": "SRPGunslinger",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Whenever you reach 15th level, the pressure of failure can sometimes lead you to succeed. Whenever you roll a 1 on an ability check, attack roll, or saving throw, you can treat the roll as a 12."
+			]
+		},
+		{
+			"name": "Gunslinger Trail: Vaquero Trail",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vaquero's Grit|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Tricks|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Born to the Saddle|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Quickdraw|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reposition|Gunslinger|SRPGunslinger|Vaquero|SRPGunslinger|3"
+				}
+			]
+		},
+		{
+			"name": "Vaquero's Grit",
+			"entries": [
+				"You now use Wisdom instead of Intelligence when determining your grit save DC."
+			],
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Bonus Tricks",
+			"entries": [
+				"When you pick this archetype, you have access to the tricks restricted to the Vaquero Trail. You gain one additional trick, choosing between the tricks restricted to the Vaquero Trail. You can choose one additional trick restricted to this subclass at 5th level, then again at 9th, 13th, and 17th levels. These tricks do not count against your tricks known, as shown on the Tricks Known column of the Gunslinger table."
+			],
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Born to the Saddle",
+			"entries": [
+				"Starting at 3rd level, your mastery as a rider becomes apparent. You have advantage on saving throws made to avoid falling off your mount. If you fall off your mount and descend no more than 10 feet, you can land on your feet if you're not incapacitated.",
+				"Finally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed."
+			],
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Quickdraw",
+			"entries": [
+				"At 3rd level, your shoutout sense puts you ahead of the fight. Whenever you roll initiative and aren't surprised, you can take a special turn at the beginning of combat; you immediately draw a firearm that lacks the two-handed property and only take the Attack action, treating every creature as surprised until this special turn ends. You can expend uses of Overwatch to make one additional attack on this turn per use expended. Combat then resumes as normal."
+			],
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Reposition",
+			"entries": [
+				"Also at 3rd level, you learn to become mobile while taking pot shots. You gain a new way to use Overwatch, to Reposition; you can move up to half your movement speed without taking attacks of opportunity. If you use Shootout, you can use this ability before using Shootout as a part of that action.",
+				"While mounted, your mount can move with you, and you can use your mount's speed in place of your own."
+			],
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Vaquero's Shootout",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"At 5th level, Shootout no longer costs grit points to use when you make the attack with a firearm that lacks the two-handed property."
+			]
+		},
+		{
+			"name": "Gear Up",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"At 7th level, you develop a technique to quickly bend magic items to your will. You can use your action to spend 2 grit points to attune to a magic item for 1 minute, ignoring any restrictions the item usually has. If the item casts any spells, Wisdom is your spellcasting ability modifier, and you use your grit save DC for any spells the item has, unless the item specifies otherwise."
+			]
+		},
+		{
+			"name": "Unerring Shots",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, aiming and firing from the hip comes more natural. Whenever you take the Attack action and use a firearm that lacks the two-handed property to make an attack, you can add your Wisdom modifier to the attack roll (minimum of 1)."
+			]
+		},
+		{
+			"name": "Peak of Gunslinging",
+			"source": "SRPGunslinger",
+			"className": "Gunslinger",
+			"classSource": "SRPGunslinger",
+			"subclassShortName": "Vaquero",
+			"subclassSource": "SRPGunslinger",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When you reach 15th level, your mastery with pistols is unrivaled. Whenever you score a critical hit on an attack, you regain 3 grit points. However, you still cannot have more grit points than your gunslinger level at any given time."
+			]
+		}
+	]
+}
