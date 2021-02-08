@@ -913,7 +913,51 @@
 				},
 				"Scrying",
 				"Planar Binding",
-				"Wall of Stone"
+				"Wall of Stone",
+				{
+					"name": "Celestial Pyre",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Dazzling Gleam",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Field of Stars",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Gleam-Eye",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Intensify Gravity",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Lucky Stars",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Night Sky",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Starcrossed Binding",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Starlight Shroud",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Twinkle",
+					"source": "ATLAS"
+				},
+				{
+					"name": "Vacuum",
+					"source": "ATLAS"
+				}
 			],
 			"cantripProgression": [
 				0,
