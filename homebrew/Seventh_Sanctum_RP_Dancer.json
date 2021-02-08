@@ -1926,7 +1926,7 @@
 			"entries": [
 				"Starting at 15th level, you are in good standing as a walker between worlds. Whenever you directly reduce a creature to 0 hit points or stabilize them, you can immediately put them under the effects of the plane shift and nondetection spells.",
 				"The target is treated as willing, allowing you to specify their destination so long as it is a location on another plane you have been to before. Upon arrival, they regain 1 hit point. Once you use this ability, you cannot use it again until you finish a long rest.",
-				"Finally, you can cast each of the following spells once per long rest, though you must possess their material components: {@spell find the way} and {@spell planar ally}."
+				"Finally, you can cast each of the following spells once per long rest, though you must possess their material components: {@spell find the path} and {@spell planar ally}."
 			]
 		},
 		{
