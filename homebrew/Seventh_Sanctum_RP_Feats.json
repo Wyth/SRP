@@ -188,26 +188,6 @@
 			]
 		},
 		{
-			"name": "Front Line Infantry",
-			"source": "SRPF",
-			"prerequisite": [{
-				"other": "Proficiency in a firearm"
-			}],
-			"entries": [
-				"You master the unique recoil and firing mechanism of automatic weapons. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You decrease the misfire score of any weapon with the automatic weapon property by 1.",
-						"You can reload any weapon with the automatic weapon property as a bonus action, instead of an attack action.",
-						"Whenever you attack a creature in combat that you have not attacked previously, you take them by surprise with the violent burst of your automatic weapon. Your first attack deals an extra {@dice 1d4} piercing damage.",
-						"<u>Rapid Fire:</u> When you make a special attack against a target creature in range, you can expend up to four ammunition for a total of {@dice 4d6} piercing damage.",
-						"<u>Automatic Fire:</u> When you make a special attack against creatures in a cone in front of you, you use the weapon's short range to determine the size of the cone, rather than half the short range."
-					]
-				}
-			]
-		},
-		{
 			"name": "Six-Gun Ace",
 			"source": "SRPF",
 			"prerequisite": [{
