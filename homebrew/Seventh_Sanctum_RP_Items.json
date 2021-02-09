@@ -1133,56 +1133,6 @@
 			"entries": []
 		},
 		{
-			"name": "Submachine Pistol",
-			"source": "SRPHBI",
-			"type": "R",
-			"rarity": "none",
-			"weight": 4,
-			"value": 50000,
-			"weaponCategory": "firearm",
-			"property": [
-				"RE",
-				"MI",
-				"A",
-				"AM",
-				"AUTO",
-				"RF", 
-				"S"
-			],
-			"dmg1": "1d8",
-			"range": "30/90",
-			"reload": "6",
-			"misfire": "4",
-			"ammo": "20 gp for 20",
-			"dmgType": "P",
-			"entries": []
-		},
-		{
-			"name": "Assault Rifle",
-			"source": "SRPHBI",
-			"type": "R",
-			"rarity": "none",
-			"weight": 9,
-			"value": 150000,
-			"weaponCategory": "firearm",
-			"property": [
-				"RE",
-				"MI",
-				"A",
-				"AM",
-				"2H",
-				"AUTO",
-				"AUTOF"
-			],
-			"dmg1": "1d10",
-			"range": "40/180",
-			"reload": "8",
-			"misfire": "4",
-			"ammo": "20 gp for 10",
-			"dmgType": "P",
-			"entries": []
-		},
-		{
 			"name": "Musket",
 			"source": "SRPHBI",
 			"type": "R",
@@ -4100,37 +4050,6 @@
 			"entries": []
 		},
 		{
-			"name": "Carbine",
-			"source": "SRPHBI",
-			"type": "R",
-			"rarity": "none",
-			"weight": 4,
-			"value": 100000,
-			"weaponCategory": "firearm",
-			"property": [
-				"A",
-				"AM",
-				"MI",
-				"RE",
-				"AUTO"
-			],
-			"dmg1": "1d8",
-			"range": "40/120",
-			"reload": "6",
-			"misfire": "3",
-			"ammo": "20 gp for 10",
-			"dmgType": "P",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Firing Line.",
-					"entries": [
-						"As an attack action, you can make a special attack against creatures in a line in front of you, with the line’s size equal to 5 feet in width and the length of the weapon's short range. Expend 4 pieces of ammunition. Creatures in that line must make a Dexterity saving throw with a DC equal to 8 + your Dexterity modifier + your proficiency bonus. This saving throw changes depending on the stat you use to make your ranged firearm attacks. On a failed save, those creatures take {@dice 2d8} + your Dexterity modifier piercing damage, or half as much on a successful save."
-					]
-				}
-			]
-		},
-		{
 			"name": "Double-Barrel Shotgun",
 			"source": "SRPHBI",
 			"type": "R",
@@ -4166,39 +4085,6 @@
 					"name": "Two For One.",
 					"entries": [
 						"As an attack action, you can make a special attack against a creature in front of you. Expending all ammunition, you can make a ranged attack roll. On a hit, the target takes {@dice 2d10} plus your Dexterity modifier in bludgeoning damage. You can use this feature once per turn."
-					]
-				}
-			]
-		},
-		{
-			"name": "Burst Pistol",
-			"source": "SRPHBI",
-			"type": "R",
-			"rarity": "none",
-			"weight": 2,
-			"value": 15000,
-			"weaponCategory": "firearm",
-			"property": [
-				"A",
-				"AM",
-				"AUTO",
-				"L",
-				"MI",
-				"RE",
-				"S"
-			],
-			"dmg1": "1d4",
-			"range": "30/60",
-			"reload": "6",
-			"misfire": "1",
-			"ammo": "4 gp for 20",
-			"dmgType": "P",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Burst Fire.",
-					"entries": [
-						"Personal defense weapons often have selective fire. Choose an amount of ammunition (minimum of 2, up to 3) you wish to expend from your weapon and make a weapon attack roll. The target takes {@dice 1d4} piercing damage per piece of ammunition expended, up to a maximum of {@dice 3d4}"
 					]
 				}
 			]
