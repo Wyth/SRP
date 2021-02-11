@@ -2671,7 +2671,7 @@
 			"domains": [
 				"Wild Magic",
 				"Interest",
-				"Consquence"
+				"Consequence"
 			],
 			"symbolImg": {
 				"type": "null",
@@ -2720,7 +2720,7 @@
 							"entries": [
 								"While you are not in combat, you simply just have a natural charisma about you! A drive that saps the inhibitions of those around you, coaxing them to join in on the fun. Whenever you try and persuade a creature to take a risk, do something they normally wouldn't be inclined to do, or simply just do something that's fucking awesome, you gain expertise in Persuasion for the roll, as well as advantage."
 							]
-						},
+						}
 					]
 				},
 				{
