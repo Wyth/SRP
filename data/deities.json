@@ -21,8 +21,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"Aslanth, the merciless god of cold and winter, is worshiped mostly in regions that are affected by deep winters. Folk propitiate Aslanth with offerings and prayers for mercy. His priests warn others to prepare for winter, and to stock extra provisions in order to have some to spare as offerings to the god.",
@@ -70,21 +69,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -136,8 +135,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"The Lady of Poisons was born a mortal on the Material Plane. As a human, she held no divinity, but she sought to harness it. Her mortal name was Otacilia, and her legend quickly grew throughout Kagrea as a famous alchemist. She was no ordinary alchemist, however⁠—the truth of the matter was, Otacilia was an assassin. Hired to kill an Arisen, she had somehow distilled a poison which could harm the gods, and before her trial that would have likely removed her soul from the cycle of rebirth, she ascended.",
@@ -173,37 +171,37 @@
 							"entries": [
 								{
 									"entries": [
-                                       "{@b Healing.} The drinker regains a number of hit points equal to {@dice 4d4} + your Intelligence modifier."
+										"{@b Healing.} The drinker regains a number of hit points equal to {@dice 4d4} + your Intelligence modifier."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Swiftness.} The drinker's walking speed increases by 15 feet for 1 hour."
+										"{@b Swiftness.} The drinker's walking speed increases by 15 feet for 1 hour."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Resilience.} The drinker gains a +1 bonus to AC and +1 bonus to saving throws for 10 minutes."
+										"{@b Resilience.} The drinker gains a +1 bonus to AC and +1 bonus to saving throws for 10 minutes."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Boldness.} The drinker can roll a {@dice 2d4} and add the number rolled to every attack roll and saving throw they make for the next minute."
+										"{@b Boldness.} The drinker can roll a {@dice 2d4} and add the number rolled to every attack roll and saving throw they make for the next minute."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Flight.} The drinker gains a flying speed of 30 feet for 10 minutes."
+										"{@b Flight.} The drinker gains a flying speed of 30 feet for 10 minutes."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Transformation.} The drinker's body is transformed as if by the {@spell alter self} spell. The drinker determines the transformation caused by the spell, and can select two options rather than one, the effects of which last for 10 minutes."
+										"{@b Transformation.} The drinker's body is transformed as if by the {@spell alter self} spell. The drinker determines the transformation caused by the spell, and can select two options rather than one, the effects of which last for 10 minutes."
 									],
 									"type": "entries"
 								}
@@ -246,8 +244,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"The Arisen who represents the sword stands as the governing figure to warriors bound by oath. A prayer in her honor is uttered across every nation when bestowing the honor of knighthood, and her charismatic speeches are said to be infectious, bolstering her followers resolve and leading them to triumph on the battlefield.",
@@ -295,21 +292,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -339,21 +336,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 3}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 3}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 3"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -408,8 +405,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"The Lord of Training and Ambition. Bruniik will often assist those who follow him to grow in strength as well as learning how to read your enemy and use your body to it's fullest extent. Bruniik doesn't shun defeat, he uses it as an excuse to learn and improve one's skill.",
@@ -462,21 +458,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, the amount of knowledge points you have increase to 6. In addition, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, the amount of knowledge points you have increase to 6. In addition, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -514,7 +510,7 @@
 							"entries": [
 								{
 									"entries": [
-                                       "Starting a {@italic Bond Level 3}, you gain the following additional benefits:"
+										"Starting a {@italic Bond Level 3}, you gain the following additional benefits:"
 									],
 									"type": "entries"
 								}
@@ -574,8 +570,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"The Lord of Training and Ambition. Bruniik will often assist those who follow him to grow in strength as well as learning how to read your enemy and use your body to it's fullest extent. Bruniik doesn't shun defeat, he uses it as an excuse to learn and improve one's skill.",
@@ -628,21 +623,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, the amount of knowledge points you have increase to 6. In addition, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, the amount of knowledge points you have increase to 6. In addition, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -695,8 +690,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"Krurm is the most powerful Arisen in the Adamantis court by strength. His raw power is unrivaled by any of the other Arisen. He has only been bested twice in combat. Once by Archon (which he refuses to speak of) and another by Olympus. He revels in battle, and as such will often watch over his followers as they fight. However, he refuses to step in or help directly any of his followers, as he believes that would sow weakness.",
@@ -736,19 +730,19 @@
 							"entries": [
 								{
 									"entries": [
-                                       "{@b Avernus.} Enemies within range take {@dice 4d8} fire damage on a failed save, or half as much on a successful one."
+										"{@b Avernus.} Enemies within range take {@dice 4d8} fire damage on a failed save, or half as much on a successful one."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Dis.} Enemies within your range take {@dice 2d8} lightning damage on a failed save, or half as much on a successful one. Enemies who fail this save are also {@condition deafened} for 1 round. In addition, for the next 4 rounds whenever those creatures willingly move, they take an additional {@dice 1d8} lightning damage."
+										"{@b Dis.} Enemies within your range take {@dice 2d8} lightning damage on a failed save, or half as much on a successful one. Enemies who fail this save are also {@condition deafened} for 1 round. In addition, for the next 4 rounds whenever those creatures willingly move, they take an additional {@dice 1d8} lightning damage."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Minauros.} Enemies within your range take {@dice 2d8} poison damage on a failed save, or half as much on a successful one. Enemies who fail this save are also {@condition poisoned} for 2 rounds, and their movement speed decreases by 10 for the same duration."
+										"{@b Minauros.} Enemies within your range take {@dice 2d8} poison damage on a failed save, or half as much on a successful one. Enemies who fail this save are also {@condition poisoned} for 2 rounds, and their movement speed decreases by 10 for the same duration."
 									],
 									"type": "entries"
 								}
@@ -773,21 +767,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -811,19 +805,19 @@
 							"entries": [
 								{
 									"entries": [
-                                       "{@b Phlegethos.} Enemies within range take {@dice 6d8} fire damage on a failed save. In addition, they must make a Constitution saving throw with the same DC. On a second failed save, they take an additional {@dice 2d8} fire damage, gaining {@dice 2d8} temporary hit points on a successful save."
+										"{@b Phlegethos.} Enemies within range take {@dice 6d8} fire damage on a failed save. In addition, they must make a Constitution saving throw with the same DC. On a second failed save, they take an additional {@dice 2d8} fire damage, gaining {@dice 2d8} temporary hit points on a successful save."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Stygia.} Enemies within your range take {@dice 3d6} cold damage on a failed save, or half as much on a successful one. In addition, suitable ground within a 30-foot radius of you becomes covered in a thick sheen of ice. This ice lasts for one minute before melting, and counts as difficult terrain for creatures other than you. When a creature ends their turn in the ice, they must make a Dexterity saving throw. On a failed save, that creature is knocked {@condition prone}."
+										"{@b Stygia.} Enemies within your range take {@dice 3d6} cold damage on a failed save, or half as much on a successful one. In addition, suitable ground within a 30-foot radius of you becomes covered in a thick sheen of ice. This ice lasts for one minute before melting, and counts as difficult terrain for creatures other than you. When a creature ends their turn in the ice, they must make a Dexterity saving throw. On a failed save, that creature is knocked {@condition prone}."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Malbolge.} Enemies within your range take {@dice 1d8} aeon damage on a failed save. In addition, they suffer the effects of the {@spell confusion} spell for two rounds."
+										"{@b Malbolge.} Enemies within your range take {@dice 1d8} aeon damage on a failed save. In addition, they suffer the effects of the {@spell confusion} spell for two rounds."
 									],
 									"type": "entries"
 								}
@@ -834,21 +828,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 3}, you gain the following additional benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 3}, you gain the following additional benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -873,21 +867,21 @@
 							"entries": [
 								{
 									"entries": [
-                                       "{@b Maladomini (Costs 2 uses).} You snap your fingers, telekinetically bringing one enemy within your range into your grasp. Instead of all creatures in the radius making a Dexterity saving throw, the one creature you choose must instead make a Charisma saving throw with the same DC. On a failed save, you crush that creature in a brutal chokehold and launch them into the sky, where they disappear from the current plane and are put under the effects of the {@spell maze} spell. You can concentrate on maintaing this magical effect, even while raging. Upon their escape, they reappear 100 feet above the square they left, and take fall damage as normal."
+										"{@b Maladomini (Costs 2 uses).} You snap your fingers, telekinetically bringing one enemy within your range into your grasp. Instead of all creatures in the radius making a Dexterity saving throw, the one creature you choose must instead make a Charisma saving throw with the same DC. On a failed save, you crush that creature in a brutal chokehold and launch them into the sky, where they disappear from the current plane and are put under the effects of the {@spell maze} spell. You can concentrate on maintaing this magical effect, even while raging. Upon their escape, they reappear 100 feet above the square they left, and take fall damage as normal."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Cania (Costs 2 uses).} Enemies within your range take {@dice 5d6} cold damage on a failed save, or half as much on a successful one. In addition, those creatures become encased in a thick sheet of ice, placing them under the {@condition petrified} condition for five rounds."
+										"{@b Cania (Costs 2 uses).} Enemies within your range take {@dice 5d6} cold damage on a failed save, or half as much on a successful one. In addition, those creatures become encased in a thick sheet of ice, placing them under the {@condition petrified} condition for five rounds."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Nessus (Costs 3 uses).} Stones rumble as you emerge from the air, landing upon the area you designate with crushing force. Rubble kicks up into the ceiling as you arrive from the distant skies with the speed of a canonball. When your feet hit the easily malleable ground, the ground trembles with the force of an atomic bomb.",
-									   "Instead of all creatures in the radius making a Dexterity saving throw, creatures in your radius must instead make a Wisdom saving throw with the same DC. On a failed save, those creatures become {@condition frightened} of you as for the next minute, you take on the appearance, physical form, and voice of Krurm, the Lord of War and Destruction.",
-									   "Until the full minute elapses, your creature size becomes Huge, and your attacks deal an additional {@dice 1d6} aeon damage on a hit. You also gain advantage on attacks that would target a celestial, fiend, or undead. Finally, you gain a fleeting {@dice 5d10} temporary hit point shield, which disappears along with your form at the end of the minute."
+										"{@b Nessus (Costs 3 uses).} Stones rumble as you emerge from the air, landing upon the area you designate with crushing force. Rubble kicks up into the ceiling as you arrive from the distant skies with the speed of a canonball. When your feet hit the easily malleable ground, the ground trembles with the force of an atomic bomb.",
+										"Instead of all creatures in the radius making a Dexterity saving throw, creatures in your radius must instead make a Wisdom saving throw with the same DC. On a failed save, those creatures become {@condition frightened} of you as for the next minute, you take on the appearance, physical form, and voice of Krurm, the Lord of War and Destruction.",
+										"Until the full minute elapses, your creature size becomes Huge, and your attacks deal an additional {@dice 1d6} aeon damage on a hit. You also gain advantage on attacks that would target a celestial, fiend, or undead. Finally, you gain a fleeting {@dice 5d10} temporary hit point shield, which disappears along with your form at the end of the minute."
 									],
 									"type": "entries"
 								}
@@ -917,8 +911,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"The Lord of Science revels in the discovery of new and unique things. An entity entirely populated by the need to know, Add would sooner dissect you than consider you a true follower. However, that also means he has no care for whether you align yourself to his ideals or not. So long as you give him data worth remembering, his power is yours to command.",
@@ -942,43 +935,43 @@
 							"entries": [
 								{
 									"entries": [
-                                       "{@b Core: Flight (3).} You gain a flying speed of 30 feet. As a bonus action, you can {@italic boost}, increasing your flight speed to 45. If &quot;Legs: Speed&quot; is currently active, {@italic boost} affects that dynamo as well."
+										"{@b Core: Flight (3).} You gain a flying speed of 30 feet. As a bonus action, you can {@italic boost}, increasing your flight speed to 45. If &quot;Legs: Speed&quot; is currently active, {@italic boost} affects that dynamo as well."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Arms: Assault (3).} As a bonus action, you can summon a dynamo missile behind you which levitates in place for one minute. As a free action whenever you take the attack action or cast a spell, you can launch any number of missiles at an enemy, which has a range of 60 feet and deals {@dice 2d4+1} damage. You can control a number of missiles equal to your Intelligence modifier levitating around you at once. At the end of one minute, the missile dematerializes and frees up a space for another missile."
+										"{@b Arms: Assault (3).} As a bonus action, you can summon a dynamo missile behind you which levitates in place for one minute. As a free action whenever you take the attack action or cast a spell, you can launch any number of missiles at an enemy, which has a range of 60 feet and deals {@dice 2d4+1} damage. You can control a number of missiles equal to your Intelligence modifier levitating around you at once. At the end of one minute, the missile dematerializes and frees up a space for another missile."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Legs: Speed (1).} Your walking speed increases by 15. As a bonus action, you can {@italic boost}, increasing your walking speed by an additional 10 feet. If &quot;Core: Flight&quot; is currently active, {@italic boost} affects that dynamo as well."
+										"{@b Legs: Speed (1).} Your walking speed increases by 15. As a bonus action, you can {@italic boost}, increasing your walking speed by an additional 10 feet. If &quot;Core: Flight&quot; is currently active, {@italic boost} affects that dynamo as well."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Feet: Tread (2).} You ignore difficult terrain and gain advantage on Dexterity ({@skill Acrobatics}) checks to climb difficult surfaces. In addition, ground 10-feet around you becomes difficult terrain for creatures you choose."
+										"{@b Feet: Tread (2).} You ignore difficult terrain and gain advantage on Dexterity ({@skill Acrobatics}) checks to climb difficult surfaces. In addition, ground 10-feet around you becomes difficult terrain for creatures you choose."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Legs: Boosters (2).} You can take the Dodge or Disengage action as a bonus action. When you Disengage this way, you ignore features that state the creature can take an opportunity of attack against you. {@bold (Cooldown 1)}"
+										"{@b Legs: Boosters (2).} You can take the Dodge or Disengage action as a bonus action. When you Disengage this way, you ignore features that state the creature can take an opportunity of attack against you. {@bold (Cooldown 1)}"
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Hands: Steel (1).} When you hit with an unarmed strike, you can deal {@dice 2d4} + your Intelligence modifier bludgeoning damage, instead of the normal damage for an unarmed strike. This unarmed strike counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+										"{@b Hands: Steel (1).} When you hit with an unarmed strike, you can deal {@dice 2d4} + your Intelligence modifier bludgeoning damage, instead of the normal damage for an unarmed strike. This unarmed strike counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Eyes: Sight (3).} You gain darkvision up to 120 feet and truesight up to 10 feet. You can't discern color in darkness, only shades representative of thermal vision."
+										"{@b Eyes: Sight (3).} You gain darkvision up to 120 feet and truesight up to 10 feet. You can't discern color in darkness, only shades representative of thermal vision."
 									],
 									"type": "entries"
 								}
@@ -1010,21 +1003,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, the amount of cybernetic points you have increase to 7. In addition, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, the amount of cybernetic points you have increase to 7. In addition, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -1048,19 +1041,19 @@
 							"entries": [
 								{
 									"entries": [
-                                       "{@b Hands: Tremor (2).} As an attack action on your turn, you can slam your hands against the ground, unleashing a massive tremor which manifests a localized earthquake at your location. Creatures you choose within 30 feet must make a Dexterity saving throw with a DC equal to 8 + your Intelligence modifier + your proficiency bonus. On a failed save, those creatures are knocked {@condition prone} and have their speed reduced to 0 until the end of their next turn. {@bold (Cooldown 2)}"
+										"{@b Hands: Tremor (2).} As an attack action on your turn, you can slam your hands against the ground, unleashing a massive tremor which manifests a localized earthquake at your location. Creatures you choose within 30 feet must make a Dexterity saving throw with a DC equal to 8 + your Intelligence modifier + your proficiency bonus. On a failed save, those creatures are knocked {@condition prone} and have their speed reduced to 0 until the end of their next turn. {@bold (Cooldown 2)}"
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Turret: Dynamic Core (3).} For as long as your Ascend Beyond Limits remains active, turrets you summon have their damage rolls increased by {@dice 1d8} + your Intelligence modifier."
+										"{@b Turret: Dynamic Core (3).} For as long as your Ascend Beyond Limits remains active, turrets you summon have their damage rolls increased by {@dice 1d8} + your Intelligence modifier."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-                                       "{@b Turret: Monodrone Surgeon (4).} For as long as your Ascend Beyond Limits remains active, protector turrets you summon have the number of temporary hit points they can restore increase by {@dice 1d8}, and they gain a fly speed of 60."
+										"{@b Turret: Monodrone Surgeon (4).} For as long as your Ascend Beyond Limits remains active, protector turrets you summon have the number of temporary hit points they can restore increase by {@dice 1d8}, and they gain a fly speed of 60."
 									],
 									"type": "entries"
 								}
@@ -1097,8 +1090,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"The Lord of Assassination was not given this title lightly. Talos has perfected the art form of a clean, and unseen kill. He is a master tactician, and often is known to plan out intricate modes of attack to defeat enemies unconventionally rather than fighting head on. None would even know if you were the victim of the Master Assassin, unless he wanted others to know.",
@@ -1150,21 +1142,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -1211,8 +1203,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"The god of the ocean and seas. Nyle is subject to prayer by a variety of individuals who wish for safe travel through the ever-dangerous high seas, and is also subject to reverence by the various races who reside in its inner-depths.",
@@ -1243,13 +1234,13 @@
 							"entries": [
 								"As an action, you can metamorphose any source of water you can touch into the sea, transforming your environment into an ocean with upward depth and width of up to 100 feet. This makeshift ocean is treated similar to a miniature plane of water.",
 								"While in this body of water, you can select a number of creatures up to your Charisma modifier (minimum of 1) and grant them the following benefits:",
-							{
-								"type": "list",
-								"items": [
-									"You gain a swimming speed equal to your movement speed, if you do not have one already. Futhermore, you can breathe water normally while submerged.",
-									"You gain resistance to fire damage."
-								]
-							},
+								{
+									"type": "list",
+									"items": [
+										"You gain a swimming speed equal to your movement speed, if you do not have one already. Futhermore, you can breathe water normally while submerged.",
+										"You gain resistance to fire damage."
+									]
+								},
 								"The makeshift ocean you create returns to its normal size after one minute. Once you use this ability, you cannot use it again until you finish a long rest."
 							]
 						}
@@ -1286,8 +1277,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"Siras represents the dark side of nature. The uncaring and destructive force that might strike at any time. More specifically, he is the god of lightning and storms, and his personality is equal in measure to their bravado. He counts the ravager, the raider, the looter, and the brigand among his followers, so long as they aspire to greatness. To this account, he also includes royalty, nobles, and inventors in his repertoire of followers.",
@@ -1351,7 +1341,7 @@
 			]
 		},
 		{
-			"name": "Calamity (Mr. Wellington Version)",
+			"name": "Nova (Mr. Wellington Version)",
 			"source": "SRP",
 			"pantheon": "Adamantian",
 			"category": "Guardian",
@@ -1366,13 +1356,26 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"[Insert Arisen Description Here]",
 				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
-				"As a follower of Calamity, you have been granted the following four abilities at {@italic Bond Level 1}:",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Nova, you have been granted the following four abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -1396,23 +1399,109 @@
 							"type": "entries",
 							"name": "Quantum Splice (2/2, Short or Long Rest)",
 							"entries": [
-								"Whenever you or a creature within 30 feet would have disadvantage on an attack roll or saving throw, you can use a reaction. That creature no longer has disadvantage, and cannot have advantage on that attack roll or saving throw.",
-								"<u>Entangled.</u> When you target an allied creature with this ability, they no longer have disadvantage on that attack roll or saving throw, and instead gain advantage. In addition, you can target an enemy creature. That creature no longer has advantage on an attack roll or saving throw."
+								"Whenever you or a creature within 30 feet would have disadvantage on an attack roll or saving throw, you can use your reaction to cause that creature to no longer have disadvantage or advantage on that attack roll or saving throw.",
+								"<u>Entangled.</u> When you target an allied creature with this ability, they no longer have disadvantage on that attack roll or saving throw and instead gain advantage. In addition, you can instead target an enemy creature, causing that creature to no longer have advantage on the attack roll or saving throw."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Time-Independent Slash (3/3, Short or Long Rest)",
 							"entries": [
-								"Whenever you would hit with a melee weapon attack, you can expend one use of this ability. You regain {@dice 1d6 + 2} hit points and gain {@dice 1d4 + 1} temporary hit points.",
-								"<u>Entangled.</u> The creature you hit must make a Constitution saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature has disadvantage on attack rolls and ability checks until the end of their next turn, and takes {@dice 1d10} force damage at the start of their next turn."
+								"Whenever you would hit with a melee weapon attack, you can expend one use of this ability. You regain {@dice 1d6} + 2 hit points and gain {@dice 1d4} + 1 temporary hit points.",
+								"<u>Entangled.</u> The creature you hit must make a Constitution saving throw with a DC equal to 8 + your Charisma modifier + your proficiency bonus. On a failed save, that creature takes {@dice 1d10} force damage at the start of their next turn and has disadvantage on attack rolls and ability checks until the end of their next turn."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Nova, you have been granted the following three abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": " A Planar Journey (1/1, Long Rest).",
+							"entries": [
+								"When you hit a creature with an attack, he can use this feature to instantly transport the target through the various planes of the universe. The creature disappears and hurtles through a chaotic landscape made up of all the planes.",
+								"At the end of the creature’s next turn, the target returns to the space it previously occupied, or to the nearest unoccupied space, and target takes {@dice 8d10} damage from the various hazards it was hurled through while gone. To determine the damage type, roll a {@dice d8} on the following table.",
+								{
+									"type": "table",
+									"caption": "Where Did They Go?",
+									"rows": [
+										[
+											"1",
+											"The Elemental Plane of Fire. fire damage."
+										],
+										[
+											"2",
+											"The Negative Energy Plane. necrotic damage."
+										],
+										[
+											"3",
+											"The Far Realm. psychic damage."
+										],
+										[
+											"4",
+											"Mount Celestia. radiant damage."
+										],
+										[
+											"5",
+											"Ysgard. slashing damage."
+										],
+										[
+											"6",
+											"The Feywilds. thunder damage."
+										],
+										[
+											"7",
+											"Mechanus. force damage."
+										],
+										[
+											"8",
+											"Limbo! Choose any damage type except for Aeon or Severance."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Quick Gates.",
+							"entries": [
+								"Using one of his Entanglement Points, Wellington can spend an action place down a Gate. These gates appear as a black, swirling vortex that anyone can see and can allow creatures of up to medium size through.",
+								"You can choose how long these gates last, from 1 minute to 1 hour, and can connect them to each other. However, only two gates can be connected at a time. You can place a gate in place of a weapon attack as part of the attack action.",
+								"Placing two connected gates will cause anyone who touches them, even enemies, to teleport to the other and appear in the adjacent square opposite from where they entered.",
+								"As a reaction, you can change the destination of one gate to another gate.",
+								"Non-living objects that are not in contact with a living creature will pass right through the gates."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Space Walker (Passive).",
+							"entries": [
+								"Your connection to Nova protects you from the adverse effects of being affected by space.",
+								"You are now immune to teleportation spells being used against you unwillingly such as Banishment, Gate, Planeshift and Scatter. ",
+								"Furthermore, you may use your reaction when one of these spells is being cast on you to teleport behind the target and make one melee attack against them with advantage. On a hit, this attack deals an additional weapon damage die."
 							]
 						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Commandments of Calamity",
+					"name": "Commandments of Nova",
 					"entries": [
 						{
 							"type": "list",
@@ -1443,8 +1532,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"Ceres was born under the light in the moon, at the dawn of the first century while humanity still wandered the Evermarsh, bound by the strict rules of a hunter gatherer society. She is known as the goddess of the hunt, and is generally prayed to before any large gathering operation. She is also the mother of wolves, excluding lycantrophy. However, lycans still pray to her along with their mother deity, as they are both considered two sides of the same coin, each representative of a different part of their self.",
@@ -1516,8 +1604,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"<strike>Cosmic is oftentimes classified as being</strike> Cosmic, alongside the Adamantian Court, is said to <strike>be placed on a pedestal made of pure granite and modeled in the Ionic style</strike> his interior is constructed of normal steel plates <strike>plays host to a small range of anomalous species and organisms, some thought to be native</strike> Cosmic is <strike>human</strike>. Looking at Cosmic <strike>leads into an alternate reality and the duplicate weapon of its length</strike> swimming pools, janitorial closets, and elevator lobbies. Boyo is <strike>s to be forcibly removed from Cosmic</strike>. <strike>Boyo is to be kept with Cosmic at all times. Boyo is to be terminated. Boyo is to be kept alive by all means necessary. Boyo is to be kept inside Cosmic. Boyo is to be placed as far away from Cosmic as possible, while still maintaining connection.</strike> Bo<strike>yo is to.</strike> Although multiple specimens have been shown to prefer live food, including rats and shower parrots. <strike>It is not certain why certain individuals have such deviation in feeding patterns</strike>.",
@@ -1554,14 +1641,14 @@
 							"entries": [
 								"As an action, you tap into the probability of worlds, becoming capable of choosing from a certain pathway of choices, a number which will ensure the highest likelihood of making you victorious in any kind of outcome.",
 								"For the next minute, at the end of each your turns, select one option from the following list to take into effect:",
-							{
-								"type": "list",
-								"items": [
-									"The next {@dice 1d4} attacks against you have disadvantage. This effect lasts until the start of your next turn.",
-									"Choose a creature within 60 feet of you that is willing. Roll a {@dice 1d4}. You swap places with that creature in that many turns (including other creatures), or the start of your next turn, whatever comes first.",
-									"You gain {@dice 1d20 - 1d10} temporary hit points until the start of your next turn. If the number you roll would be negative, you instead take that much aeon damage."
-								]
-							}
+								{
+									"type": "list",
+									"items": [
+										"The next {@dice 1d4} attacks against you have disadvantage. This effect lasts until the start of your next turn.",
+										"Choose a creature within 60 feet of you that is willing. Roll a {@dice 1d4}. You swap places with that creature in that many turns (including other creatures), or the start of your next turn, whatever comes first.",
+										"You gain {@dice 1d20 - 1d10} temporary hit points until the start of your next turn. If the number you roll would be negative, you instead take that much aeon damage."
+									]
+								}
 							]
 						},
 						{
@@ -1604,8 +1691,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"Eve is the goddess of robotics, and governs over the domain of technology, a vast and inspiring art that represents all fundamental crafts made in the pursuit of overcoming reliance on magic. Above all else, Eve is a shining example of how far technology has come, and represents the sentience and humanitarian rights that all constructs strive for.",
@@ -1667,21 +1753,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -1695,37 +1781,37 @@
 						}
 					]
 				},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
 						{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Arm",
-													"Effect"
-												],
-												"colStyles": [
-													"col-1",
-													"col-5"
-												],
-												"rows": [
-													[
-														"{@bold Mode: Magicka.}",
-														"You no longer require a focus to cast your spells. In addition, you can cast spells that require a verbal component without speaking, as the arm computes and fires the spell through an automatic process. Finally, you gain a +1 bonus to your ranged spell attack rolls, and your spell save DC goes up by 1."
-													],
-													[
-														"{@bold Mode: Physica.}",
-														"You receive a +5 bonus to all Strength and Dexterity checks you make while this mode is active. In addition, your lifting capacity is doubled."
-													],
-													[
-														"{@bold Mode: Ultima.}",
-														"While this mode is active, you gain access to the Ultima Canon. This weapon protrudes from your arm post-transformation, keeping your hands free for the purposes of carrying and object interactions. As a bonus action, you can fire a magical blast from this cannon, which automatically hit their target so long as they are within 60 feet."
-													]
-												]
-											}
-										]
-						},
+							"type": "table",
+							"colLabels": [
+								"Arm",
+								"Effect"
+							],
+							"colStyles": [
+								"col-1",
+								"col-5"
+							],
+							"rows": [
+								[
+									"{@bold Mode: Magicka.}",
+									"You no longer require a focus to cast your spells. In addition, you can cast spells that require a verbal component without speaking, as the arm computes and fires the spell through an automatic process. Finally, you gain a +1 bonus to your ranged spell attack rolls, and your spell save DC goes up by 1."
+								],
+								[
+									"{@bold Mode: Physica.}",
+									"You receive a +5 bonus to all Strength and Dexterity checks you make while this mode is active. In addition, your lifting capacity is doubled."
+								],
+								[
+									"{@bold Mode: Ultima.}",
+									"While this mode is active, you gain access to the Ultima Canon. This weapon protrudes from your arm post-transformation, keeping your hands free for the purposes of carrying and object interactions. As a bonus action, you can fire a magical blast from this cannon, which automatically hit their target so long as they are within 60 feet."
+								]
+							]
+						}
+					]
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -1752,77 +1838,77 @@
 						}
 					]
 				},
+				{
+					"type": "entries",
+					"name": "",
+					"entries": [
 						{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"{@dice 1d13}",
-													"Damage Type"
-												],
-												"colStyles": [
-													"col-1",
-													"col-1"
-												],
-												"rows": [
-													[
-														1,
-														"Acid"
-													],
-													[
-														2,
-														"Bludgeoning"
-													],
-													[
-														3,
-														"Cold"
-													],
-													[
-														4,
-														"Fire"
-													],
-													[
-														5,
-														"Force"
-													],
-													[
-														6,
-														"Lightning"
-													],
-													[
-														7,
-														"Necrotic"
-													],
-													[
-														8,
-														"Piercing"
-													],
-													[
-														9,
-														"Poison"
-													],
-													[
-														10,
-														"Psychic"
-													],
-													[
-														11,
-														"Radiant"
-													],
-													[
-														12,
-														"Slashing"
-													],
-													[
-														13,
-														"Thunder"
-													]
-												]
-											}
-										]
-						},
+							"type": "table",
+							"colLabels": [
+								"{@dice 1d13}",
+								"Damage Type"
+							],
+							"colStyles": [
+								"col-1",
+								"col-1"
+							],
+							"rows": [
+								[
+									1,
+									"Acid"
+								],
+								[
+									2,
+									"Bludgeoning"
+								],
+								[
+									3,
+									"Cold"
+								],
+								[
+									4,
+									"Fire"
+								],
+								[
+									5,
+									"Force"
+								],
+								[
+									6,
+									"Lightning"
+								],
+								[
+									7,
+									"Necrotic"
+								],
+								[
+									8,
+									"Piercing"
+								],
+								[
+									9,
+									"Poison"
+								],
+								[
+									10,
+									"Psychic"
+								],
+								[
+									11,
+									"Radiant"
+								],
+								[
+									12,
+									"Slashing"
+								],
+								[
+									13,
+									"Thunder"
+								]
+							]
+						}
+					]
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -1831,13 +1917,13 @@
 							"name": "Logical Mind (Passive)",
 							"entries": [
 								"Your mind has been reinforced as a Follower of Eve, allowing the amounts of computations and connections you can make per second to be enhanced to a product which both comprehends and disproves concepts and factors once thought to be damaging enough to cause loss of sanity. You gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You can no longer be affected by the negative consequences of {@italic madness}.",
-						"You gain immunity to psychic damage."
-					]
-				}
+								{
+									"type": "list",
+									"items": [
+										"You can no longer be affected by the negative consequences of {@italic madness}.",
+										"You gain immunity to psychic damage."
+									]
+								}
 							]
 						}
 					]
@@ -1861,8 +1947,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"Sraosha. Full name: Queen Vermillion Sraosha, although her knights simply refer to her as Sraosha, or Queen. She rules over a plane that consists fully of monsters. This directly juxtaposes Valyrian—Valyrian is a city of monsters on the Material Plane, and it has about the same surface area as Imperium. In addition, there are humans who live in Valyrian. Sraosha's plane is much, much larger, almost twice the size of Ur. There are many domains, each separated into a different court and ruled by a Vampire Lord. And of course: there are no humans.",
@@ -1881,47 +1966,47 @@
 							]
 						},
 						{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Night Marks",
-													"Effect"
-												],
-												"colStyles": [
-													"col-2",
-													"col-3"
-												],
-												"rows": [
-													[
-														"{@bold Blessing of Fury (1).}",
-														"You gain a +15 bonus to your movement speed, and you generate 1 fury point at the end of each of your turns."
-													],
-													[
-														"{@bold Blessing of Rule (2).}",
-														"You gain a +2 bonus to your AC, and you become immune to the {@condition charmed} condition."
-													],
-													[
-														"{@bold Blessing of Loyalty (3).}",
-														"You gain advantage on all attack rolls and ability checks made to track creatures that have blood."
-													],
-													[
-														"{@bold Blessing of Blood (4).}",
-														"When you attack a creature and leave it with less than 40 hit points, that creature dies."
-													],
-													[
-														"{@bold Blessing of Order (5).}",
-														"You become resistant to all forms of damage, except for aeon."
-													],
-													[
-														"{@bold Blessing of Sraosha (6).}",
-														"You heal for half of the damage you deal."
-													]
-												]
-											}
+							"type": "entries",
+							"name": "",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Night Marks",
+										"Effect"
+									],
+									"colStyles": [
+										"col-2",
+										"col-3"
+									],
+									"rows": [
+										[
+											"{@bold Blessing of Fury (1).}",
+											"You gain a +15 bonus to your movement speed, and you generate 1 fury point at the end of each of your turns."
+										],
+										[
+											"{@bold Blessing of Rule (2).}",
+											"You gain a +2 bonus to your AC, and you become immune to the {@condition charmed} condition."
+										],
+										[
+											"{@bold Blessing of Loyalty (3).}",
+											"You gain advantage on all attack rolls and ability checks made to track creatures that have blood."
+										],
+										[
+											"{@bold Blessing of Blood (4).}",
+											"When you attack a creature and leave it with less than 40 hit points, that creature dies."
+										],
+										[
+											"{@bold Blessing of Order (5).}",
+											"You become resistant to all forms of damage, except for aeon."
+										],
+										[
+											"{@bold Blessing of Sraosha (6).}",
+											"You heal for half of the damage you deal."
 										]
+									]
+								}
+							]
 						},
 						{
 							"type": "entries",
@@ -1953,21 +2038,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -2005,21 +2090,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 3}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 3}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 3"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -2062,8 +2147,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"The devil god of the Hells is the master of tyranny and domination. His words are honeyed and carefully crafted, soothing and corrupting the mortal heart. Archon rules with an iron fist, and the punishments awaiting those that cross him are the basis of nightmares. He is the undisputed master of capitialism, designing his crown colonies around the basis of interspecies trade, and all his punishment are purely financial.",
@@ -2127,21 +2211,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, the amount of capital you have increases to 6. In addition, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, the amount of capital you have increases to 6. In addition, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -2182,7 +2266,7 @@
 										"An amount of gold equal to double the bludgeoning damage dealt. If the creature has no gold, this effect fails.",
 										"An amount of hit points equal to half the bludgeoning damage dealt. These hit points are not subtracted from the creature—however, if the creature has 0 hit points remaining, this effect fails.",
 										"An amount of movement equal to the bludgeoning damage dealt, which you can expend on your next turn as if it were part of your own movement. This movement is added to your walking speed. If you would receive an amount of movement that is not divisible by 5, that amount is stored until you have stolen enough partial movement to be divisible by 5. This effect does not lower the target's movement speed, and works even if their movement speed is 0."
-								]
+									]
 								},
 								"A creature that is entrapped by this lace can repeat the saving throw at the end of each of their turns (after payment), ending the effect on a success."
 							]
@@ -2196,21 +2280,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 3}, the amount of capital you have increases to 7. In addition, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 3}, the amount of capital you have increases to 7. In addition, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 3"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -2225,47 +2309,47 @@
 							]
 						},
 						{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Cost",
-													"Deal"
-												],
-												"colStyles": [
-													"col-1",
-													"col-5"
-												],
-												"rows": [
-													[
-														"{@bold Exhaustion (1).}",
-														"You become stabilized."
-													],
-													[
-														"{@bold Exhaustion (2).}",
-														"You are brought back to life with 5 hit points. Your body becomes conscious, although you are still {@condition prone}."
-													],
-													[
-														"{@bold Exhaustion (3).}",
-														"You are brought back to life with 10 hit points and regain an expended spell slot. Your body becomes conscious, although you are still {@condition prone}."
-													],
-													[
-														"{@bold Exhaustion (4).}",
-														"You are brought back to life with 30 hit points and regain two expended spell slots. Your body becomes conscious, although you are still {@condition prone}."
-													],
-													[
-														"{@bold Exhaustion (5).}",
-														"You are brought back to life after receiving the effects of a long rest, although you still retain all five levels of exhaustion. As an added benefit, you are no longer considered {@condition prone}."
-													],
-													[
-														"{@bold Exhaustion (6).}",
-														"{@italic &quot;Oh? You would like to end our little deal? Very well, I will take you to the edge of existence—follow me to the Afterlife, The Mann.&quot;}"
-													]
-												]
-											}
+							"type": "entries",
+							"name": "",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Cost",
+										"Deal"
+									],
+									"colStyles": [
+										"col-1",
+										"col-5"
+									],
+									"rows": [
+										[
+											"{@bold Exhaustion (1).}",
+											"You become stabilized."
+										],
+										[
+											"{@bold Exhaustion (2).}",
+											"You are brought back to life with 5 hit points. Your body becomes conscious, although you are still {@condition prone}."
+										],
+										[
+											"{@bold Exhaustion (3).}",
+											"You are brought back to life with 10 hit points and regain an expended spell slot. Your body becomes conscious, although you are still {@condition prone}."
+										],
+										[
+											"{@bold Exhaustion (4).}",
+											"You are brought back to life with 30 hit points and regain two expended spell slots. Your body becomes conscious, although you are still {@condition prone}."
+										],
+										[
+											"{@bold Exhaustion (5).}",
+											"You are brought back to life after receiving the effects of a long rest, although you still retain all five levels of exhaustion. As an added benefit, you are no longer considered {@condition prone}."
+										],
+										[
+											"{@bold Exhaustion (6).}",
+											"{@italic &quot;Oh? You would like to end our little deal? Very well, I will take you to the edge of existence—follow me to the Afterlife, The Mann.&quot;}"
 										]
+									]
+								}
+							]
 						},
 						{
 							"type": "entries",
@@ -2314,8 +2398,7 @@
 			],
 			"symbolImg": {
 				"type": "null",
-				"href": {
-				}
+				"href": {}
 			},
 			"entries": [
 				"The Old Deus of Expansion, manager of the Central Databank, and chosen by the World to manifest all accessible knowledge into the minds of living organisms in order to progress society beyond its preconceived limits. She is the Creator, and her followers are her Researchers. Those who follow the Path of Expansion must dedicate their lives to high-level and dangerous pursuits in order to catalogue all of existence.",
@@ -2343,7 +2426,7 @@
 										"The creature's race.",
 										"The creature's weakness.",
 										"The creature's true name."
-								]
+									]
 								},
 								"The information that the Central Databank parses is given to you by your DM as a close approximation. If the creature does not have a proper race, the DM attempts to describe it to you using approximation. If the creature does not have a traditional weakness (such as a vulnerability), the DM will devise a weakness that you can exploit (although the information will not necessarily give you a mechanical benefit). Finally, requesting a true name will merely report back the name the creature was given or, if it does not possess one, the name of its species. This parsing cannot extract a devil's true name.",
 								"You can use this feature a number of times equal to your Intelligence modifier, and regain all expended uses on a long rest."
@@ -2362,7 +2445,7 @@
 										"<u>Comprehension.</u> The Universal Machine will record up to 24 hours worth of audio and video in a quality that supersedes any known resolution. You can play back and scrub through this recording, comprehending any knowledge bestowed from it as if through the Keen Mind feat.",
 										"<u>Information.</u> The Universal Machine will cast the {@spell detect magic} spell without requiring concentration and report back the results to the user.",
 										"<u>Training.</u> The Universal Machine will parse a training video for any skill that could conceivably exist in a quantumly-locked world. Watching this tutorial requires a short rest, and after completion of the video, the user can choose one their skills and gain proficiency in that skill. Whenever you use this feature of the Universal Machine, the last tutorial you watched is erased from your mind, causing you to lose that proficiency in exchange for a new one."
-								]
+									]
 								}
 							]
 						}
@@ -2382,21 +2465,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 2}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 2}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 2"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -2411,63 +2494,63 @@
 							]
 						},
 						{
-										"type": "entries",
-										"name": "",
-										"entries": [
-											{
-												"type": "table",
-												"colLabels": [
-													"Level",
-													"Cost"
-												],
-												"colStyles": [
-													"col-2",
-													"col-3"
-												],
-												"rows": [
-													[
-														"{@bold Cantrip.}",
-														"1 day, 10 gold pieces"
-													],
-													[
-														"{@bold 1st Level.}",
-														"1 day, 20 gold pieces"
-													],
-													[
-														"{@bold 2nd Level.}",
-														"2 days, 200 gold pieces"
-													],
-													[
-														"{@bold 3rd Level.}",
-														"4 days, 400 gold pieces"
-													],
-													[
-														"{@bold 4th Level.}",
-														"1 work week, 2000 gold pieces"
-													],
-													[
-														"{@bold 5th Level.}",
-														"2 work weeks, 3500 gold pieces"
-													],
-													[
-														"{@bold 6th Level.}",
-														"4 work weeks, 8000 gold pieces"
-													],
-													[
-														"{@bold 7th Level.}",
-														"8 work weeks, 15000 gold pieces"
-													],
-													[
-														"{@bold 8th Level.}",
-														"16 work weeks, 25000 gold pieces"
-													],
-													[
-														"{@bold 9th Level.}",
-														"24 work weeks, 100000 gold pieces"
-													]
-												]
-											}
+							"type": "entries",
+							"name": "",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Level",
+										"Cost"
+									],
+									"colStyles": [
+										"col-2",
+										"col-3"
+									],
+									"rows": [
+										[
+											"{@bold Cantrip.}",
+											"1 day, 10 gold pieces"
+										],
+										[
+											"{@bold 1st Level.}",
+											"1 day, 20 gold pieces"
+										],
+										[
+											"{@bold 2nd Level.}",
+											"2 days, 200 gold pieces"
+										],
+										[
+											"{@bold 3rd Level.}",
+											"4 days, 400 gold pieces"
+										],
+										[
+											"{@bold 4th Level.}",
+											"1 work week, 2000 gold pieces"
+										],
+										[
+											"{@bold 5th Level.}",
+											"2 work weeks, 3500 gold pieces"
+										],
+										[
+											"{@bold 6th Level.}",
+											"4 work weeks, 8000 gold pieces"
+										],
+										[
+											"{@bold 7th Level.}",
+											"8 work weeks, 15000 gold pieces"
+										],
+										[
+											"{@bold 8th Level.}",
+											"16 work weeks, 25000 gold pieces"
+										],
+										[
+											"{@bold 9th Level.}",
+											"24 work weeks, 100000 gold pieces"
 										]
+									]
+								}
+							]
 						},
 						{
 							"type": "entries",
@@ -2477,10 +2560,10 @@
 								{
 									"type": "list",
 									"items": [
-								"<u>If the ability is an attack:</u> You may recreate the attack. In some cases, the Unbound Library may ask for permission to restructure your body in order to better recreate the attack you copied. If the creature you copied the attack from has multiattack, you can emulate their multiattack feature with the attack you copied. This attack applies any conditions or effects that the original creature would inflict, even if those effects are passives tied to the creature. Once you perform the attack (or multiattack), the biological structure of your recreation breaks down, requiring you to use Taskmaster again to recreate it.",
-								"<u>If the ability is a spell:</u> You may recreate the spell and cast it once without expending a spell slot, even if you are unaware to the spell's existence or are normally unable to cast it. You may not upcast this spell using your own spell slots.",
-								"<u>If the ability is a feature (like a dragon's Breath Weapon):</u> You recreate its effects precisely, with the only change being that you are the one using it."
-								]
+										"<u>If the ability is an attack:</u> You may recreate the attack. In some cases, the Unbound Library may ask for permission to restructure your body in order to better recreate the attack you copied. If the creature you copied the attack from has multiattack, you can emulate their multiattack feature with the attack you copied. This attack applies any conditions or effects that the original creature would inflict, even if those effects are passives tied to the creature. Once you perform the attack (or multiattack), the biological structure of your recreation breaks down, requiring you to use Taskmaster again to recreate it.",
+										"<u>If the ability is a spell:</u> You may recreate the spell and cast it once without expending a spell slot, even if you are unaware to the spell's existence or are normally unable to cast it. You may not upcast this spell using your own spell slots.",
+										"<u>If the ability is a feature (like a dragon's Breath Weapon):</u> You recreate its effects precisely, with the only change being that you are the one using it."
+									]
 								},
 								"For the purposes of Taskmaster, Arisen abilities are not considered to be attacks, spells, or features. Any knowledge you gain from Taskmaster disappears on a long rest (or after its use, whichever comes first), as your Unbound Library must clear out its history in order to continue normal operations."
 							]
@@ -2494,12 +2577,12 @@
 								{
 									"type": "list",
 									"items": [
-								"Generally accessible.",
-								"Lightly-restricted.",
-								"Public domain.",
-								"Available on the World Wide Web.",
-								"Could have been feasibly obtained by a follower of Lotus."
-								]
+										"Generally accessible.",
+										"Lightly-restricted.",
+										"Public domain.",
+										"Available on the World Wide Web.",
+										"Could have been feasibly obtained by a follower of Lotus."
+									]
 								},
 								"If the information requested fits any of these parameters, the DM will respond to your question with an answer which can be reasonably surmised in a paragraph or less. If a response would require more than a paragraph to explain the internal logistics, culture, or full-understanding of the question, then you do not receive that information, and must use this feature again to discover more.",
 								"If the DM deems that your question does not fit any of these parameters, the Central Databank reports back that your search criteria did not match any search results, and your request fails. Afterwards, you regain an expended use of this feature."
@@ -2507,21 +2590,21 @@
 						}
 					]
 				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
 						{
-							"type": "inset",
-							"name": "",
 							"entries": [
-								{
-									"entries": [
-                                       "Starting a {@italic Bond Level 3}, you gain the following benefits:"
-									],
-									"type": "entries"
-								}
+								"Starting a {@italic Bond Level 3}, you gain the following benefits:"
 							],
-							"data": {
-								"overwrite": "Bond Level 3"
-							}
-						},
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
@@ -2544,10 +2627,10 @@
 								{
 									"type": "list",
 									"items": [
-								"The creature's damage resistances, immunities, and vulnerabilities.",
-								"The creature's condition immunities, and any conditions they may have disadvantage or advantage on (including magic).",
-								"Any special sight the creature possesses (such as tremorsense, truesight, and blindsense)."
-								]
+										"The creature's damage resistances, immunities, and vulnerabilities.",
+										"The creature's condition immunities, and any conditions they may have disadvantage or advantage on (including magic).",
+										"Any special sight the creature possesses (such as tremorsense, truesight, and blindsense)."
+									]
 								},
 								"The DM determines whether the creature whose name you're analyzing is considered &quot;unique&quot;. For example: a typical city guardsman may be a unique individual with their own personality, but he traditionally follows the &quot;guard&quot; statblock. As such, your DM will inform you about the individual. However, if the creature you are fighting is a BBEG or other form of monstrous entity, the DM may choose to inform you that not even the Restricted Databank contains information on that creature, as their existence has never been compiled before."
 							]
@@ -2562,11 +2645,11 @@
 								{
 									"type": "list",
 									"items": [
-								"Their creature type.",
-								"Their relative age (may be less accurate depending on how well-known their biology is and how easy it is to compile).",
-								"Their gender (if applicable).",
-								"That creature's special name (such as &quot;Tiamat&quot;)."
-								]
+										"Their creature type.",
+										"Their relative age (may be less accurate depending on how well-known their biology is and how easy it is to compile).",
+										"Their gender (if applicable).",
+										"That creature's special name (such as &quot;Tiamat&quot;)."
+									]
 								},
 								"The information kept within the Restricted Databanks is accessible forever. Once you use this feature, you cannot use it again until you finish a long rest."
 							]
