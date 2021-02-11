@@ -1361,7 +1361,21 @@
 			"entries": [
 				"[Insert Arisen Description Here]",
 				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
-				"As a follower of Nova, you have been granted the following four abilities at Bond Level 1:",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Nova, you have been granted the following four abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
 				{
 					"type": "entries",
 					"entries": [
