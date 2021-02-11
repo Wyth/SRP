@@ -377,8 +377,7 @@
 								"type": "entries",
 								"name": "Strike Steel",
 								"entries": [
-									"As a bonus action, you can spend 2 flow points to put up your guard. You gain temporary hit points equal to your Beat 'Em Up die + your Brawler level + your Constitution modifier. You ignore any leftover damage that would supercede the temporary hit points granted by this Flow Feature.",
-									"{@note {@b (As an example, this means if you were to have 10 temporary hit points, and an attack against you would deal 20 damage, the remaining 10 damage does not go towards your natural hit point total.)}}"
+									"As a bonus action, you can spend 2 flow points to put up your guard. You gain temporary hit points equal to your Beat 'Em Up die + your Brawler level + your Constitution modifier."
 								]
 							},
 							{
