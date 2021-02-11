@@ -1430,68 +1430,73 @@
 				},
 				{
 					"type": "entries",
-					"name": " A Planar Journey (1/1, Long Rest).",
 					"entries": [
-						"When you hit a creature with an attack, he can use this feature to instantly transport the target through the various planes of the universe. The creature disappears and hurtles through a chaotic landscape made up of all the planes.",
-						"At the end of the creature’s next turn, the target returns to the space it previously occupied, or to the nearest unoccupied space, and target takes {@dice 8d10} damage from the various hazards it was hurled through while gone. To determine the damage type, roll a {@dice d8} on the following table.",
 						{
-							"type": "table",
-							"caption": "Where Did They Go?",
-							"rows": [
-								[
-									"1",
-									"The Elemental Plane of Fire. fire damage."
-								],
-								[
-									"2",
-									"The Negative Energy Plane. necrotic damage."
-								],
-								[
-									"3",
-									"The Far Realm. psychic damage."
-								],
-								[
-									"4",
-									"Mount Celestia. radiant damage."
-								],
-								[
-									"5",
-									"Ysgard. slashing damage."
-								],
-								[
-									"6",
-									"The Feywilds. thunder damage."
-								],
-								[
-									"7",
-									"Mechanus. force damage."
-								],
-								[
-									"8",
-									"Limbo! Choose any damage type except for Aeon or Severance."
-								]
+							"type": "entries",
+							"name": " A Planar Journey (1/1, Long Rest).",
+							"entries": [
+								"When you hit a creature with an attack, he can use this feature to instantly transport the target through the various planes of the universe. The creature disappears and hurtles through a chaotic landscape made up of all the planes.",
+								"At the end of the creature’s next turn, the target returns to the space it previously occupied, or to the nearest unoccupied space, and target takes {@dice 8d10} damage from the various hazards it was hurled through while gone. To determine the damage type, roll a {@dice d8} on the following table.",
+								{
+									"type": "table",
+									"caption": "Where Did They Go?",
+									"rows": [
+										[
+											"1",
+											"The Elemental Plane of Fire. fire damage."
+										],
+										[
+											"2",
+											"The Negative Energy Plane. necrotic damage."
+										],
+										[
+											"3",
+											"The Far Realm. psychic damage."
+										],
+										[
+											"4",
+											"Mount Celestia. radiant damage."
+										],
+										[
+											"5",
+											"Ysgard. slashing damage."
+										],
+										[
+											"6",
+											"The Feywilds. thunder damage."
+										],
+										[
+											"7",
+											"Mechanus. force damage."
+										],
+										[
+											"8",
+											"Limbo! Choose any damage type except for Aeon or Severance."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Quick Gates.",
+							"entries": [
+								"Using one of his Entanglement Points, Wellington can spend an action place down a Gate. These gates appear as a black, swirling vortex that anyone can see and can allow creatures of up to medium size through.",
+								"You can choose how long these gates last, from 1 minute to 1 hour, and can connect them to each other. However, only two gates can be connected at a time. You can place a gate in place of a weapon attack as part of the attack action.",
+								"Placing two connected gates will cause anyone who touches them, even enemies, to teleport to the other and appear in the adjacent square opposite from where they entered.",
+								"As a reaction, you can change the destination of one gate to another gate.",
+								"Non-living objects that are not in contact with a living creature will pass right through the gates."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Space Walker (Passive).",
+							"entries": [
+								"Your connection to Nova protects you from the adverse effects of being affected by space.",
+								"You are now immune to teleportation spells being used against you unwillingly such as Banishment, Gate, Planeshift and Scatter. ",
+								"Furthermore, you may use your reaction when one of these spells is being cast on you to teleport behind the target and make one melee attack against them with advantage. On a hit, this attack deals an additional weapon damage die."
 							]
 						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Quick Gates.",
-					"entries": [
-						"Using one of his Entanglement Points, Wellington can spend an action place down a Gate. These gates appear as a black, swirling vortex that anyone can see and can allow creatures of up to medium size through.",
-						"You can choose how long these gates last, from 1 minute to 1 hour, and can connect them to each other. However, only two gates can be connected at a time. You can place a gate in place of a weapon attack as part of the attack action.",
-						"Placing two connected gates will cause anyone who touches them, even enemies, to teleport to the other and appear in the adjacent square opposite from where they entered.",
-						"As a reaction, you can change the destination of one gate to another gate.",
-						"Non-living objects that are not in contact with a living creature will pass right through the gates."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Space Walker (Passive).",
-					"entries": [
-						"Your connection to Nova protects you from the adverse effects of being affected by space.",
-						"You are now immune to teleportation spells being used against you unwillingly such as Banishment, Gate, Planeshift and Scatter. ",
-						"Furthermore, you may use your reaction when one of these spells is being cast on you to teleport behind the target and make one melee attack against them with advantage. On a hit, this attack deals an additional weapon damage die."
 					]
 				},
 				{
