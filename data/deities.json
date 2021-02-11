@@ -2657,6 +2657,87 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Djaughn (Agra Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Unaligned",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Wild Magic",
+				"Interest",
+				"Consquence"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"Djaughn is the embodiment of unaligned chaos. He enjoys himself wherever he goes, he gets along with whoever he comes across, so long as they provide him with entertainment. So long as they are <i>interesting</i>. He does not remember coming into being, nor does it matter to him. All that matters is the beauty of chaos; the randomness of events, both good and bad, that shape all of existence in almost unknowable ways.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Djaughn, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Embrace the Chaos! (Active)",
+							"entries": [
+								"Djaughn has granted you the power to let others around you in on the chaos that you innately rely upon, letting them join in on the joy and mirth that comes from random bursts of power!",
+								"Whenever you roll on the Wild Magic Table, as a free action, you may choose a number of creatures that you can see within 60 feet of you equal to your Intelligence Modifier to also be affected by the wild magic surge. An unwilling creature must succeed on a Charisma saving throw equal to 8 + Proficiency Bonus + Intelligence modifier or be affected by the wild magic surge. On a successful save, they simply just feel as if they missed out on something awesome. You may use this ability after rolling on the wild magic surge table."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Don't Cross Me! (Active)",
+							"entries": [
+								"Djaughn has imparted an aspect of himself upon you, bestowing his natural aura that exudes his intense aura despite his laidback nature. As a bonus action, you may choose a creature that you can see. The creature must succeed on a Wisdom saving throw equal to 8 + Proficiency Bonus + Intelligence Modifier or be frightened of you for 1 minute. While frightened in this way, the creature acts as if it was under the effects of the Confusion spell as their mind is muddled on what to do. They may make a Wisdom saving throw at the end of their turns, ending the effect on a successful save.",
+								"You may use this ability three times per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Relax, Let's Have Some Fun! (Passive)",
+							"entries": [
+								"While you are not in combat, you simply just have a natural charisma about you! A drive that saps the inhibitions of those around you, coaxing them to join in on the fun. Whenever you try and persuade a creature to take a risk, do something they normally wouldn't be inclined to do, or simply just do something that's fucking awesome, you gain expertise in Persuasion for the roll, as well as advantage."
+							]
+						},
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Djaughn",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"If it can be done, it must.",
+								"Consequences are inevitable; embrace them.",
+								"Be interesting."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
