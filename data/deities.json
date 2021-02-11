@@ -1399,7 +1399,21 @@
 						}
 					]
 				},
-				"As a follower of Nova, you have been granted the following three abilities at Bond Level 2:",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Nova, you have been granted the following three abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
 				{
 					"type": "entries",
 					"name": " A Planar Journey (1/1, Long Rest).",
