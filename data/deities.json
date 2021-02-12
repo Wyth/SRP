@@ -2869,6 +2869,79 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Zekiel (Viper version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Oath",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Glory",
+				"Darkness"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"[Insert Arisen Description Here]",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Zekiel, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Banished in Shadows",
+							"entries": [
+								"\"Infamy is an assassin's friend; nothing is more terrifying than knowing that something is coming and being unable to see it.\" While you reside in dim light or darkness, you can make a DC 25 stealth check as a bonus action. On a successful check, you become invisible for one minute or until you attack. ",
+								"While invisible, you have access to 3 Death Charges. When attacking from invisibility, you can expend a Death Charge to have each of these attacks deal an additional {@dice 1d8} necrotic damage until the end of your turn. The damage die grows with your martial arts die. Additionally, if you kill a target with a Death Charge attack, you regain one expended Death Charge."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Deluminator",
+							"entries": [
+								"Zekiel grants you the ability to bring darkness and shadow upon his enemies. Once per short rest, you can cast Zekiel's Darkness as a bonus action, choosing a point you can see within 60 feet of you or an object within range. A dark mist spreads from a point you chose within range to fill a 30-foot radius. If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. The sphere lasts for 1 minute, and you can see through this darkness as if it were dim light.",
+								"Nonmagical light is immediately and permanently absorbed into this darkness. If any of this ability's area overlaps with an area of light created by a spell of 5th level or lower, the spell that created the light is dispelled. Dispelling this darkness requires a DC 15 spellcasting ability check or dispel magic cast at the fifth level. Other magics that dispel magical darkness such as Sunburst immediately dispel this mist."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Zekiel",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"TBD",
+								"TBD",
+								"TBD"
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
