@@ -2914,7 +2914,7 @@
 							"name": "Banished in Shadows",
 							"entries": [
 								"\"Infamy is an assassin's friend; nothing is more terrifying than knowing that something is coming and being unable to see it.\" While you reside in dim light or darkness, you can make a DC 25 stealth check as a bonus action. On a successful check, you become invisible for one minute or until you attack. ",
-								"While invisible, you have access to 3 Death Charges. When attacking from invisibility, you can expend a Death Charge to have each of these attacks deal an additional 1d8 necrotic damage until the end of your turn. The damage die grows with your martial arts die. Additionally, if you kill a target with a Death Charge attack, you regain one expended Death Charge."
+								"While invisible, you have access to 3 Death Charges. When attacking from invisibility, you can expend a Death Charge to have each of these attacks deal an additional {@dice 1d8} necrotic damage until the end of your turn. The damage die grows with your martial arts die. Additionally, if you kill a target with a Death Charge attack, you regain one expended Death Charge."
 							]
 						},
 						{
@@ -2929,14 +2929,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Commandments of Roana",
+					"name": "Commandments of Zekiel",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
-								"Where ever you witness discontent, witness oppression, witness people being downtrodden, you must fan the flames of Rebellion. As long as it takes.",
-								"Do not advocate for Rebellion for your own personal gain. It is for the people you must fight. Without genuine conviction, they will not follow you.",
-								"Rise up no matter the forces who oppose you. No matter their numbers. The will of the people, once you have it, is unbreakable."
+								"TBD",
+								"TBD",
+								"TBD"
 							]
 						}
 					]
