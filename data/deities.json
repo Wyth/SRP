@@ -2738,6 +2738,137 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Roana (Chastity version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Betrayers",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Rebellion",
+				"Treachery",
+				"Eloquence",
+				"Zeal"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"The Lady of Rebellion doesn't look much different than she did during her mortal lifetime, only electing to change the appearance of her eyes. Both of them appearing as inky, black voids, her golden irises shining through. Her clothing is rather simple, only wearing a jet-black tank top and black trousers. Her right arm is covered with a sleeve of tribal tattoos, though knowledge to which tribe these could represent has been long lost to time. Always chipper and sporting a smile, the Lady of Rebellion is always cordial to those she interacts with. One must win the trust of the people in order to lead them, after all.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Roana, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Light the Fires (Passive)",
+							"entries": [
+								"Roana commends your abilities in combat, your testament to bring enemies on their knees before you. But a revolution isn't done by one person. It is done by the people following not just a leader but someone they believe in, someone who rises up to the challenge no matter what obstacle falls before you.",
+								"You have a 10-foot aura that you can suppress or exude as a bonus action. Allied creatures who end their turn within this aura gain temporary hit points equal to your proficiency bonus. Furthermore, you and your allies have advantage on Intelligence, Wisdom, and Charisma saving throws while in this aura. You must be conscious to grant these benefits."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fan the Flames (Active)",
+							"entries": [
+								"Your presence alone speaks words just as loud as your actions do. You gain proficiency in Intimidation and Persuasion if you do not have these abilities already, or expertise if you do.",
+								"While in combat, as an action you can attempt to sway a humanoid who's hostile towards you and your allies. That target then must make a Wisdom saving throw (DC = 8 + your Proficiency bonus + your Wisdom modifier + your Charisma modifier). On a failed save, that target becomes charmed by you and will remain an ally to you and your party unless you command them to do something harmful to themselves or if you or an ally attacks them. If you are not engaged in combat, the target you're attempting to sway still must make a Wisdom saving throw.",
+								"Each time your converted ally takes damage, it makes a new Wisdom saving throw, and it repeats the save at the end of their turn as well. Any converted enemies who are still charmed will remain friendly towards you until they make a successful save against your Wisdom save DC or if an hour has passed. You can have up to two converted enemies at a time and can use this ability three times per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Unbreakable (Active)",
+							"entries": [
+								"Roana has imparted upon you an aspect of her own will that she possessed when she too was once a mortal who walked the world, a will she used to ignite the fires of Rebellion. Igniting a will that made both her and her allies resolute and unbreakable.",
+								"As an action, you may call upon the fire and willpower that dwells within your very soul to empower both yourself and your allies. Choose a number of creatures up to your proficiency bonus that you can see within 120 feet of you (this can include yourself). Each selected creature regains hit points equal to {@dice 1d10} + your proficiency bonus. In addition, if a creature is incapacitated or frightened, they immediately break free of the effect as the fires of Rebellion begin to smolder within them.",
+								"You may use this ability twice per long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Roana, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Army of Two (Active)",
+							"entries": [
+								"A rebellion is nothing without people to back you up, after all. Roana has taken notice of the unique situation Chastity is in, with Celestria inhabiting a portion of her mind. It's only fair that she should be able to break free every now and then to get in on the action.",
+								"As an action, Chastity can project Celestria from her head at a point within 30 feet of her, Celestria bursting forth from Chastity's mind in an eruption of flames. Celestria uses the same statistics as if she was a simulacrum of Chastity, though her creature type is humanoid rather than a construct and can be healed normally. Celestria may manifest for an hour before she retreats back to the inner depths of Chastity's mind, requiring time to recover. Chastity may do this once per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Will of the People (Active)",
+							"entries": [
+								"Roana embodies the secret desire to rebel that nearly every creature has dwelling inside them, knowing how to fan them from a single spark into a roaring fire. A fire that can burn away anyone who would dare to oppose the will of the people themselves.",
+								"In place of a weapon attack made during the Attack action, you can instead take on the aspect of Rebellion for a brief moment, divine energy flowing through you as you let out a mighty shout that resounds within every creature's soul. Hostile creatures who can hear you that are within 60 feet must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) from the sheer power and determination consuming them. On a failed save, the creature takes {@dice 2d12} psychic and {@dice 2d12} thunder damage from the sheer force of will emanating from you and is also deafened for 1 minute. The creature may make another save at the end of each of their turns to end this effect. On a successful save, the creature takes half damage and is not deafened.",
+								"You may use this ability a number of times equal to your Constitution modifier."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rise to The Challenge (Active)",
+							"entries": [
+								"Roana led the very first rebellion to ever grace the annals of history. One that proved ultimately successful, but not without her own death as well as many of those who fought alongside her. Never again will her comrades face the same fate.",
+								"If you are reduced to 0 hit points, you may use your reaction to rebel against death itself, defying death as you are instead reduced to 1 hit point. If you use this ability when subjected to an effect that would kill you instantly, that effect is instead negated.",
+								"You may use this ability once per long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Roana",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Where ever you witness discontent, witness oppression, witness people being downtrodden, you must fan the flames of Rebellion. As long as it takes.",
+								"Do not advocate for Rebellion for your own personal gain. It is for the people you must fight. Without genuine conviction, they will not follow you.",
+								"Rise up no matter the forces who oppose you. No matter their numbers. The will of the people, once you have it, is unbreakable."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
