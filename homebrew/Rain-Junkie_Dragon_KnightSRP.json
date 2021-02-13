@@ -277,7 +277,7 @@
 					"martial"
 				],
 				"tools": [
-					"Herbalism kit"
+					""
 				],
 				"skills": [
 					{
@@ -301,8 +301,7 @@
 					"(a) a {@filter martial weapon|items|type=martial weapon|source=phb} and a {@item shield|phb} or (b) two {@filter martial weapons|items|type=martial weapon|source=phb}",
 					"(a) {@item chain mail|phb}, (b) {@item scale mail|phb} or (c) {@item leather armor|phb}",
 					"(a) a {@item light crossbow|phb} and 20 bolts or (b) five {@item javelin|phb}s",
-					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}",
-					"a {@item shortsword|phb} and a {@item herbalism kit|phb}"
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
 				],
 				"goldAlternative": "5d4 × 10",
 				"defaultData": [
@@ -349,12 +348,6 @@
 						"b": [
 							"explorer's pack|phb"
 						]
-					},
-					{
-						"_": [
-							"shortsword|phb",
-							"herbalism kit|phb"
-						]
 					}
 				]
 			},
@@ -363,15 +356,16 @@
 				"Dragon Companion|Dragon Knight|DK|1",
 				"Covenant's Bond|Dragon Knight|DK|1",
 				"Fighting Style|Dragon Knight|DK|2",
-				"Draconic Senses|Dragon Knight|DK|2",
+				"Fury of the Dragon|Dragon Knight|DK|2",
 				{
 					"classFeature": "Dragon Knight Practice|Dragon Knight|DK|3",
 					"gainSubclassFeature": true
 				},
-				"Fury of the Dragon|Dragon Knight|DK|3",
+				"Eye for Detail|Dragon Knight|DK|3",
 				"Ability Score Improvement|Dragon Knight|DK|4",
 				"Coordinated Attack|Dragon Knight|DK|5",
 				"Wyrmling Advancement|Dragon Knight|DK|5",
+				"Breath Weapon|Dragon Knight|DK|6",
 				"Breath Weapon|Dragon Knight|DK|6",
 				{
 					"classFeature": "Dragon Knight Practice|Dragon Knight|DK|7",
@@ -379,8 +373,6 @@
 				},
 				"Ability Score Improvement|Dragon Knight|DK|8",
 				"Young Advancement|Dragon Knight|DK|9",
-				"Draconic Senses (2/rest)|Dragon Knight|DK|9",
-				"Bite Damage (2d8)|Dragon Knight|DK|9",
 				{
 					"classFeature": "Dragon Knight Practice feature|Dragon Knight|DK|10",
 					"gainSubclassFeature": true
@@ -395,7 +387,6 @@
 				},
 				"Ability Score Improvement|Dragon Knight|DK|16",
 				"Ancient Resistance|Dragon Knight|DK|17",
-				"Draconic Senses (3/rest)|Dragon Knight|DK|17",
 				{
 					"classFeature": "Dragon Knight Practice feature|Dragon Knight|DK|18",
 					"gainSubclassFeature": true
@@ -1621,16 +1612,67 @@
 			"classSource": "DK",
 			"level": 1,
 			"entries": [
-				"Your dragon uses the statistics for a {@filter dragon hatchling|bestiary|source=DK} of its color.",
-				"Your dragon companion gains a variety of benefits while you two are together.",
-				"The dragon obeys your commands as best it can. It rolls initiative like any other creature, but you determine its actions, decisions, attitudes, and so on (no action required by you). If you are incapacitated or absent, your dragon acts on its own.",
-				"Your dragon, because of its young age, is not suited for combat, and cannot take the attack action. Also because of its youth, it has yet to master flying, and as such, falls if it ends its turn in the air.",
-				"Your dragon companion has abilities and game statistics determined in part by your level. Your dragon uses your proficiency bonus rather than its own. While not wearing barding, a dragon companion has a natural armor class of 8 + its Constitution modifier + your proficiency bonus.",
-				"Your dragon companion gains proficiency in two skills of your choice. It is also proficienct in all the saving throws you're proficient in.",
-				"For each level after 1st, your dragon companion gains an additional hit die and increases its hit points accordingly. The dragon's hit dice are d8s, regardless of its size. When the dragon is reduced to 0 hit points, it makes death saving throws as a player would.",
-				"In addition, the dragon cannot have its size increased beyond large (but would still gain the extra benefits of the {@spell enlarge/reduce} spell, for example). The dragon's level is equal to your dragon knight level for the purpose of calculating spells like {@spell polymorph} and {@spell true polymorph}.",
+				"Also at 1st level, your dragon companion gains a variety of benefits while you two are together.",
+				"The dragon obeys your commands as best it can. It rolls initiative like any other creature, but you determine its actions, decisions, attitudes, and so on (no action required by you). Your dragon shares you initative, and acts on your turn. If you are incapacitated, your dragon acts on its own, and if you're absent, it rolls its own initiative.",
+				"Your dragon can't take the Attack action. Instead, when you hit a creature within 5 feet of your dragon with an attack, it can use its action to deal an additional 1d4 slashing damage to that creature, as it strikes out with its claws.",
+				"Also because of its youth, it has yet to master flying, and as such, falls if it ends its turn in the air. Additionally, it can't fly with a creature it has grappled or be used as a mount until you reach 9th level, at which point it is strong enough to properly trained to support other creatures.",
+				"Your dragon companion has abilities and game statistics determined in part by your level. Your dragon uses your proficiency bonus rather than its own. While not wearing barding, a dragon companion has a natural armour class of 10 + its Constitution modifier + your proficiency bonus.",
+				"Your dragon companion gains proficiency in two skills of your choice. It is also proficient in all the saving throws you're proficient in. Also, your dragon companion can't attune to or activate magical items.",
+				"For each level after 1st, your dragon companion gains an additional hit die and increases its hit points accordingly. The dragon's hit dice are d10s, regardless of its size. When the dragon is reduced to 0 hit points, it makes death saving throws as a player would.",
+				"Also, you and your dragon always know the direction to one another, and can communicate with vague images, emotions, and feelings, regardless of distance.",
+				"In addition, the dragon cannot have its size increased beyond large (but would still gain the extra benefits of the enlarge/reduce spell, for example). The dragon's level is equal to your dragon knight level for the purpose of calculating spells like polymorph and true polymorph.",
 				"Whenever you gain the Ability Score Improvement class feature, your dragon's abilities also improve. Your dragon can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your dragon can't increase an ability score above 20 using this feature.",
-				"Your dragon shares your alignment, and has a personality trait and a flaw of its own. Your dragon shares your Ideal, and its bond is always 'I will protect my knight; I will do the best I can for my knight; I will die for my knight.'"
+				"Your dragon shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your dragon shares your ideal, and its bond is always "I will protect my knight; I will do the best I can for my knight; I will die for my knight.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d4",
+						"Trait"
+					],
+					"rows": [
+						[
+							"1",
+							"I love to collect gems and art pieces."
+						],
+						[
+							"2",
+							"Threaten my friends, threaten me."
+						],
+						[
+							"3",
+							"I stay on alert so others can rest."
+						],
+						[
+							"4",
+							"I have a knack for showing up in the nick of time."
+						]
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"d4",
+						"Flaw"
+					],
+					"rows": [
+						[
+							"1",
+							"I'm extremely vain."
+						],
+						[
+							"2",
+							"I'm secretly terrified of other dragons."
+						],
+						[
+							"3",
+							"Anyone who offends my dragon knight will suffer the consequences of their actions."
+						],
+						[
+							"4",
+							"I'm very paranoid. Everyone is out to get me."
+						]
+					]
+				}
 			]
 		},
 		{
@@ -1667,9 +1709,9 @@
 						},
 						{
 							"type": "entries",
-							"name": "Two-Weapon Fighting",
+							"name": "Defence",
 							"entries": [
-								"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+								"While you are wearing armour, you gain a +1 bonus to AC."
 							]
 						}
 					]
@@ -1677,15 +1719,15 @@
 			]
 		},
 		{
-			"name": "Draconic Senses",
+			"name": "Fury of the Dragon",
 			"source": "DK",
 			"className": "Dragon Knight",
 			"classSource": "DK",
 			"level": 2,
 			"entries": [
-				"At 2nd level, you also have gained the ability to focus and sense nearby creatures. As a bonus action, you can hone in your senses to detect nearby creatures.",
-				"You can detect the exact location of all living creatures within 30 feet of you, and gain advantage on your next attack roll against one of these creatures, providing you make the attack before the end of your next turn, and can't use this ability again until you finish a short or long rest.",
-				"You can use this feature twice between rests starting at 9th level and three times between rests at 17th level."
+				"Also at 2nd level, your dragon companion has begun to grow, and can now take the Attack action on its turn.",
+				"Additionally, when the dragon makes a claw attack on its turn, it can replace the claw attack with a special attack, which deals the same damage as a claw attack (unless otherwise specified), with the following additional effects, specified under each attack.",
+				"Your dragon can replace a claw attack with one of these attacks a number of times equal to your dragon's Strength modifier (minimum 1), and regains all uses when you finish a short or long rest."
 			]
 		},
 		{
@@ -1699,16 +1741,14 @@
 			]
 		},
 		{
-			"name": "Fury of the Dragon",
+			"name": "Eye for Detail",
 			"source": "DK",
 			"className": "Dragon Knight",
 			"classSource": "DK",
 			"level": 3,
 			"entries": [
-				"Also at 3rd level, your dragon companion has begun to grow, and can now take the attack action on its turn.",
-				"Additionally, when your dragon takes the attack action, it can choose to make a bite attack, rather than a claw attack. The dragon can only make one bite attack each round.",
-				"The bite attack deals 1d10 + the dragon's Strength modifier piercing damage, plus an additional 1d8 damage of the dragon's relevant damage type (e.g. a red dragon's bite will deal extra fire damage). This extra damage increases to 2d8 at 9th level.",
-				"The dragon can replace a claw attack it makes on its turn with a single bite attack a number of times equal to your Charisma modifier (minimum 1), and regain the ability to do so when you finish a short or long rest."
+				"Also at 3rd level, you can easily discern the value and rarity of gems, art pieces, and magical items. You can spend 1 minute studying a gem or art piece, after which you learn it's exact value. Additionally, if it is a gemstone, you learn what kind of gemstone it is. If it's an art piece, you learn how old it is.",
+				"Furthermore, you can cast the identify spell, but only as a ritual. You don't require material components for the spell when you cast it this way."
 			]
 		},
 		{
@@ -1729,7 +1769,7 @@
 			"classSource": "DK",
 			"level": 5,
 			"entries": [
-				"Beginning at 5th level, you and your dragon companion form a more potent fighting team. When you take the attack action on your turn, if your companion can see you, it can use its reaction to make a melee attack."
+				"Beginning at 5th level, you and your dragon companion form a more potent fighting team. When you take the attack action on your turn, if your companion can see or hear you, it can use its reaction to make a melee attack."
 			]
 		},
 		{
@@ -1743,7 +1783,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The dragon's size is now medium, and its claw attacks deal an additional 1d4 slashing damage.",
+						"The dragon's claw attacks deal an additional 1d4 slashing damage.",
 						"Its flying speed increases by 15 feet, and its other speeds increase by 5 feet.",
 						"The dragon's wings are stronger, and it can remain in the air at the end of its turn."
 					]
@@ -1770,44 +1810,50 @@
 					"type": "table",
 					"colLabels": [
 						"Dragon",
-						"Breath Weapon",
-						"Dragon",
 						"Breath Weapon"
-					],
-					"colStyles": [
-						"col-3 text-center",
-						"col-2",
-						"col-3 text-center",
-						"col-9"
 					],
 					"rows": [
 						[
 							"Black",
-							"5 by 30 ft. line (Dex. save)",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Blue",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Brass",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Bronze",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Copper",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
 							"Gold",
 							"15 ft. cone (Dex. save)"
 						],
 						[
-							"Blue",
-							"5 by 30 ft. line (Dex. save)",
 							"Green",
 							"15 ft. cone (Con. save)"
 						],
 						[
-							"Brass",
-							"5 by 30 ft. line (Dex. save)",
 							"Red",
 							"15 ft. cone (Dex. save)"
 						],
 						[
-							"Bronze",
-							"5 by 30 ft. line (Dex. save)",
+							"Shadow",
+							"15 ft. cone (Con. save)"
+						],
+						[
 							"Silver",
 							"15 ft. cone (Con. save)"
 						],
 						[
-							"Copper",
-							"5 by 30 ft. line (Dex. save)",
 							"White",
 							"15 ft. cone (Con. save)"
 						]
@@ -1842,11 +1888,20 @@
 						[
 							"14th",
 							"8d6",
-							"5 by 90 ft. line / 60 ft. cone"
+							"10 by 90 ft. line / 60 ft. cone"
 						]
 					]
 				}
 			]
+		},
+		{
+			"name": "Rending Strikes",
+			"source": "DK",
+			"className": "Dragon Knight",
+			"classSource": "DK",
+			"level": 6,
+			"entries": [
+				"Also at 6th level, your dragon's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
 		},
 		{
 			"name": "Dragon Knight Practice",
@@ -1888,26 +1943,6 @@
 			]
 		},
 		{
-			"name": "Draconic Senses (2/rest)",
-			"source": "DK",
-			"className": "Dragon Knight",
-			"classSource": "DK",
-			"level": 9,
-			"entries": [
-				"You can use this feature twice between rests starting at 9th level."
-			]
-		},
-		{
-			"name": "Bite Damage (2d8)",
-			"source": "DK",
-			"className": "Dragon Knight",
-			"classSource": "DK",
-			"level": 9,
-			"entries": [
-				"The extra elemental damage dealt by your dragon's bite attack increases to 2d8 at 9th level."
-			]
-		},
-		{
 			"name": "Dragon Knight Practice feature",
 			"source": "DK",
 			"className": "Dragon Knight",
@@ -1939,7 +1974,7 @@
 							"type": "entries",
 							"name": "Eyes",
 							"entries": [
-								"Your eyes become dragon-like, and you gain proficiency in the Perception and Intimidation skills. You also have advantage on any Perception or Investigation check based on sight."
+								"Your eyes become dragon-like, and you gain proficiency in the Perception and Investigation skills. You also have advantage on any Perception or Investigation check based on sight."
 							]
 						},
 						{
@@ -2018,16 +2053,6 @@
 			]
 		},
 		{
-			"name": "Draconic Senses (3/rest)",
-			"source": "DK",
-			"className": "Dragon Knight",
-			"classSource": "DK",
-			"level": 17,
-			"entries": [
-				"You can use this feature three times between rests at 17th level."
-			]
-		},
-		{
 			"name": "Dragon Knight Practice feature",
 			"source": "DK",
 			"className": "Dragon Knight",
@@ -2055,7 +2080,7 @@
 			"classSource": "DK",
 			"level": 20,
 			"entries": [
-				"At 20th level, you become the embodiment of the dragons. Choose two of the following ability scores: Strength, Constitution, and Charisma. Both you and your dragon have the chosen ability scores increase by 2, and the maximum for those ability scores is now 22.",
+				"At 20th level, the bond between you and your dragon is so strong that you can suffer each other's blows. Whenever you or your dragon would take damage, if you are within 30 feet of each other, either of you can take the damage for the other, causing them not to take the damage. Instead, the one who used the ability takes the damage. This damage can’t be reduced or prevented in any way.",
 				"Additionally, you automatically succeed on the ability check you make to restore your dragon to life."
 			]
 		}
@@ -2380,7 +2405,7 @@
 			"entries": [
 				"At 3rd level, you can imbue your armour with Bahamut's divine light, allowing you to better protect your allies. As a bonus action on your turn, you can cause your armour to glow with divine power; for 1 minute or until you're incapacitated, you shed bright light in a 5 foot radius and dim light for an additional 5 feet.",
 				"Whenever you or another creature takes damage while within 5 feet of you while you shed this light, you can use your reaction to reduce the damage by an amount equal to 1d6 + half your dragon knight level.",
-				"You can use this feature a number of times equal to your Charisma modifier (minimum of 1), and regain all expended uses on a short or long rest."
+				"You can use this feature once per short or long rest."
 			],
 			"source": "DK",
 			"className": "Dragon Knight",
@@ -2401,7 +2426,6 @@
 			"header": 2,
 			"entries": [
 				"Beginning at 7th level, you now shed bright light in a 10 foot radius when you cause your armour to shed divine light, and you can now reduce the damage a creature takes while it's within 10 feet of you.",
-				"While you channel your divine light, radiant energy circulates through your blood, granting you blessings of fortitude which catalyzes your very presence. While you are using your Platinum Protector feature, you have advantage on Intelligence and Wisdom saving throws against magical effects, and you cannot be frightened.",
 				"When you reach 15th level, both the radius of the light and range you can protect your allies increases to 15 feet."
 			]
 		},
@@ -2981,8 +3005,7 @@
 			"header": 2,
 			"entries": [
 				"Beginning at 7th level, whenever you use your action to wave your valiant banner, if your dragon companion can see you, it can use its reaction to make a melee attack.",
-				"In addition, the banner’s range while planted increases to 30 feet. Its range is also increased to 30 feet if you wave it while you are within 5 feet of your dragon.",
-				"Additionally, you can now plant your banner twice per short or long rest."
+				"In addition, the banner’s range while planted increases to 30 feet. Its range is also increased to 30 feet if you wave it while you are within 5 feet of your dragon."
 			]
 		},
 		{
