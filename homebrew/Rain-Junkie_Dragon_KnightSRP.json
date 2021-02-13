@@ -1622,7 +1622,7 @@
 				"Also, you and your dragon always know the direction to one another, and can communicate with vague images, emotions, and feelings, regardless of distance.",
 				"In addition, the dragon cannot have its size increased beyond large (but would still gain the extra benefits of the enlarge/reduce spell, for example). The dragon's level is equal to your dragon knight level for the purpose of calculating spells like polymorph and true polymorph.",
 				"Whenever you gain the Ability Score Improvement class feature, your dragon's abilities also improve. Your dragon can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your dragon can't increase an ability score above 20 using this feature.",
-				"Your dragon shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your dragon shares your ideal, and its bond is always "I will protect my knight; I will do the best I can for my knight; I will die for my knight.",
+				"Your dragon shares your alignment, and has a personality trait and a flaw that you can roll for or select from the tables below. Your dragon shares your ideal, and its bond is always \"I will protect my knight; I will do the best I can for my knight; I will die for my knight.\"",
 				{
 					"type": "table",
 					"colLabels": [
@@ -1902,6 +1902,7 @@
 			"level": 6,
 			"entries": [
 				"Also at 6th level, your dragon's attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
 		},
 		{
 			"name": "Dragon Knight Practice",
@@ -3049,7 +3050,7 @@
 				"At 18th level, your banner not only inspire allies, but also create barriers to trap foes. When you place a banner, you can create two additional banners, each of which must be within 30 feet of the first banner.",
 				"When these banners land, you can create a transparent wall of shimmering energy appear between any number of the banners. The wall is 10 feet high and 1 inch thick, and is immune to all damage, but can be dispelled by a 6th level dispel magic or a spell that nullifies magic of a similar or higher level. Spells that dispel walls in this way only dispel walls in the area they target, and any section outside of wall outside their range is not dispelled.",
 				"The walls cannot be moved through by creatures, other than ones you designate when you create the walls. When the wall appears, all creatures in its space are pushed to a side of the wall of your choice.",
-				"Once you use this ability, you cannot do so again until you finish a long rest."				
+				"Once you use this ability, you cannot do so again until you finish a long rest."
 			]
 		}
 	]
