@@ -2942,6 +2942,140 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Donovan (Eva version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Unaligned",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Life",
+				"Medicine",
+				"Nature",
+				"Redemption"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"Donovan is a rather ordinary looking human man. His most notable features are his unkempt brown beard, and his striking green eyes. His clothing is rather miserly and plain, having been made cheaply and sewed back together over, and over again. Donovan never had a mind for fashion, using every gold he earned to help those in need. His companion, Jebediah, is a happy Saint Bernard, the dog always panting with glee whenever it's by its master's side.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Donovan, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Mercy (Passive)",
+							"entries": [
+								"Embracing the path of kindness and mercy to all, you now exude the same comfort and calm Donovan did in life. Compassion itself radiates from you in a 10-foot radius, calming and assuring her allies that everything will be okay. Allies who start their turn within the aura gain temporary hit points equal to your Wisdom modifier. You can suppress or exude this aura as a bonus action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Elixir of Life (Active)",
+							"entries": [
+								"Donovan has imparted a portion of the knowledge he gathered while traveling the world and learning from the wisest druids, the most intellectual doctors, and the most enigmatic alchemists. As an action, you can quickly concoct and administrate the Elixir of Life. Any creature who drinks this elixir gains 25 temporary hit points, as the creature feeling absolutely rejuvenated. While a creature has these temporary hit points, they have advantage on all saving throws and ability checks as vitality surges through them. They also regain 1 hit point if they previously had none. These temporary hit points vanish after ten minutes, the effects of the elixir proving only temporary.",
+								"You may use this ability three times per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Medical Expertise (Active)",
+							"entries": [
+								"Donovan traveled the world with his companion, Jebediah, for over a century. Facing down and treating an innumerable number of diseases and curses, and now offer their knowledge to any healer who requires it. As an action, you may choose a creature within 30 feet and can quickly assess their medical condition. Upon doing so, you learn any pertinent information that an experienced healer would reasonably know after successfully treating said disease. If the disease or curse has never been encountered before within the world, you only learn the symptoms of said disease or curse.",
+								"You may use this ability a number of times equal to your Wisdom modifier per long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Donovan, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Compassion (Passive)",
+							"entries": [
+								"The aura of mercy you emit from yourself has grown stronger; the warmth and compassion emanating from you even managing to raise your allies from the brink of death. Any living creature who starts its turn at 0 hit points within your aura of mercy regains 1 hit point along with the temporary hit points it would gain normally, rising up in a surge of vitality."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "A Loyal Friend (Active)",
+							"entries": [
+								"As an action, you can summon Donovan's most loyal companion's spirit form, Jebediah. Jebediah appears at any point you can see within 60 feet of you and uses the Hollyphant statblock (BGDIA). The only changes are that he is a medium-sized dog, he does not have shapechange, his Tusks are a Bite attack, and his Trumpets are Barks instead. Jebediah is friendly to you and your companions and lasts for up to 1 hour or until he drops to 0 hit points, dissipating into light and returning to Donovan's side.",
+								"Roll initiative for Jebediah, who acts on its own turns. It obeys any verbal commands that you issue to it (no action required). If you don’t issue any commands to Jebediah, he will simply heal as many as he can, good or evil.",
+								"You may use this ability once per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Guardian Angel (Active)",
+							"entries": [
+								"Donovan and Jebediah served as bedside companions to those who had no one with them when they were soon to pass into the afterlife. Those he chooses to impart his knowledge on, should strive to do the same, whether the creature is good or evil. When a creature within 60 feet of you is reduced to 0 hit points, even if they would be killed outright, you may use your reaction to transport them and yourself to what the creature considers to be its paradise. The creature may decline this if they wish, but it is made known to them that no harm will come to them in this place. You may stay with them for up to ten minutes in this space, and no harm may come to either you or the creature in question while they reside here. The only actions that you can take towards the creature is to heal them if it is not their time. Otherwise, you may simply stay and provide comfort to the creature until they pass into whatever afterlife awaits them.",
+								"Once the ten minutes have elapsed, whether the creature has chosen to pass on or the creature has been healed, you and whatever remains of the creature reappear in the space each last occupied, shunted into the nearest unoccupied space if need be.",
+								"You may use this ability once per session."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Experienced Practitioner (Passive)",
+							"entries": [
+								"You gain an additional use of Elixir of Life per long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Donovan",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Never deny care or aid to anyone who needs it. It does not matter what they have done. If you truly must defend yourself, then do so, but do not mortally wound them if possible.",
+								"Aid those who need it, even at potential cost to yourself. You must be an example to those who will come after you.",
+								"Never let someone, or something die alone. If you cannot save them, then make their departure into the afterlife as comfortable as possible."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
