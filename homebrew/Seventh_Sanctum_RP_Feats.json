@@ -1005,34 +1005,6 @@
 			]
 		},
 		{
-			"name": "Practiced Expert",
-			"source": "SRPF",
-			"prerequisite": [],
-			"ability": [{
-				"choose": {
-					"from": [
-						"str",
-						"dex",
-						"con",
-						"int",
-						"wis",
-						"cha"
-					],
-					"amount": 1
-				}
-			}],
-			"entries": [
-				"You have honed your proficiency with particular skills or tools, gaining the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You gain proficiency with one skill or tool of your choice.",
-						"Choose one of your skill or tool proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen proficiency."
-					]
-				}
-			]
-		},
-		{
 			"name": "Shadow Touched",
 			"source": "SRPF",
 			"prerequisite": [],
