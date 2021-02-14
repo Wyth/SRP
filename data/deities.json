@@ -3076,6 +3076,232 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Anasi (Enny version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Unaligned",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Trickery",
+				"Madness"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"When Anasi once roamed Kagrea, her form typically resembled that of a gargantuan serpent, its scales alternating between lava, starlight, tree bark, nearly every state of being imaginable. Magnificent, crude, charismatic, brash, all labels have been used to describe the Lady of Trickery at one point or another. Her mood is nearly impossible to understand, seeming to shift all across the spectrum at the smallest of influences. Legends tell of the wandering serpent’s wrath as she decimated entire villages, others preach her kindness and love as she blessed them with bountiful harvests and safety from the elements. Trickery is fickle indeed.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Anasi, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Stargazer (Passive)",
+							"entries": [
+								"Having gazed into the starry depths of Anasi's body and eyes while maintaining her mind, Anasi has shown you the true state of the world, making illusions all but useless against you. Illusion spells under the 7th level have no effect on you as you see right through them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "One of Serpents (Passive)",
+							"entries": [
+								"When Anasi once roamed Kagrea, her form typically resembled that of a gargantuan serpent and became known for this form, more so than her humanoid form. She has gifted you with vestiges of her influence of this kind.",
+								"Snakes and other reptilian creatures see you as one of their own and are much less likely to be hostile toward you. You can also speak to snakes through the use of a special language: Parseltongue. In addition, you have embraced the chaotic nature of Anasi's existence. The DM may decide whether or not the snakes would aid you in a given task."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Tools of a Trickster",
+							"entries": [
+								"You have begun to learn to use the tools that Anasi enjoys on a daily basis to aid you in your everyday life, pushing your schemes to higher levels and guiding you with a new truth.",
+								{
+									"type": "list",
+									"items": [
+										"You can cast Alter Self at will.",
+										"You can create an illusory puppet up to 30 feet from you and control its actions. It can look and sound like anyone you have interacted with prior and can't be seen as an illusion by anything less than truesight, unless they can logically deduce that it is a fake. It can interact with objects that weigh up to 5 pounds and has an AC of 1 and 1 hit point. You do not have to see it to control it, but it cannot be further than 30 feet from you. You can perceive through its senses while controlling it; however, while doing so you are under the blinded and deafened conditions. You can do this three times per day.",
+										"You can cast the Knock spell twice per day."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Anasi, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Trickster's Escape",
+							"entries": [
+								"Anasi has trained you in the art of cunning escapes and has strengthened your illusion magic.",
+								"When a creature makes an attack roll against you that would hit, you can use your reaction to instantly create an illusory duplicate of yourself interposed between the attacker and you. The attack automatically misses and you may choose to teleport up to 10 feet in any direction away from the enemy. The illusion then dissipates.",
+								"This ability can be used twice per day."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "A Trickster’s Cunning",
+							"entries": [
+								"Anasi has taught you how to make certain elements of her illusions into reality, allowing you to produce temporary, tangible effects from the illusory duplicates you create.",
+								"Whenever you create an illusory duplicate of a creature, that creature can give you a tangible copy of any nonmagical item the duplicate has on their person. These items last as long as the duplicate does and fade away whenever the duplicate is destroyed or dismissed."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "A room with no space, no sound... Eternity truly looks like this? (Active)",
+							"entries": [
+								"As an action, you can make a contested athletics check. Upon successfully grabbing them, you then turn their eyes to look into yours and all they see is infinite stars.",
+								"\"The room was there but I couldn't see it; the door was open but I couldn't leave it; the room was everything and anything all at once...\"",
+								"The target must make a wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). On a failed save, they are thrown into the Room. While in this room, their body is considered unconscious. Not even the Wish spell can remove this effect from them as nothing is being done—they are simply experiencing the truth.",
+								"They sit within this empty room and do nothing, then they do everything, then the world implodes and explodes as they feel and don't feel, stare and sleep, experiencing life as it was always meant to be. They are seeing the Truth.",
+								"However, the Truth can extend to all, even to those who claim to know it. Dealing any form of damage or killing the body of the person experiencing the Truth causes the effect to transfer to that person instead (no save).",
+								"There are three ways to end the visit to the Room:",
+								{
+									"type": "list",
+									"items": [
+										"Someone hurts or kills them and take their place.",
+										"You may spend one hour touching them to pull them back from the Room.",
+										"You can establish the Truth onto someone else, in which case this effect ends on the current target."
+									]
+								},
+								"This can be used once per long rest. The visit to the room is indefinite until one of the three conditions is met to release them.",
+								"When the target leaves the Room, roll a d100. On a 1 or 100, the target gains a permanent madness. They are now entirely devoted to Anasi and want to seek the Truth, whatever that means."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Anasi, you have been granted the following abilities at {@italic Bond Level 3}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Jörmungandr Bestower of Truth (Active)",
+							"entries": [
+								"Anasi is the one who will deliver the truth, and as such, the snake of arbitration will devour those who have wronged her within its stomach—they and all others who desire it will find the meaning that all living beings are born without. Using your action, you can close your eyes and creates an illusion so powerful, it makes one wonder if everything is just an illusion too.",
+								"A great snake of glittering night sky, then the setting sun, then the rippling ocean and so forth, erupts from the earth a mile away, circling up higher and higher, until it rears its great head down towards you. It will soar upwards and, after 1d2+1 turns, strike the earth with its maw open.",
+								"Everything within a 300-foot radius will be devoured, including you and your allies. While in the belly of the snake, you have control of the reality this illusion creates within it. However, whatever effect you put into place will also affect your party.",
+								"This snake will then remain for 1d4+1 rounds.",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "entries",
+											"name": "Coiling Stomach:",
+											"entries": [
+												"As a bonus action while within the stomach, you can cause the snake to coil which makes everyone unsteady. The shaking is so intense that even those who are flying will be affected. Everyone must make a DC 18 strength saving throw or be knocked prone."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Constricting Stomach:",
+											"entries": [
+												"As a bonus action while within the stomach, you can cause the snake to constrict, all must make a DC 18 strength saving throw or take 3d10 bludgeoning damage as the space seems to crush them for a moment."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Chaotic Stomach:",
+											"entries": [
+												"As a bonus action while with the stomach, you can cause total and utter chaos to occur. All creatures affected must make a DC 18 Wisdom saving throw or fall under a randomly determined effect of the Eyebite spell as Truth peers at all within the stomach of the serpent. Roll a d3 to determine which effect takes place for everyone in the stomach. Should Panicked be rolled, any creatures who are frightened are frightened of you as a shade of Anasi in her serpent form shrouds you."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Devouring Stomach:",
+											"entries": [
+												"As an action, you can cause the snake to swallow everyone inside fully. Everyone will be sucked into the pits of space and then the snake will vanish, scattering everyone within. They then reappear 60 feet in a random direction afterwards, roll a d4 to determine which direction each creature ends up."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Maw of Jörmungandr (Active)",
+							"entries": [
+								"Anasi has shown you the forbidden techniques and rituals that she’s withheld from the world for eons, finally allowing her one and only faithful follower to harness a portion of the power Anasi wielded when she once roamed the lands of Kagrea before the Collapse.",
+								"As an action, you may temporarily manifest herself as the very same serpent Anasi wandered the world as, extending your maw to unfathomable lengths as shimmering scales temporarily adorn your skin. A target no more than one size larger than you within 5 feet of you must succeed on a Dexterity saving throw equal to 8 + your proficiency bonus + your Charisma modifier or be swallowed by Jörmungandr manifested through Enny. While swallowed, the creature is blinded and restrained, has total cover from any creatures or effects outside of you, and takes 6d6 acid damage at the start of each of your turns. If you take 30 damage or more in a single turn from a creature swallowed inside of you, you must succeed on a DC 25 Constitution saving throw or Jörmungandr regurgitates the swallowed creature in an unoccupied space within 5 feet of you. If the creature dies while swallowed, their body is absorbed by Jörmungandr and nothing is left behind. This does not prevent any resurrection spell that would normally work nor does it cause severance. You can only have one creature swallowed at a time. If you die while having swallowed a creature, that creature is teleported into an unoccupied space within 5 feet of you.",
+								"You may use this ability three times, regaining any expended uses after a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dance of the Forgotten (Active)",
+							"entries": [
+								"You have come ever closer to realizing the Truth of the universe, your mind, magics, and spirit forever altered from the new knowledge you’ve gained after staring into the void that lies between the stars. After having experienced everything, something, and nothing all at once, you have learned from the countless others who’ve realized the Truth so long ago. Channeling the knowledge and power of the Forgotten, you can perform an elegant dance that subtly alters the mind of anyone who perceives you and your illusions. Whenever you use an illusion, whether it be through your Arisen abilities, spells, or class features, you may weave this Dance into the conjuring of such trickery, amplifying them beyond what any mortal could ever hope to achieve, even with centuries of arcane study. While under the effects of this dance, all of your illusions will be perceived as real and tangible, no matter what senses the creature may have. Truesight, tremorsense, blindsight—nothing can pierce through the subtle eldritch veil that masks these illusions. The only way to ascertain that illusions affected by this Dance are fake is through logical reasoning: e.g., an illusion of your best friend Fred forgetting your name after he went to go use the bathroom five minutes ago is unlikely to be perceived as real.",
+								"You can weave this Dance into her illusions a number of times equal to you Charisma modifier and regains all expended uses after a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Anasi",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"See the world as more than what your senses tell you, more than the ideals and concepts people tout as essential. See the world as the orderly chaos and mischief it truly embodies.",
+								"Your cunning and wit are your most valuable weapons. Never let anyone take those away from you.",
+								"Be true to who you really are. Never let anyone or anything inhibit you, lest you lose sight of the truths of the universe."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
