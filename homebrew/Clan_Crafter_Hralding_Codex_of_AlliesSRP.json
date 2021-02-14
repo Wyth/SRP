@@ -4129,7 +4129,7 @@
 			"name": "Ancient's Aegis",
 			"type": "entries",
 			"entries": [
-				"Starting at 1st level, as a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. The aegis takes the form of a spectral shield-bearer that protects the target. The aegis reduces any bludgeoning, piercing, or slashing damage the target takes by 2 + your sorcerer level divided by 4 (minimum of 1). This effect lasts for 1 minute, until the aegis is depleted, until you use it again, or until you are incapacitated."
+				"Starting at 1st level, as a bonus action, you can grant an aegis to one allied creature you can see within 60 feet of you. The aegis takes the form of a spectral shield-bearer that protects the target. The aegis reduces any bludgeoning, piercing, or slashing damage the target takes by 2 + your sorcerer level divided by 4 (minimum of 1). This effect lasts for 1 minute, until you use it again, or until you are incapacitated."
 			],
 			"source": "CoA",
 			"page": 99,
