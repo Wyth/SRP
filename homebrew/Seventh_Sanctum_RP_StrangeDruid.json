@@ -155,7 +155,7 @@
 						"It gains 4 Hit Dice, and its hit points adjust accordingly to this (by an amount equal to the average of the Hit Die + the creature's Constitution modifier multiplied by 4).",
 						"It gains AC equal to your Wisdom modifier.",
 						"Its attacks deal additional damage equal to your Wisdom modifier.",
-						"It gains the reaction \"Strange Resilience\". Whenever you must make a Strength, Dexterity or Constitution saving throw while in your chosen Wild Shape, you can use your reaction to gain a {@dice 1d6} bonus to the roll."
+						"It gains the reaction \"Strange Resilience\". Whenever you must make a Strength, Dexterity or Constitution saving throw while in your chosen Wild Shape, you can use your reaction to gain a {@dice 1d6} bonus to the roll. You may use this reaction after you roll the save but before you know the outcome"
 					]
 				}
 			]
