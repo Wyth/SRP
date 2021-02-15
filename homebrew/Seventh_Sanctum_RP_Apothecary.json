@@ -377,9 +377,7 @@
 			"classSource": "SRPApothecary",
 			"level": 1,
 			"entries": [
-				"Your swift motions with assembling concoctions let you deliver quick blows and operate nimbly under pressure.",
-				"Whenever you use an action to use Chemistry, you can use your bonus action to either take the Disengage or Use an Object action, or make an attack with a weapon that you are proficient with that lacks the versatile and two-handed properties. Chemistry counts as a \"Use an Object\" action for the purposes of this feature.",
-				"In addition, if you use an action to take the Disengage or Use an Object action, attack with a weapon that you are proficient with that lacks the versatile and two-handed properties, you can use your bonus action to use Chemistry. "
+				"Your swift motions with assembling concoctions let you deliver quick blows and operate nimbly under pressure. At 1st level, whenever you use an action to use Chemistry, you can use your bonus action to either take the Disengage or Use an Object action, or make an attack with a weapon that you are proficient with that lacks the versatile and two-handed properties."
 			]
 		},
 		{
@@ -513,8 +511,7 @@
 			"classSource": "SRPApothecary",
 			"level": 11,
 			"entries": [
-				"At 11th level, you've learned to combine scents in such a way that it becomes possible to expedite your allies' strength in a more potent and effective way.",
-				"When you use your Chemistry feature to produce incense, the range you can effect expands to 15-feet, and the die a creature adds to their ability checks, attack rolls, or saving throws becomes a {@dice 1d6}."
+				"At 11th level you have learned to hastily mix your concotions, preparing mixtures ahead of time, separating only the catalyst. You can spend 3 reagent points to use your poison, bomb, painkiller, or incense concoctions as a bonus action. That concoction cannot be modified further using reagent points."
 			]
 		},
 		{
