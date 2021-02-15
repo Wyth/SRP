@@ -77,7 +77,7 @@
 			"type": "entries",
 			"name": "Circle Forms",
 			"entries": [
-				"The rites of your circle grant you the ability to transform into more 'bizarre' or 'misrepresented' creature types. Starting at 2nd level, you choose either the Monstrosity or Undead creature type. You can use your Wild Shape to transform into a creature of that type with a challenge rating equal to your druid level divided by 4, as reflected in the table below. You are still restricted by movement limitations as per the normal wild shape table, and all other rules of Wild Shape.",
+				"The rites of your circle grant you the ability to transform into more 'bizarre' or 'misrepresented' creature types. Starting at 2nd level, you choose either the Monstrosity or Undead creature type. You can use your Wild Shape to transform into a creature of that type with a challenge rating equal to your druid level divided by 4. If this calculation results in a fraction that is greater than, but not equal to one-half, you round up. Or, refer to the table below. You are still restricted by movement limitations as per the normal wild shape table, and all other rules of Wild Shape.",
 				"Due to your endless fascination with this creature type, you never got around to studying traditional beasts, and thus cannot wild shape into them.",
 				{
 					"type": "table",
