@@ -3302,6 +3302,187 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Sani (Lumar version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Betrayers",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Courage",
+				"War"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"Sani commonly takes the form of a warrior, specifically a Valkyrie. She dons the armor of her kin and is often seen alongside her dragon companion, Grom, whom which she raised from an egg after discovering him on the battlefield.",
+				"Despite her mortal upbringing, Sani was never born a member of humanity. Instead, she was raised by her father, an unnamed Awakened who gave consciousness form during the Advent of Beliefs. It was there she met her faithful companion, Grom, and fought in the Advent War.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Sani, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Cry of the Warrior (3/3, Long Rest)",
+							"entries": [
+								"You can channel the power of Sani to let out a war cry that reverberates around the battlefield, echoing with bravery and determination. This shout comes in the form of her name, and it grants a blessing of determination and will upon him and his allies in times of strife.  As a free action at the start of combat, you can let out a battle cry to remove the surprised condition from yourself and any allies within 30 feet of you. Allies who are affected by this also gain double movement speed, and advantage on all attack rolls on their first turn of combat."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dauntless (1/1, Long Rest)",
+							"entries": [
+								"Inaction is weakness, and with the help of Sani's power and guidance you can shrug off those who would try to halt you. As a reaction, you can end one of the following conditions on yourself, even if you normally could not: frightened, incapacitated, paralyzed, petrified, restrained, stunned."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rage of Retribution (3/3, Long Rest)",
+							"entries": [
+								"You and Sani both channel the inner rage within yourself; like the fires of the trickster god Prometheus, your fury burns hot and viciously. As a reaction to taking damage that would leave you with no more than half of your hit points, you can enter into a raging frenzy for one minute and can gain a +3 bonus to damage rolls. This bonus increases to +4 for weapons that you swing with two hands."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Sani, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Dragonheart (Active)",
+							"entries": [
+								"You can call upon the aid of both Rufus and Bufus to help you out in a time of desperate need. As an action, you can grab Rufus and Bufus and slam them together to create... Brom, who persists for one minute.",
+								"\"What the fuck is that thing?\" – Glenn (commoner)",
+								"A medium-sized psuedodragon, Brom has increased strengths and can provide incredible use to Lumar, being a constant companion driven by their friendship and courage through many trials.",
+								"Brom gains the following boons:",
+								{
+									"type": "list",
+									"items": [
+										"Their health is equal to their combined hit point total.",
+										"Their Dexterity score becomes 20.",
+										"The damage from their bite attack increases to {@dice 2d4} and can now deal an additional {@dice 2d6} poison or psychic damage.",
+										"The damage from their sting attack increases to {@dice 2d8}.",
+										"Their flying speed is doubled.",
+										"They gain a breath weapon (Recharge 5-6). This sprays out in a 20-foot cone and all creatures must succeed on a Dexterity saving throw (DC = 8 + your proficiency bonus + Brom’s Dexterity modifier) or take {@dice 10d8} acid damage and suffer disadvantage on attack rolls until the end of your next turn as the acid burns at the skin and weakens the body. If a creature fails by 5 or more, they’re blinded until the end of your next turn as it sears their eyes. On a successful save, they take half damage and suffer no adverse effects."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Inspiring Rage",
+							"entries": [
+								"As you and Sani's rages become more in sync, their determination bleeds through to guide you in combat. When you use the Rage of Retribution, you are also under the effect of the Bless spell, but rolls a {@dice d6} instead of a {@dice d4}. This effect lasts until the rage ends."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dauntless Hero",
+							"entries": [
+								"You receive an extra use of the Dauntless ability but cannot use this extra use on yourself. Instead, if an ally within 30 ft of you would fall under an aforementioned condition, as a reaction, you can expend this extra use of dauntless to remove the condition instantly. This extra use recharges after a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Sani, you have been granted the following abilities at {@italic Bond Level 3}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "The Goddess and Her Champion (Passive)",
+							"entries": [
+								"Sani has led you down a path where you can rely on your own skills, rather than just using Prometheus or magic, to defeat foes in battle. Through rigorous training, you have honed your body and mind to become a more efficient force in battle. You can now attack twice when you take the attack action, instead of once, on your turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rage of Perfect Retribution (1/1, Long Rest)",
+							"entries": [
+								"Once per long rest, you can channel the shared anger of yourself and Sani, reflecting on the vengeance, retribution, and turmoil that they’ve experienced throughout their lives. This reflection becomes realized as heat, as their emotions become stern and collected and their attacks become as determined in purpose as the surface of the sun. While surrounded by this heat, the pair pursue their revenge, and others can feel this motivation down to the deepest parts of their cores.",
+								"You emit an aura of heat in 60-foot radius. In this aura, once per turn, you can make one of your attacks deal an additional {@dice 2d6} fire damage on hit as your very attacks spark the air. In addition, creatures within the aura can’t benefit from being hidden or invisibility.",
+								"You legitimately cannot be stopped; nothing will stand between your goals and ambitions. While raging, you cannot be charmed or frightened.  You can also walk through difficult terrain and walls, leaving a burning path in his wake, causing holes equal to his size to form in the walls and melting away difficult terrain, removing it. Using Rage of Retribution this way still expends one use of the ability."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Thorns of Retribution (1/1, Long Rest)",
+							"entries": [
+								"You can stab the ground as an action, causing a glorious crimson sigil to shine beneath yourself and expand outwards into a symbol of the flowered rose. As the sigil expands, it begins to come to life, birthing forth a stem, petals, and thorns.",
+								"All creatures of your choice in a 30-foot radius must make a Constitution saving throw with a DC of 8 + your proficiency bonus + your Charisma modifier. On a failed save, you begin to draw upon those creatures' vile intents, turning any murderous rage or aggression into fuel for your own abilities. In addition, those creatures become blinded by their hate, as the light fills their eyes with the articles of their own sins until the start of their next turn.",
+								"For every creature who fails this saving throw within range, you gain temporary hit points equal to one quarter your level (rounded down) as the core of the rose drains their life. In addition, while your temporary hit points remain, you gain resistance to bludgeoning, piercing, and slashing damage, as the tools of war become subservient to your own will.",
+								"The rose persists for one minute, binding and tripping up any enemies of your choice. The vines and thorns only seek to attack those you view as enemies and will cause those creatures to treat the ground as difficult terrain.",
+								"After one minute, or when you choose to dismiss the rose as an action, the thorns pierce those within its confines and the petals lash out and rend. You lose any temporary hit points you had remaining, and creatures of your choice within the radius must make a Dexterity saving throw with the same DC. On a failed save, those creatures take {@dice 4d10} magical piercing damage, or {@dice 6d10} if they failed the original saving throw."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Sani",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"In yourself and in others, fear is inevitable. But to overcome it is true bravery. As such, hold your allies close, and never seek to betray them.",
+								"Never let yourself be trodden on—an indomitable spirit cannot be broken by steel nor flame.",
+								"Inaction is greater downfall than failure. Never allow yourself to be halted by indolence."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
