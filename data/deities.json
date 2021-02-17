@@ -873,15 +873,16 @@
 								},
 								{
 									"entries": [
-										"{@b Cania (Costs 2 uses).} Enemies within your range take {@dice 5d6} cold damage on a failed save, or half as much on a successful one. In addition, those creatures become encased in a thick sheet of ice, placing them under the {@condition petrified} condition for five rounds."
+										"{@b Cania (Costs 2 uses).} Enemies within your range take {@dice 5d6} cold damage on a failed save, or half as much on a successful one. In addition, those creatures become encased in a thick sheet of ice, placing them under the petrified condition for two rounds."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-										"{@b Nessus (Costs 3 uses).} Stones rumble as you emerge from the air, landing upon the area you designate with crushing force. Rubble kicks up into the ceiling as you arrive from the distant skies with the speed of a canonball. When your feet hit the easily malleable ground, the ground trembles with the force of an atomic bomb.",
-										"Instead of all creatures in the radius making a Dexterity saving throw, creatures in your radius must instead make a Wisdom saving throw with the same DC. On a failed save, those creatures become {@condition frightened} of you as for the next minute, you take on the appearance, physical form, and voice of Krurm, the Lord of War and Destruction.",
-										"Until the full minute elapses, your creature size becomes Huge, and your attacks deal an additional {@dice 1d6} aeon damage on a hit. You also gain advantage on attacks that would target a celestial, fiend, or undead. Finally, you gain a fleeting {@dice 5d10} temporary hit point shield, which disappears along with your form at the end of the minute."
+										"{@b Nessus (Costs 3 uses).} Stones rumble as you emerge from the air, landing upon the area you designate with crushing force. Rubble kicks up into the ceiling as you arrive from the distant skies with the speed of a cannonball. When your feet hit the easily malleable ground, the ground trembles with the force of an atomic bomb.",
+										"Instead of all creatures in the radius making a Dexterity saving throw, creatures in your radius must instead make a Wisdom saving throw with the same DC. On a failed save, those creatures become frightened of you as for the next minute, you take on the appearance, physical form, and voice of Krurm, the Lord of War and Destruction.",
+										"Until the full minute elapses, your creature size becomes Huge, and your attacks deal an additional {@dice 1d6} aeon damage on a hit. You also gain advantage on attacks that would target a celestial, fiend, or undead. Finally, you gain a fleeting {@dice 5d10} temporary hit point shield, which disappears along with your form at the end of the minute.",
+										"Nessus may be used once per long rest without any cost toward Arrival Impact."
 									],
 									"type": "entries"
 								}
