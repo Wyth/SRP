@@ -1661,6 +1661,105 @@
 					]
 				},
 				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"Starting at {@italic Bond Level 2}, the amount of manipulation points you have increases to 6. In addition, you gain the following benefits:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "When you use your Path of Victory ability, you gain two new options that you can call into effect:",
+							"entries": [
+								{
+									"type": "list",
+									"items": [
+										"Choose an allied creature within 60 feet, or yourself, and roll a {@dice d4}. That creature gains a bonus to their AC equal to the number rolled until the end of your next turn.",
+										"Choose a hostile creature within 60 feet and roll a {@dice d4}. That creature must roll {@dice 1d4} and subtract it from whatever rolls they make a number of times equal to the initial number rolled."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Objective Rewind",
+							"entries": [
+								"As a reaction to a creature that you can see ending its turn, you can turn the dials of time back for just a moment. When you use this ability, you negate all events that occurred on that creature's turn and force them to re-do their turn. Once you use this ability, you cannot use it again until you’ve finished a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Probability Acceleration",
+							"entries": [
+								"You can call upon Cosmic's power over probability, willing it to assist you on your behalf when your need is great.",
+								"You can use an action to call out to the whims of Probability. Describe the assistance you seek and roll percentile die. If you roll a number equal to or lower than your level, probability intervenes in your favor. The DM chooses the nature of the intervention. If probability is warped in your favor, you can't use this feature again for 7 days. Otherwise, you can use it again after you’ve finished a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Improved Stability (Passive)",
+							"entries": [
+								"You regain all expended manipulation points after a long rest or 2 manipulation points after a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Cosmic, you have been granted the following abilities at {@italic Bond Level 3}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Proportion Manipulation",
+							"entries": [
+								"You can now alter reality for both yourself, objects, and any people touching you or said objects. As an action, you can cause yourself and anything in contact with you to glitch into space and time. They become immaterial and can phase through unaffected objects and people as if they were difficult terrain. This effect lasts for one minute. If you and anything that went immaterial with you are still within an object or creature when the effect ends, they are immediately shunted to the nearest unoccupied space, take {@dice 8d10} force damage, and are stunned until the end of their next turn.",
+								"You may do this once per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Universal Glitch (Passive)",
+							"entries": [
+								"You have begun to blend in with the other realities Cosmic ties you to. Because of this, you sometimes \"glitch\" out of reality and appears somewhere entirely new. As a reaction whenever an attack would hit you, you can roll a {@dice d10}. Rolling a 6 or higher will cause you to glitch and appear anywhere within 60 feet or your initial location.",
+								"You may also plainly teleport with this ability (no action required). Roll a {@dice d10}. On a 6 or higher, you can teleport a distance of up to 60 feet even if you cannot see the location. If you teleport into a solid object, you are shunted to the nearest unoccupied space.",
+								"You can successfully glitch a number of times equal to your Dexterity modifier. Failed attempts do not count towards this limit and you regain all expended Glitches after completing a long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Different Me, Same Outcome (Passive)",
+							"entries": [
+								"Any time you use Probability Manipulation, you phase in and out with the version of yourself that never stopped being a Renegade Fighter and can fire a critical attack with your Renegade weapon. The gun scales to your current level."
+							]
+						}
+					]
+				},
+				{
 					"type": "entries",
 					"name": "Commandments of Cosmic",
 					"entries": [
