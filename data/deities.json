@@ -1348,7 +1348,7 @@
 							"name": "Kneel",
 							"entries": [
 								"Slamming your tail on the ground, you can shout out as an action for those who stand against you to \"Kneel\". Enemies within 20 feet of you who can hear you must make a Strength saving throw (DC = 8 + your proficiency Bonus + your Dexterity modifier). Enemies who fail this saving throw take {@dice 3d10} force damage and are knocked prone, and can be pushed back up to 15 feet if you wish so. This ability may be used once per long rest.",
-								"<b>Supercharged:</b> Enemies who fail the saving throw are also stunned until the end of their next turn and take an additional {@dice 2d8} lightning damage."
+								"<u>Supercharged:</u> Enemies who fail the saving throw are also stunned until the end of their next turn and take an additional {@dice 2d8} lightning damage."
 							]
 						},
 						{
@@ -1356,7 +1356,7 @@
 							"name": "Crashing Storm",
 							"entries": [
 								"When you are grappling a creature, you can use your full Attack action to launch yourself and your opponent 10 feet into the air and move in any direction a distance of up to half your speed. When the pair land, your opponent must succeed on a Strength saving throw (DC = 8 + proficiency bonus + Dexterity modifier) or take {@dice 6d10} thunder damage and be knocked prone. On a successful save, they take half as much damage and are not knocked prone. Every creature within 5 feet of their landing location must succeed on a Dexterity saving throw or take {@dice 2d10} force damage, half as much damage on a successful save. This ability may be used once per long rest.",
-								"<b>Supercharged:</b> If the grappled creature fails the Strength save, they are disoriented and crippled as the lightning fries their nerves and synapses. The creature is prone, stunned, and deafened for one minute. The creature may make a Constitution saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) at the end of its turn to end the stunned and deafened effects. Enemies within 5 feet of your landing location who failed the Dexterity saving throw are also deafened for 1 minute. They can end this effect with a successful Constitution saving throw at the end of their turns. This uses the same saving throw DC as Crashing Storm."
+								"<u>Supercharged:</u> If the grappled creature fails the Strength save, they are disoriented and crippled as the lightning fries their nerves and synapses. The creature is prone, stunned, and deafened for one minute. The creature may make a Constitution saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) at the end of its turn to end the stunned and deafened effects. Enemies within 5 feet of your landing location who failed the Dexterity saving throw are also deafened for 1 minute. They can end this effect with a successful Constitution saving throw at the end of their turns. This uses the same saving throw DC as Crashing Storm."
 							]
 						}
 					]
