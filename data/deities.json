@@ -41,7 +41,7 @@
 							"type": "entries",
 							"name": "Heart of Winter (Passive)",
 							"entries": [
-								"While you are contracted to Aslanth, you do not suffer any ill effects from extreme cold (see chapter 5 of the Dungeon's Master Guide). In addition, you also gain resistance to cold damage. If you already have resistance to cold damage, it becomes immunity instead. Finally, ice does not count as difficult terrain for you, and you cannot fall {@condition prone} as a result of being on ice (unless you choose to)."
+								"While you are contracted to Aslanth, you do not suffer any ill effects from extreme cold. (see chapter 5 of the Dungeon's Master Guide). You are also immune from any ill effects from being in a vacuum. In addition, you also gain resistance to cold damage. If you already have resistance to cold damage, it becomes immunity instead. Finally, ice and any terrain created from intensive gravity or from being in a vacuum does not count as difficult terrain for you, and you cannot fall prone as a result of being on ice or from intense gravity (unless you choose to do so)."
 							]
 						},
 						{
@@ -51,20 +51,6 @@
 								"You throw up your hands as if beginning a grand show. Emerging from your feet, a thick sheet of ice forms around you in a radius of 100 feet in the symbol of a giant snowflake.",
 								"The slick ice that makes up this area is difficult terrain for everyone except for you and other followers of Aslanth. While traveling on this ice, you are permanently under the effects of the Disengage action, and your innate movement speed becomes 50 as you glide across the ice.",
 								"As an action on your turn, you can dismiss and shatter the ice around you. Hostile creatures of your choice within the snowflake must make a Dexterity saving throw. On a failed save, they take {@dice 8d8} cold damage and become {@condition restrained} for one turn. If you do not choose to dismiss this effect, it automatically shatters after 1 minute."
-							]
-						}
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Commandments of Aslanth",
-					"entries": [
-						{
-							"type": "list",
-							"items": [
-								"Though the winter is long and harsh, it is not altogether evil.",
-								"With the coming of winter, frosts are harsh dangers and frigid creatures arrive not found in the summer. It is your duty to protect the innocent from these perils.",
-								"While your goal of preserving the entire world is your greatest cause, your allies must be preserved as well. Your wounds will heal, theirs might not."
 							]
 						}
 					]
@@ -112,6 +98,72 @@
 								"As a action, you can restore the creature's soul to their body. In order to do this, you must be touching the creature's body as well as the ice shard simultaneously. If the creature's body is destroyed beyond repair, then this ability fails. Crushing the ice shard at any point will immediately kill the creature.",
 								"Storing a soul in the shard prevents that creature from resurrecting at a Crystal, and prevents their body from becoming a target for spells such as {@spell true resurrection} and {@spell speak with dead}.",
 								"You cannot perform this ability more than once per week, as you need time to manifest the permafrost inside your body (which is expending upon the casting of this ability). Starting a week from when you last used this ability, it will become reavailable to be used again."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Aslanth, you have been granted the following abilities at {@italic Bond Level 3}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Universae Glacies (1/1, Long Rest)",
+							"entries": [
+								"The cold is freezing. When others state such a phrase, they take \"freezing\" to describe a dilution of temperature. An act of ravage by the ice spirits which roam the endless tundras. You know, however, that the ice that dwells within your soul is something more than just a physical ailment.",
+								"The metaphysical, the unknown. The vastness of space calls to you—breathes new life into your powers. This is uncharted ground for both you and Aslanth; a manifestation of the Lord of Winter's strength to which no follower has yet been made aware of.",
+								"That was, until you came along.",
+								"As an action, you can clap your palms together, radiating a thick veil of ice from your body. Permafrost—the same technique used to create your soulshards—now exists in order to create an endless expanse of ice. Calling it \"deadly\" misrepresents its nature: it’s downright paradoxical.",
+								"All creatures in a 300-foot radius are immediately consumed by a thick veil of permafrost, no save required. As an act of avarice by your iceborne soul, you are completely immune to these effects; and for twelve whole seconds, you may move, unimpeded, through the icy landscape you have created. No time passes for any other creatures or objects while you take two resulting turns of combat in a row, during which you can use actions and move as normal.",
+								"Once this effect ends, the ice shatters, the shards dissipating into the winds, only to eventually find themselves at the edges of space. This effect ends early if you affect any creature other than yourself while it is active, or an object being worn or carried by someone other than you. This effect also ends early if you move more than 1,000 feet away from the area where you’ve summoned it, as your soul no longer has a tangible connection to the sheen of permafrost you created."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sharddust (1/1, Short or Long Rest)",
+							"entries": [
+								"Collected from the stars and heralded from the icy form of a vast astral comet, you have manifested the ability to summon forth a torrent of dust; a cloud transported from the edges of space directly into your service.",
+								"As an action, this cold covers your body, engulfing you in a cloud so thick, it becomes completely opaque. While you maintain full control and feeling of your body, from outside the cloud, you appear to be nothing more than a dancing array of crystalline shards.",
+								"While in this state, you can move through a space as narrow as 1 inch wide without squeezing. In addition, you can enter an ally or hostile creature's space and stop there. If a creature starts their turn on your space, you can force that creature to take {@dice 2d6} cold damage as the comet dust assails their skin and freezes their bones.",
+								"Once per turn, when you pass through a hostile creature's space, you can cause the comet shards to dance around your form, slashing at that creature's legs and freezing the muscles around their tendons (no action required). That creature's movement speed is reduced by 10 feet until the end of their next turn.",
+								"This form lasts for one minute; and once you use it, you must finish a short or long rest before you can use the ability again."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rime of Travel (3/3, Long Rest)",
+							"entries": [
+								"You slam your hands down, creating a path of special ice which grants transport akin to an astral comet in flight. As an action, you move up to your current movement speed across the battlefield, travelling through creature's spaces without imposed penalty and ignoring opportunity attacks. This movement is expended as part of your total movement.",
+								"Any creature you travel through must make a Dexterity saving throw with a DC of 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice). On a failed save, that creature takes 21 ({@dice 6d6}) cold damage, or half as much on a successful one. Damage dealt by this ability ignores cold resistance and treats cold immunity as resistance.",
+								"When you use Rime of Travel while your Freezing Expanse is active, the innate movement speed modifier applied by Freezing Expanse is increased by 10 feet until the end of your turn and the damage creatures take is increased by {@dice 1d6}."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Aslanth",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"See the world as more than what your senses tell you, more than the ideals and concepts people tout as essential. See the world as the orderly chaos and mischief it truly embodies.",
+								"Your cunning and wit are your most valuable weapons. Never let anyone take those away from you.",
+								"Be true to who you really are. Never let anyone or anything inhibit you, lest you lose sight of the truths of the universe."
 							]
 						}
 					]
