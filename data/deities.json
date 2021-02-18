@@ -1043,20 +1043,6 @@
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Commandments of Add",
-					"entries": [
-						{
-							"type": "list",
-							"items": [
-								"Machines are tools. Their sentience is to be ignored and used to profit.",
-								"Do not let the common social standard hinder your brilliance. Enlighten others to your craft, even against their meaningless conventions.",
-								"Exist to elevate humanity. Your mind is but a tool to further the world."
-							]
-						}
-					]
-				},
-				{
 					"type": "inset",
 					"name": "",
 					"entries": [
@@ -1100,13 +1086,13 @@
 								},
 								{
 									"entries": [
-										"{@b Turret: Dynamic Core (3).} For as long as your Ascend Beyond Limits remains active, turrets you summon have their damage rolls increased by {@dice 1d8} + your Intelligence modifier."
+										"{@b Dynamic Core (3).} For as long as your Ascend Beyond Limits remains active, cantrips you cast add an additional damage die as well as your Intelligence modifier to the damage roll."
 									],
 									"type": "entries"
 								},
 								{
 									"entries": [
-										"{@b Turret: Monodrone Surgeon (4).} For as long as your Ascend Beyond Limits remains active, protector turrets you summon have the number of temporary hit points they can restore increase by {@dice 1d8}, and they gain a fly speed of 60."
+										"{@b Environmental Dampener (4).} For as long as your Ascend Beyond Limits remains active, damage from your cantrips ignores resistance."
 									],
 									"type": "entries"
 								}
@@ -1120,6 +1106,64 @@
 							"name": "Charging II (Passive)",
 							"entries": [
 								"You regain all expended cybernetic points on a long rest, or two cybernetic points on a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Add, you have been granted the following abilities at {@italic Bond Level 3}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Wealth of Knowledge (Passive)",
+							"entries": [
+								"Add has granted you access to a portion of their most advanced and obscure notes on various alien technologies to allow you to better identify such things in the field. You now have advantage on ability checks to discern the purpose and functionality of technologies not from this world or technologies that are either so ancient or complex that only those who created them would ordinarily be the only ones who could ever hope to use them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Chaos Control (Active)",
+							"entries": [
+								"After gaining access to more and more of Add’s knowledge, you have developed a formidable and powerful form of spellcasting: Chaos Control. Whenever you cast a cantrip, you can choose to fuse it with another cantrip that you can cast. The new cantrip made from this fusion uses the range, damage dice, and damage type of the first selected cantrip and then applies any saving throws or additional effects from the second selected cantrip. If the second cantrip does damage with a saving throw, the targeted creature must save or take the damage. The cantrip must hit if the initial cantrip required an attack roll. If the second cantrip originally does damage to adjacent creatures, it will deal the damage indicated on a successful hit or a failed save.",
+								"You may do this ten times per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Ultimate Breakthrough (Active)",
+							"entries": [
+								"With Add’s knowledge and expertise on intellectual matters of all sorts, as both being masters of science, you have discovered the ultimate breakthrough.",
+								"Whenever you cast a spell you've prepared with your Arcane Breakthroughs, you may overdrive it with the Ultimate Breakthrough. You may cast the spell as if you had cast it at the 9th level. This spell still expends the original spell slot.",
+								"You may do this once per long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Add",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Machines are tools. Their sentience is to be ignored and used to profit.",
+								"Do not let the common social standard hinder your brilliance. Enlighten others to your craft, even against their meaningless conventions.",
+								"Exist to elevate humanity. Your mind is but a tool to further the world."
 							]
 						}
 					]
