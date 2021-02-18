@@ -251,12 +251,7 @@
 			"name": "Aura Sight",
 			"source": "SeventhSanctumRPSpells",
 			"level": 2,
-			"school": [
-				{
-					"D",
-					"P"
-				}
-			],
+			"school": "D",
 			"time": [
 				{
 					"number": 1,
@@ -293,7 +288,8 @@
 				"intelligence"
 			],
 			"miscTags": [
-				"SGT"
+				"SGT",
+				"Psionic"
 			],
 			"areaTags": [
 				"ST"
