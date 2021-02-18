@@ -251,7 +251,12 @@
 			"name": "Aura Sight",
 			"source": "SeventhSanctumRPSpells",
 			"level": 2,
-			"school": "D",
+			"school": [
+				{
+					"D",
+					"P"
+				}
+			],
 			"time": [
 				{
 					"number": 1,
