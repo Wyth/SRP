@@ -1705,6 +1705,60 @@
 					]
 				},
 				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Ceres, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Body of the Beast (Passive)",
+							"entries": [
+								"You have connected even closer to the beast within yourself and even in your original form can tap into it.",
+								{
+									"type": "list",
+									"items": [
+										"<b>Shadow Weapons:</b> In a pinch, you can cause sharp claws or fangs to appear as a bonus action. These weapons deal Ceres slashing or piercing damage as they form from shadows and use Charisma for the attack and damage rolls.",
+										"<b>Senses of the Wolf:</b> You have advantage on perception checks that rely on smell or hearing. Your darkvision range is increased by 30 feet in your base form.",
+										"<b>Pack Hunter:</b> While within 10 feet of an ally, you gain a +1 bonus to AC. If you are within 5 feet of an ally, you gain advantage on all attack rolls.",
+										{
+											"type": "entries",
+											"name": "Pack of Shadows:",
+											"entries": [
+												"As a bonus action, you can summon forth your own pack. You have a number of wolves equal to your Charisma modifier available to be summoned and can summon as few as one or as many as the maximum available.",
+												"The wolves share your stats and damage but have only 1 hit point and will burst into puffs of shadows upon being struck. They count as creatures for the sake of flanking and your Pack Hunter ability. They are loyal only to you and cannot be charmed or controlled in any way by anyone other than their Wolf Emperor.",
+												"In place of a weapon attack made during the attack action, you can send a wolf forward to strike a target. These wolves can move up to 120 feet away from you but pop if they move any further. You can also command one of them to attack as a bonus action",
+												"All wolves become available to be resummoned after a short or long rest."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Nightwalker",
+							"entries": [
+								"You have advantage on stealth rolls while in dim light or darkness.",
+								"As a bonus action, you can step into the shadows of dim light or darkness and teleport up to 60 feet to another location within dim light or darkness or into another being's shadow and appear beside them.",
+								"This teleportation can be used 3 times per long rest."
+							]
+						}
+					]
+				},
+				{
 					"type": "entries",
 					"name": "Commandments of Ceres",
 					"entries": [
