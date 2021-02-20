@@ -2248,7 +2248,7 @@
 							"entries": [
 								"Once per turn, when a creature CR 3 or above that you are engaging in combat with dies, you can choose to assimilate the essence that their presence marked on the world, taking their true name and temporarily adding it as part of yours.",
 								"Upon doing this, your soul becomes etched with an ethereal marking known as a Night Mark. From the moment you absorb a creature's essence, you begin to use your own soul as a battery, empowering your combat abilities until it is fully drained.",
-								"This state lasts for ten minutes. Depending on how many Soul Marks you collect, you gain the following additional passive abilities:"
+								"This state lasts for 10 minutes. Depending on how many Night Marks you collect, you gain the following additional passive abilities:"
 							]
 						},
 						{
@@ -2268,23 +2268,23 @@
 									"rows": [
 										[
 											"{@bold Blessing of Fury (1).}",
-											"You gain a +15 bonus to your movement speed, and you generate 1 fury point at the end of each of your turns."
+											"Your speed is increased by 15 feet, and you generate 1 fury point at the end of each of your turns."
 										],
 										[
-											"{@bold Blessing of Rule (2).}",
-											"You gain a +2 bonus to your AC, and you become immune to the {@condition charmed} condition."
+											"{@bold Blessing of Loyalty (2).}",
+											"You gain a +2 bonus to your AC, and you become immune to the charmed condition."
 										],
 										[
-											"{@bold Blessing of Loyalty (3).}",
+											"{@bold Blessing of Blood (3).}",
 											"You gain advantage on all attack rolls and ability checks made to track creatures that have blood."
 										],
 										[
-											"{@bold Blessing of Blood (4).}",
-											"When you attack a creature and leave it with less than 40 hit points, that creature dies."
+											"{@bold Blessing of Death (4).}",
+											"When you attack a creature and leave it with fewer than 40 hit points, that creature dies."
 										],
 										[
-											"{@bold Blessing of Order (5).}",
-											"You become resistant to all forms of damage, except for aeon."
+											"{@bold Blessing of Anger (5).}",
+											"You become resistant to all forms of damage besides aeon damage."
 										],
 										[
 											"{@bold Blessing of Sraosha (6).}",
@@ -2382,7 +2382,7 @@
 					"entries": [
 						{
 							"entries": [
-								"Starting a {@italic Bond Level 3}, you gain the following benefits:"
+								"As a follower of Sraosha, you have been granted the following abilities at {@italic Bond Level 3}:"
 							],
 							"type": "entries"
 						}
@@ -2396,20 +2396,20 @@
 					"entries": [
 						{
 							"type": "entries",
-							"name": "Power at a Cost",
+							"name": "Power, but at a Cost",
 							"entries": [
-								"To become stronger, a price must be paid. This is the law of the world, to which all mortal creatures abide. To harm oneself is often seen as the most primal of these costs—and the most effective.",
-								"As a free action on your turn in combat, you may reveal the zealotry of your determination, damaging yourself in order to fuel your strength. With life drained, your power grows exponentially, and soon, the Knight of Sraosha will reveal the fate of the masses.",
-								"You take {@dice 5d8} necrotic damage from this attack, which cannot be negated or resisted in any way. In return, you gain one Night Mark.",
+								"{@italic &quot;Regret has always sought out power, always seeking strength to the point that he's now willing to harm himself in order to truly tear his foes asunder.&quot;}",
+								"Once per turn in combat, you may harm yourself with whatever you are wielding (no action required), draining your life force while causing your fury to flare ever brighter.",
+								"Upon doing so, you take {@dice 5d8} necrotic damage which cannot be resisted or negated in any way. In return, you gain one Night Mark.",
 								"{@italic &quot;Slave away, my Knight. Become someone that everyone but I can look up to.&quot;}"
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Embelishment of the Soul",
+							"name": "Soul Drain",
 							"entries": [
-								"Knowledge, power, cost. These are the tenets that a Knight of Sraosha must live by, and you have echoed their law into the deepest recess of your soul. A pit so deep, that it now acts as a resevoir for your dark dealings, allowing you to hold a theoretical infinite amount of souls.",
-								"You may now hold beyond six Night Marks, although holding onto more than six does not grant you any bonus effects. Rather, as a free action on your turn, you can expend a number of Night Marks up to the amount you currently hold after dealing damage to a creature. When you do so, you deal an additional {@dice 3d10} force damage for each Night Mark expended.",
+								"You have been gifted the power to extract and contain the souls of those you slay beyond your prior limits; Sraosha gifts you the knowledge of how to temporarily hold an endless number of souls.",
+								"You may hold beyond six Night Marks, though you do not gain any benefits for holding more than six. When you deal damage to a creature, you may expend an amount of Night Marks of your choosing to rend the soul of the target (no action required). Each Night Mark expended deals {@dice 3d10} force damage to the creature.",
 								"{@italic &quot;An infinite wealth of souls—yet those hands will never hold anything.&quot;}"
 							]
 						}
