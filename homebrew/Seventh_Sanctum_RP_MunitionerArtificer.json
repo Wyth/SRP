@@ -1,0 +1,344 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPMunitioner",
+				"abbreviation": "SRPFA",
+				"full": "Munitioner Artificer",
+				"authors": [
+					"Wyth"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"subclass": [
+		{
+			"version": "1.0.0",
+			"name": "Munitioner",
+			"subclassFeatures": [
+				"The Munitioner|Artificer|TCE|Munitioner|SRPMunitioner|3",
+				"Extra Attack|Artificer|TCE|Munitioner|SRPMunitioner|5",
+				"Infused Shot|Artificer|TCE|Munitioner|SRPMunitioner|9",
+				"Prismatic Infusion|Artificer|TCE|Munitioner|SRPMunitioner|15"
+			],
+			"source": "SRPMunitioner",
+			"shortName": "Munitioner",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"Hail of Thorns",
+							"Shield"
+						],
+						"5": [
+							"Cordon of Arrows",
+							"Silence"
+						],
+						"9": [
+							"Conjure Barrage",
+							"Stinking Cloud"
+						],
+						"13": [
+							"Death Ward",
+							"Locate Creature"
+						],
+						"17": [
+							"Conjure Volley",
+							"Swift Quiver"
+						]
+					}
+				}
+			],
+			"className": "artificer",
+			"classSource": "TCE"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "The Munitioner",
+			"source": "SRPMunitioner",
+			"page": 9,
+			"className": "artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Munitioner",
+			"subclassSource": "SRPMunitioner",
+			"level": 3,
+			"entries": [
+				"A Munitioner is usually seen within times of wars, blacksmiths in order to create high quality ammunition in mass quantities or the battlefield to provide magically enhanced ammunition. They are almost always needed, especially during times where ammunition supplies are short and their resourcefulness is necessary.",
+				"Some Munitioners aren't necesarily the type who provide their ammunition to others, some create their own ammunition for personal use such as soldiers who're assigned tasks for themselves.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer|TCE|Munitioner|SRPMunitioner|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Munitioner Spells|Artificer|TCE|Munitioner|SRPMunitioner|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Combat Ready|Artificer|TCE|Munitioner|SRPMunitioner|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Arcane Ammunition|Artificer|TCE|Munitioner|SRPMunitioner|3"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Tool Proficiency",
+			"entries": [
+				"When you adopt this specialization at 3rd level, you gain proficiency with smith's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+			],
+			"source": "SRPMunitioner",
+			"page": 51,
+			"className": "artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Munitioner",
+			"subclassSource": "SRPMunitioner",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Munitioner Spells",
+			"entries": [
+				"Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Munitioner Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Munitioner Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Hail of Thorns}, {@spell Shield}"
+						],
+						[
+							"5th",
+							"{@spell Cordon of Arrows}, {@spell Silence}"
+						],
+						[
+							"9th",
+							"{@spell Conjure Barrage}, {@spell Stinking Cloud}"
+						],
+						[
+							"13th",
+							"{@spell Death Ward}, {@spell Locate Creature}"
+						],
+						[
+							"17th",
+							"{@spell Conjure Volley}, {@spell Swift Quiver}"
+						]
+					]
+				}
+			],
+			"source": "SRPMunitioner",
+			"page": 51,
+			"className": "artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Munitioner",
+			"subclassSource": "SRPMunitioner",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Combat Ready",
+			"entries": [
+				"When you reach 3rd level, your combat training and your experiments with magic and weapon smithing have paid off in the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with all ranged weapons.",
+						"When you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity modifier, for the attack and damage rolls.",
+						"You ignore the Loading property of ranged weapons of which you are proficient in."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Abilities with Firearms",
+					"entries": [
+						"Regarding the usage of the third benefit of the Combat Ready feature, you may allow players to additionally have an additional effect with firearms that may have a different ammunition system, such as a bonus action to reload instead of an attack action."
+					]
+				}
+			],
+			"source": "SRPMunitioner",
+			"page": 51,
+			"className": "artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Munitioner",
+			"subclassSource": "SRPMunitioner",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Arcane Ammunition",
+			"entries": [
+				"As part of taking specialization at 3rd level, you craft an arcane container used to carry your tools and ammunition. Your container can be of any sort of portable object such as a quiver, pouch, or case. You may create a new arcane container at the end of a long rest which destroys the previous one.",
+				"You can create magical ammunition equal to 5 times your Artificer level in your arcane container at the end of a long rest, your arcane container cannot carry an amount more than the amount able to be created. At the end of a short rest, you can reproduce an amount equal to half of the amount available. This ammunition disappears after being used or after one hour of leaving your container and cannot be placed inside after being taken out of the arcane container. Additionally, you may also use an action and spend a spell slot of 1st level or higher to recreate 15 pieces of ammunition per level of the spell slot.",
+				"Your ammunition can be shaped into any form of your choice when taken out of your arcane container and provides an additional +1 to your attack and damage rolls, this bonus increases as you level up in this class a +2 bonus at 11th level and +3 bonus at 17th level.",
+				{
+					"type": "inset",
+					"name": "Ammunitions in Magazines",
+					"entries": [
+						"Sometimes, there are firearms that may be able to hold onto ammunition, therefore, the ammo's wording RAW would disappear while inside the firearm, that's not supposed to happen but it's difficult to word such things into a class feature while still accommodating multiple settings."
+					]
+				}
+			],
+			"source": "SRPMunitioner",
+			"page": 51,
+			"className": "artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Munitioner",
+			"subclassSource": "SRPMunitioner",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Extra Attack",
+			"source": "SRPMunitioner",
+			"page": 51,
+			"className": "artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Munitioner",
+			"subclassSource": "SRPMunitioner",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Infused Shot",
+			"source": "SRPMunitioner",
+			"page": 51,
+			"className": "artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Munitioner",
+			"subclassSource": "SRPMunitioner",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, you've learned how to enhance used ammunition in the battlefield, once per turn when your arcane ammunition is used, you may use it in one of the following ways, any ability that uses a saving throw uses your Artificer spell save DC:",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"name": "Elemental Shot.",
+							"entries": [
+								"When your arcane ammunition deals damage to a creature, it takes {@dice 2d4} additional acid, cold, fire, lightning, or thunder damage of your choice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Heavy Shot.",
+							"entries": [
+								"When your arcane ammunition deals damage to a creature, that creature must make a Strength saving throw or be knocked prone or be knocked back 15 feet of your choice."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enfeebling Shot.",
+							"entries": [
+								"When your arcane ammunition deals damage to a creature, that creature must make a Constitution saving throw or have disadvantage on their next attack roll it makes before the end of its next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Prismatic Infusion",
+			"source": "SRPMunitioner",
+			"page": 51,
+			"className": "artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Munitioner",
+			"subclassSource": "SRPMunitioner",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, you have discovered a method to infuse your ammunition with advanced elemental energy, when a creature takes damage from your arcane ammunition, you may force the creature to make a Constitution saving throw against your Artificer spell save DC or suffer one of the following effects determined by a {@dice d8} roll.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"type": "entries",
+							"name": "1-Red.",
+							"entries": [
+								"The target takes {@dice 10d6} fire damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "2-Orange.",
+							"entries": [
+								"The target takes {@dice 10d6} acid damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "3-Yellow.",
+							"entries": [
+								"The target takes {@dice 10d6} lightning damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "4-Green.",
+							"entries": [
+								"The target takes {@dice 10d6} poison damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "5-Blue.",
+							"entries": [
+								"The target takes {@dice 10d6} cold damage on a failed save, or half as much damage on a successful one."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "6-Indigo.",
+							"entries": [
+								"On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "7-Violet.",
+							"entries": [
+								"On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the DM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "8-Special.",
+							"entries": [
+								"The target is effected by a color of your choice, this cannot be selected again."
+							]
+						}
+					]
+				},
+				"When you use this feature, you cannot use it again until you finish a long rest."
+			]
+		}
+	]
+}
