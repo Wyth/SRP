@@ -191,6 +191,19 @@
 			"template": "{{prop_name}} ({{item.misfire}})"
 		},
 		{
+			"abbreviation": "POW",
+			"source": "SRPHBI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Power Shot",
+					"entries": [
+						"As a bonus action, if your next attack successfully hits with this weapon, it deals additional damage equal to one of its weapon damage die."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "RE",
 			"source": "SRPHBI",
 			"entries": [
@@ -4087,6 +4100,45 @@
 						"As an attack action, you can make a special attack against a creature in front of you. Expending all ammunition, you can make a ranged attack roll. On a hit, the target takes {@dice 2d10} plus your Dexterity modifier in bludgeoning damage. You can use this feature once per turn."
 					]
 				}
+			]
+		},
+		{
+			"name": "Compound Bow",
+			"source": "SRPHBI",
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10000,
+			"weaponCategory": "exotic",
+			"property": [
+				"A",
+				"2H",
+				"POW"
+			],
+			"dmg1": "1d6",
+			"range": "60/240",
+			"dmgType": "P",
+			"entries": [
+			]
+		},
+		{
+			"name": "Compound Crossbow",
+			"source": "SRPHBI",
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 10000,
+			"weaponCategory": "exotic",
+			"property": [
+				"A",
+				"2H",
+				"LD",
+				"POW"
+			],
+			"dmg1": "1d8",
+			"range": "60/240",
+			"dmgType": "P",
+			"entries": [
 			]
 		}
 	]
