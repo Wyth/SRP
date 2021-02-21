@@ -4138,6 +4138,58 @@
 			"range": "60/240",
 			"dmgType": "P",
 			"entries": []
+		},
+		{
+			"name": "Absolute Zero",
+			"source": "SRPAI",
+			"type": "M",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 1,
+			"weaponCategory": "martial",
+			"property": [
+				"AR",
+				"DI",
+				"L",
+				"UN"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"reqAttune": true,
+			"entries": [
+				"{@italic This is the weapon of Aslanth, modified to be used by Alana Nosbu.}",
+				"In the vast expanses of space one thing is absolute- the extreme. Temperatures can reach almost reach a state of cold called Absolute Zero, heats can reach a point of instant destruction and thus, Aslanth is able to unite the powers of Alana to expand his own reaches. These knuckle dusters are formed from meteorite and are always at a subzero temperature, as if they were permanently drifting through the frozen infinity of space.",
+				"You have a +2 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Ice Marks (Passive)",
+					"entries": [
+						"Whenever you damage a creature with this weapon, you can choose to mark that creature. When marked, a small symbol of Aslanth will appear by the creature, hovering over their heads for all to see. The more marks on a creature, the more visible this symbol becomes, until it is so bright that it is almost blinding.",
+						"As a bonus action, you can cause this mark to attack the creature with the freezing cold winds of the void. For each mark that the creature has (maximum of 6), it takes {@dice 1d8} cold damage. This cold damage ignores resistance and treats immunity as resistance, the unique cold of the void of space being freezing even for creatures who have adapted to the cold. The marks on a creature are expended if used in this way.",
+						"If a creature has 4 or more marks when you cause the target to be attacked with freezing cold, it must succeed on a Constitution saving throw or be petrified until the end of your next turn. The DC for this saving throw is 8 + your proficiency bonus + your Charisma modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cold as Ice (Passive)",
+					"entries": [
+						"Ice has preserved the world from the very beginning, and as Aslanth decreed, it will preserve you while you seek to protect the lives of your allies. Ice water now runs through your veins, your body temperature dipping far below what most would consider normal for a mortal. (Though, you don't mind in the slightest, do you?)",
+						"While within a cold environment, or while standing on ice, such as the ice created by your Freezing Expanse, you regenerate ten hit points at the start of your turn. You must have at least 1 hit point for this effect to occur.",
+						"In addition, when in a cold environment or standing on ice, such as from your Freezing Expanse, you deal an additional {@dice 2d6} cold damage on attacks made with this weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Winter’s Embrace (2/2, Long Rest)",
+					"entries": [
+						"Channeling the desolate, harsh cold of both winter and space itself, you clap your hands together to unleash a devastating blast of cold as your show those who would oppose you just how harsh the elements can be.",
+						"As an action, you unleash a blast of subzero air in a 60-foot cone originating from you. Creatures within the cone must succeed on a Constitution saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or take {@dice 10d8} cold damage, taking half as much damage on a successful save. Creatures killed by this ability become frozen statues until they thaw.",
+						"You may use this ability twice per long rest."
+					]
+				},
+				"",
+				""
+			]
 		}
 	]
 }
