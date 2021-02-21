@@ -271,7 +271,7 @@
 		},
 		{
 			"abbreviation": "VAR",
-			"source": "SRPHBI",
+			"source": "SRPAI",
 			"entries": [
 				{
 					"type": "entries",
@@ -342,7 +342,7 @@
 		},
 		{
 			"abbreviation": "VA",
-			"source": "SRPGS",
+			"source": "SRPAI",
 			"name": "Variable Weapon",
 			"entries": [
 				{
