@@ -4153,7 +4153,7 @@
 				"L",
 				"UN"
 			],
-			"dmg1": "{@dice 1d4}",
+			"dmg1": "1d4",
 			"dmgType": "B",
 			"reqAttune": true,
 			"entries": [
