@@ -3769,6 +3769,117 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Donovan (Rolim version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Unaligned",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Life",
+				"Medicine",
+				"Nature",
+				"Redemption"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"Donovan is a rather ordinary looking human man. His most notable features are his unkempt brown beard, and his striking green eyes. His clothing is rather miserly and plain, having been made cheaply and sewed back together over, and over again. Donovan never had a mind for fashion, using every gold he earned to help those in need. His companion, Jebediah, is a happy Saint Bernard, the dog always panting with glee whenever it's by its master's side.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Donovan, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Physick Matter",
+							"entries": [
+								"Blessed with his alchemical knowledge, Donovan imparts a formula that allows you to infuse his magic into liquid form. As an elixir, it can be ingested and stored in areas that are null in magic such as an antimagic field.",
+								"So long as you have ample resources, you may expend a spell slot of 1st level or higher and cast the spell into an empty bottle in hand. This spell must restore hit points to single creature. If unremitted, the effects of the spell are then instead transferred inside the bottle, now shining a golden liquid. A creature that drinks the contents of the elixir will receive the benefits of the spell casted.",
+								"The elixir lasts for 24 hours; thereafter, it transmutes into normal water."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Physick Manipulation",
+							"entries": [
+								"With newfound knowledge of medicine from Donovan, you have learned new ways to mix and prepare your daily regents, which are listed below. These regents grant benefits to those who would drink them. With new accompaniments, Rolim's Experimental Table is increased from 6 to 8 as does the die, from a {@dice d6} to a {@dice d8}. Additionally, when you roll on your Experimental Elixir table, you may roll an extra dice and choose which result to take for your daily elixir.",
+								"These regents' formulae were gracefully passed on to him by Donovan, respectively listed as seven and eight on the Experimental Elixir Table:",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "entries",
+											"name": "Acute Sense:",
+											"entries": [
+												"The drinker gains blindsight out to a range of 10 feet for 10 minutes."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Fortify:",
+											"entries": [
+												"When this potion is created, choose a damage type that is not bludgeoning, piercing, or slashing. The drinker gains resistance to the chosen damage type for 10 minutes. A creature can be under the effects of only one Fortify potion at a time."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Esuna",
+							"entries": [
+								"Your ability as an alchemist to heal others in the heat of battle or elsewhere has improved significantly. As a practitioner of alchemy, you've gain important insight into restorative methods using a healer's kit that others wouldn't normally be aware of. As such, your healer's kit is infused with alchemical properties similar to that of an infused item. However, this does not count towards the number of infusions you can have at a time. You may expend a use of a healer's kit on a creature as a bonus action to perform the following:",
+								{
+									"type": "list",
+									"items": [
+										"Neutralize a poison or disease affecting a creature",
+										"Grant a creature temporary hit points equal to a roll of the target's hit dice + their constitution modifier",
+										"Grant a creature resistance to poison damage and advantage on saving throws against poison or diseases for 10 minutes"
+									]
+								},
+								"Expended charges from the healer's kit will be restored upon completion of a long or short rest. Furthermore, you may use a bonus action to stabilize a creature using a healer's kit."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Donovan",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"TBD",
+								"TBD",
+								"TBD"
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
