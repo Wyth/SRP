@@ -5036,7 +5036,8 @@
 				}
 			],
 			"entries": [
-				"You gain a second familiar of the same type as the one you already have."
+				"You gain a second familiar of the same type as the one you already have.",
+				"Familiars summoned via this invocation count as one creature for the purposes of attunement."
 			]
 		},
 		{
