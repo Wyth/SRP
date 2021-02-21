@@ -339,6 +339,8 @@
 					]
 				}
 			]
+		},
+		{
 			"abbreviation": "VA",
 			"source": "SRPGS",
 			"name": "Variable Weapon",
