@@ -268,6 +268,19 @@
 					]
 				}
 			]
+		},
+		{
+			"abbreviation": "VAR",
+			"source": "SRPAI",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Variable",
+					"entries": [
+						"The properties of this item varies."
+					]
+				}
+			]
 		}
 	],
 	"itemType": [
@@ -323,6 +336,20 @@
 					"name": "Consumable",
 					"entries": [
 						"This item is consumed on use."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "VA",
+			"source": "SRPAI",
+			"name": "Variable Weapon",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Variable Weapon",
+					"entries": [
+						"The type of this weapon varies."
 					]
 				}
 			]
@@ -4189,6 +4216,84 @@
 				},
 				"",
 				""
+			]
+		},
+		{
+			"name": "Lævateinn",
+			"source": "SRPAI",
+			"type": "VA",
+			"tier": "major",
+			"rarity": "legendary",
+			"property": [
+				"AR",
+				"VAR"
+			],
+			"reqAttune": true,
+			"entries": [
+				"{@italic This is the weapon of Anasi, modified to be used by Enny Moonglare.}",
+				"In the eyes of Enny, Lævateinn is a beautifully crafted weapon. It is able to take an appearance of any weapon she desires; Lævateinn is layered in illusions so powerful no one even knows its true form, appearing as a different object to each individual who views it.",
+				"Anasi has gifted you Lævateinn, for you are worthy enough to wield its powers. A conduit for your newfound abilities. Deception is your strength, lies your native tongue. The mind of your enemy, your true weapon to use.",
+				"You gain a +1 bonus to attack and damage rolls made with this magic weapon, no matter which form it is in.",
+				"The unintelligible nature of this weapon baffles the mind of those struck by it. On a successful attack, you can force the enemy to make a Wisdom saving throw (DC = 8 + your proficiency Bonus + your Charisma Modifier). On a failed save, the enemy succumbs to the weapon and is subjected to an effect dictated by a {@dice d10} roll on the following table:",
+				{
+					"type": "list",
+					"items": [
+						"1-2: Wild, erratic, illusionary snakes spawn from the weapon and penetrate the enemies mind through whatever openings are available. The enemy takes {@dice 4d8} psychic damage.",
+						"3-4: The enemy begins to feel their body turn to stone believing they are being petrified. The enemy is stunned until they take damage or are snapped out of the illusion by an ally using an action.",
+						"5-6: Your visage shifts and morphs uncontrollably through the enemies' eyes, frightening them for 1 minute. The enemy can make a Wisdom save against this effect at the end of each of their turn, ending the effect on a successful save.",
+						"7-8: Illusions of grandeur cloud the creature's mind. The creature believes themselves to be more powerful than any adventurer and will boldly rush to fight the largest member of your party, even at risk of harm to themselves.",
+						"9-10: The creature views you as the bringer of Truth, everything and nothing seeming to coalesce around you all at once. They are charmed by you for 1 minute, or until they take damage from you. They may repeat the save at the end of their turns, ending the effect on a successful save."
+					]
+				},
+				"You may use this feature a number of times equal to your proficiency modifier and regain any expended uses after a long rest.",
+				{
+					"type": "entries",
+					"name": "A Will Like No Other",
+					"entries": [
+						"While attuned to this weapon, you are immune to the charmed condition. Anasi conforms to no one. She obeys no one. Neither will you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Eldritch Knowledge",
+					"entries": [
+						"You have been given 6 arcane points per your agreement with Anasi, which you have access to while attuned to this weapon. You can spend a specified number of arcane points in order to activate any of the following abilities (assuming you meet their activation requirements):",
+						{
+							"type": "table",
+							"colLabels": [
+								"Arcane Points",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"3 AP:",
+									"As an action, you may cause the weapon to shift, taking on a vastly different form from its own. You may cause the weapon to become any Uncommon or lower rarity magic item. You count as attuned to the item if it requires attunement. You may as a bonus action to have the weapon revert back to its normal form."
+								],
+								[
+									"2 AP:",
+									"Upon being damaged in any way, you may, as a reaction, cast the spell Mirror Image as duplicates of you swarm out from the weapon to defend you."
+								],
+								[
+									"2 AP:",
+									"When you take the Attack action on your turn, you may cast the spell Mislead as a bonus action after making your first attack, leaving an illusory version of yourself behind while you quietly escape."
+								],
+								[
+									"1 AP:",
+									"In place of a weapon attack made during the Attack action on your turn, you may cast the spell Color Spray at the 3rd level, as an inky, eldritch liquid spews from the weapon to try and blind your enemies."
+								],
+								[
+									"0 AP:",
+									"As a bonus action on your turn, you can expend a spell slot to regain a number of arcane points equal to the level of the expended spell slot (up to 3). You cannot increase your arcane points above 6 in this way."
+								]
+							]
+						},
+						"You regain any expended arcane points after a long rest."
+					]
+				}
 			]
 		}
 	]
