@@ -455,7 +455,7 @@
 				"T"
 			],
 			"dmg1": "1d6",
-			"range": "15/30",
+			"range": "20/40",
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true,
