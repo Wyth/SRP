@@ -4295,6 +4295,64 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Unbreakable",
+			"source": "SRPAI",
+			"type": "LA",
+			"tier": "major",
+			"rarity": "legendary",
+			"weight": 1,
+			"property": [
+				"AR"
+			],
+			"ac": "12",
+			"bonusAc": "+1",
+			"reqAttune": true,
+			"entries": [
+				"A long black leather duster with craftsmanship that would make even the most legendary of artisans feel envy coursing through their bodies and minds. A rose of fire burns along the back and red tinted metal lining the cuffs of the sleeve. Obsidian buttons run along the length of the front and the collar is lined with dragon scales gifted by Sani.",
+				"{@italic This armor represents the unbreakable resolve and loyalty that one who follows Sani must possess in order to create a change in the world.}",
+				"While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor.",
+				"This leather armor carries the same properties as adamantine armor.",
+				{
+					"type": "entries",
+					"name": "Unstoppable (Active)",
+					"entries": [
+						"While falling, you may use your reaction to plummet to the ground in an instant, landing in a super hero landing pose. You take no fall damage, but from the sudden impact a shockwave of force is released from the epic landing.",
+						"Each creature within a 10-foot radius of you when you collide with the ground must succeed on a Dexterity saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or take damage equal to the fall damage you would have taken (maximum of {@dice 10d6}) in thunder damage and is rendered deafened for one minute from the thunderous crash of the impact. A deafened creature may make a Constitution saving throw at the end of their turns (against the same DC) to end the effect. On a successful save, the creature takes half as much damage and is not deafened.",
+						"You may use this ability at will, but can only trigger the shockwave portion a number of times equal to your proficiency bonus and regains all expended uses after a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Impossible",
+					"entries": [
+						"You generate innate lightning energy and channel it outwards to achieve the impossible to reach your goals in the name of Sani. As an action, you explode the power outwards from your legs and leap up to 300 feet in any direction. When doing so you lets out a ripple of energy that expands outwards in a ten-foot radius, each creature within that radius must succeed on a Constitution saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or take {@dice 5d10} thunder damage and be pushed back 5 feet, taking half as much damage on a successful save with no pushback.",
+						"This can be used a number of times equal to your dexterity modifier and regain any expended uses after a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Inevitable",
+					"entries": [
+						"A Lumar in motion stays in motion unless acted upon by a need to shoot something else into motion. While you’re undergoing movement, either by forced movement or willing movement, and you crosse paths with another creature, you may use your reaction to channel the rest of your momentum into that creature and send them flying as you slam into them.",
+						"When you collide with another creature while in movement, you may use your reaction to force the creature to make a Strength saving throw (DC = 8 + your proficiency bonus + your Charisma modifier). If the creature fails, the creature is flung away from you a number of feet equal to your remaining movement, and you occupy the space of the flung creature, ending your movement. For every 5 feet of your expended movement, the creature takes {@dice 1d6} bludgeoning damage, to a maximum of {@dice 10d6}. If the creature slams into a wall, the creature ends its forced movement and takes {@dice 2d6} bludgeoning damage for every 5 feet the creature was supposed to move (the combined damage taken from being flung and colliding with a wall cannot exceed {@dice 14d6}). You may use this momentum transfer a number of times of equal to your proficiency bonus and regain all uses after a long rest.",
+						"You may use this ability twice per long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flashing Rose",
+					"entries": [
+						"The rose, the blade and the body, power and beauty coalescing together to become the embodiment of one's beliefs. Believing in one's goals and driving themselves forward with determination, this ability brings it all forward in a blast of speed and power.",
+						"Spinning on your heels with a flash of energy, you raise your leg high into the sky and bring it down in a crushing kick. This attack can replace an attack taken during the Attack action and is made at advantage as it moves blisteringly fast and powers through defenses. You can make an unarmed melee attack with proficiency that deals {@dice 2d10} bludgeoning and {@dice 2d8} lightning damage.",
+						"If the attack hits, your next attack carries the momentum of the kick and can also be made with advantage.",
+						"This ability cannot be used twice in the same action and can be used 3 times per long rest."
+					]
+				},
+				"",
+				""
+			]
 		}
 	]
 }
