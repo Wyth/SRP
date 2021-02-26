@@ -4307,6 +4307,7 @@
 				"AR"
 			],
 			"ac": "12",
+			"armor": true,
 			"bonusAc": "+1",
 			"reqAttune": true,
 			"entries": [
