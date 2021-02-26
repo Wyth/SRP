@@ -474,7 +474,7 @@
 			"source": "SRPF",
 			"prerequisite": [{
 				"race": [{
-					"name": "Demibeast (Leonin), Demibeast (Ursus), Demibeast (Wolf)"
+					"name": "Demihuman"
 				}]
 			}],
 			"ability": [
