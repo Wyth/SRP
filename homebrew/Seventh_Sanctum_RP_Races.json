@@ -5975,7 +5975,7 @@
 					"type": "entries",
 					"name": "Amongst Giants",
 					"entries": [
-						"Tiny creatures have advantage on Dexterity saving throws, but disadvantage on Strength saving throws. In addition, tiny creatures can move into the spaces of creatures that are medium or larger, provoking opportunity attacks as normal. They have a reach of 0 feet, meaning they must be in the same space as a creature to use a weapon or touch spell. This feature does not take effect if you are not currently considered Tiny."
+						"Tiny creatures have advantage on Dexterity saving throws, but disadvantage on Strength saving throws. In addition, tiny creatures can move into the spaces of creatures that are small or larger, provoking opportunity attacks as normal. They have a reach of 0 feet, meaning they must be in the same space as a creature to use a weapon or touch spell. This feature does not take effect if you are not currently considered Tiny."
 					]
 				}
 			],
