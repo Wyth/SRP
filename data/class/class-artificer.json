@@ -2036,7 +2036,6 @@
 					"type": "list",
 					"items": [
 						"You can attune to up to four magic items at once.",
-						"If you craft a magic item with a rarity of common or uncommon, it takes you a quarter of the normal time, and it costs you half as much of the usual gold.",
 						"Starting at 10th level, you can target yourself or another willing creature within 5-feet. As an action, you choose to unattune or attune that creature to a magic item in their possession. You can do this a number of times equal to your Intelligence modifier, and regain all expended charges on a long rest."
 					]
 				}
