@@ -3880,6 +3880,129 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Revan (Riven Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Errgans",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "",
+			"domains": [
+				"Undeath",
+				"Power",
+				"Revenge"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"Revan is a slender young man with wavy dirty blonde hair, his eyes glow like hell fire and carry visions of nightmares, his face is covered by a skeletal mask and his nose is removed- replaced with a metal seal of an ancient language. He wears a long black duster and a raggedy suit underneath, his body is primarily grey flesh but his left hand is pure bone. He walks with a slight limp and carries a crow headed cane, a strange blood red orb stuffed into its beak which glows with power. His boots too are worn and ragged, yet there are symbols that glow along the heels of a deep orange color.",
+				"Revan is always seen with a crow on his shoulder and leaves behind maggots when he is displeased.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Revan, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Gravewalker",
+							"entries": [
+								"Death is inevitable? No, the only inevitability is the hatred that will cause others to kill. Watch now, as my Gravewalker haunts you and shows just how unyielding they can be.",
+								"Revan implants his powers directly into his followers and leaves no room for weakness, including death among this list of weaknesses. As a being who shares a hall with Death themselves, he has given you the ability to ignore their embrace and rise again to deliver his vengeance upon them.",
+								"Whenever you die by failing three death saving throws or are killed outright, you can expend 3 Vengeance Points to rise with Gravewalker at the start of your turn. You gain a shield that provides temporary hit points equal to your level plus your Proficiency Bonus. You cannot regain hit points unless you are healed and will die again if the shield is destroyed.",
+								"You have 5 Vengeance Points total. All expended points are regained after a long rest; 1 point is recovered after a short rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Revenge (Passive)",
+							"entries": [
+								"Death has a special meaning for those who’ve tried to kill you. Let them feel its embrace and show the true meaning of your power beyond the realm.",
+								"While you are under the effects of Gravewalker or Resurrection Beyond Death, your attacks will deal additional damage equal to your Charisma modifier."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dark Retribution",
+							"entries": [
+								"You have learned to harness the power of hatred and vengeance. Channeling the energy within yourself with unrelenting power, you unleash it onto your enemies with a darkening power none a mortal has come across, splitting the sky above.",
+								"By expending 2 Vengeance Points, you can use an action to attack with advantage against a single creature of your choice. If the attack hits, you will instead deal {@dice 6d10} necrotic damage plus your Charisma modifier, ignoring resistances. If this attack reduces that creature to 0 hit points, the creature is destroyed leaving naught but artifacts and magical items.",
+								"Regardless of if the creature was killed or not, a burst of dark energy emits from it. Creatures within 20 feet of the target, with the exception of you and the stricken creature, must make a Constitution saving throw against your spell save DC. On a failure, they also take {@dice 6d10} necrotic damage ignoring resistances or half as much damage on a successful save."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Revan, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Room for Vengeance (Passive)",
+							"entries": [
+								"Your Vengeance Points total increases to 6, and you regain 2 points after a short rest rather than just 1 point. Additionally, you can expend one Vengeance Point once per turn to make an additional attack with advantage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Repulse",
+							"entries": [
+								"Through Riven, Revan grants him agency to unleash eons of mortal vengeance reflected upon the enemies he would fight. Retribution is thy punishment; swift as darkness, cold as ash.",
+								"You can enter this state of being for one minute as a bonus action by expending 2 Vengeance Points; it ends early if you are knocked unconscious. While in this state, you take damage from an attack made within ten feet of you, a quarter of the damage is dealt back to the attacker in retaliation.",
+								"Furthermore, you can pull and push enemies that are within 20 feet of you by force of will. All creatures you choose must make a Charisma saving throw against your spell save DC. On a failed save, they are pulled towards you and take {@dice 4d8} force damage. They are then flung outwards twenty feet away, taking an additional {@dice 4d8} force damage.",
+								"You can reduce the number of dice rolled, to a minimum of {@dice 1d8}, to push your enemies further away. Doing so allows you to push enemies an addition 10 feet for every dice removed. You can use this ability three times per long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Revan",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Forgiveness is a weakness, do not invite it in.",
+								"Power is unrelenting, so you should be too, show no mercy and continue fighting even if they have to kill you over and over.",
+								"Seek out vengeance against your wrongdoers, don’t let time or death stop you."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
