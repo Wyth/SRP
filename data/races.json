@@ -10573,30 +10573,6 @@
 			"name": "Triton",
 			"source": "MOT",
 			"page": 26,
-			"_copy": {
-				"name": "Triton",
-				"source": "VGM",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceArr",
-							"replace": "Alignment",
-							"items": {
-								"name": "Alignment",
-								"type": "entries",
-								"entries": [
-									"Tritons tend toward neutrality. Their culture encourages them to be mindful of life's currents, knowing when to harness fate's tides and when to flow along with them."
-								]
-							}
-						}
-					]
-				}
-			}
-		},
-		{
-			"name": "Triton",
-			"source": "VGM",
-			"page": 115,
 			"size": "M",
 			"speed": {
 				"walk": 30,
@@ -10669,7 +10645,7 @@
 					"name": "Alignment",
 					"type": "entries",
 					"entries": [
-						"Tritons tend toward lawful good. As guardians of the darkest reaches of the sea, their culture pushes them toward order and benevolence."
+						"Tritons tend toward neutrality. Their culture encourages them to be mindful of life's currents, knowing when to harness fate's tides and when to flow along with them."
 					]
 				},
 				{
