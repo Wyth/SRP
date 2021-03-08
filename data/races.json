@@ -664,8 +664,8 @@
 		},
 		{
 			"name": "Centaur",
-			"source": "GGR",
-			"page": 15,
+			"source": "MOT",
+			"page": 18,
 			"size": "M",
 			"speed": 40,
 			"ability": [
@@ -716,13 +716,13 @@
 					"name": "Alignment",
 					"type": "entries",
 					"entries": [
-						"Centaurs are inclined toward neutrality. Those who join the Selesnya are more often neutral good, while those who join the Gruul are typically chaotic neutral."
+						"Centaurs are inclined toward neutrality. Lagonna centaurs tend to be more lawful, while Pheres centaurs are more often chaotic."
 					]
 				},
 				{
 					"name": "Size",
 					"entries": [
-						"Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. Your size is Medium."
+						"Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. Pheres centaurs tend to be slightly larger than Lagonna centaurs. Your size is Medium."
 					],
 					"type": "entries"
 				},
@@ -765,57 +765,11 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Sylvan. Sylvan is widely spoken in the Selesnya Conclave, for it is rich in vocabulary to describe natural phenomena and spiritual forces."
+						"You can speak, read, and write Common and Sylvan."
 					],
 					"type": "entries"
 				}
 			]
-		},
-		{
-			"name": "Centaur",
-			"source": "MOT",
-			"page": 18,
-			"_copy": {
-				"name": "Centaur",
-				"source": "GGR",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceArr",
-							"replace": "Alignment",
-							"items": {
-								"name": "Alignment",
-								"type": "entries",
-								"entries": [
-									"Centaurs are inclined toward neutrality. Lagonna centaurs tend to be more lawful, while Pheres centaurs are more often chaotic."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Size",
-							"items": {
-								"name": "Size",
-								"type": "entries",
-								"entries": [
-									"Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. Pheres centaurs tend to be slightly larger than Lagonna centaurs. Your size is Medium."
-								]
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Languages",
-							"items": {
-								"name": "Languages",
-								"type": "entries",
-								"entries": [
-									"You can speak, read, and write Common and Sylvan."
-								]
-							}
-						}
-					]
-				}
-			}
 		},
 		{
 			"name": "Centaur",
