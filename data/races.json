@@ -5395,45 +5395,6 @@
 			"name": "Hobgoblin",
 			"source": "ERLW",
 			"page": 26,
-			"_copy": {
-				"name": "Hobgoblin",
-				"source": "VGM",
-				"_mod": {
-					"entries": [
-						{
-							"mode": "replaceArr",
-							"replace": "Alignment",
-							"items": {
-								"name": "Alignment",
-								"entries": [
-									"Hobgoblin society in Eberron is shaped by the ideal of a strict code of honor and rigid martial discipline. Most hobgoblins are lawful, tending toward harsh enforcement of their laws."
-								],
-								"type": "entries"
-							}
-						},
-						{
-							"mode": "replaceArr",
-							"replace": "Size",
-							"items": {
-								"name": "Size",
-								"entries": [
-									"Your size is Medium."
-								],
-								"type": "entries"
-							}
-						}
-					]
-				}
-			},
-			"traitTags": [
-				"Armor Proficiency",
-				"Weapon Proficiency"
-			]
-		},
-		{
-			"name": "Hobgoblin",
-			"source": "VGM",
-			"page": 119,
 			"otherSources": [
 				{
 					"source": "EGW",
@@ -5478,14 +5439,14 @@
 					"name": "Alignment",
 					"type": "entries",
 					"entries": [
-						"Hobgoblin society is built on fidelity to a rigid, unforgiving code of conduct. As such, they tend toward lawful evil."
+						"Hobgoblin society in Eberron is shaped by the ideal of a strict code of honor and rigid martial discipline. Most hobgoblins are lawful, tending toward harsh enforcement of their laws."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"Hobgoblins are between 5 and 6 feet tall and weigh between 150 and 200 pounds. Your size is Medium."
+						"Your size is Medium."
 					]
 				},
 				{
