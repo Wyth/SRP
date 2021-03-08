@@ -654,18 +654,6 @@
 					]
 				},
 				{
-					"name": "Pyromancer (PSK)",
-					"shortName": "Pyromancer (PSK)",
-					"source": "PSK",
-					"page": 9,
-					"subclassFeatures": [
-						"Pyromancer (PSK)|Sorcerer||Pyromancer (PSK)|PSK|1",
-						"Fire in the Veins|Sorcerer||Pyromancer (PSK)|PSK|6",
-						"Pyromancer's Fury|Sorcerer||Pyromancer (PSK)|PSK|14",
-						"Fiery Soul|Sorcerer||Pyromancer (PSK)|PSK|18"
-					]
-				},
-				{
 					"name": "Favored Soul v3 (UA)",
 					"shortName": "Favored Soul v3 (UA)",
 					"source": "UARevisedSubclasses",
@@ -2355,79 +2343,6 @@
 			"header": 2,
 			"entries": [
 				"Beginning at 18th level, the harmful energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn."
-			]
-		},
-		{
-			"name": "Pyromancer (PSK)",
-			"source": "PSK",
-			"page": 9,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "PSK",
-			"level": 1,
-			"entries": [
-				"Your innate magic manifests in fire. You are your fire, and your fire is you.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Heart of Fire|Sorcerer||Pyromancer (PSK)|PSK|1"
-				}
-			]
-		},
-		{
-			"name": "Heart of Fire",
-			"source": "PSK",
-			"page": 9,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "PSK",
-			"level": 1,
-			"header": 1,
-			"entries": [
-				"At 1st level, whenever you start casting a spell of 1st level or higher that deals fire damage, fiery magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take fire damage equal to half your sorcerer level (minimum of 1)."
-			]
-		},
-		{
-			"name": "Fire in the Veins",
-			"source": "PSK",
-			"page": 9,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "PSK",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"At 6th level, you gain resistance to fire damage. In addition, spells you cast ignore resistance to fire damage."
-			]
-		},
-		{
-			"name": "Pyromancer's Fury",
-			"source": "PSK",
-			"page": 9,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "PSK",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal fire damage to the attacker. The damage equals your sorcerer level, and ignores resistance to fire damage."
-			]
-		},
-		{
-			"name": "Fiery Soul",
-			"source": "PSK",
-			"page": 9,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Pyromancer (PSK)",
-			"subclassSource": "PSK",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"At 18th level, you gain immunity to fire damage. In addition, any spell or effect you create ignores resistance to fire damage and treats immunity to fire damage as resistance to fire damage."
 			]
 		},
 		{
