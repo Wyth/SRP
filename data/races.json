@@ -1969,36 +1969,6 @@
 				},
 				{
 					"name": "Eladrin",
-					"source": "DMG",
-					"page": 286,
-					"ability": [
-						{
-							"int": 1
-						}
-					],
-					"traitTags": [
-						"Weapon Proficiency",
-						"Spellcasting"
-					],
-					"entries": [
-						{
-							"name": "Elf Weapon Training",
-							"entries": [
-								"You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}."
-							],
-							"type": "entries"
-						},
-						{
-							"name": "Fey Step",
-							"entries": [
-								"You can cast the {@spell misty step} spell once using this trait. You regain the ability to do so when you finish a short or long rest."
-							],
-							"type": "entries"
-						}
-					]
-				},
-				{
-					"name": "Eladrin",
 					"source": "MTF",
 					"page": 61,
 					"ability": [
