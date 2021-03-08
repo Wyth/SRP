@@ -817,19 +817,6 @@
 			"classSource": "PHB"
 		},
 		{
-			"name": "Phoenix Soul Sorcerous Origin",
-			"shortName": "Phoenix Soul",
-			"source": "CoA",
-			"subclassFeatures": [
-				"Phoenix Soul|Sorcerer||Phoenix Soul|CoA|1",
-				"Phoenix Spark|Sorcerer||Phoenix Soul|CoA|6",
-				"Nourishing Fire|Sorcerer||Phoenix Soul|CoA|14",
-				"Form of the Phoenix|Sorcerer||Phoenix Soul|CoA|18"
-			],
-			"className": "Sorcerer",
-		"classSource": "PHB"
-		},
-		{
 			"name": "Primordial Chaos Sorcerous Origin",
 			"shortName": "Primordial Chaos",
 			"source": "CoA",
