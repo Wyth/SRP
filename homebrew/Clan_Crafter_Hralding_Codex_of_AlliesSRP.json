@@ -827,7 +827,7 @@
 				"Form of the Phoenix|Sorcerer||Phoenix Soul|CoA|18"
 			],
 			"className": "Sorcerer",
-			"classSource": "PHB"
+		"classSource": "PHB"
 		},
 		{
 			"name": "Primordial Chaos Sorcerous Origin",
@@ -4230,118 +4230,6 @@
 			"header": 2,
 			"entries": [
 				"Beginning at 18th level, your weapon allows you to call forth many protector spirits of your ancient bloodline. Whenever you use your Ancient's Aegis to protect an ally, you can choose up to three creatures to gain its benefits."
-			]
-		},
-		{
-			"name": "Phoenix Soul",
-			"source": "CoA",
-			"page": 99,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Phoenix Soul",
-			"subclassSource": "CoA",
-			"level": 1,
-			"entries": [
-				"Your power draws from the immortal flame of the legendary phoenix. That power is a mixed blessing. Like the mythical creature, you can invoke fiery energy and gain the ability to cheat death itself. This power comes at a cost. The fire within you seethes, demanding to be unleashed. Fire is a dangerous force, and phoenix sorcerers have a reputation (deserved or not) for reckless behavior, confident that the essence of the phoenix can save them.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Ignite|Sorcerer||Phoenix Soul|CoA|1"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Mantle of Flame|Sorcerer||Phoenix Soul|CoA|1"
-				}
-			]
-		},
-		{
-			"name": "Ignite",
-			"type": "entries",
-			"entries": [
-				"At 1st level, as an action, you can magically ignite a flammable object you touch with your hand that isn't being worn or carried.",
-				"Starting at 14th level, you can ignite creatures in this manner. When you touch a creature, it takes {@dice 1d6} fire damage and it must make a Constitution saving throw against your spell save DC or ignite in flames. At the start of each of its turns for 1 minute, or until the effect ends, the ignited creature must repeat the saving throw. On a failed save, it takes {@dice 1d6} fire damage. On a successful save, the effect ends. If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames (such as the target being submerged in water), the effect ends."
-			],
-			"source": "CoA",
-			"page": 99,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Phoenix Soul",
-			"subclassSource": "CoA",
-			"level": 1,
-			"header": 1
-		},
-		{
-			"name": "Mantle of Flame",
-			"type": "entries",
-			"entries": [
-				"Starting at 1st level, as a bonus action, you magically wreathe yourself in swirling fire. For 1 minute, you gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"You shed bright light in a 30-foot radius and dim light for an additional 30 feet.",
-						"Any creature takes fire damage equal to your Charisma modifier if it hits you with a melee attack from within 5 feet of you or if it touches you.",
-						"Whenever you roll fire damage on your turn, the roll gains a bonus to equal to your Charisma modifier."
-					]
-				},
-				"Once you use this feature you can't use it again until you finish a short or long rest."
-			],
-			"source": "CoA",
-			"page": 99,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Phoenix Soul",
-			"subclassSource": "CoA",
-			"level": 1,
-			"header": 1
-		},
-		{
-			"name": "Phoenix Spark",
-			"source": "CoA",
-			"page": 99,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Phoenix Soul",
-			"subclassSource": "CoA",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"Starting at 6th level, if you are reduced to 0 hit points, you can use your reaction to instead be reduced to 1 hit point, and each creature of your choice within 10 feet of you takes fire damage equal to half your sorcerer level + your Charisma modifier.",
-				"If you use this feature while under the effects of your Mantle of Flame, this feature instead deals fire damage equal to your sorcerer level + twice your Charisma modifier, and your Mantle of Flame immediately ends. Once you use this feature, you can't use it again until you finish a long rest."
-			]
-		},
-		{
-			"name": "Nourishing Fire",
-			"source": "CoA",
-			"page": 99,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Phoenix Soul",
-			"subclassSource": "CoA",
-			"level": 14,
-			"header": 2,
-			"entries": [
-				"Starting at 14th level, when you expend a spell slot to cast a spell that includes a fire damage roll, you regain hit points equal to the slot's level + your Charisma modifier."
-			]
-		},
-		{
-			"name": "Form of the Phoenix",
-			"source": "CoA",
-			"page": 99,
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"subclassShortName": "Phoenix Soul",
-			"subclassSource": "CoA",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"At 18th level, while under the effect of your Mantle of Flame feature, you can spend 5 Sorcery points and use your reaction to transform into a phoenix, gaining additional benefits until the effect of Mantle of Flame ends:",
-				{
-					"type": "list",
-					"items": [
-						"You have a flying speed of 40 feet and can hover.",
-						"You have immunity to fire damage. In addition, any spell or effect you create ignores resistance to fire damage and treats immunity to fire damage as resistance to fire damage."
-					]
-				},
-				"Once you use this feature, you can't use it again until you finish a long rest."
 			]
 		},
 		{
