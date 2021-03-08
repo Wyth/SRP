@@ -509,19 +509,6 @@
 					]
 				},
 				{
-					"name": "Sharpshooter (UA)",
-					"shortName": "Sharpshooter (UA)",
-					"source": "UAFighter",
-					"page": 3,
-					"subclassFeatures": [
-						"Sharpshooter|Fighter||Sharpshooter (UA)|UAFighter|3",
-						"Careful Eyes|Fighter||Sharpshooter (UA)|UAFighter|7",
-						"Close-Quarters Shooting|Fighter||Sharpshooter (UA)|UAFighter|10",
-						"Rapid Strike|Fighter||Sharpshooter (UA)|UAFighter|15",
-						"Snap Shot|Fighter||Sharpshooter (UA)|UAFighter|18"
-					]
-				},
-				{
 					"name": "Arcane Archer v2 (UA)",
 					"shortName": "Arcane Archer v2 (UA)",
 					"source": "UARevisedSubclasses",
@@ -3265,103 +3252,6 @@
 			"entries": [
 				"Starting at 18th level, your fighting spirit can delay the grasp of death. If you take damage that would reduce you to 0 hit points, you can delay that damage and immediately take a bonus turn, interrupting the current turn. You don't take the damage until the bonus turn ends. It is possible to do things, such as gaining resistance, that change how much of that damage you take.",
 				"Once you use this feature, you can't use it again until you finish a long rest."
-			]
-		},
-		{
-			"name": "Sharpshooter",
-			"source": "UAFighter",
-			"page": 3,
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Sharpshooter (UA)",
-			"subclassSource": "UAFighter",
-			"level": 3,
-			"entries": [
-				"The Sharpshooter is a master of ranged combat. An excellent sniper and eagle-eyed scout, this fighter is a perilous foe who can defeat an entire war band so long as they are kept at range.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Steady Aim|Fighter||Sharpshooter (UA)|UAFighter|3"
-				}
-			]
-		},
-		{
-			"name": "Steady Aim",
-			"source": "UAFighter",
-			"page": 3,
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Sharpshooter (UA)",
-			"subclassSource": "UAFighter",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Beginning when you choose this archetype at 3rd level, your aim becomes deadly. As a bonus action on your turn, you can take careful aim at a creature you can see that is within range of a ranged weapon you're wielding. Until the end of this turn, your ranged attacks with that weapon gain two benefits against the target:",
-				{
-					"type": "list",
-					"items": [
-						"The attacks ignore half and three-quarters cover.",
-						"On each hit, the weapon deals additional damage to the target equal to 2 + half your fighter level."
-					]
-				},
-				"You can use this feature three times. You regain all expended uses of it when you finish a short or long rest."
-			]
-		},
-		{
-			"name": "Careful Eyes",
-			"source": "UAFighter",
-			"page": 3,
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Sharpshooter (UA)",
-			"subclassSource": "UAFighter",
-			"level": 7,
-			"header": 2,
-			"entries": [
-				"Starting at 7th level, you excel at picking out hidden enemies and other threats. You can take the {@action Search} action as a bonus action.",
-				"You also gain proficiency in the {@skill Perception}, {@skill Investigation}, or {@skill Survival} skill (choose one)."
-			]
-		},
-		{
-			"name": "Close-Quarters Shooting",
-			"source": "UAFighter",
-			"page": 3,
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Sharpshooter (UA)",
-			"subclassSource": "UAFighter",
-			"level": 10,
-			"header": 2,
-			"entries": [
-				"At 10th level, you learn to handle yourself in close combat. Making a ranged attack roll while within 5 feet of an enemy doesn't impose disadvantage on your roll.",
-				"In addition, if you hit a creature within 5 feet of you with a ranged attack on your turn, that creature can't take reactions until the end of this turn."
-			]
-		},
-		{
-			"name": "Rapid Strike",
-			"source": "UAFighter",
-			"page": 3,
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Sharpshooter (UA)",
-			"subclassSource": "UAFighter",
-			"level": 15,
-			"header": 2,
-			"entries": [
-				"Starting at 15th level, you learn to trade accuracy for swift strikes. If you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action."
-			]
-		},
-		{
-			"name": "Snap Shot",
-			"source": "UAFighter",
-			"page": 3,
-			"className": "Fighter",
-			"classSource": "PHB",
-			"subclassShortName": "Sharpshooter (UA)",
-			"subclassSource": "UAFighter",
-			"level": 18,
-			"header": 2,
-			"entries": [
-				"Starting at 18th level, you are ever ready to spring into action. If you take the {@action Attack} action on your first turn of a combat, you can make one additional ranged weapon attack as part of that action."
 			]
 		},
 		{
