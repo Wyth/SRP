@@ -558,18 +558,6 @@
 					]
 				},
 				{
-					"name": "School of Invention (UA)",
-					"shortName": "Invention (UA)",
-					"source": "UAThreeSubclasses",
-					"page": 2,
-					"subclassFeatures": [
-						"School of Invention|Wizard||Invention (UA)|UAThreeSubclasses|2",
-						"Alchemical Casting|Wizard||Invention (UA)|UAThreeSubclasses|6",
-						"Prodigious Inspiration|Wizard||Invention (UA)|UAThreeSubclasses|10",
-						"Controlled Chaos|Wizard||Invention (UA)|UAThreeSubclasses|14"
-					]
-				},
-				{
 					"name": "Onomancy (UA)",
 					"shortName": "Onomancy (UA)",
 					"source": "UAClericDruidWizard",
