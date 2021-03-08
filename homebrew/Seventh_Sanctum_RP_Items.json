@@ -251,7 +251,7 @@
 					"type": "entries",
 					"name": "Scatter",
 					"entries": [
-						"Whenever you make the attack action, as a bonus action, you can cause your firearm to hit multiple targets. Make an attack roll against each creature in a cone equal to your firearm's normal range. On a successful hit, those creatures suffer damage as if you had attacked each of them (roll once). Firing this way increases your misfire score by 2 for that attack. You can only use Scatter once per round, regardless of how many bonus actions you may have. The Scatter property is unaffected by the Sharpshooter feat."
+						"Whenever you make a ranged attack against a creature, each creature within 5 feet of the original target and the normal range of your firearm is subjected to the attack roll, as if the attack was made against them. If the attack would hit that creature, they take {@dice 1d6} bludgeoning damage. This attack's damage cannot be modified by your features, except on a critical hit."
 					]
 				}
 			]
