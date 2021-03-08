@@ -523,18 +523,6 @@
 					]
 				},
 				{
-					"name": "Way of Tranquility (UA)",
-					"shortName": "Tranquility (UA)",
-					"source": "UAMonk",
-					"page": 1,
-					"subclassFeatures": [
-						"Way of Tranquility|Monk||Tranquility (UA)|UAMonk|3",
-						"Emissary of Peace|Monk||Tranquility (UA)|UAMonk|6",
-						"Douse the Flames of War|Monk||Tranquility (UA)|UAMonk|11",
-						"Anger of a Gentle Soul|Monk||Tranquility (UA)|UAMonk|17"
-					]
-				},
-				{
 					"name": "Way of the Drunken Master (UA)",
 					"shortName": "Drunken Master (UA)",
 					"source": "UAATrioOfSubclasses",
@@ -2596,105 +2584,6 @@
 			"header": 2,
 			"entries": [
 				"At 17th level, your mastery of weapons grants you extraordinary accuracy. On each of your turns, you can reroll one weapon attack roll you make that misses."
-			]
-		},
-		{
-			"name": "Way of Tranquility",
-			"source": "UAMonk",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "PHB",
-			"subclassShortName": "Tranquility (UA)",
-			"subclassSource": "UAMonk",
-			"level": 3,
-			"entries": [
-				"Monks of the Way of Tranquility see violence as a last resort. They use diplomacy, mercy, and understanding to resolve conflicts. If pushed, though, they are capable warriors who can bring an end to the unjust or cruel folk who refuse to listen to reason. When adventuring, these monks make excellent diplomats. They are also skilled in the healing arts, and can preserve their allies in the face of daunting foes.",
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Path of Tranquility|Monk||Tranquility (UA)|UAMonk|3"
-				},
-				{
-					"type": "refSubclassFeature",
-					"subclassFeature": "Healing Hands|Monk||Tranquility (UA)|UAMonk|3"
-				}
-			]
-		},
-		{
-			"name": "Healing Hands",
-			"source": "UAMonk",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "PHB",
-			"subclassShortName": "Tranquility (UA)",
-			"subclassSource": "UAMonk",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"Your mystical touch can heal wounds. Starting at 3rd level, you have a pool of magical healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your monk level × 10.",
-				"As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in the pool.",
-				"Instead of healing the creature, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Healing Hands, expending hit points separately for each one.",
-				"When you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature.",
-				"This feature has no effect on undead and constructs."
-			]
-		},
-		{
-			"name": "Path of Tranquility",
-			"source": "UAMonk",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "PHB",
-			"subclassShortName": "Tranquility (UA)",
-			"subclassSource": "UAMonk",
-			"level": 3,
-			"header": 1,
-			"entries": [
-				"When you choose this tradition at 3rd level, you can become an island of calm in even the most chaotic of situations. With this feature, you can cast the {@spell sanctuary} spell on yourself, no material component required, and it lasts up to 8 hours. Its saving throw DC equals 8 + your proficiency bonus + your Wisdom modifier. A creature that succeeds on the save is immune to this effect for 1 hour.",
-				"Once you cast the spell in this way, you can't do so again for 1 minute."
-			]
-		},
-		{
-			"name": "Emissary of Peace",
-			"source": "UAMonk",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "PHB",
-			"subclassShortName": "Tranquility (UA)",
-			"subclassSource": "UAMonk",
-			"level": 6,
-			"header": 2,
-			"entries": [
-				"At 6th level, you gain the ability to diffuse violent situations. Whenever you make a Charisma check to calm violent emotions or to counsel peace, you have advantage on the roll. You must make this entreaty in good faith; it doesn't apply if proficiency in the {@skill Deception} or {@skill Intimidation} skill applies to your check.",
-				"You also gain proficiency in the {@skill Performance} or {@skill Persuasion} skill (choose one)."
-			]
-		},
-		{
-			"name": "Douse the Flames of War",
-			"source": "UAMonk",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "PHB",
-			"subclassShortName": "Tranquility (UA)",
-			"subclassSource": "UAMonk",
-			"level": 11,
-			"header": 2,
-			"entries": [
-				"At 11th level, you gain the ability to temporarily extinguish a creature's violent impulses. As an action, you can touch a creature, and it must make a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Wisdom modifier. The target automatically succeeds if it's missing any of its hit points. If the target fails the save, it can't attack for 1 minute. During that time, it also can't cast spells that deal damage or that force someone to make a saving throw.",
-				"This effect ends if the target is attacked, takes damage, or is forced to make a saving throw or if the target witnesses any of those things happening to its allies."
-			]
-		},
-		{
-			"name": "Anger of a Gentle Soul",
-			"source": "UAMonk",
-			"page": 1,
-			"className": "Monk",
-			"classSource": "PHB",
-			"subclassShortName": "Tranquility (UA)",
-			"subclassSource": "UAMonk",
-			"level": 17,
-			"header": 2,
-			"entries": [
-				"At 17th level, you gain the ability to visit vengeance on someone who fells others. If you see a creature reduce another creature to 0 hit points, you can use your reaction to grant yourself a bonus to all damage rolls against the aggressor until the end of your next turn. The bonus equals your monk level.",
-				"Once you use this ability, you can't use it again until you finish a short or long rest."
 			]
 		},
 		{
