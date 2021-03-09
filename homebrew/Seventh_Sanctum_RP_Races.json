@@ -6448,6 +6448,63 @@
 					]
 				}
 			],
+			"fluff": {
+				"entries": [
+					"Half human and half equestrian, centaurs are one of the noblest of races in Krynn. They have thrived for centuries in the lush, shadowy forests of Ansalon, their lifespans lasting for centuries. Their love of pleasures spawn from a hedonistic desire; thus, they are charmed by wines, foods, and music. Finer forms of entertainment are suited to most tastes; however, nature and good weather appeal to the senses just as strongly for these high-headed creatures. A Krynnish centaur is easily distinguishable from other fey minotaur by their typically deep, sonorous voices, and an antiquated yet rusting form of Common (saying things such as 'thou' and 'thy' instead of 'you' and 'your').",
+					{
+						"type": "entries",
+						"name": "Chaotic Nomads",
+						"entries": [
+							"Centaurs live in loose packs and herds that have little if any codified rules and codes. These equestrian creatures rarely see a need for codes and laws, seeing such as unnecessary restrictions on their unfettered spirits. They seldom take root in the same places for long, opting to move whenever food is scarce or outsiders wander too close in numerable groups.",
+							"These Ansalonites, while they do not mind company of elves, humans, and kender, often find elves to be too serious, humans too unpredictable, and kender too childish. They often find themselves in good company with Mishta, even though they often rival a centaur's beauty in opposite, almost devilishly charming ways. Lastly, races such as minotaurs and dwarves are often seen as too ugly by centaurs, and are regarded by them often as bull-headed and stubborn."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Beautiful Before Brutish",
+						"entries": [
+							"Centaurs live for pleasure, first and foremost. Whether a new and invigorating tale to hear or tell, acquiring massive riches to flaunt and display, or even tailoring their outfit for the day: these Krynnish are obsessed with vanity. As a result, centaurs are often obsessed with their appearance and own displays of beauty. They abhor scars and disfigurement, even those from battle, and even most tattoos find their way to a centaur's disliking.",
+							"A centaur's human appearance is often still horse-like. Long hair runs down their backs like a mane. Males have broad chests, rippling muscles, and handsome, angular faces. Females are lithe and graceful, with features considered beautiful by elves and humans. Centaurs do not understand the physical modesty of other races, and wear clothing only if the weather demands it. They enjoy decorating their bodies and enhance their looks with jewelry, flowers, and other baubles. However, most baubles are often stored in a leather bag on their person, or perhaps in a hidden spot in the wilds, like a hollowed tree or an uneasily distinguished grave."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Living in the Moment",
+						"entries": [
+							"Centaurs tend to be rather passionate creatures, pursuing what they long for one minute and chasing down something else the next. Even more intellectual centaurs tend towards thinking with their heart. As a result, many centaurs switch occupations when they can or whenever they get strong urges to do so. A strong focal point for centaurs is to be encouraged to explore and discover what they enjoy over the course of their long lifespan.",
+							"This has a very dramatic effect on relationships. A pairing of centaurs may last a month or can last a year. Friendships can drift apart just as quickly as they can be seemingly brought together. An important philosophy: passion can be extinguished just as quickly as it can be ignited. Of course, if any kind of relationship didn't end terribly, both parties know it is of no offense to them personally—they just feel each other being drawn elsewhere."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Subraces",
+						"entries": [
+							"Most centaurs are Ansalonites, the most common and populous variety of centaur. There are three rarer types that do not take like their other kin, however. Below is information on three rarer subtypes of centaur, characterized usually by the stark constrasts to Ansalonites.",
+							{
+								"type": "entries",
+								"name": "Crystalmir",
+								"entries": [
+									"Crystalmir centaurs are shy and reclusive, and have not spread as widely as their close cousins, the Ansalonites. Crystalmirs are usually blonde or light brown in colour, with black or chestnut highlights; a few herds are sloid black or white. Crystalmirs seldom cooperate with other intelligent races, refusing to speak with strangers until they are completely convinced that they mean the herd no harm."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Endscapes",
+								"entries": [
+									"Endscapes are the most savage breed of centaurs, fond of strong wine and inebriation. They often making drunken raids on human villages, and thrill to vandalise buildings, terrorise humans, steal food and tools, and kidnap human women (who fascinate Endscape males). These lawless, merciless centaurs are not well-loved by other races."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Wendles",
+								"entries": [
+									"Resembling young Ansalonites, Wendles average only four to five feet in height, but are distinguished by their golden eyes and stubby tails. Wendles are the intellectuals among centaur breeds, and are interested in philosophy, history, and other scholastic pursuits. Wendles can be a good source of information, once they have been convinced to cooperate; they are very argumentative creatures, and quite stubborn."
+								]
+							}
+						]
+					}
+				]
+			},
 			"subraces": [
 				{
 					"name": "Crystalmir",
