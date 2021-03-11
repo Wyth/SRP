@@ -549,7 +549,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you hit with your Grasp from Beyond, you can force the creature to make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength modifier).",
+						"When you hit with your Grasp from Beyond, you can force the creature to make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength  or Dexterity modifier).",
 						"On a failed save, the creature becomes {@condition Paralyzed}.",
 						"You can use this ability twice, after which you must spend a long rest before you can use Undying Grasp again."
 					]
