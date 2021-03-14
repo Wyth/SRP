@@ -6826,6 +6826,107 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Half-Ogre",
+			"source": "SRPRaces",
+			"creatureTypes": [
+				"humanoid",
+				"giant"
+			],
+			"size": "L",
+			"speed": {
+				"walk": 35
+			},
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"traitTags": [
+				"Language Proficiency",
+				"Skill Proficiency",
+				"Darkvision"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"As humanoids related to the giants, Half Ogres can have long lifespans if they don’t grow up in a war torn lifestyle. A Half Ogre reaches adulthood around 20, and the oldest of them can live for 500 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Apparently Crag doesn't care, so whatever tf you want I suppose."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You stand around 8ft tall and weigh around 450lbs. Your Size is Large."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"From your larger legs compared to that of a normal person, your base movement is 35ft"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gluttonous Diet",
+					"entries": [
+						"From such variety typically found in the Ogre and Half Ogre diet, you have resistance to poison damage and advantage on saves against being poisoned."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Brutish Make",
+					"entries": [
+						"You gain Proficiency in Athletics."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Giantkin",
+					"entries": [
+						"You have two creature types, Humanoid and Giant."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temper",
+					"entries": [
+						"From your heritage, you tend to have a short fuse that leads to violence, which often blows when provoked. As a reaction to taking damage, you can enter an enraged state similar to that of a barbarian's rage. While in this state, you gain a +1 to melee attack rolls and to melee damage rolls for 1 minute. You then cannot use this ability again until you complete a short or long rest. At 11th level, the damage from this ability increases to +2. At 17th level, this damage increases to +3."
+					]
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak and read Common and Giant."
+					],
+					"type": "entries"
+				}
+			]
 		}
 	]
 }
