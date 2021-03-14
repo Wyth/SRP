@@ -4003,6 +4003,197 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Ithys (Zamara Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Oath",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "",
+			"domains": [
+				"Change",
+				"Forgiveness",
+				"Fate"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"Description of Deity:",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Ithys, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Mark of the Moon",
+							"entries": [
+								"Ithys blesses you with the light of the moon, guiding your sword to reflect the moonlight onto your enemies. Thus, the shadows lurking where they stand shall not grant them a hand over you.",
+								"Whenever you attack a creature, you may choose to mark a creature with Mark of the Moon. While a creature is marked, they cannot gain the benefits of being hidden or invisible towards you. Any attacks you make against them will be done as if you could see them normally.",
+								"You can mark only two creatures at a time. Each mark lasts for ten minutes or until the creature dies, you mark a different creature, or if it assumes a different form such as being under the effects of the Polymorph spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fated Gambit",
+							"entries": [
+								"Before making an attack, you can extend your hand out and draws forth the Devil Tarot card. You can then toss your hands into that of the Lady of the Moon, Fate and Forgiveness, thus allowing the card to determine if you will succeed or fail.",
+								"If the card is face up, the attack will critically strike; if the card is face down, the attack will critically miss.",
+								"This ability can be used three times per long rest and only once per turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Silver of the Moon",
+							"entries": [
+								"As an action, you choose a willing creature you touch as your ward, protecting them and granting them courage on the battlefield. While the target is within 60 feet of you, they gain a {@dice 1d4} bonus to attack rolls and a +1 bonus to damage rolls.",
+								"If the target is within 60 feet of you and is attacked by any creature, you may use your reaction to retaliate against that creature, making a weapon attack as if you were in the target's space. If the attack is successful, the damage from the creature, if any, is split betwixt you and the target. You can dismiss Silver of the Moon as an action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Relentless Chase",
+							"entries": [
+								"Ithys blesses you with the ability to achieve expeditious action in the battle—a swiftness accorded to her champion to rend the shadows.",
+								"While a creature is marked, you can choose to continue the chase. If you can see a creature within 60 feet of you who's under the effects of Mark of the Moon, you can use a bonus action to immediately dash towards them. Relentless Chase can be interrupted by means she cannot physically go through, be it a natural or a magical obstacle such as a wall of force.",
+								"This ability consumes the mark, which cannot be reapplied until your next turn.",
+								"Relentless Chase can only be used once per turn."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Ithys",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Never forget the things you love, and always follow the path you were meant to find.",
+								"One person's mistake can mean finding a new destiny.",
+								"Even if you follow the path full of shadows, remember that the moonlight will always shine upon you."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Killion (Orin Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Oath",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Life",
+				"Knowledge",
+				"Protection"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"Killion is a gentle giant, who stands heads taller than most other people. Gray hair that he keeps slicked back and a face that looks much too hard to be as friendly as he is. His body is large and muscular, adorned with scars all across, and he regularly either does not wear a shirt for the sake of flexing. He likes showing off his muscles a little too much.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Killion, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Hearth and Home (Active)",
+							"entries": [
+								"Every family needs a loving home to go to at the end of a long workday. In recognition of this, Killion has allowed you to bring yourself and anyone who you deem worthy to enjoy and relax by the fire.",
+								"As an action, while you are not engaged in combat, you may teleport yourself and any willing creature within 60 feet of you to and from a 30 ft. x 30 ft. cozy, comfortable log cabin located on a separate plane of existence. The fire is always roaring bright and the dining table is always set with simple, hearty food. It is amply furnished, and all who are within feel themselves put at ease. There is always enough food and water to nourish the occupants within the cabin. The cabin, however, may only hold up to ten people at a time, including the user. When you exit the cabin, you appear in the last space you were in, provided it is unoccupied. If it is, you are shunted to the nearest unoccupied space.",
+								"If a creature completes a short rest within the cabin, they gain 2 additional hit points for every hit die spent. If a creature completes a long rest within the cabin, their hit point maximum and current hit points increase by 5 until the completion of the creature's next long rest.",
+								"Once you have used this ability, you must complete a short rest outside the cabin or a long rest before using it again."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Strike, Like Hammer (Active)",
+							"entries": [
+								"Killion has imbued you with the strength of your fellow men, and it is for them, that you must not falter. For them, you must stand and be as immovable as mankind itself.",
+								"As an action, you may channel the strength and determination of all humanity within yourself. You gain the following benefits for 1 minute:",
+								{
+									"type": "list",
+									"items": [
+										"Your melee weapon attacks deal an additional {@dice 1d6} force damage.",
+										"Whenever you successfully hit a creature, you may force them to make a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Wisdom modifier. On a failed save, they are pushed back 10 feet and knocked prone from the sheer force of your blows.",
+										"If you would fail a saving throw that would knock you prone or move you against your will, you may use your reaction to succeed. This may be done twice per use of Strike, Like Hammer.",
+										"You may conjure an ethereal hammer, and slam it into the ground with the might of the people behind you as an action. Every creature of your choice within 30 feet of you must make a Strength saving throw with a DC equal to 8 + your proficiency bonus + your Wisdom modifier or take {@dice 6d6} thunder damage and be knocked prone. On a successful save, creatures take half as much damage and are not knocked prone. Upon use of this ability, Strike, Like Hammer ends immediately afterward."
+									]
+								},
+								"You may use this ability twice per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Sickle's Reach (Active)",
+							"entries": [
+								"Those who would threaten your fellow man must not lay out of your reach. You must protect from their oppressors and those who would seek to do harm. To prevent this, Killion has allowed you to extend your reach with the might of the sickle.",
+								"As a bonus action, you may conjure an ethereal, steel sickle in an unoccupied space within 30 feet of you. As part of the bonus action used to conjure it, and as a bonus action thereafter, you may have the sickle slash at a creature within 5 feet of it and attempt to pull someone closer to you. Make a melee spell attack using your Wisdom modifier. On a successful hit, the target takes force damage equal to {@dice 1d6} + your Wisdom modifier and is pulled 5 feet closer to you as the sickle pulls them in.",
+								"As a bonus action on your turn, you can move the sickle up to 30 feet and repeat the attack against a creature within 5 feet of it.",
+								"The sickle lasts for one minute, after which, it fades into nothingness.",
+								"You may use this ability a number of times equal to your proficiency bonus per long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Killion",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Fight for and protect your fellow man as if they were your own family because they are!",
+								"Make sure your fellow man is equal to you. There is no such thing as one man being better or greater than another.",
+								"We are all family and are all equal together and compassion is your strongest ally. As long as you have it within you, you have power as well."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
