@@ -470,88 +470,6 @@
 				{
 					"name": "Order of the Profane Soul",
 					"source": "BH2020",
-					"spellcastingAbility": "int",
-					"casterProgression": "pact",
-					"subclassSpells": [
-						{
-							"class": "Warlock",
-							"source": "PHB"
-						}
-					],
-					"subclassTableGroups": [
-						{
-							"subclasses": [
-								{
-									"name": "Order of the Profane Soul"
-								}
-							],
-							"colLabels": [
-								"{@filter Cantrips Known|spells|level=0|subclass=Blood Hunter: Profane Soul (BH2020)}"
-							],
-							"rows": [
-								[
-									0
-								],
-								[
-									0
-								],
-								[
-									2
-								],
-								[
-									2
-								],
-								[
-									2
-								],
-								[
-									2
-								],
-								[
-									2
-								],
-								[
-									2
-								],
-								[
-									2
-								],
-								[
-									3
-								],
-								[
-									3
-								],
-								[
-									3
-								],
-								[
-									3
-								],
-								[
-									3
-								],
-								[
-									3
-								],
-								[
-									3
-								],
-								[
-									3
-								],
-								[
-									3
-								],
-								[
-									3
-								],
-								[
-									3
-								]
-							]
-						}
-					],
 					"subclassFeatures": [
 						"Order of the Profane Soul|Blood Hunter|BH2020|Profane Soul|BH2020|3",
 						"Mystic Ferocity|Blood Hunter|BH2020|Profane Soul|BH2020|7",
@@ -561,51 +479,7 @@
 						"Arcanic Souleater|Blood Hunter|BH2020|Profane Soul|BH2020|18",
 						"Curse of the Souleater|Blood Hunter|BH2020|Profane Soul|BH2020|18"
 					],
-					"shortName": "Profane Soul",
-					"cantripProgression": [
-						0,
-						0,
-						2,
-						2,
-						2,
-						2,
-						2,
-						2,
-						2,
-						3,
-						3,
-						3,
-						3,
-						3,
-						3,
-						3,
-						3,
-						3,
-						3,
-						3
-					],
-					"spellsKnownProgression": [
-						0,
-						0,
-						2,
-						2,
-						3,
-						3,
-						4,
-						4,
-						5,
-						5,
-						6,
-						6,
-						7,
-						7,
-						8,
-						8,
-						9,
-						9,
-						10,
-						11
-					]
+					"shortName": "Profane Soul"
 				},
 				{
 					"name": "Order of the Mutant",
@@ -1705,7 +1579,9 @@
 			"subclassSource": "BH2020",
 			"level": 3,
 			"entries": [
-				"Brutal, fierce, empowered, chosen. Blood Hunters do not elect to go this path but are selected. At The Choosing a few, if any, trainlings are acknowledged by K'isin and their path is set. Others may call you \"lucky\" but you know it's anything but. Some Blood Hunters change shape, some change their biological makeup. You however fight with the power of a magic and skill as one. No monster shall escape your wrath whether they be beast or man. Even devils now quake when they know they've drawn the attention of Order of the Profane Soul.",
+				"Brutal, fierce, empowered. Blood Hunters do not choose this path. They are chosen. Few, if any, huntlings are acknowledged by K'isin The Souleater and their path is set.",
+				"The Profane fight with the power and ferocity of a demigod. No monster shall escape your wrath whether they be beast or man.",
+				"\"Fear not pain, nor foe, not even death. My wrath is the only fear worth bearing.\" - K'isin The Souleater",
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Profane Pact|Blood Hunter|BH2020|Profane Soul|BH2020|3"
@@ -1719,19 +1595,32 @@
 		{
 			"name": "Profane Pact",
 			"entries": [
-				"You are now a warrior forged of magic and skill and none shall stand in your way.",
 				{
 					"type": "entries",
-					"name": "Cantrips",
+					"name": "Empowerments.",
 					"entries": [
-						"At 3rd level you learn two cantrips from any school as long as they have a range of self or 5ft. You learn one more cantrip at 10th level."
+						"Along your path K'isin offers you power in exchange for blood. Be warned, these abilities come at a cost. If an Empowerment requires the enemy to make a saving throw the DC is (10+prof+Int) All Empowerments count as magical for overcoming resistance."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Empowerments",
+					"name": "Payment.",
 					"entries": [
-						"Along your path K'isin offers you a choice of power. These spells use Intelligence as your spellcasting modifier. Upon use of an Empowerment you take damage equal to one roll of your Hemocrat Die. Whenever you reduce a hostile creature to 0 hit points using a weapon, you regain a number of hit points equal to one roll of your hemocraft die."
+						"Using an Empowerment requires Payment. You take damage equal to the cost stated. As your Intelligence grows so does your control. Subtract your Intelligence modifier from your Payment. Payment for Empowerments may be raised by Blood for Power."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blood for Power.",
+					"entries": [
+						"When an Empowerment forces the enemy to make a saving throw you can raise it's DC by offering more Payment before the enemy rolls. You can decide to add Hemocraft die to your payment. Each additional Hemocraft die rolled adds a +1 to the DC"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Battle Hunger",
+					"entries": [
+						"Whenever you reduce a hostile creature to 0 hit points using a weapon, you regain a number of hit points equal to one roll of your hemocraft die."
 					]
 				}
 			],
@@ -1746,13 +1635,26 @@
 		{
 			"name": "Empowerment of Birth",
 			"entries": [
-				"You may choose one of the following spells as your first Empowerment. The chosen spell can only be used twice per long rest and does not require components or spell slots:",
+				"You learn Empowerments of Birth. You can use this Empowerment four times per long rest. Payment: Two rolls of your Hemocraft die.",
 				{
-					"type": "list",
-					"items": [
-						"{@spell Hex}",
-						"{@spell Inflict Wounds}",
-						"{@spell Wrathful Smite}"
+					"type": "entries",
+					"name": "Hunt:",
+					"entries": [
+						"As a bonus action you teleport up to 30 feet towards an enemy"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strike:",
+					"entries": [
+						"As a bonus action you focus your Rites. Your next attack deals additional Rite damage equal to two rolls of your Hemocraft die + your intelligence modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Devour:",
+					"entries": [
+						"As a bonus action you channel a bit of The Souleater, momentarily taking a spectral visage. Your next succesful attack rends some of the enemies soul healing you for three rolls of your Hemocraft die."
 					]
 				}
 			],
@@ -1773,7 +1675,7 @@
 			"subclassSource": "BH2020",
 			"level": 7,
 			"entries": [
-				"At 7th level you learn Mystic Ferocity and gain another Empowerment. Once per long rest choose to exchange one use of an Empowerment for an extra action with which you may attack or use an Empowerment. When casting a cantrip as an action you may make an attack with your bonus action on your turn."
+				"At 7th level you learn Mystic Ferocity. Once per long rest, as a free action on your turn, you can expend one use of an Empowerment for either an extra attack action. Doing so requires you to fulfill the Empowerments Payment."
 			]
 		},
 		{
@@ -1785,13 +1687,26 @@
 			"subclassSource": "BH2020",
 			"level": 7,
 			"entries": [
-				"You may choose one of the following spells as your second Empowerment. The chosen spell can only be used twice per long rest and does not require components or spell slots:",
+				"You learn Empowerments of Battle. You can use this Empowerment three times per long rest. Payment: Three rolls of your Hemocrtaft die.",
 				{
-					"type": "list",
-					"items": [
-						"{@spell Blur}",
-						"{@spell Enlarge/Reduce}",
-						"{@spell Misty Step}"
+					"type": "entries",
+					"name": "Stand:",
+					"entries": [
+						"As a reaction you may reroll a failed saving throw at advantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kill:",
+					"entries": [
+						"As an action you still your mind. Newly focused for battle you gain +2 AC, 15ft of movement, and make one additional attack during your attack action. Kill lasts one minute and can only be reactivated after it has expired."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Conquer:",
+					"entries": [
+						"As an action you roar and unleash your wrath unto the battlefield. Every enemy in a 15 ft radius of you must make Charisma saving throw. If the enemy fails it becomes frightened for one minute and takes {@dice 8d6} psychic damage as their very soul begins to crumble."
 					]
 				}
 			]
@@ -1805,18 +1720,24 @@
 			"subclassSource": "BH2020",
 			"level": 11,
 			"entries": [
-				"At 11th level you gain a new Empowerment and your Brand of Castigation becomes Brand of the Profane. Your Brand can no longer be removed by Dispel Magic but can be by Greater Restoration. Additionally, whenever you strike the marked enemy they suffer psychic damage equal to your Intelligence modifier. The enemy suffers disadvantage on attack rolls against you until the start of your next turn. The damage increases to twice your Int modifier with Brand of Tethering.",
+				"At 11th level you gain new Empowerments and your Brand of Castigation becomes Brand of The Profane. Whenever you strike a branded enemy they suffer psychic damage equal to your Intelligence modifier. At 13th level your Brand of Tetherings effects are added to your Brand of The Profane.",
 				{
 					"type": "entries",
 					"name": "Empowerment of Subjugation",
 					"entries": [
-						"You may choose one of the following spells as your third Empowerment. The chosen spell can only be used once per long rest and does not require components or spell slots:",
+						"You learn Empowerments of Subjugation, You may only use either once per long rest. Payment: Four rolls of your Hemocraft die.",
 						{
-							"type": "list",
-							"items": [
-								"{@spell Counterspell}",
-								"{@spell Haste}",
-								"{@spell Slow}"
+							"type": "entries",
+							"name": "Beg:",
+							"entries": [
+								"As an action you command the enemy forces to beg for mercy. Enemies in a 15ft radius must make a Wisdom saving throw. Any enemy that fails instantly falls prone and is restrained by your will until the start of your next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Stop:",
+							"entries": [
+								"As an action you dominate. A creature you can see within 90ft makes a Wisdom saving throw at disadvantage. If the creature fails it becomes paralyzed for one minute. The creature remakes it's saving throw at the end of each of it's turns."
 							]
 						}
 					]
@@ -1832,18 +1753,24 @@
 			"subclassSource": "BH2020",
 			"level": 15,
 			"entries": [
-				"At 15th level you are no longer bound by the limitations of mere mortals. Magic and weapon are now one and the same in your hands as your enemies fall before you. You are granted another Empowerment as well as given the abilitiy to activate both a Primal and an Esoteric Rite on the same weapon once per short or long rest.",
+				"At 15th level you are no longer bound by the limitations of mere mortals. You are now a full vassal of The Souleater. You are granted the abilitiy to activate both a Primal and an Esoteric Rite on the same weapon once per long rest.",
 				{
 					"type": "entries",
 					"name": "Empowerment of The Profane",
 					"entries": [
-						"You may choose one of the following spells as your fourth Empowerment. The chosen spell can only be used once per long rest and does not require components or spell slots:",
+						"You learn Empowerments of The Profane. You may only use either once per long rest. Payment: Five rolls of your Hemocraft die.",
 						{
-							"type": "list",
-							"items": [
-								"{@spell Blight}",
-								"{@spell Phantasmal Killer}",
-								"{@spell Shadow of Moil|xge}"
+							"type": "entries",
+							"name": "Soul Rend:",
+							"entries": [
+								"As an action you attempt to rip a creatures very soul from it's body, forcing them to make a Charisma saving throw. If the creature fails you rend their soul from their body dealing {@dice 10d8} psychic damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Profane Reaper:",
+							"entries": [
+								"As an action you enter the state a Profane Reaper for one minute. Souls you've reaped swarm around you causing you to be heavily obscured to all senses. Succesfull attacks against you cause the enemy to take {@dice 3d6} psychic damage as your captured souls attack the enemies soul directly."
 							]
 						}
 					]
@@ -1859,13 +1786,20 @@
 			"subclassSource": "BH2020",
 			"level": 18,
 			"entries": [
-				"A sheer force of nature, a veritable reaper of sorts you can now interact with the very magic that forms a soul and use it to fuel your own might. At 18th level you learn Curse of the Souleater and you now have two uses of Branded By A God."
+				"At 18th level you learn the Maledict: Curse of the Souleater"
 			]
 		},
 		{
 			"name": "Curse of the Souleater",
 			"entries": [
-				"When a creature that isn't a construct or undead is reduced to 0 hit points within 30 feet of you, you can use your reaction to usher their soul to your patron in exchange for power. Until the end of your next turn, your weapon attacks have advantage."
+				"When a creature with a soul is reduced to 0 hit points within 30 feet of you, you can use your reaction to usher their soul to your patron in exchange for power. Until the end of your next turn, your weapon attacks have advantage.",
+				{
+					"type": "entries",
+					"name": "Amplify:",
+					"entries": [
+						"You regain an expended Empowerment of your choice. You may only Amplify twice per long rest."
+					]
+				}
 			],
 			"source": "BH2020",
 			"className": "Blood Hunter",
@@ -2165,7 +2099,7 @@
 				{
 					"name": "Predatory Strikes",
 					"entries": [
-						"Your can apply your Crimson Rite feature to your unarmed strikes. You can use Dexterity instead of Strength for the attack and damage rolIs of your unarmed strikes. When you use the Attack action with an unarmed strike, you can make one unarmed strike as a bonusaction. Your unarmed strikes deal 1d6 slashing damage. The damage increases to 1d8 at 11th level."
+						"Your can apply your Crimson Rite feature to your unarmed strikes. You can use Dexterity instead of Strength for the attack and damage rolIs of your unarmed strikes. When you use the Attack action with an unarmed strike, you can make one unarmed strike as a bonusaction. Your unarmed strikes deal {@dice 1d6} slashing damage. The damage increases to {@dice 1d8} at 11th level."
 					]
 				},
 				{
