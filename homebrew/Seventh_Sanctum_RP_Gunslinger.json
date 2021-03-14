@@ -240,7 +240,31 @@
 					"Tinker's tools, and any one artisan's tool or any one musical instrument of your choice"
 				],
 				"skills": [
-					"Choose any two"
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"acrobatics",
+								"sleight of hand",
+								"stealth",
+								"arcana",
+								"history",
+								"investigation",
+								"nature",
+								"religion",
+								"animal handling",
+								"insight",
+								"medicine",
+								"perception",
+								"survival",
+								"deception",
+								"intimidation",
+								"performance",
+								"persuasion"
+							],
+							"count": 2
+						}
+					}
 				]
 			},
 			"startingEquipment": {
