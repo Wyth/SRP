@@ -473,11 +473,9 @@
 					"subclassFeatures": [
 						"Order of the Profane Soul|Blood Hunter|BH2020|Profane Soul|BH2020|3",
 						"Mystic Ferocity|Blood Hunter|BH2020|Profane Soul|BH2020|7",
-						"Empowerment of Battle|Blood Hunter|BH2020|Profane Soul|BH2020|7",
 						"Branded By a God|Blood Hunter|BH2020|Profane Soul|BH2020|11",
 						"The Unsealed|Blood Hunter|BH2020|Profane Soul|BH2020|15",
-						"Arcanic Souleater|Blood Hunter|BH2020|Profane Soul|BH2020|18",
-						"Curse of the Souleater|Blood Hunter|BH2020|Profane Soul|BH2020|18"
+						"Arcanic Souleater|Blood Hunter|BH2020|Profane Soul|BH2020|18"
 					],
 					"shortName": "Profane Soul"
 				},
@@ -1675,7 +1673,11 @@
 			"subclassSource": "BH2020",
 			"level": 7,
 			"entries": [
-				"At 7th level you learn Mystic Ferocity. Once per long rest, as a free action on your turn, you can expend one use of an Empowerment for either an extra attack action. Doing so requires you to fulfill the Empowerments Payment."
+				"At 7th level you learn Mystic Ferocity. Once per long rest, as a free action on your turn, you can expend one use of an Empowerment for either an extra attack action. Doing so requires you to fulfill the Empowerments Payment.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Empowerment of Battle|Blood Hunter|BH2020|Profane Soul|BH2020|7"
+				}
 			]
 		},
 		{
@@ -1786,28 +1788,22 @@
 			"subclassSource": "BH2020",
 			"level": 18,
 			"entries": [
-				"At 18th level you learn the Maledict: Curse of the Souleater"
-			]
-		},
-		{
-			"name": "Curse of the Souleater",
-			"entries": [
-				"When a creature with a soul is reduced to 0 hit points within 30 feet of you, you can use your reaction to usher their soul to your patron in exchange for power. Until the end of your next turn, your weapon attacks have advantage.",
+				"At 18th level you learn the Maledict: Curse of the Souleater",
 				{
 					"type": "entries",
-					"name": "Amplify:",
+					"name": "Curse of the Souleater",
 					"entries": [
-						"You regain an expended Empowerment of your choice. You may only Amplify twice per long rest."
+						"When a creature with a soul is reduced to 0 hit points within 30 feet of you, you can use your reaction to usher their soul to your patron in exchange for power. Until the end of your next turn, your weapon attacks have advantage.",
+						{
+							"type": "entries",
+							"name": "Amplify:",
+							"entries": [
+								"You regain an expended Empowerment of your choice. You may only Amplify twice per long rest."
+							]
+						}
 					]
 				}
-			],
-			"source": "BH2020",
-			"className": "Blood Hunter",
-			"classSource": "BH2020",
-			"subclassShortName": "Profane Soul",
-			"subclassSource": "BH2020",
-			"level": 18,
-			"header": 1
+			]
 		},
 		{
 			"name": "Order of the Mutant",
