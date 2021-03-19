@@ -1,0 +1,723 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SRPDragonAdventurer",
+				"abbreviation": "SRPDA",
+				"full": "The Dragon Adventurer",
+				"authors": [
+					"Canidae"
+				],
+				"convertedBy": [
+					"Wyth#8882"
+				],
+				"version": "1.0.0",
+				"url": "wyth.github.io/SRP/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"class": [
+		{
+			"name": "Dragon Adventurer",
+			"source": "SRPDragonAdventurer",
+			"proficiency": [
+				"Varies"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"Varies"
+				],
+				"weapons": [
+					"Varies"
+				],
+				"tools": [
+					"Varies"
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": false,
+				"default": [
+					"None?"
+				],
+				"defaultData": [
+					{
+						"_": [
+							"None?"
+						]
+					}
+				]
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Hit Dice",
+						"Breath Weapon",
+						"{@filter Spells Known|spells|class=Sorcerer}"
+					],
+					"rows": [
+						[
+							"{@dice 1d12}",
+							"{@dice 1d6}",
+							0
+						],
+						[
+							"{@dice 2d12}",
+							"{@dice 2d6}",
+							2
+						],
+						[
+							"{@dice 3d12}",
+							"{@dice 3d6}",
+							3
+						],
+						[
+							"{@dice 4d12}",
+							"{@dice 4d6}",
+							4
+						],
+						[
+							"{@dice 5d12}",
+							"{@dice 5d6}",
+							5
+						],
+						[
+							"{@dice 6d12}",
+							"{@dice 6d6}",
+							6
+						],
+						[
+							"{@dice 7d12}",
+							"{@dice 7d6}",
+							7
+						],
+						[
+							"{@dice 8d12}",
+							"{@dice 8d6}",
+							8
+						],
+						[
+							"{@dice 9d12}",
+							"{@dice 9d6}",
+							9
+						],
+						[
+							"{@dice 10d12}",
+							"{@dice 10d6}",
+							9
+						],
+						[
+							"{@dice 11d12}",
+							"{@dice 11d6}",
+							10
+						],
+						[
+							"{@dice 12d12}",
+							"{@dice 12d6}",
+							11
+						],
+						[
+							"{@dice 13d12}",
+							"{@dice 13d6}",
+							12
+						],
+						[
+							"{@dice 14d12}",
+							"{@dice 14d6}",
+							12
+						],
+						[
+							"{@dice 15d12}",
+							"{@dice 15d6}",
+							13
+						],
+						[
+							"{@dice 16d12}",
+							"{@dice 16d6}",
+							13
+						],
+						[
+							"{@dice 17d12}",
+							"{@dice 17d6}",
+							14
+						],
+						[
+							"{@dice 18d12}",
+							"{@dice 18d6}",
+							14
+						],
+						[
+							"{@dice 19d12}",
+							"{@dice 19d6}",
+							15
+						],
+						[
+							"{@dice 20d12}",
+							"{@dice 20d6}",
+							15
+						]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Sorcerer}",
+						"{@filter 2nd|spells|level=2|class=Sorcerer}",
+						"{@filter 3rd|spells|level=3|class=Sorcerer}",
+						"{@filter 4th|spells|level=4|class=Sorcerer}",
+						"{@filter 5th|spells|level=5|class=Sorcerer}"
+					],
+					"rows": [
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2
+						]
+					]
+				}
+			],
+			"classFeatures": [
+				"Draconic Adventurers|Dragon Adventurer|SRPDragonAdventurer|1",
+				"Dragon Wyrmling|Dragon Adventurer|SRPDragonAdventurer|1",
+				"Innate Spellcasting|Dragon Adventurer|SRPDragonAdventurer|2",
+				"Spell Slots|Dragon Adventurer|SRPDragonAdventurer|2",
+				"Spells Known of 1st Level and Higher|Dragon Adventurer|SRPDragonAdventurer|2",
+				"Spellcasting Ability|Dragon Adventurer|SRPDragonAdventurer|2",
+				"Prolific Feat|Dragon Adventurer|SRPDragonAdventurer|4",
+				"Magical Strikes|Dragon Adventurer|SRPDragonAdventurer|5",
+				"Young Dragon|Dragon Adventurer|SRPDragonAdventurer|6",
+				"Draconic Ambassador|Dragon Adventurer|SRPDragonAdventurer|7",
+				"Prolific Feat|Dragon Adventurer|SRPDragonAdventurer|8",
+				"Dragon's Charm|Dragon Adventurer|SRPDragonAdventurer|10",
+				"Commoner Guise|Dragon Adventurer|SRPDragonAdventurer|11",
+				"Prolific Feat|Dragon Adventurer|SRPDragonAdventurer|12",
+				"Adult Dragon|Dragon Adventurer|SRPDragonAdventurer|13",
+				"Bahamut's Courage|Dragon Adventurer|SRPDragonAdventurer|14",
+				"Prolific Feat|Dragon Adventurer|SRPDragonAdventurer|16",
+				"Treasure Hoarder|Dragon Adventurer|SRPDragonAdventurer|17",
+				"Legendary Creature|Dragon Adventurer|SRPDragonAdventurer|18",
+				"Ancient Dragon|Dragon Adventurer|SRPDragonAdventurer|20"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Draconic Adventurers",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 1,
+			"entries": [
+				"You and other dragons have volunteered to work alongside adventurers to complete quests, whether as an envoy or ambassadors of dragonkind or as an easier means to fill one's hoard. This heavily self-impactful decision has left you permanently altered; your strength relegated to the progression shown in the table above. This has led to the following changes in addition to those mentioned in later features:",
+				{
+					"type": "list",
+					"items": [
+						"Your challenge rating is equal to your level.",
+						"Your hit dice and breath weapon damage are adjusted to that shown in the level progression table.",
+						"Your hit point maximum is equal to [your level] x 6 . 5 + [your level] x your Constitution modifier, rounded down",
+						"Your alignment is not restricted to that of your kind."
+					]
+				},
+				"As you increase in level, you'll steadily gain the skills, proficiencies, and abilities associated with the type of dragon you are.",
+				{
+					"type": "table",
+					"caption": "Calculating Hit Points",
+					"colLabels": [
+						"Level",
+						"Base HP",
+						"Level",
+						"Base HP"
+					],
+					"rows": [
+						[
+							"1",
+							"9",
+							"11",
+							"115"
+						],
+						[
+							"2",
+							"19",
+							"12",
+							"126"
+						],
+						[
+							"3",
+							"28",
+							"13",
+							"162"
+						],
+						[
+							"4",
+							"38",
+							"14",
+							"175"
+						],
+						[
+							"5",
+							"47",
+							"15",
+							"187"
+						],
+						[
+							"6",
+							"63",
+							"16",
+							"200"
+						],
+						[
+							"7",
+							"73",
+							"17",
+							"212"
+						],
+						[
+							"8",
+							"84",
+							"18",
+							"225"
+						],
+						[
+							"9",
+							"94",
+							"19",
+							"237"
+						],
+						[
+							"10",
+							"105",
+							"20",
+							"270"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragon Wyrmling",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, your draconic body uses the Dragon Wyrmling (MM) statblock of your respective dragon with the following differences:",
+				{
+					"type": "list",
+					"items": [
+						"Your ability scores are adjusted to the following: 14 Strength, 8 Dexterity, 16 Constitution, 8 Intelligence, 12 Wisdom, 14 Charisma.",
+						"You've learned Common as a result of your close contact with humanoids in your upbringing.",
+						"Metallic dragons can only use their (non-damaging) secondary breath weapon once per short or long rest."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Save DCs",
+					"entries": [
+						"The save DC for your breath weapon (Dexterity or Constitution saving throw depending on the type of dragon) is equal to 8 + your proficiency bonus + your Constitution modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Innate Spellcasting",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 2,
+			"entries": [
+				"Your natural ability has led you to become adept at spellcasting. Starting at 2nd level, you've gained the ability to cast spells without the need for material components."
+			]
+		},
+		{
+			"name": "Spell Slots",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 2,
+			"entries": [
+				"The Dragon Adventurer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+				"For example, if you know the 1st-level spell Chromatic Orb and have a 1st-level and a 2nd-level spell slot available, you can cast Chromatic Orb using either slot."
+			]
+		},
+		{
+			"name": "Spells Known of 1st Level and Higher",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 2,
+			"entries": [
+				"You know two 1st-level spells of your choice from the sorcerer spell list.",
+				"The Spells Known column of the Dragon Adventurer Spellcasting table shows when you learn more sorcerer spells of 1st level or higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.",
+				"Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots."
+			]
+		},
+		{
+			"name": "Spellcasting Ability",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 2,
+			"entries": [
+				"Charisma is your spellcasting ability for your spells, since their power derives from your innate ability. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one."
+			]
+		},
+		{
+			"name": "Prolific Feat",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, and 16th level, you can learn one feat of your choice."
+			]
+		},
+		{
+			"name": "Magical Strikes",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, your natural weapon attacks are now considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+			]
+		},
+		{
+			"name": "Young Dragon",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you gain the abilities and changes associated with the Young Dragon (MM) statblock of your respective dragon with the following differences:",
+				{
+					"type": "list",
+					"items": [
+						"Your ability scores are adjusted to the following: 18 Strength, 10 Dexterity, 19 Constitution, 10 Intelligence, 13 Wisdom, 16 Charisma to reflect your increased worldly experience.",
+						"Metallic dragons can only use their (non-damaging) secondary breath weapon once per short or long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Ambassador",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 7,
+			"entries": [
+				"Your experience with the humanoids has led to aquire new life skills. At 7th level, you gain the following:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in 2 skills of your choice. If you would learn either of these skills from a different feature of this class, you may instead learn a different skill of your choice.",
+						"You learn one additional language."
+					]
+				}
+			]
+		},
+		{
+			"name": "Prolific Feat",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 8,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, and 16th level, you can learn one feat of your choice."
+			]
+		},
+		{
+			"name": "Dragon's Charm",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 10,
+			"entries": [
+				"At 10th level, you've finally gotten used to your new conduit to comfortably socialize with other dragonfolk:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on all Charisma checks that involve interacting with other dragons."
+					]
+				}
+			]
+		},
+		{
+			"name": "Commoner Guise",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 11,
+			"entries": [
+				"At 11th level, your work as a Dragon Adventurer has led you to discover a novel ability.",
+				"As an action, you can magically polymorph into a Commoner (MM) or back into your true form. You revert to your true form if you die. Any equipment you are wearing or carrying is absorbed or borne by your new form (your choice).",
+				"In your new form, you retain your alignment, hit points, Hit Dice, ability to speak, proficiencies, class features, Legendary Resistance, and Intelligence, Wisdom, and Charisma scores. Your statistics and capabilities are otherwise replaced by those of a Commoner."
+			]
+		},
+		{
+			"name": "Prolific Feat",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 12,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, and 16th level, you can learn one feat of your choice."
+			]
+		},
+		{
+			"name": "Adult Dragon",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 13,
+			"entries": [
+				"Starting at 13th level, you've gained the abilities and changes associated with the Adult Dragon (MM) statblock of your respective dragon with the following differences:",
+				{
+					"type": "list",
+					"items": [
+						"Your ability scores are adjusted to the following: 22 Strength, 10 Dexterity, 22 Constitution, 12 Intelligence, 14 Wisdom, 19 Charisma to reflect your considerably increased strength.",
+						"You do not have access to legendary actions, lair actions, or regional effects.",
+						"Metallic dragons do not have access to the Change Shape ability.",
+						"Metallic dragons can only use their (non-damaging) secondary breath weapon once per short or long rest."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Save DCs",
+					"entries": [
+						"The save DC for your Frightful Presence (Wisdom saving throw) is equal to 8 + your proficiency bonus + your Charisma modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bahamut's Courage",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 14,
+			"entries": [
+				"Even dragons have to deal with dragon assailants. Starting at 14th level, your combat experience and status as a bastion has granted you the following benefit:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on saving throws against the Frightful Presence and breath weapons of dragons."
+					]
+				}
+			]
+		},
+		{
+			"name": "Prolific Feat",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 16,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, and 16th level, you can learn one feat of your choice."
+			]
+		},
+		{
+			"name": "Treasure Hoarder",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 17,
+			"entries": [
+				"You adapted your draconic hoarding tendencies to your optimal benefit. Starting at 17th level you've gained the following abilities:",
+				{
+					"type": "list",
+					"items": [
+						"Your carrying capacity is doubled.",
+						"You immediately know if an item that you've seen in the past 24 hours has been tampered with or is missing."
+					]
+				}
+			]
+		},
+		{
+			"name": "Legendary Creature",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 18,
+			"entries": [
+				"Starting at 18th level, your commanding presence as an apex creature has granted you the following benefit in combat:",
+				{
+					"type": "list",
+					"items": [
+						"You can now take Legendary actions as listed in the Adult Dragon} and Ancient Dragon} statblocks (MM) of your respective dragon type."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Save DCs",
+					"entries": [
+						"The save DC for your Wing Attack legendary action (Dexterity saving throw) is equal to 8 + your proficiency bonus + your Strength modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ancient Dragon",
+			"source": "SRPDragonAdventurer",
+			"className": "Dragon Adventurer",
+			"classSource": "SRPDragonAdventurer",
+			"level": 20,
+			"entries": [
+				"At 20th level, you've reached the strength of the Ancient Dragon (MM) statblock of your respective dragon with the following changes:",
+				{
+					"type": "list",
+					"items": [
+						"Your ability scores are adjusted to the following: 26 Strength, 10 Dexterity, 25 Constitution, 14 Intelligence, 15 Wisdom, 21 Charisma as you've now reached the pinnacle of your dragonic might.",
+						"You do not have access to lair actions or regional effects.",
+						"Your creature size remains Huge.",
+						"Metallic dragons do not have access to the Change Shape ability.",
+						"Metallic dragons can only use their (non-damaging) secondary breath weapon once per short or long rest."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Random History from Previous Editions",
+					"entries": [
+						"Dragons have been known to swallow plundered loot to be regurgitated back at their lair. While this concept was novel and put up for consideration, it never made to into the proposed released version of this class/race option."
+					]
+				}
+			]
+		}
+	]
+}
