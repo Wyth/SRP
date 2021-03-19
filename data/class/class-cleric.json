@@ -15,6 +15,29 @@
 			],
 			"spellcastingAbility": "wis",
 			"casterProgression": "full",
+			"preparedSpells": "<$level$> + <$wis_mod$>",
+			"cantripProgression": [
+				3,
+				3,
+				3,
+				4,
+				4,
+				4,
+				4,
+				4,
+				4,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				5
+			],
 			"startingProficiencies": {
 				"armor": [
 					"light",
@@ -1899,7 +1922,7 @@
 			"classSource": "PHB",
 			"level": 11,
 			"entries": [
-				"Starting at 11th level, when an {@filter undead of CR 2 or lower|bestiary|challenge rating=[&0;&2]|type=undead|miscellaneous=!swarm} or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
+				"Starting at 11th level, when an {@filter undead of CR 2 or lower|bestiary|challenge rating=[&0;&2]|type=undead|miscellaneous=!swarm} fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
 			]
 		},
 		{
