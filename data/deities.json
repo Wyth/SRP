@@ -4194,6 +4194,243 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Suvia (Paul Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Old Deus",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"Suvia is often depicted as a lady covered in plants and leaves. Very few mortals have seen her face, often replacing it with a flower instead. She is never seen without greenery covering most of her body. She speaks with a smooth, calming voice.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Suvia, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Heal Thy Forest",
+							"entries": [
+								"All life is important. Sadly, healing magics don't always help the true givers of life of the world. But now, as a conduit you can heal all life within the biome you are in.",
+								"Your healing magics now affects wildlife that aren’t considered creatures or are awakened. Whenever you cast a spell that restores hit points, you can now target an object such as a tree or a plant and allow them to gain the full benefits of that healing spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Everyone is a Friend",
+							"entries": [
+								"Paul likes friends. Paul appreciates animals and plants and considers them all friends. And thus, Suvia granted you and your allies the ability to understand them all—to understand nature and possibly make more friends.",
+								"You exude a 10-foot aura that grants you and others creatures of your choosing an innate understanding of the animals or plants within that aura. Any animal or plant can understand what that creature says regardless of if they understand a language. Furthermore, you have advantage on Wisdom (Animal Handling) and Charisma (Persuasion) checks when talking to animals or plants. You can activate or suppress the aura once per turn (no action required)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Wild Body",
+							"entries": [
+								"You have learned to master the strengths of the beasts and animals without fully tapping into them. You can now partially wild shape your body into that of animals to help in tight situations. You can use this ability a number of times equal to your proficiency bonus, and these forms last for a number of hours equal to half your druid level (rounded down).",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "entries",
+											"name": "Arm of the Ape:",
+											"entries": [
+												"Your right arm grows much larger and physically muscular (and hairy, too). Attacks made with this natural weapon are considered to be made in beast form and deal {@dice 3d10} bludgeoning damage, using your Wisdom modifier for the attack and damage rolls. You also gain a climbing speed equal to your movement speed, can lift three times your carrying capacity, and gain a +10 bonus to Strength checks."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Tail of the Space Whale:",
+											"entries": [
+												"Your backside expands into a whale's tail. You can wiggle you butt and gain a flying speed equal to your movement speed. As an action, you can throw your tail back and slam it onto the ground, creating a shockwave. Any hostile creatures within a 10-foot radius of you must make a Strength saving against your spell save DC. On a failed save, they are pushed back ten feet and take {@dice 4d8} force damage. On a successful save, they take half as much damage and are not pushed back."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Tentacles of the Squid:",
+											"entries": [
+												"Two tentacles sprout from your back and wave around through the air. With them, you gain a swim speed equal to your movement speed and can attempt to grapple someone in place of a weapon attack. The tentacles have a reach of 15 feet, and the targeted creature must roll against your spell save DC due to your cognitive ability still being intact."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Suvia, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "I am One with the Forest, and the Forest is with Me (Passive)",
+							"entries": [
+								"You have risen in the hierarchy of the biodomes thanks to Suvia, with all critters and plant life welcoming your presence.",
+								"All wildlife, especially predatory, and flora regards you as one of their own. They are naturally less hostile only towards you. If a creature is naturally hostile, they are now indifferent. Creature that are usually indifferent are now friendly."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Life from the Lost",
+							"entries": [
+								"Suvia has taught that life exists in all forms, especially from nature. In her teachings, she even shows how life can bloom from the fallen.",
+								"As a reaction when creature dies within 30 feet of you, or as an action on more than one dead body within 30 feet of you, you may incur the blessing of Suvia on the corpse of a creature. That creature must have died in the last 24 hours.",
+								"When you use this ability, you may grant the corpse of the creature a return to nature, allowing life to bloom from death. Plant life blooms and forms from the creature, making the space or spaces the creature's body occupies turn into difficult terrain.",
+								"In addition, when a friendly creature starts its turn within 10 feet of a bundle of plants that Paul has bloomed, they may draw upon the energies being released from the freshly bloomed plants. When they do, they gain temporary hit points equal to half of your druid level and end one poison or disease affecting them. The plants finish emitting this healing energy after 1 minute of blooming.",
+								"Alternatively, you can grow a large-sized tree that consumes the corpse. The tree's appearance is treated like a singular pillar of the Bones of the Earth spell. If you would be in the area, you are immediately shunted to a square within 5 feet of the new tree."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Behold! My Friend!",
+							"entries": [
+								"Paul has a new friend. What more is there to say?",
+								"As an action, you can conjure an Ayo, a fey-like small familiar, to fight or defend at your side. The Ayo appears at a point you can see within 30 feet of you. It uses a custom statblock, though it uses your ability scores to determine its health, attacks, and spellcasting abilities. This creature can take the appearance of any animal you desire. The Ayo is friendly to you and your companions. The Ayo disappears after an hour, if it reduced to 0 hit points, or if you dismiss it as a bonus action.",
+								"The Ayo shares Paul's initiative. It obeys any verbal commands that you issue to it (no action required). If you don’t issue any commands to the Ayo, the Ayo will defend itself and your allies to the best of its ability.",
+								"{@creature Ayo|SRPC}"
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Suvia, you have been granted the following abilities at {@italic Bond Level 3}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Father Nature",
+							"entries": [
+								"Regarded by Suvia herself as worthy to guard the forests and all life, she understands that to do so, sometimes might must be enforced. Suvia's symbol has been emblazoned onto your chest and glows brightly as all who see it regard you as the protector of the forests.",
+								"When you use your Wild Shape, you may instead take on the form of a Titan Treant as your mark glows bright, a treant colloquially called Father Nature. This special treant resembles the very first treant to ever walk the land, an absolutely massive, mighty oak tree with unparalleled strength.",
+								"To hold this form causes a great strain, and as such, you may stay in your Titanic Treant form for up to 10 minutes before the form is dropped or until your form hits 0 hit points. You may transform into the Titanic Treant only once per short or long rest.",
+								"The Treant statblock is modified in the following ways:",
+								{
+									"type": "list",
+									"items": [
+										"Your size is Gargantuan.",
+										"It gains a number of hit dice equal to your Wisdom modifier.",
+										"It gains a bonus to its AC and to hit equal to your Wisdom modifier.",
+										"Its Animate Trees ability is replaced by the following:",
+										{
+											"type": "list",
+											"items": [
+												{
+													"type": "entries",
+													"name": "Force of Nature:",
+													"entries": [
+														"You may cast the {@spell spike growth} spell once without expending a spell slot. When you cast the {@spell spike growth} spell, you may target yourself with the spell. If you do so, the ground within 20 feet of you becomes spiked ground for the duration of the spell, and this aura follows you while the spell persists. Your allies can pass through the spiked terrain without being harmed."
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Natural Form",
+							"entries": [
+								"You have become well attuned with all aspects of nature and have learned the intricacies of the biology and spiritual aspects of all the creatures that take residence within the forests and jungles of the world.",
+								"When you Wild Shape into a regular wild shape form, you may expend a spell slot to imbue the natural energy of plants into the form, gaining the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You are under the effects of the {@spell Barkskin} spell (no concentration required) for the duration of the Wild Shape.",
+										"You gain temporary hit points equal to 5 times the level of the expended spell slot.",
+										"When you attack in the chosen form, you gain a bonus to the attack roll equal to the spell slot level that was expended.",
+										"Your creature type is plant instead of beast while you hold this form."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Photosynthesis (Passive)",
+							"entries": [
+								"You have merged and truly become one with nature. Your creature type is now plant instead of humanoid while not under the effects of Wild Shape and you gain the following benefits:",
+								{
+									"type": "list",
+									"items": [
+										"You are immune to poison damage and the poisoned condition from a plant-like filtration system found in your body.",
+										"When you spend at least one hour in sunlight, you do not need to eat, drink, or breath for the following 24 hours. After this time, you will need to spend another hour in sunlight to regain this benefit."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Suvia",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Love everything, even if it is dangerous to do so.",
+								"Nature can be scary, but should never be feared.",
+								"All life springs from nature, so everything is a part of nature."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
