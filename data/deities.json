@@ -4431,6 +4431,195 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Bruniik (Arthur Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Unaligned",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "",
+			"domains": [
+				"Strength",
+				"Knowledge",
+				"Ambition"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"The Lord of Training and Ambition. Bruniik will often assist those who follow him to grow in strength as well as learning how to read your enemy and use your body to its fullest extent. Bruniik doesn't shun defeat, he uses it as an excuse to learn and improve one's skill.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Bruniik, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Speed of the Wolf (1)",
+							"entries": [
+								"As a bonus action, you and your companion gain the ability to trek across large distances with disregard to the terrain. For ten minutes, you and Sif ignore difficult terrain and your movement speeds and long jump distances increase by 10 feet."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Guard Thy Son (2)",
+							"entries": [
+								"You protect others from certain death with your might in the heat of battle or when a situation calls for it. When an ally within 30 feet of you takes damage, you can use your reaction to take the damage instead. Resistance is applied after all other modifiers to damage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Might of the Pact (2)",
+							"entries": [
+								"As a pact leader, you direct allies in the fight regardless of the distance between you and them. As a bonus action, you can mark a target within 30 feet of you, granting your allies advantage on attack rolls against them. This lasts for a number of rounds equal to your Wisdom modifier, and can only be applied to a target once.",
+								"You may use this ability a number of times equal to your Wisdom modifier per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rest Your Strength I (Passive)",
+							"entries": [
+								"You regain all expended knowledge points after a long rest or one knowledge point after a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Bruniik, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Improved Speed of the Wolf",
+							"entries": [
+								"Your speed as well as Sif’s increases by 20 feet rather than 10 feet. Furthermore, you can make a high jump equal to 10 plus your Strength score if you spend at least 5 feet of movement. Your standing high jump distance is not halved when using this ability."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Equilibrium (2)",
+							"entries": [
+								"As a reaction, when you successfully make a Strength (Athletics) or Dexterity (Acrobatics) check against being grappled or restrained, you can attempt to use the flow of movement to grapple or restrain them, making the roll with advantage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Tactical Displacement (2)",
+							"entries": [
+								"You and Sif have fought numerous enemies, obtaining the knowledge of the strength and weaknesses through hardship. As a bonus action, you and Sif can immediately switch places as long both you and Sif are within 120 feet of each other. After switching places when fighting two separate creatures, you and Sif can attack a creature and make Strength (Athletics) or Dexterity (Acrobatics) checks with advantage until the end of your next turn."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Rest Your Strength II (Passive)",
+							"entries": [
+								"Your knowledge points total increases to six. You regain all expended knowledge points after a long rest, or two knowledge points after a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Bruniik, you have been granted the following abilities at {@italic Bond Level 3}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Rage and Tear",
+							"entries": [
+								"Your companion shares the fight with the same primal ferocity as you. When you enter rage on your turn, your companion also gains the benefit of raging on the rage table. Furthermore, you can choose for your companion on which totem features you have gained to grant to your companion. This can only happen once per rage."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Enmity (3)",
+							"entries": [
+								"You garner the attention of any number of hostile creatures around you, leaving them focused on you rather than your allies. You can choose a number of creatures equal to your proficiency bonus within 30 feet of you that can see and hear you. Each creature must succeed on a Wisdom saving throw against your spell save DC. On a failed save, the creature is drawn to you. For one minute, it has disadvantage on attack rolls against creatures other than you. This effect ends on a creature if you attack any other creature not provoked by you or move more than thirty feet away from it. You can use this ability while raging and must be able to concentrate on it as if you were concentrating on a spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Body of the Wolf",
+							"entries": [
+								"In addition to the other benefits you gain from Equilibrium, you also gain access to Onslaught and Thrill of the Battle:",
+								{
+									"type": "list",
+									"items": [
+										"Thrill of the Battle (Recharge 5-6): When you succeed on a Strength saving throw against a creature that would attempt to push you away or knock you prone, on your next turn you can attempt to reflect it back towards that creature and have them make the save against the save DC of their ability. If the ability also deals damage, it will also deal damage to that creature as well if they would fail or succeed.",
+										{
+											"type": "entries",
+											"name": "Onslaught:",
+											"entries": [
+												"Before you make a melee attack as part of the attack action, you can choose to have that attack be a critical hit. Once you use this benefit, you can't use it again until you finish a long rest."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Bruniik",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Improving yourself is your top priority.",
+								"Stagnation is degradation.",
+								"Learning strength and weakness is the key to improvement."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
