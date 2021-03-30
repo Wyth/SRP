@@ -4328,8 +4328,8 @@
 					"type": "entries",
 					"name": "Impossible",
 					"entries": [
-						"You generate innate lightning energy and channel it outwards to achieve the impossible to reach your goals in the name of Sani. As an action, you explode the power outwards from your legs and leap up to 300 feet in any direction. When doing so you lets out a ripple of energy that expands outwards in a ten-foot radius, each creature within that radius must succeed on a Constitution saving throw (DC = 8 + your proficiency bonus + your Dexterity modifier) or take {@dice 5d10} thunder damage and be pushed back 5 feet, taking half as much damage on a successful save with no pushback.",
-						"This can be used a number of times equal to your dexterity modifier and regain any expended uses after a long rest."
+						"You generate innate lightning energy and channel it outwards to achieve the impossible to reach your goals in the name of Sani. As an action, you explode the power outwards from your legs and leap up to 300 feet in any direction. When doing so you lets out a ripple of energy that expands outwards in a ten-foot radius, each creature within that radius must succeed on a Constitution saving throw (DC = 8 + your proficiency bonus + your Strength modifier) or take {@dice 5d10} thunder damage and be pushed back 5 feet, taking half as much damage on a successful save with no pushback.",
+						"This can be used a number of times equal to your strength modifier and regain any expended uses after a long rest."
 					]
 				},
 				{
