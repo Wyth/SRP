@@ -4620,6 +4620,314 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Traya (Raine Version)",
+			"source": "SRP",
+			"pantheon": "Adamantian",
+			"category": "Old Deus",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"title": "",
+			"domains": [
+				"Betrayal",
+				"Treachery",
+				"Sacrifice",
+				"Knowledge"
+			],
+			"symbolImg": {
+				"type": "null",
+				"href": {}
+			},
+			"entries": [
+				"Traya, when she allows herself to be seen either within the Court of Adamantis or when she reveals herself to her followers, often takes on the form of an elderly, human woman. Her hair as silver as the moon, braided with steel bindings as a dark robe shrouds her form. A red ruby gleams in the center of her headpiece, letting out a soft hum as it exudes power. Traya's eyes resemble the abyss itself, inky black voids that one is always at risk to get lost in should they not tear their gaze away fast enough. The Old Deus of Betrayal never smiles. Never frowns. Never shows any emotion. Merely staying calm and collected, no matter the circumstances.",
+				"All Arisen abilities require a verbal component, represented by you very literally summoning their power to your side with a shout. The line your character speaks is simply the Arisen's name. You do not need to shout the name of the ability.",
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Traya, you have been granted the following abilities at {@italic Bond Level 1}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 1"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Keep Thy Enemies Close (Passive)",
+							"entries": [
+								"You can designate an enemy as your ally (no action required). From that point, on you consider them an enemy of your enemy. If they are within 5 feet of another enemy, you are able to trigger sneak attack against either target."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mark of the Deserter",
+							"entries": [
+								"You can use a bonus action to designate up to three enemies within 120 feet of you as Deserters. When you do so, a shadowy black T in the shape of a blade forms over their chests before vanishing from view. These marks last for one minute and can be removed as a bonus action.",
+								"When you take the Attack action, as long as you are within 120 feet of a Deserter, you can cause your attack to come from their direction instead. The weapon will teleport out of the mark towards your designated target, if that target is between you and the Deserter, the attack can be made at advantage. This attack cannot strike its origin point.",
+								"When a Deserter dies, if another is within 30 feet Raine can freely move the mark over to them."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Treacherous Dodge",
+							"entries": [
+								"You utilize the enemies' strengths against them—why fight and bleed when one can cause their enemies to destroy themselves? When you brand someone as a Deserter, you can then Punish them. When an attack that targets only you is about to hit, you can use your reaction to activate the Mark of the Deserter and switch places with them, making them the target of the attack. They must be within 120 feet of you and be already marked to activate this ability. This ability can be used three times per long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Traya, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Spirit of Perfidy",
+							"entries": [
+								"When a creature is reduced to 0 hit points and you have damaged them at least once, you can activate the Spirit of Perfidy. As a bonus action, you can touch a creature’s corpse and possess them, your body becoming spectral green energy and fusing with the body. You then gain full control of that creature for a maximum of one minute. The corpse gains 1 hit point and temporary hit points equal to its CR.",
+								"On your turn, you may exit the body (no action required) and appear in a puff of green smoke that smells of herbs and alchemical components anywhere within 10 feet of it.",
+								"If the corpse takes damage that would reduce it to zero hit points, any excess damage carries over to you; however, you can avoid this damage by using your reaction to eject herself out of the body to an unoccupied space you can see within ten feet of the corpse.",
+								"You can use this ability three times per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Duplicity",
+							"entries": [
+								"You can attack an ally who is willing. When you do, this they take half the damage you deal and you may choose one enemy who has your Mark of the Deserter. They take the full amount of damage and the attack hits, no matter the attack roll, unless that attack is a critical failure."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "A Logistical Component",
+							"entries": [
+								"Traya has given you the knowledge to gain a further advantage in combat, after a short rest you can change her compounds and also gain a minor buff to all your compounds.",
+								"{@bold Minor Compound Recipes:}",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "entries",
+											"name": "Caustic Fang:",
+											"entries": [
+												"The acid damage dealt ignores resistance."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Coup:",
+											"entries": [
+												"The creature cannot repeat save for the duration."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Feebleness:",
+											"entries": [
+												"On a failed save, the creature is also restrained for the duration."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Frenzy:",
+											"entries": [
+												"On a failed save the creature suffers 2 levels of exhaustion (instead of one)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Haplessness:",
+											"entries": [
+												"The penalty is increased to {@dice 1d6} (instead of {@dice 1d4})."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Holy Water:",
+											"entries": [
+												"Undead creatures who fail the saving throw by 5 or more take maximized radiant damage from your sneak attack."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Noxious Needle:",
+											"entries": [
+												"The necrotic damage dealt ignores resistance."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Truth Serum:",
+											"entries": [
+												"On a failed, save the creature must respond to any yes or no question asked towards them with a \"yes\" or \"no\"."
+											]
+										}
+									]
+								},
+								"{@bold Major Compound Recipes:}",
+								{
+									"type": "list",
+									"items": [
+										{
+											"type": "entries",
+											"name": "Aboleth Mucus:",
+											"entries": [
+												"If the creature fails the saving throw by 5 or more, Raine can now designate a target creature on her turn (no action required)."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Basilisk Blood:",
+											"entries": [
+												"Three successive failed saves prevent the creature from repeating the saving throw for the remaining duration of the effect."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Couatl's Bite:",
+											"entries": [
+												"The creature can now only reroll the saving throw with advantage whenever it takes damage or another creature tries to shake them awake."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Crawler Venom:",
+											"entries": [
+												"Failing the initial saving throw by 5 or more prevents the creature from repeating the save for the duration."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Creeping Agony:",
+											"entries": [
+												"The poison damage dealt ignores resistance."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Draught of Devotion:",
+											"entries": [
+												"The initial saving throw is made at disadvantage."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Hag's Mead:",
+											"entries": [
+												"The creature also has disadvantage on weapon attack rolls."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Revenant's Tears:",
+											"entries": [
+												"The affected creature must use its reaction to move its full movement away from you when it fails the initial save."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Traya, you have been granted the following abilities at {@italic Bond Level 3}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 3"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Your Strength Betrays You",
+							"entries": [
+								"You have fully mastered you control over the power that has been granted to you by Traya. As an action, you can form a T-shaped blade in the palm of your hand and fire it off at a creature within range as if she was throwing a dagger with a +3 bonus to hit. It does no damage but impales their chest. A spectral chain forms between the blade and her palm and she may copy one aspect of them so she may use it against them.",
+								{
+									"type": "list",
+									"items": [
+										"their armor class",
+										"their to-hit bonus with one of their attacks (weapon or spell)",
+										"one of their ability scores",
+										"one of their damage resistances",
+										"one of their condition or damage immunities",
+										"one of their movement speeds"
+									]
+								},
+								"This copy lasts for one minute. You can use this ability three times per long rest and cannot have more than one active effect at a time."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Cut Off",
+							"entries": [
+								"As an action, you point at a target within 100 feet of you, as you use the power of Traya to attempt to completely cut off an opponent from the Weave. The target must make a save throw with its spellcasting ability modifier (or using its highest mental ability score) against your save DC (8 + your proficiency bonus + your Intelligence modifier).",
+								"On a failed save, the target is cut off from the Weave and cannot cast spells or use magic items for one minute as if they were under the effects of Anitmagic field. This field cannot be dispelled as per the spell Antimagic field.",
+								"You can use this ability once per long rest."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Forget Me, I Am Nothing",
+							"entries": [
+								"In life, the most dangerous are the ones who we ourselves give the ability to hurt. Traya knows of the pain that her follower has faced and has thus removed yours. No matter your choices, you can move forward with comfort under the guise of a nobody.",
+								"Your features cannot be recalled or identified by any who has encountered her; you may bestow upon them the ability to do so, however, by placing your hand on their head for one minute and saying, \"Remember me.\" You cannot undo this choice, but if she is charmed or magically compelled to it, Traya will cause it to fizzle out. Even if they hold hatred or love towards you, the details of your face will become blurred and impossible to make out in memories. Furthermore, if you are captured in an image of magic or technology, your face is blurred out there as well.",
+								"When a roll is made to identify or track you based on visuals, the roll is made with disadvantage.",
+								"Lastly, you are immune to the spell Scrying unless it is cast at 8th level or higher. If you must make a save against being scried on, you can make the roll with advantage."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Commandments of Traya",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Do not see every enemy as an enemy. See them instead as an ally, whether they know it or not.",
+								"To believe in an ideal is to be willing to betray it.",
+								"Do not cling to a single belief or ideal. Strive for the contrast. Do not become a blind slave of devotion."
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
