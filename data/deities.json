@@ -3010,6 +3010,77 @@
 					]
 				},
 				{
+					"type": "inset",
+					"name": "",
+					"entries": [
+						{
+							"entries": [
+								"As a follower of Djaughn, you have been granted the following abilities at {@italic Bond Level 2}:"
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Bond Level 2"
+					}
+				},
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Yo, whose magic is this?",
+							"entries": [
+								"When you cast a spell, you can instead choose to use a third level spell slot to cast a spell from another world, even ones you’ve never been to. You may do this three times per long rest.",
+								{
+									"type": "table",
+									"colLabels": [
+										"{@dice d6}",
+										"Spell"
+									],
+									"colStyles": [
+										"col-2 text-center",
+										"col-10"
+									],
+									"rows": [
+										[
+											"1",
+											"{@bold Expelliarmus:} Utilizing the magic of the Wizarding World, you fire off a red bolt of light while making a ranged spell attack. If it hits, the target takes {@dice 4d10} + INT force damage and is instantly disarmed. If they have no object to be disarmed of, they are instead blown back 10 feet."
+										],
+										[
+											"2",
+											"{@bold Bippity Boppity Boo:} Utilizing the magic of a fairy godmother, you can cast Polymorph on a creature or object. This spell still requires concentration, but the spell now ends at midnight instead of lasting its normal duration."
+										],
+										[
+											"3",
+											"{@bold Firaga:} Utilizing the magic of the Keyblade, you launch a much more powerful Fireball, though its impact radius is smaller. This spell deals {@dice 10d8} fire damage when cast at its lowest level in a ten-foot radius. Creatures in the area must make a Dexterity saving throw against your spell save DC. It can be upcast to 5th level, increasing by {@dice 1d8} per level."
+										],
+										[
+											"4",
+											"{@bold Freaky Friday:} You can utilize the power of Fate to attempt to switch two people’s bodies. Both creatures must make a Wisdom saving throw but can choose to fail. If both creatures fail, the targets switch bodies for the duration. This spell lasts for one hour and requires concentration."
+										],
+										[
+											"5",
+											"{@bold Eyes of the Infinite Chaotic Force:} Your eyes become portals to a realm of pure destructive energy and explode outwards in a violent 100-foot line. All enemies must succeed on a Dexterity saving throw or take {@dice 6d10} radiant damage that treats immunity as resistance and ignores resistance. On a failed save if the damage would reduce the creature to 0 hit points, they are disintegrated. On a successful save, they only take half as much damage and are not disintegrated."
+										],
+										[
+											"6",
+											"{@bold Candy of the Majin:} You can touch one individual and have them make a Strength, Constitution, and Wisdom saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier). If the creature fails all three saves, they are turned into a bright pink candy, which you may eat as an item interaction. Until the next dawn, you gain temporary hit points equal to their hit point maximum and gain their highest ability score if it is higher than yours. At dawn, the target reappears in a puff of pink smoke in the nearest unoccupied space from you with 1 hit point and two levels of exhaustion."
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "The Blessing of the Nilbog",
+							"entries": [
+								"A being of chaos and one tapped into the wild magic of disaster, you are gifted with the Nilbog's praises. As a reaction, you can force a creature that is about to hit you with an attack to succeed on a Charisma saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier) or be charmed by you until the end of the creature's next turn. A creature charmed in this way must use its action to praise you. This ability can be used a number of times equal to your proficiency bonus, and you regain any expended uses after a long rest."
+							]
+						}
+					]
+				},
+				{
 					"type": "entries",
 					"name": "Commandments of Djaughn",
 					"entries": [
