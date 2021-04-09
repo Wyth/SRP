@@ -4354,6 +4354,63 @@
 				"",
 				""
 			]
+		},
+		{
+			"name": "Ultimate Device",
+			"source": "SRPAI",
+			"type": "OTH",
+			"tier": "major",
+			"rarity": "legendary",
+			"property": [
+				"AR"
+			],
+			"reqAttune": true,
+			"entries": [
+				"When summoning your Unbound Library, you can alternatively summon it in the form of a tablet. While in this form, you have access to the following features:",
+				{
+					"type": "entries",
+					"name": "Welcome to My World",
+					"entries": [
+						"You can create a virtual copy of any creature you have acquired the true name of. You can then upload this data to the tablet and are capable of manipulating it in various ways.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "entries",
+									"name": "Recalibration",
+									"entries": [
+										"With a virtual copy of an individual, you can alter its physical make-up as a bonus action and incur the creature to have resistance or vulnerability to one damage type. This damage type cannot be slashing, piercing, or bludgeoning. This effect reverts at the start of your turn after {@dice 1d4} - 1 rounds (minimum of one).",
+										"You can use this ability a number of times equal to your proficiency bonus and regain any expended uses after a long rest."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "DNA Integration",
+									"entries": [
+										"As an action, you can ask a willing creature to offer a sample of their DNA (hair, blood, etc.) to upload them to the tablet. Creatures without such features can offer suitable replacements."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Virtual Insanity",
+									"entries": [
+										"Once per long rest as an action using the true name of a virtual copy, you can overload a creature's sensory abilities driving them temporarily insane. The creature takes {@dice 8d12} psychic damage and is blinded, deafened, and incapacitated for {@dice 1d4} turns. The creature is no longer incapacitated if they take damage."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Never ending knowledge",
+									"entries": [
+										"Once per long rest, you can use your action to extract the data of a creature without expending a use of the ability. When used this way, you are not limited to the creatures you may use Extract Data on, and you automatically Store this data as if you had used the Store Data ability."
+									]
+								}
+							]
+						}
+					]
+				},
+				"",
+				""
+			]
 		}
 	]
 }
