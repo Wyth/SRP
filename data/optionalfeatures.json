@@ -5430,7 +5430,8 @@
 				}
 			],
 			"entries": [
-				"Whenever you or your familiar would take damage, the other can use their reaction to magically take the damage instead of the target taking it. This doesn't transfer any effects that might accompany the damage. You can only use this feature if your familiar is within 100 feet of you."
+				"Whenever you or your familiar would take damage, the other can use their reaction to magically take the damage instead of the target taking it. This doesn't transfer any effects that might accompany the damage. You can only use this feature if your familiar is within 100 feet of you.",
+				"Should this damage reduce the familiar or Warlock to 0 hit points, any excess damage carries over to the original target."
 			]
 		},
 		{
