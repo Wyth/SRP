@@ -95,7 +95,7 @@
 				{
 					"name": "Final Light",
 					"entries": [
-						"Upon reaching zero hit points, your body becomes one with the Plane of Fire, and you explode into a fiery storm. Each hostile creature in a 30 feet radius must make a Dexterity saving throw equal to your 8 + your Charisma modifier + your proficiency bonus. On a failed save, they take {@dice {@dice {@dice 1d8}}} fire damage. For every level above 1, add an additional {@dice {@dice {@dice 1d8}}} fire damage. On a successful save, they instead take half damage. Once you use this trait, you can't use it again until you finish a long rest."
+						"Upon reaching zero hit points, your body becomes one with the Plane of Fire, and you explode into a fiery storm. Each hostile creature in a 30 feet radius must make a Dexterity saving throw equal to your 8 + your Charisma modifier + your proficiency bonus. On a failed save, they take {@dice 1d8} fire damage. For every level above 1, add an additional {@dice 1d8} fire damage. On a successful save, they instead take half damage. Once you use this trait, you can't use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
@@ -162,7 +162,7 @@
 				{
 					"name": "Spit Fire",
 					"entries": [
-						"As a bonus action, you can spit a molt of fire at a creature within 10 feet of you. That creature must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Constitution modifier. On a failed save, that creature takes {@dice {@dice {@dice 1d8}}} fire damage, or half as much on a successful one. The fire damage increases to {@dice {@dice 2d8}} at 5th level. {@dice {@dice 3d8}} at 10th level, {@dice {@dice 4d8}} at 15th level, and {@dice {@dice 5d8}} at 20th level. Once you use this feature, you cannot use it again until you finish a long rest."
+						"As a bonus action, you can spit a molt of fire at a creature within 10 feet of you. That creature must make a Dexterity saving throw equal to 8 + your proficiency bonus + your Constitution modifier. On a failed save, that creature takes {@dice 1d8} fire damage, or half as much on a successful one. The fire damage increases to {@dice 2d8}} at 5th level. {@dice 3d8}} at 10th level, {@dice 4d8}} at 15th level, and {@dice 5d8}} at 20th level. Once you use this feature, you cannot use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
@@ -183,7 +183,7 @@
 				{
 					"name": "Touched by the Fire Lord",
 					"entries": [
-						"As an action, you immerse yourself in the rage of Imix, the Prince of Evil Fire. For the next minute, whenever you take slashing or piercing damage from a creature within 5 feet of you, that creature takes {@dice {@dice {@dice 1d6}}} fire damage. Once you use this feature, you cannot use it again until you finish a long rest."
+						"As an action, you immerse yourself in the rage of Imix, the Prince of Evil Fire. For the next minute, whenever you take slashing or piercing damage from a creature within 5 feet of you, that creature takes {@dice 1d6} fire damage. Once you use this feature, you cannot use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
@@ -297,7 +297,7 @@
 					"name": "Draining Kiss",
 					"entries": [
 						"As a reaction upon first charming a creature with Devil's Palace, and as a bonus action thereafter, you kiss a creature {@condition charmed} by you or a willing creature within 5 feet of you. That target must make a Constitution saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier.",
-						"On a failed save, that target takes {@dice {@dice {@dice 2d6}}} psychic damage, and you heal for amount equal to half the damage taken (rounded down). The psychic damage increases to {@dice {@dice {@dice 3d6}}} at 5th level. {@dice {@dice {@dice 4d6}}} at 10th level, {@dice {@dice {@dice 5d6}}} at 15th level, and {@dice {@dice {@dice 6d6}}} at 20th level.",
+						"On a failed save, that target takes {@dice 2d6} psychic damage, and you heal for amount equal to half the damage taken (rounded down). The psychic damage increases to {@dice 3d6} at 5th level. {@dice 4d6} at 10th level, {@dice 5d6} at 15th level, and {@dice 6d6} at 20th level.",
 						"You can use this ability a number of times equal to your Charisma modifier (minimum of once), and regain all expended uses on a long rest."
 					],
 					"type": "entries"
@@ -499,7 +499,7 @@
 				{
 					"name": "Slash and Maul",
 					"entries": [
-						"You are proficient with your unarmed strikes. When you make an unarmed attack, decide whether you're attacking with your claws or your bite. Your claws deal {@dice {@dice {@dice 1d4}}} slashing damage on a hit, whereas your bite deals {@dice {@dice {@dice 1d6}}} piercing damage."
+						"You are proficient with your unarmed strikes. When you make an unarmed attack, decide whether you're attacking with your claws or your bite. Your claws deal {@dice 1d4} slashing damage on a hit, whereas your bite deals {@dice 1d6} piercing damage."
 					],
 					"type": "entries"
 				}
@@ -516,7 +516,7 @@
 						{
 							"name": "First Clan of Flame",
 							"entries": [
-								"Your unarmed claw attacks now deal {@dice {@dice {@dice 1d4}}} fire damage."
+								"Your unarmed claw attacks now deal {@dice 1d4} fire damage."
 							],
 							"type": "entries"
 						},
@@ -554,7 +554,7 @@
 						{
 							"name": "Second Clan of Ice",
 							"entries": [
-								"Your unarmed claw attacks now deal {@dice {@dice {@dice 1d4}}} cold damage."
+								"Your unarmed claw attacks now deal {@dice 1d4} cold damage."
 							],
 							"type": "entries"
 						},
@@ -592,7 +592,7 @@
 						{
 							"name": "Third Clan of the Moon",
 							"entries": [
-								"Your unarmed claw attacks now deal {@dice {@dice {@dice 1d4}}} radiant damage."
+								"Your unarmed claw attacks now deal {@dice 1d4} radiant damage."
 							],
 							"type": "entries"
 						},
@@ -630,7 +630,7 @@
 						{
 							"name": "Fourth Clan of the Mist",
 							"entries": [
-								"Your unarmed claw attacks now deal {@dice {@dice {@dice 1d4}}} thunder damage."
+								"Your unarmed claw attacks now deal {@dice 1d4} thunder damage."
 							],
 							"type": "entries"
 						},
@@ -669,7 +669,7 @@
 						{
 							"name": "Fifth Clan of Shadow",
 							"entries": [
-								"Your unarmed claw attacks now deal {@dice {@dice {@dice 1d8}}} necrotic damage."
+								"Your unarmed claw attacks now deal {@dice 1d8} necrotic damage."
 							],
 							"type": "entries"
 						},
@@ -900,7 +900,7 @@
 					"entries": [
 						{
 							"entries": [
-								"• You remove an arm and use it as a bone club. While used as a weapon, you have proficiency with your removed arm, which is a melee weapon with the finesse property that deals {@dice {@dice 1d6}} bludgeoning damage on it. This weapon also has the light property, but for all intents and purposes, that fact is of little use."
+								"• You remove an arm and use it as a bone club. While used as a weapon, you have proficiency with your removed arm, which is a melee weapon with the finesse property that deals {@dice 1d6}} bludgeoning damage on it. This weapon also has the light property, but for all intents and purposes, that fact is of little use."
 							],
 							"type": "entries"
 						},
@@ -1022,7 +1022,7 @@
 				{
 					"name": "Claws of the Damned",
 					"entries": [
-						"You possess clawed fingers on each of your hands, giving you a natural claw attack, which you may use as an unarmed strike. This claw attack deals slashing damage equal to {@dice {@dice {@dice 1d4}}} + either your Strength or Dexterity modifier (your choice). In addition, you can use Dexterity in place of Strength for attack rolls with your claws, and your claws are considered to be a melee weapon with the finesse property for any ability or feature that requires it."
+						"You possess clawed fingers on each of your hands, giving you a natural claw attack, which you may use as an unarmed strike. This claw attack deals slashing damage equal to {@dice 1d4} + either your Strength or Dexterity modifier (your choice). In addition, you can use Dexterity in place of Strength for attack rolls with your claws, and your claws are considered to be a melee weapon with the finesse property for any ability or feature that requires it."
 					],
 					"type": "entries"
 				},
@@ -1155,7 +1155,7 @@
 						{
 							"name": "Carnivorous Bite",
 							"entries": [
-								"Your fanged maw is a natural weapon, which you are proficient with. If you hit with it, you deal piercing damage equal to {@dice {@dice {@dice 1d8}}} + your Strength modifier."
+								"Your fanged maw is a natural weapon, which you are proficient with. If you hit with it, you deal piercing damage equal to {@dice 1d8} + your Strength modifier."
 							],
 							"type": "entries"
 						},
@@ -1255,7 +1255,7 @@
 						{
 							"name": "Ram",
 							"entries": [
-								"You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice {@dice {@dice 1d4}}} + your Strength modifier."
+								"You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier."
 							],
 							"type": "entries"
 						},
@@ -1393,7 +1393,7 @@
 						{
 							"name": "Claws",
 							"entries": [
-								"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to {@dice {@dice {@dice 1d6}}} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+								"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you can deal slashing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 							],
 							"type": "entries"
 						},
@@ -1482,7 +1482,7 @@
 				{
 					"name": "Artisan's Intuition",
 					"entries": [
-						"When you make an {@skill Arcana} check or an ability check involving artisan's tools, you can roll a {@dice {@dice {@dice 1d4}}} and add the number rolled to the ability check."
+						"When you make an {@skill Arcana} check or an ability check involving artisan's tools, you can roll a {@dice 1d4} and add the number rolled to the ability check."
 					],
 					"type": "entries"
 				},
@@ -1557,7 +1557,7 @@
 				{
 					"name": "Sentinel's Intuition",
 					"entries": [
-						"When you make an {@skill Insight} or {@skill Perception} check, you can roll a {@dice {@dice {@dice 1d4}}} and add the number rolled to the ability check."
+						"When you make an {@skill Insight} or {@skill Perception} check, you can roll a {@dice 1d4} and add the number rolled to the ability check."
 					],
 					"type": "entries"
 				},
@@ -1638,7 +1638,7 @@
 				{
 					"name": "Hunter's Intuition",
 					"entries": [
-						"When you make a {@skill Perception} or {@skill Survival} check, you can roll a {@dice {@dice {@dice 1d4}}} and add the number rolled to the ability check."
+						"When you make a {@skill Perception} or {@skill Survival} check, you can roll a {@dice 1d4} and add the number rolled to the ability check."
 					],
 					"type": "entries"
 				},
@@ -1706,7 +1706,7 @@
 				{
 					"name": "Wild Intuition",
 					"entries": [
-						"When you make a {@skill Animal Handling} or {@skill Nature} check, you can roll a {@dice {@dice {@dice 1d4}}} and add the number rolled to the ability check."
+						"When you make a {@skill Animal Handling} or {@skill Nature} check, you can roll a {@dice 1d4} and add the number rolled to the ability check."
 					],
 					"type": "entries"
 				},
@@ -1788,7 +1788,7 @@
 				{
 					"name": "Intuitive Motion",
 					"entries": [
-						"When you make an {@skill Acrobatics} check or any ability check to operate or maintain a land vehicle, you can roll a {@dice {@dice {@dice 1d4}}} and add the number rolled to the ability check."
+						"When you make an {@skill Acrobatics} check or any ability check to operate or maintain a land vehicle, you can roll a {@dice 1d4} and add the number rolled to the ability check."
 					],
 					"type": "entries"
 				},
@@ -2025,7 +2025,7 @@
 				{
 					"name": "Vampiric Bite",
 					"entries": [
-						"Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier to the attack and damage rolls when you attack with your bite. Your bite deals {@dice {@dice {@dice 1d4}}} piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.",
+						"Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier to the attack and damage rolls when you attack with your bite. Your bite deals {@dice 1d4} piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite.",
 						"When you use your bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:",
 						{
 							"type": "list",
@@ -2305,8 +2305,8 @@
 						{
 							"name": "Sting",
 							"entries": [
-								"Your sting is a natural weapon, which you can use to 4 make a unarmed strike with. If you hit with it, you deal piercing damage equal to {@dice {@dice {@dice 1d4}}} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. On a hit, you may choose to inject the target with your venom, after which you must spend a long rest before you can use your venom again.",
-								"This venom causes the target to take {@dice {@dice {@dice 2d6}}} poison damage, and it must make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength modifier). On a failed save, it is also {@condition Poisoned} until the start of your next turn. The poison damage increases to {@dice {@dice 3d6}} at 5th level. {@dice {@dice 4d6}} at 10th level, {@dice {@dice 5d6}} at 15th level, and {@dice {@dice 6d6}} at 20th level."
+								"Your sting is a natural weapon, which you can use to 4 make a unarmed strike with. If you hit with it, you deal piercing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. On a hit, you may choose to inject the target with your venom, after which you must spend a long rest before you can use your venom again.",
+								"This venom causes the target to take {@dice 2d6} poison damage, and it must make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength modifier). On a failed save, it is also {@condition Poisoned} until the start of your next turn. The poison damage increases to {@dice 3d6}} at 5th level. {@dice 4d6}} at 10th level, {@dice 5d6}} at 15th level, and {@dice 6d6}} at 20th level."
 							],
 							"type": "entries"
 						},
@@ -2349,8 +2349,8 @@
 						{
 							"name": "Sting",
 							"entries": [
-								"Your sting is a natural weapon, which you can use to 4 make a unarmed strike with. If you hit with it, you deal piercing damage equal to {@dice {@dice {@dice 1d4}}} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. On a hit, you may choose to inject the target with your venom, after which you must spend a long rest before you can use your venom again.",
-								"This venom causes the target to take {@dice {@dice {@dice 2d6}}} poison damage, and it must make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength modifier). On a failed save, it is also {@condition Poisoned} until the start of your next turn. The poison damage increases to {@dice {@dice 3d6}} at 5th level. {@dice {@dice 4d6}} at 10th level, {@dice {@dice 5d6}} at 15th level, and {@dice {@dice 6d6}} at 20th level."
+								"Your sting is a natural weapon, which you can use to 4 make a unarmed strike with. If you hit with it, you deal piercing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. On a hit, you may choose to inject the target with your venom, after which you must spend a long rest before you can use your venom again.",
+								"This venom causes the target to take {@dice 2d6} poison damage, and it must make a Constitution saving throw (DC: 10 + your Proficiency bonus + your Strength modifier). On a failed save, it is also {@condition Poisoned} until the start of your next turn. The poison damage increases to {@dice 3d6}} at 5th level. {@dice 4d6}} at 10th level, {@dice 5d6}} at 15th level, and {@dice 6d6}} at 20th level."
 							],
 							"type": "entries"
 						},
@@ -2556,7 +2556,7 @@
 						{
 							"name": "Iron Fists",
 							"entries": [
-								"When you hit with an unarmed strike, you can deal {@dice {@dice {@dice 1d4}}} + your Strength modifier bludgeoning damage, instead of the normal damage for an unarmed strike."
+								"When you hit with an unarmed strike, you can deal {@dice 1d4} + your Strength modifier bludgeoning damage, instead of the normal damage for an unarmed strike."
 							],
 							"type": "entries"
 						},
@@ -2664,7 +2664,7 @@
 				{
 					"name": "Song & Dance",
 					"entries": [
-						"You have proficiency with your claws, which are a finesse weapon that deal {@dice {@dice {@dice 1d8}}} slashing damage."
+						"You have proficiency with your claws, which are a finesse weapon that deal {@dice 1d8} slashing damage."
 					],
 					"type": "entries"
 				},
@@ -3265,7 +3265,7 @@
 						},
 						{
 							"entries": [
-								"{@b Natural Weapon.} You have a natural weapon that you are proficient in (this could be a bite, claw, quill, club tail, or other bestial feature). This natural weapon is a finesse weapon that deals {@dice {@dice {@dice 1d4}}} bludgeoning, piercing, poison, or slashing damage (your choice)."
+								"{@b Natural Weapon.} You have a natural weapon that you are proficient in (this could be a bite, claw, quill, club tail, or other bestial feature). This natural weapon is a finesse weapon that deals {@dice 1d4} bludgeoning, piercing, poison, or slashing damage (your choice)."
 							],
 							"type": "entries"
 						},
@@ -3277,7 +3277,7 @@
 						},
 						{
 							"entries": [
-								"{@b Regeneration.} Whenever you complete a short rest, you can roll one {@dice {@dice {@dice d6}}} if you expended any hit dice. Add the result to the total health you gain."
+								"{@b Regeneration.} Whenever you complete a short rest, you can roll one {@dice d6} if you expended any hit dice. Add the result to the total health you gain."
 							],
 							"type": "entries"
 						},
@@ -3662,7 +3662,7 @@
 				{
 					"name": "Arctic Regeneration",
 					"entries": [
-						"Whenever you complete a short rest, you can roll one {@dice {@dice {@dice d6}}} for each hit die you expend. Add the result to the total health you gain."
+						"Whenever you complete a short rest, you can roll one {@dice d6} for each hit die you expend. Add the result to the total health you gain."
 					],
 					"type": "entries"
 				},
@@ -3684,7 +3684,7 @@
 				{
 					"name": "Deadly Leap",
 					"entries": [
-						"Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start. If you jump at least 15 feet as part of your movement, you can use an attack action to slam on the ground in a space that contains one or more other creatures. Each of those creatures must succeed on a Strength or Dexterity saving throw equal to 8 + your proficiency bonus + your Strength modifier. On a failed save, those creatures are knocked {@condition prone} and take {@dice {@dice {@dice 1d6}}} bludgeoning damage. This damage increases to {@dice {@dice 2d6}} at 5th level, {@dice {@dice 3d6}} at 10th level, {@dice {@dice 4d6}} at 15th level, and {@dice {@dice 5d6}} at 20th level. Once you use this feature, you cannot use it again until you finish a short or long rest."
+						"Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start. If you jump at least 15 feet as part of your movement, you can use an attack action to slam on the ground in a space that contains one or more other creatures. Each of those creatures must succeed on a Strength or Dexterity saving throw equal to 8 + your proficiency bonus + your Strength modifier. On a failed save, those creatures are knocked {@condition prone} and take {@dice 1d6} bludgeoning damage. This damage increases to {@dice 2d6}} at 5th level, {@dice 3d6}} at 10th level, {@dice 4d6}} at 15th level, and {@dice 5d6}} at 20th level. Once you use this feature, you cannot use it again until you finish a short or long rest."
 					],
 					"type": "entries"
 				},
@@ -3750,7 +3750,7 @@
 					"type": "entries",
 					"name": "Rock Hurler",
 					"entries": [
-						"You are considered proficient in the use of appropriately-sized rocks and boulders as ranged weapons. Such boulders typically weigh fifty pounds, and deal bludgeoning damage equal to {@dice {@dice {@dice 1d10}}} + your Strength modifier, and have the thrown (30/150) and heavy qualities. These boulders are also considered simple melee weapons."
+						"You are considered proficient in the use of appropriately-sized rocks and boulders as ranged weapons. Such boulders typically weigh fifty pounds, and deal bludgeoning damage equal to {@dice 1d10} + your Strength modifier, and have the thrown (30/150) and heavy qualities. These boulders are also considered simple melee weapons."
 					]
 				},
 				{
@@ -3953,7 +3953,7 @@
 						{
 							"name": "Blood of Alu'kuri",
 							"entries": [
-								"Your Rock Hurler now allows you to use boulders over one hundred pounds as ranged weapons. You deal bludgeoning damage equal to {@dice {@dice {@dice 1d12}}} + your Strength modifier. Boulders below a hundred pounds do not gain the benefit of this trait."
+								"Your Rock Hurler now allows you to use boulders over one hundred pounds as ranged weapons. You deal bludgeoning damage equal to {@dice 1d12} + your Strength modifier. Boulders below a hundred pounds do not gain the benefit of this trait."
 							],
 							"type": "entries"
 						},
@@ -4082,7 +4082,7 @@
 							"type": "entries",
 							"name": "Incorporeal Stride",
 							"entries": [
-								"You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take {@dice {@dice 1d10}} force damage and are immediately ejected to the closest available space. After passing through a physical barrier, you must complete a short or long rest before you are able to do so again."
+								"You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take {@dice 1d10}} force damage and are immediately ejected to the closest available space. After passing through a physical barrier, you must complete a short or long rest before you are able to do so again."
 							]
 						},
 						{
@@ -4097,7 +4097,7 @@
 							"name": "Invoke Smite",
 							"entries": [
 								"You can instill power into the weapon of a nearby creature to strike with divine energy. As an action, a creature within 30 feet of you.",
-								"Until the end of your next turn, the next time that creature succeeds on a melee weapon attack, it deals an additional {@dice {@dice {@dice 1d8}}} radiant damage or {@dice {@dice {@dice 1d8}}} necrotic damage (your choice). Once you use this trait, you can't use it again until you finish a long rest."
+								"Until the end of your next turn, the next time that creature succeeds on a melee weapon attack, it deals an additional {@dice 1d8} radiant damage or {@dice 1d8} necrotic damage (your choice). Once you use this trait, you can't use it again until you finish a long rest."
 							]
 						},
 						{
@@ -4160,7 +4160,7 @@
 							"type": "entries",
 							"name": "Incorporeal Stride",
 							"entries": [
-								"You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take {@dice {@dice 1d10}} force damage and are immediately ejected to the closest available space. After passing through a physical barrier, you must complete a short or long rest before you are able to do so again."
+								"You can move through other creatures and objects other than physical barriers (such as walls, floors, or ceilings) as if they were difficult terrain. On your turn, you can pass through up to 10 feet of physical barriers (treating them as difficult terrain) as a part of your movement. If you end your turn inside an object or barrier, you take {@dice 1d10}} force damage and are immediately ejected to the closest available space. After passing through a physical barrier, you must complete a short or long rest before you are able to do so again."
 							]
 						},
 						{
@@ -4209,7 +4209,7 @@
 								},
 								{
 									"entries": [
-										"• Any saving throws your true body or your sacrophagus makes are flat {@dice {@dice 1d20}}s."
+										"• Any saving throws your true body or your sacrophagus makes are flat {@dice 1d20}}s."
 									],
 									"type": "entries"
 								},
@@ -4357,7 +4357,7 @@
 					"name": "Rejuvenating Spores",
 					"entries": [
 						"As an action, you can disect the body of a deceased individual who died within the last hour in front of you taking that is not an undead, construct, or elemental. This process takes one minute and requires serene concentration, the completion of which produces a spore which you can give to yourself or an ally within 5 feet of you.",
-						"Upon receiving a spore, the creature receives {@dice {@dice {@dice 1d10}}} temporary hit points, and the body you were disecting decays into a fine yellow powder. Once you use this feature, you cannot use it again until you take a long rest."
+						"Upon receiving a spore, the creature receives {@dice 1d10} temporary hit points, and the body you were disecting decays into a fine yellow powder. Once you use this feature, you cannot use it again until you take a long rest."
 					],
 					"type": "entries"
 				},
@@ -4386,7 +4386,7 @@
 						},
 						{
 							"entries": [
-								"• You can roll an additional {@dice {@dice 1d4}} and add the number rolled to one ability check or attack roll you make."
+								"• You can roll an additional {@dice 1d4}} and add the number rolled to one ability check or attack roll you make."
 							],
 							"type": "entries"
 						}
@@ -4525,7 +4525,7 @@
 						{
 							"entries": [
 								"If you meet either of these conditions, you may use your serpentine hair to deliver a bite attack. This is a free action, and you may only target the creature you are grappling or being grappled by. You may only use Serpent's Sting once per turn, regardless of how many creatures you are grappling or are grappled by.",
-								"You are considered proficient in this bite attack, which deals piercing damage equal to {@dice {@dice {@dice 1d6}}} + your Strength or Dexterity modifier. This damage increases to {@dice {@dice 2d6}} at 5th level. {@dice {@dice 3d6}} at 10th level, {@dice {@dice 4d6}} at 15th level, and {@dice {@dice 5d6}} at 20th level."
+								"You are considered proficient in this bite attack, which deals piercing damage equal to {@dice 1d6} + your Strength or Dexterity modifier. This damage increases to {@dice 2d6}} at 5th level. {@dice 3d6}} at 10th level, {@dice 4d6}} at 15th level, and {@dice 5d6}} at 20th level."
 							],
 							"type": "entries"
 						},
@@ -4705,7 +4705,7 @@
 						{
 							"name": "Ram",
 							"entries": [
-								"You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice {@dice {@dice 1d4}}} + your Strength modifier."
+								"You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier."
 							],
 							"type": "entries"
 						},
@@ -4719,7 +4719,7 @@
 						{
 							"name": "Mirthful Leaps",
 							"entries": [
-								"Whenever you make a long or high jump, you can roll a {@dice {@dice d8}} and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal."
+								"Whenever you make a long or high jump, you can roll a {@dice d8}} and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal."
 							],
 							"type": "entries"
 						},
@@ -4794,7 +4794,7 @@
 						{
 							"name": "Ram",
 							"entries": [
-								"You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice {@dice {@dice 1d4}}} + your Strength modifier."
+								"You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier."
 							],
 							"type": "entries"
 						},
@@ -5280,7 +5280,7 @@
 						{
 							"name": "Force Swipe",
 							"entries": [
-								"You can manifest astral claws from your fingertips, which are natural weapons with the concealed property that can be used to make unarmed strikes. If you hit with them, you can deal force damage equal to {@dice {@dice {@dice 1d6}}} + your Dexterity modifier, instead of the bludgeoning damage normal for an unarmed strike."
+								"You can manifest astral claws from your fingertips, which are natural weapons with the concealed property that can be used to make unarmed strikes. If you hit with them, you can deal force damage equal to {@dice 1d6} + your Dexterity modifier, instead of the bludgeoning damage normal for an unarmed strike."
 							],
 							"type": "entries"
 						},
@@ -5430,7 +5430,7 @@
 							"name": "Invoke Gift",
 							"entries": [
 								"You can instill power into the weapon of a nearby creature to enhance their blow with divine energy. As an action, a creature within 30 feet of you.",
-								"Until the end of your next turn, the next time that creature succeeds on a melee weapon attack, that creature heals for {@dice {@dice {@dice 1d10}}} hit points (if you are good or neutral) or gains {@dice {@dice {@dice 1d8}}} temporary hit points (if you are evil). Once you use this trait, you can't use it again until you finish a long rest."
+								"Until the end of your next turn, the next time that creature succeeds on a melee weapon attack, that creature heals for {@dice 1d10} hit points (if you are good or neutral) or gains {@dice 1d8} temporary hit points (if you are evil). Once you use this trait, you can't use it again until you finish a long rest."
 							],
 							"type": "entries"
 						},
@@ -5668,7 +5668,7 @@
 						{
 							"name": "Heavy Hitter",
 							"entries": [
-								"Your fists are as heavy as your steps. You are proficient with your unarmed strikes, which deal {@dice {@dice {@dice 1d6}}} bludgeoning damage on a hit."
+								"Your fists are as heavy as your steps. You are proficient with your unarmed strikes, which deal {@dice 1d6} bludgeoning damage on a hit."
 							],
 							"type": "entries"
 						},
@@ -5840,7 +5840,7 @@
 							"entries": [
 								"{@b Abyss.} As an action, target a creature within 10 feet of you. You leap inside their soul, disappearing from the Material Plane and manifesting yourself into an invulnerable form.",
 								"While in this state, you occupy that creature's space and move with them, and are {@condition Blinded} and {@condition Incapacitated} until the start of your next turn. While tucked away inside their soul, you gain immunity to all damage types and effects, also becoming untargetable for the purposes of attacks, spells, and features.",
-								"At the start of your next turn, you leap from their body, emerging on a space within 5 feet of them and dealing {@dice {@dice {@dice 2d6}}} force damage. If no such space is available, you instead emerge on the nearest possible space. If that creature dies before the start of your next turn, the effect ends early, and you emerge on their space.",
+								"At the start of your next turn, you leap from their body, emerging on a space within 5 feet of them and dealing {@dice 2d6} force damage. If no such space is available, you instead emerge on the nearest possible space. If that creature dies before the start of your next turn, the effect ends early, and you emerge on their space.",
 								"Once you use this trait, you can't use it again until you finish a short rest."
 							],
 							"type": "entries"
@@ -5924,7 +5924,7 @@
 			],
 			"heightAndWeight": {
 				"baseHeight": 25,
-				"heightMod": "{@dice {@dice 2d4}}",
+				"heightMod": "{@dice 2d4}}",
 				"baseWeight": 25
 			},
 			"darkvision": 60,
@@ -6108,7 +6108,7 @@
 							"type": "entries",
 							"name": "Cat's Claws",
 							"entries": [
-								"Your claws are natural weapons with the finesse property, which you can use to make unarmed strikes. On a hit, you deal slashing damage equal to {@dice {@dice {@dice 1d4}}} + your Strength or Dexterity modifier, instead of the typical bludgeoning damage of an unarmed strike."
+								"Your claws are natural weapons with the finesse property, which you can use to make unarmed strikes. On a hit, you deal slashing damage equal to {@dice 1d4} + your Strength or Dexterity modifier, instead of the typical bludgeoning damage of an unarmed strike."
 							]
 						},
 						{
@@ -6159,7 +6159,7 @@
 							"type": "entries",
 							"name": "Peck & Claw",
 							"entries": [
-								"You have proficiency with your claws, which are a finesse weapon that deal {@dice {@dice {@dice 1d6}}} slashing damage."
+								"You have proficiency with your claws, which are a finesse weapon that deal {@dice 1d6} slashing damage."
 							]
 						},
 						{
@@ -6231,7 +6231,7 @@
 							"type": "entries",
 							"name": "Bite",
 							"entries": [
-								"Your carnivorous canines are a natural weapon, which you can use to make unarmed strikes. On a hit, you deal slashing damage equal to {@dice {@dice {@dice 1d6}}} + your Strength modifier, instead of the typical bludgeoning damage of an unarmed strike."
+								"Your carnivorous canines are a natural weapon, which you can use to make unarmed strikes. On a hit, you deal slashing damage equal to {@dice 1d6} + your Strength modifier, instead of the typical bludgeoning damage of an unarmed strike."
 							]
 						},
 						{
@@ -6309,7 +6309,7 @@
 							"type": "entries",
 							"name": "Dynamic Reality Check",
 							"entries": [
-								"Your powerful tongue is a natural weapon with the reach property, which you can use to make unarmed strikes. On a hit, you deal piercing damage equal to {@dice {@dice {@dice 1d4}}} + your Strength or Dexterity modifier (your choice), instead of the typical bludgeoning damage of an unarmed strike."
+								"Your powerful tongue is a natural weapon with the reach property, which you can use to make unarmed strikes. On a hit, you deal piercing damage equal to {@dice 1d4} + your Strength or Dexterity modifier (your choice), instead of the typical bludgeoning damage of an unarmed strike."
 							]
 						},
 						{
@@ -6424,14 +6424,14 @@
 				{
 					"name": "Talons",
 					"entries": [
-						"You have proficiency with your claws, which are a finesse weapon that deal {@dice {@dice {@dice 1d6}}} slashing damage."
+						"You have proficiency with your claws, which are a finesse weapon that deal {@dice 1d6} slashing damage."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Shining Wings",
 					"entries": [
-						"Your wings have been sheened with a divine blessing from the Elemental Plane of Air, which you can use to reestablish your connection to your forlorn home. As a bonus action, you regain {@dice {@dice {@dice 2d4+4}}} hit points. Once you use this ability, you cannot use it again until you finish a long rest."
+						"Your wings have been sheened with a divine blessing from the Elemental Plane of Air, which you can use to reestablish your connection to your forlorn home. As a bonus action, you regain {@dice 2d4+4} hit points. Once you use this ability, you cannot use it again until you finish a long rest."
 					],
 					"type": "entries"
 				},
@@ -6510,7 +6510,7 @@
 					"type": "entries",
 					"name": "Hooves.",
 					"entries": [
-						"Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice {@dice {@dice 1d4}}} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						"Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 					]
 				},
 				{
@@ -6860,7 +6860,7 @@
 							"type": "entries",
 							"name": "Horns.",
 							"entries": [
-								"Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice {@dice {@dice 1d6}}} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+								"Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 							]
 						},
 						{
