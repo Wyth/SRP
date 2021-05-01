@@ -1415,6 +1415,23 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Aerial Ace",
+			"source": "SRPF",
+			"prerequisite": [{
+				"other": "Your racial flight must require attunement to Way of the Worlds."
+			}],
+			"entries": [
+				"Flying is as easy as walking to you. Not only that you have mastered the ability to move swiftly in the air. When you take this feat you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Flying no longer requires you to attune to Way of the Worlds.",
+						"When using your fly speed to move past enemies on your turn all opportunity attacks made against you are rolled at disadvantage."
+					]
+				}
+			]
 		}
 	]
 }
