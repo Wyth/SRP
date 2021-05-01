@@ -137,7 +137,8 @@
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"Also at 3rd level, you can spend a Ki point as an action to exhale destructive energy; when you do so, each creature in a 10 foot cone makes a dexterity saving throw against your Ki save DC, taking damage equal to {@dice 3d4} of the damage type of your Draconic Affinity on failure and half as much on a success. The damage die for this ability follows the progression of your martial arts die, becoming {@dice 3d6} at level 5 and so on. "
+				"Also at 3rd level, you can spend a Ki point as an action to exhale destructive energy; when you do so, each creature in a 10 foot cone makes a dexterity saving throw against your Ki save DC, taking damage equal to {@dice 3d4} of the damage type of your Draconic Affinity on failure and half as much on a success. The damage die for this ability follows the progression of your martial arts die, becoming {@dice 3d6} at level 5 and so on.",
+				"If your Draconic affinity is either Black, Blue, Brass, Bronze, or a Copper dragon, you may instead choose to have your Breath of the Attuned be a 10 foot line rather than a 10 foot cone."
 			]
 		},
 		{
@@ -150,7 +151,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, when you use Breath of the Attuned, its range is increased to 20 feet. In addition, you can expend ki points to increase the number of dice by one for each ki point expended in this way. The maximum number of ki points (1 plus any additional points) that you can spend equals half your monk level."
+				"At 6th level, when you use Breath of the Attuned, its range is increased to 20 feet. If your Draconic affinity is either Black, Blue, Brass, Bronze, or a Copper dragon, the range of your Breath of the Attuned if it is a line is also increased to 30 feet. In addition, you can expend ki points to increase the number of dice by one for each ki point expended in this way. The maximum number of ki points (1 plus any additional points) that you can spend equals half your monk level."
 			]
 		},
 		{
@@ -176,7 +177,7 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"Beginning at 11th level, channeling your draconic affinity can cause you to manifest the aspects of a dragon. As an action, you may manifest these aspects for a duration of 10 minutes, until you are reduced to 0 hit points or as a bonus action. You may use this feature a number of times equal to your Constitution modifier (minimum of 1). When you do, you receive the following benefits:",
+				"Beginning at 11th level, channeling your draconic affinity can cause you to manifest the aspects of a dragon. As an action, you may manifest these aspects for a duration of 10 minutes, until you are reduced to 0 hit points or as a bonus action. You may use this feature a number of times equal to your Wisdom modifier (minimum of 1). When you do, you receive the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -199,7 +200,7 @@
 			"header": 2,
 			"entries": [
 				"When you reach 17th level, you gain resistance to your draconic affinity. In addition, you unlock the secret to channel your draconic affinity to its full potential.",
-				"You can channel this power by expending 9 ki points as an action once per long rest. It lasts for an hour, but ends early if you are reduced to 0 hit points or choose to end the effect as a bonus action. After channeling this power, you adopt more draconic features, gaining various benefits as listed below:",
+				"You can channel this power by expending 6 ki points as an action once per long rest. It lasts for an hour, but ends early if you are reduced to 0 hit points or choose to end the effect as a bonus action. After channeling this power, you adopt more draconic features, gaining various benefits as listed below:",
 				{
 					"type": "list",
 					"items": [
@@ -209,7 +210,9 @@
 						"You grow a tail that can be used to make an extra unarmed attack whenever you take the attack action, this attack has 15 ft. reach.",
 						"Your size becomes Huge and your appearance changes to that of an Adult dragon of your Draconic Affinity.",
 						"You gain a flying speed of 80 feet, unless it was higher.",
-						"Your creature type is replaced with 'dragon' while this feature is active."
+						"Your creature type is replaced with 'dragon' while this feature is active.",
+						"You gain a ten foot reach with your melee attacks.",
+						"Your Breath of the Attuned, if you use a cone, is 60 feet, and if it is a line, it becomes 90 feet."
 					]
 				}
 			]

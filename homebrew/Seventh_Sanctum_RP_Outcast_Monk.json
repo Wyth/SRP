@@ -137,9 +137,10 @@
 				{
 					"type": "list",
 					"items": [
-						"You have proficiency in improvised weapons. Improvised melee weapons now count as Monk weapons for you.",
+						"You have proficiency in improvised weapons. Improvised weapons now count as Monk weapons for you.",
 						"Once per turn, when you deal damage to a prone creature, you can add {@dice 1d6} + half your Monk level (rounded down) to the damage.",
-						"You gain proficiency in Light armor. If your Strength is equal to or higher than your Dexterity, you can gain the benefits of Martial Arts, Unarmored Movement and Unarmored Defense (AC = Armor's AC + Dexterity modifier + Wisdom modifier) while wearing light armor."
+						"Additionally when you make improvised weapon attacks, as long as you are able to lift the item, you can use dexterity as your attack modifier.",
+						"While wielding a melee improvised weapon you can use it for Flurry of Blows."
 					]
 				}
 			]
@@ -154,7 +155,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, your extensive training in the art of getting hit with bar stools and broken bottles grants you increased endurance. When you dodge with Patient Defense, you gain temporary hit points equal to your Proficiency bonus."
+				"At 6th level, your extensive training in the art of getting hit with bar stools and broken bottles grants you increased endurance. When you dodge with Patient Defense, you gain temporary hit points equal to twice your Proficiency bonus."
 			]
 		},
 		{
@@ -167,11 +168,11 @@
 			"level": 11,
 			"header": 2,
 			"entries": [
-				"At 11th level, when you use Stunning Strike on a critical hit or on an attack made against an enemy that was unaware of you, the target has disadvantage on their saving throw against being stunned."
+				"At 11th level, you have thrown your fair share of walloping hits, and know how to make them reliably. When you make an attack with a melee improvised weapon you can forgo adding your Proficiency bonus to an attack roll to add twice your Proficiency bonus to the damage it deals. When attacking with an improvised weapon you add +1 to your attack and damage rolls."
 			]
 		},
 		{
-			"name": "Lean Into It",
+			"name": "The World is Your Weapon",
 			"source": "SRPOutcast",
 			"className": "Monk",
 			"classSource": "PHB",
@@ -180,14 +181,7 @@
 			"level": 17,
 			"header": 2,
 			"entries": [
-				"At 17th level, you have thrown your fair share of walloping hits, and know how to make them reliably. You can forgo adding your Proficiency bonus to an attack to add twice your Proficiency bonus to the damage it deals.",
-				{
-					"type": "inset",
-					"name": "How Outcasts Come to Be",
-					"entries": [
-						"How a monk becomes an Outcast can vary - maybe they only ever received incomplete training from a passing mentor that died or left, or maybe they were outright expelled from their Order. Alternatively, at your DMs discretion this could be a later in life development if a player becomes disenchanted with their Monastic Tradition."
-					]
-				}
+				"At 17th level anything you can see is a deadly weapon. When you make attacks with an improvised weapon you add an additional +2 to your attack and damage rolls. Additionally while wielding an improvised weapon you now add your Wisdom to the temporary hit points you gain from Soak it Up."
 			]
 		}
 	]
