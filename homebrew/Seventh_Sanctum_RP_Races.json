@@ -5505,7 +5505,7 @@
 				{
 					"name": "Two Minds One Body",
 					"entries": [
-						"Animated Armors don't usually allow other creatures to wear them. In dire times, however, they might do so to pass themselves off as regular armor. When an Animated Armor is worn by another creature, the creature gains the following benefits:"
+						"Animated Armors don't usually allow other creatures to wear them. In dire times, however, they might do so to pass themselves off as regular armor. Animated armor can be worn by a creature one size category larger or smaller than the armor itself, if you are currently inhabiting magical armor. When an Animated Armor is worn by another creature, the creature gains the following benefits:"
 					],
 					"type": "entries"
 				},
