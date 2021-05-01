@@ -2775,7 +2775,7 @@
 						},
 						{
 							"entries": [
-								"{@b Reinforced Bones.} Your skeleton and / or skin has been reinforced and / or covered with an experimental, organic version of steel, increasing your durability exponentially. As a reaction to which you take when you are hit by an attack, you may increase your AC by 2 until the end of your turn as you attempt to block incoming attacks. You may do this an amount of times equal to your proficiency bonus. You regain all expended uses on a long rest."
+								"{@b Reinforced Bones.} Your skeleton and / or skin has been reinforced and / or covered with an experimental, organic version of steel, increasing your durability exponentially. As a reaction to which you take when you are hit by an attack, you may increase your AC by 2 until the end of your next turn as you attempt to block incoming attacks. You may do this an amount of times equal to your proficiency bonus. You regain all expended uses on a long rest."
 							],
 							"type": "entries"
 						},
